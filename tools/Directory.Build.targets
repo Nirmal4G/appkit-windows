@@ -1,0 +1,14 @@
+<Project>
+
+	<PropertyGroup Label="Compile">
+		<Nullable>Enable</Nullable>
+		<Features>Strict</Features>
+		<LangVersion>Latest</LangVersion>
+	</PropertyGroup>
+
+	<PropertyGroup Label="Build">
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)..\toolkit.snk</AssemblyOriginatorKeyFile>
+	</PropertyGroup>
+
+</Project>

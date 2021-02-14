@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup Label="Build">
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<AssemblyName>DesignTimeTools.MetaCodeGen</AssemblyName>
+		<RootNamespace>Microsoft.Toolkit.DesignTime</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup Label="Packages">
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="3.9.0" />
+		<PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.2" PrivateAssets="All" />
+	</ItemGroup>
+
+</Project>

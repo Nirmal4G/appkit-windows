@@ -1,0 +1,12 @@
+<Project>
+
+	<PropertyGroup Label="Build">
+		<ContinuousIntegrationBuild Condition="'$(TF_BUILD)' == 'true'">true</ContinuousIntegrationBuild>
+	</PropertyGroup>
+
+	<PropertyGroup Label="Output">
+		<AppendTargetFrameworkToOutputPath>False</AppendTargetFrameworkToOutputPath>
+		<AppendRuntimeIdentifierToOutputPath>False</AppendRuntimeIdentifierToOutputPath>
+	</PropertyGroup>
+
+</Project>
