@@ -36,7 +36,7 @@ namespace UITests.Tests
         [AssemblyCleanup]
         public static void AssemblyCleanup()
         {
-            TestEnvironment.AssemblyCleanupWorker(UITestBase.WinUICsUWPSampleApp);
+            TestEnvironment.AssemblyCleanupWorker(UITestBase.WinUICSharpUWPSampleApp);
         }
 
         private static async Task InitalizeComService()

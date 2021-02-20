@@ -25,7 +25,7 @@ namespace UITests.Tests
     {
         private TestSetupHelper helper;
 
-        internal static TestApplicationInfo WinUICsUWPSampleApp
+        internal static TestApplicationInfo WinUICSharpUWPSampleApp
         {
             get
             {
