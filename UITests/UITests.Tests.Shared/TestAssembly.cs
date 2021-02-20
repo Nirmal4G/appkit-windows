@@ -39,7 +39,7 @@ namespace UITests.Tests
             TestEnvironment.AssemblyCleanupWorker(UITestBase.WinUICSharpUWPSampleApp);
         }
 
-        private static async Task InitalizeComService()
+        private static async Task InitializeComService()
         {
             CommunicationService = new AppServiceConnection();
 
@@ -84,7 +84,7 @@ namespace UITests.Tests
         {
             if (CommunicationService is null)
             {
-                await InitalizeComService();
+                await InitializeComService();
             }
 
             return await CommunicationService.SendMessageAsync(message);
@@ -94,7 +94,7 @@ namespace UITests.Tests
         {
             if (CommunicationService is null)
             {
-                await InitalizeComService();
+                await InitializeComService();
             }
 
             var response = await CommunicationService.SendMessageAsync(message);

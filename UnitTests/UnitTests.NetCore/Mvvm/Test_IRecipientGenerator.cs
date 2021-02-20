@@ -25,9 +25,9 @@ namespace UnitTests.Mvvm
             var messageA = new MessageA();
             var messageB = new MessageB();
 
-            Action<IMessenger, object, int> registrator = Microsoft.Toolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions.CreateAllMessagesRegistratorWithToken<int>(recipient);
+            Action<IMessenger, object, int> registrar = Microsoft.Toolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions.CreateAllMessagesRegistrarWithToken<int>(recipient);
 
-            registrator(messenger, recipient, 42);
+            registrar(messenger, recipient, 42);
 
             Assert.IsTrue(messenger.IsRegistered<MessageA, int>(recipient, 42));
             Assert.IsTrue(messenger.IsRegistered<MessageB, int>(recipient, 42));

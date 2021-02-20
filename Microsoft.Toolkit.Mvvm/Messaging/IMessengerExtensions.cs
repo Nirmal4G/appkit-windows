@@ -90,7 +90,7 @@ namespace Microsoft.Toolkit.Mvvm.Messaging
             static Action<IMessenger, object>? LoadRegistrationMethodsForType(Type recipientType)
             {
                 if (recipientType.Assembly.GetType("Microsoft.Toolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions") is Type extensionsType &&
-                    extensionsType.GetMethod("CreateAllMessagesRegistrator", new[] { recipientType }) is MethodInfo methodInfo)
+                    extensionsType.GetMethod("CreateAllMessagesRegistrar", new[] { recipientType }) is MethodInfo methodInfo)
                 {
                     return (Action<IMessenger, object>)methodInfo.Invoke(null, new object?[] { null })!;
                 }
@@ -137,7 +137,7 @@ namespace Microsoft.Toolkit.Mvvm.Messaging
             static Action<IMessenger, object, TToken> LoadRegistrationMethodsForType(Type recipientType)
             {
                 if (recipientType.Assembly.GetType("Microsoft.Toolkit.Mvvm.Messaging.__Internals.__IMessengerExtensions") is Type extensionsType &&
-                    extensionsType.GetMethod("CreateAllMessagesRegistratorWithToken", new[] { recipientType }) is MethodInfo methodInfo)
+                    extensionsType.GetMethod("CreateAllMessagesRegistrarWithToken", new[] { recipientType }) is MethodInfo methodInfo)
                 {
                     MethodInfo genericMethodInfo = methodInfo.MakeGenericMethod(typeof(TToken));
 

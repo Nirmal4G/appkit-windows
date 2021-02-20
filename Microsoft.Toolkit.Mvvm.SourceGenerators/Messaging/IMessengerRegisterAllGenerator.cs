@@ -96,7 +96,7 @@ namespace Microsoft.Toolkit.Mvvm.SourceGenerators
                 //     {
                 //         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
                 //         [global::System.Obsolete("This method is not intended to be called directly by user code")]
-                //         public static global::System.Action<IMessenger, object> CreateAllMessagesRegistrator(<RECIPIENT_TYPE> _)
+                //         public static global::System.Action<IMessenger, object> CreateAllMessagesRegistrar(<RECIPIENT_TYPE> _)
                 //         {
                 //             static void RegisterAll(IMessenger messenger, object obj)
                 //             {
@@ -109,7 +109,7 @@ namespace Microsoft.Toolkit.Mvvm.SourceGenerators
                 //
                 //         [global::System.ComponentModel.EditorBrowsable(global::System.ComponentModel.EditorBrowsableState.Never)]
                 //         [global::System.Obsolete("This method is not intended to be called directly by user code")]
-                //         public static global::System.Action<IMessenger, object, TToken> CreateAllMessagesRegistratorWithToken<TToken>(<RECIPIENT_TYPE> _)
+                //         public static global::System.Action<IMessenger, object, TToken> CreateAllMessagesRegistrarWithToken<TToken>(<RECIPIENT_TYPE> _)
                 //             where TToken : global::System.IEquatable<TToken>
                 //         {
                 //             static void RegisterAll(IMessenger messenger, object obj, TToken token)
@@ -137,7 +137,7 @@ namespace Microsoft.Toolkit.Mvvm.SourceGenerators
                         GenericName("global::System.Action").AddTypeArgumentListArguments(
                             IdentifierName("IMessenger"),
                             PredefinedType(Token(SyntaxKind.ObjectKeyword))),
-                        Identifier("CreateAllMessagesRegistrator")).AddAttributeLists(
+                        Identifier("CreateAllMessagesRegistrar")).AddAttributeLists(
                             AttributeList(SingletonSeparatedList(
                                 Attribute(IdentifierName("global::System.ComponentModel.EditorBrowsable")).AddArgumentListArguments(
                                 AttributeArgument(ParseExpression("global::System.ComponentModel.EditorBrowsableState.Never"))))),
@@ -173,7 +173,7 @@ namespace Microsoft.Toolkit.Mvvm.SourceGenerators
                             IdentifierName("IMessenger"),
                             PredefinedType(Token(SyntaxKind.ObjectKeyword)),
                             IdentifierName("TToken")),
-                        Identifier("CreateAllMessagesRegistratorWithToken")).AddAttributeLists(
+                        Identifier("CreateAllMessagesRegistrarWithToken")).AddAttributeLists(
                             AttributeList(SingletonSeparatedList(
                                 Attribute(IdentifierName("global::System.ComponentModel.EditorBrowsable")).AddArgumentListArguments(
                                 AttributeArgument(ParseExpression("global::System.ComponentModel.EditorBrowsableState.Never"))))),
