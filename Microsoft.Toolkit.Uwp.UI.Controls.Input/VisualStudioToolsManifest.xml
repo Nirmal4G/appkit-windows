@@ -1,8 +1,8 @@
 <FileList>
   <File Reference="Microsoft.Toolkit.Uwp.UI.Controls.Input.dll">
     <ToolboxItems UIFramework="UAP"
-        VSCategory="Windows Community Toolkit"
-        BlendCategory="Windows Community Toolkit">
+        VSCategory="Windows Toolkit | Input"
+        BlendCategory="Windows Toolkit | Input">
       <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.ColorPicker" />
       <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.ColorPickerButton" />
       <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.ColorPickerSlider" />

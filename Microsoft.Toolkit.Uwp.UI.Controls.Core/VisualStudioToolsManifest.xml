@@ -1,8 +1,8 @@
 <FileList>
   <File Reference="Microsoft.Toolkit.Uwp.UI.Controls.Core.dll">
     <ToolboxItems UIFramework="UAP"
-        VSCategory="Windows Community Toolkit"
-        BlendCategory="Windows Community Toolkit">
+        VSCategory="Windows Toolkit | Common"
+        BlendCategory="Windows Toolkit | Common">
       <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.CameraPreview" />
       <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel" />
       <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.ImageEx" />

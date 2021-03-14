@@ -1,8 +1,8 @@
 <FileList>
   <File Reference="Microsoft.Toolkit.Uwp.UI.Controls.Media.dll">
     <ToolboxItems UIFramework="UAP"
-        VSCategory="Windows Community Toolkit"
-        BlendCategory="Windows Community Toolkit">
+        VSCategory="Windows Toolkit | Media"
+        BlendCategory="Windows Toolkit | Media">
       <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.Eyedropper" />
       <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.EyedropperToolButton" />
       <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.ImageCropper" />
