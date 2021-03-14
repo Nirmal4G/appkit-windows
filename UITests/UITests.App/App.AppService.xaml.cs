@@ -4,6 +4,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using Microsoft.Toolkit.Mvvm.Messaging;
 using UITests.App.Pages;
@@ -139,9 +140,10 @@ namespace UITests.App
                 { "Message", msg }
             };
 
-            await _appServiceConnection.SendMessageAsync(message);
+            var response = await _appServiceConnection.SendMessageAsync(message);
 
             // TODO: do we care if we have a problem here?
+            Debug.WriteLine(response);
         }
 
         private static bool TryGetValueAndLog(ValueSet message, string key, out string value)
@@ -164,7 +166,7 @@ namespace UITests.App
             return true;
         }
 
-        private Dictionary<string, Func<ValueSet, Task<ValueSet>>> _customCommands = new();
+        private readonly Dictionary<string, Func<ValueSet, Task<ValueSet>>> _customCommands = new();
 
         internal void RegisterCustomCommand(string id, Func<ValueSet, Task<ValueSet>> customCommandFunction)
         {
