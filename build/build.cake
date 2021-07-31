@@ -2,9 +2,9 @@
 
 #addin nuget:?package=Cake.FileHelpers&version=4.0.1
 #addin nuget:?package=Cake.Powershell&version=1.0.1
-#addin nuget:?package=Cake.GitVersioning&version=3.4.220
+#addin nuget:?package=Cake.GitVersioning&version=3.4.231
 
-#tool nuget:?package=MSTest.TestAdapter&version=2.2.5
+#tool nuget:?package=MSTest.TestAdapter&version=2.2.6
 #tool nuget:?package=vswhere&version=2.8.4
 
 using System;

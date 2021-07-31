@@ -23,8 +23,8 @@
 
   <!-- .NET Standard 1.4 doesn't have the [Pure] attribute or ValueTuple -->
   <ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.4'">
-    <PackageReference Include="System.Diagnostics.Contracts" Version="4.3.0" />
-    <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+    <PackageReference Include="System.Diagnostics.Contracts" />
+    <PackageReference Include="System.ValueTuple" />
   </ItemGroup>
 
 </Project>
