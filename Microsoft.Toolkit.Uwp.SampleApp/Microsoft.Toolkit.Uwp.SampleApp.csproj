@@ -124,7 +124,6 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <Content Include="Assets\BrushAssets\TileTexture.png" />
     <Content Include="Assets\BrushAssets\NoiseTexture.png" />
     <Content Include="Assets\checker.png" />
@@ -1494,6 +1493,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
     <SDKReference Include="Microsoft.Services.Store.Engagement, Version=10.0">
       <Name>Microsoft Engagement Framework</Name>
     </SDKReference>

@@ -23,7 +23,7 @@
       - Box&lt;T&gt;: a type mapping boxed value types and exposing some utility and high performance methods.
       - Ref&lt;T&gt;: a stack-only struct that can store a reference to a value of a specified type.
       - NullableRef&lt;T&gt;: a stack-only struct similar to Ref&lt;T&gt;, which also supports nullable references.
-  </Description>
+    </Description>
     <PackageTags>Parallel;Performance;Unsafe;Span;Memory;String;StringPool;Array;Stream;Buffer;Extensions;Helpers</PackageTags>
   </PropertyGroup>
 
