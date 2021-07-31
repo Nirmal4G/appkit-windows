@@ -233,7 +233,7 @@ public string getMSTestAdapterPath(){
     if(nugetPaths.Count == 0){
         throw new Exception(
             "Cannot locate the MSTest test adapter. " +
-            "You might need to add '#tool nuget:?package=MSTest.TestAdapter&version=2.1.0' " +
+            "You might need to add '#tool nuget:?package=MSTest.TestAdapter&version=<latest_version>' " +
             "to the top of your build.cake file.");
     }
 

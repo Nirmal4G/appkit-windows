@@ -58,7 +58,7 @@
     <!-- Microsoft.UI.Xaml TAEF Extensions -->
     <PackageReference Include="MUXTestInfra.TAEF" Version="0.0.4" />
     <PackageReference Include="MUXCustomBuildTasks" Version="1.0.67" GeneratePathProperty="true" />
-    <PackageReference Include="TAEF.Redist.Wlk" Version="10.31.180822002" GeneratePathProperty="true" />
+    <PackageReference Include="TAEF.Redist.Wlk" Version="10.57.200928001" GeneratePathProperty="true" />
     <!-- Windows SDK package -->
     <PackageReference Include="Microsoft.Windows.SDK.Contracts" Version="10.0.19041.1" />
   </ItemGroup>
