@@ -44,4 +44,19 @@
     <ContinuousIntegrationBuild>$(TF_BUILD)</ContinuousIntegrationBuild>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <!-- Common Outputs -->
+    <BuildDir>~build\</BuildDir>
+    <PublishDir>~publish\</PublishDir>
+    <!-- Build Outputs -->
+    <BaseOutputPath>$(BuildDir)bin\</BaseOutputPath>
+    <BaseIntermediateOutputPath>$(BuildDir)obj\</BaseIntermediateOutputPath>
+    <!-- Restore Outputs-->
+    <MSBuildProjectExtensionsPath>$(BuildDir)ext\</MSBuildProjectExtensionsPath>
+    <RestoreOutputPath>$(MSBuildProjectExtensionsPath)</RestoreOutputPath>
+    <!-- Pack Outputs -->
+    <PackageOutputPath>$(MSBuildProjectDirectory)$(PublishDir)bin\</PackageOutputPath>
+    <NuSpecOutputPath>$(MSBuildProjectDirectory)$(PublishDir)obj\</NuSpecOutputPath>
+  </PropertyGroup>
+
 </Project>

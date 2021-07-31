@@ -82,7 +82,7 @@
 
   <Target Name="CheckNuGetPackages">
     <PropertyGroup>
-      <NuGetOutputPath>$(MSBuildThisFileDirectory)..\bin\nupkg</NuGetOutputPath>
+      <NuGetOutputPath>$(MSBuildThisFileDirectory)..\~packages\bin</NuGetOutputPath>
     </PropertyGroup>
     <ItemGroup>
       <NuGetPackage Include="$(NuGetOutputPath)\*.nupkg" />
