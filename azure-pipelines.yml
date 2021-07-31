@@ -28,7 +28,7 @@ jobs:
     displayName: Setup Environment Variables
 
   - task: NuGetToolInstaller@1
-    displayName: Use NuGet 5.11.0
+    displayName: Use NuGet 5.11
     inputs:
       versionSpec: 5.11.0
 
@@ -36,12 +36,6 @@ jobs:
     displayName: 'NuGet Authenticate'
     inputs:
       forceReinstallCredentialProvider: true
-
-  - task: UseDotNet@2
-    displayName: 'Install .NET Core SDK'
-    inputs:
-      version: 5.0.403
-      performMultiLevelLookup: true
 
   - task: DotNetCoreCLI@2
     inputs:
