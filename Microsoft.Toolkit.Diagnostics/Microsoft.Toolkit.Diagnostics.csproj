@@ -44,6 +44,7 @@
     </When>
 
     <When Condition="'$(TargetFramework)' == 'net5.0'">
+      <!-- .NET 5 SDK doesn't define "NETSTANDARD2_1_OR_GREATER" until a later revision -->
       <PropertyGroup>
         <DefineConstants>NETSTANDARD2_1_OR_GREATER</DefineConstants>
       </PropertyGroup>

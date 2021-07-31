@@ -1,18 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>9.0</LangVersion>
-    <Nullable>enable</Nullable>
+    <Nullable>Enable</Nullable>
     <IsPackable>false</IsPackable>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="EmbeddedResources\INotifyPropertyChanged.cs" />
-    <Compile Remove="EmbeddedResources\NotNullAttribute.cs" />
-    <Compile Remove="EmbeddedResources\NotNullIfNotNullAttribute.cs" />
-    <Compile Remove="EmbeddedResources\ObservableObject.cs" />
-    <Compile Remove="EmbeddedResources\ObservableRecipient.cs" />
+    <Compile Remove="EmbeddedResources\*.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,12 +29,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.9.0" PrivateAssets="all" Pack="false" />
+    <AdditionalFiles Include="AnalyzerReleases.Shipped.md" />
+    <AdditionalFiles Include="AnalyzerReleases.Unshipped.md" />
   </ItemGroup>
 
   <ItemGroup>
-    <AdditionalFiles Include="AnalyzerReleases.Shipped.md" />
-    <AdditionalFiles Include="AnalyzerReleases.Unshipped.md" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.9.0" PrivateAssets="All" Pack="false" />
   </ItemGroup>
 
 </Project>
