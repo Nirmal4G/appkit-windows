@@ -15,7 +15,7 @@ namespace UnitTests.HighPerformance
     {
         [TestCategory("RefOfT")]
         [TestMethod]
-#if WINDOWS_UWP
+#if WINDOWS_UAP
         public void Test_RefOfT_CreateRefOfT()
         {
             var model = new FieldOwner { Value = 1 };

@@ -48,7 +48,7 @@ namespace UnitTests.HighPerformance.Extensions
             {
                 for (int j = 0; j < 10; j++)
                 {
-#if WINDOWS_UWP
+#if WINDOWS_UAP
                     using (SpinLockExtensions.Enter(spinLockOwner, ref spinLockOwner.Lock))
 #else
                     using (spinLockOwner.Lock.Enter())

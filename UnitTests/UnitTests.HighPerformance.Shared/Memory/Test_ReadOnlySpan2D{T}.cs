@@ -39,7 +39,7 @@ namespace UnitTests.HighPerformance
             Assert.AreEqual(empty2.Height, 0);
         }
 
-#if !WINDOWS_UWP
+#if !WINDOWS_UAP
         [TestCategory("ReadOnlySpan2DT")]
         [TestMethod]
         public unsafe void Test_ReadOnlySpan2DT_RefConstructor()
@@ -557,7 +557,7 @@ namespace UnitTests.HighPerformance
             Assert.AreEqual(slice3[0, 0], 5);
         }
 
-#if !WINDOWS_UWP
+#if !WINDOWS_UAP
         [TestCategory("ReadOnlySpan2DT")]
         [TestMethod]
         public void Test_ReadOnlySpan2DT_GetRowReadOnlySpan()
@@ -642,7 +642,7 @@ namespace UnitTests.HighPerformance
 
             bool success = span2d.TryGetSpan(out ReadOnlySpan<int> span);
 
-#if WINDOWS_UWP
+#if WINDOWS_UAP
             // Can't get a ReadOnlySpan<T> over a T[,] array on UWP
             Assert.IsFalse(success);
             Assert.AreEqual(span.Length, 0);

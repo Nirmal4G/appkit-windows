@@ -50,7 +50,7 @@ namespace UnitTests.HighPerformance
             Assert.AreEqual(empty4.Height, 0);
         }
 
-#if !WINDOWS_UWP
+#if !WINDOWS_UAP
         [TestCategory("Span2DT")]
         [TestMethod]
         public unsafe void Test_Span2DT_RefConstructor()
@@ -726,7 +726,7 @@ namespace UnitTests.HighPerformance
             Assert.AreEqual(slice3[0, 0], 5);
         }
 
-#if !WINDOWS_UWP
+#if !WINDOWS_UAP
         [TestCategory("Span2DT")]
         [TestMethod]
         public void Test_Span2DT_GetRowSpan()
@@ -837,7 +837,7 @@ namespace UnitTests.HighPerformance
             // from a 2D array (reasons explained in the comments for the test above).
             bool success = span2d.TryGetSpan(out Span<int> span);
 
-#if WINDOWS_UWP
+#if WINDOWS_UAP
             // Can't get a Span<T> over a T[,] array on UWP
             Assert.IsFalse(success);
             Assert.AreEqual(span.Length, 0);

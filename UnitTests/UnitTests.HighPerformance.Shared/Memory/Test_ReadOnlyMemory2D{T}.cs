@@ -4,7 +4,7 @@
 
 using System;
 using System.Diagnostics.CodeAnalysis;
-#if !WINDOWS_UWP
+#if !WINDOWS_UAP
 using System.Runtime.CompilerServices;
 #endif
 using Microsoft.Toolkit.HighPerformance;
@@ -185,7 +185,7 @@ namespace UnitTests.HighPerformance
             Assert.ThrowsException<ArgumentOutOfRangeException>(() => new ReadOnlyMemory2D<int>(array, 0, 0, 0, 3, 3));
         }
 
-#if !WINDOWS_UWP
+#if !WINDOWS_UAP
         [TestCategory("ReadOnlyMemory2DT")]
         [TestMethod]
         public void Test_ReadOnlyMemory2DT_ReadOnlyMemoryConstructor()
@@ -307,7 +307,7 @@ namespace UnitTests.HighPerformance
 
             bool success = memory2d.TryGetMemory(out ReadOnlyMemory<int> memory);
 
-#if WINDOWS_UWP
+#if WINDOWS_UAP
             Assert.IsFalse(success);
             Assert.IsTrue(memory.IsEmpty);
 #else
@@ -332,7 +332,7 @@ namespace UnitTests.HighPerformance
             Assert.AreEqual(memory.Span[2], 3);
         }
 
-#if !WINDOWS_UWP
+#if !WINDOWS_UAP
         [TestCategory("ReadOnlyMemory2DT")]
         [TestMethod]
         public void Test_ReadOnlyMemory2DT_TryGetReadOnlyMemory_3()

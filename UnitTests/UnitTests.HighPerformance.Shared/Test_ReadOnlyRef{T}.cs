@@ -15,7 +15,7 @@ namespace UnitTests.HighPerformance
     {
         [TestCategory("ReadOnlyRefOfT")]
         [TestMethod]
-#if WINDOWS_UWP
+#if WINDOWS_UAP
         public void Test_RefOfT_CreateRefOfT()
         {
             var model = new ReadOnlyFieldOwner();
