@@ -379,14 +379,14 @@ namespace UnitTests.Mvvm
             [MaxLength(60)]
             [Display(Name = "FirstName")]
             [ObservableProperty]
-            public string first = "Bob";
+            private string first = "Bob";
 
             [Display(Name = "LastName")]
             [Required]
             [MinLength(2)]
             [MaxLength(60)]
             [ObservableProperty]
-            public string last = "Jones";
+            private string last = "Jones";
 
             public void RunValidation() => ValidateAllProperties();
         }
