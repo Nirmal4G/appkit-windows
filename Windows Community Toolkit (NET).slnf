@@ -12,7 +12,7 @@
       "UnitTests\\UnitTests.NetCore\\UnitTests.NetCore.csproj",
       "UnitTests\\UnitTests.NetStandard\\UnitTests.NetStandard.csproj",
       "UnitTests\\UnitTests.Shared\\UnitTests.Shared.shproj",
-      "UnitTests\\UnitTests.SourceGenerators\\UnitTests.SourceGenerators.csproj",
+      "UnitTests\\UnitTests.SourceGenerators\\UnitTests.SourceGenerators.csproj"
     ]
   }
 }
