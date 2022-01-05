@@ -5,7 +5,7 @@
 using Microsoft.Xaml.Interactivity;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI.Behaviors
+namespace Community.Windows.UI.Behaviors
 {
     /// <summary>
     /// Base class for behaviors that solves 2 problems:

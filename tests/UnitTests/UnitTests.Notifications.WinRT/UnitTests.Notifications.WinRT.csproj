@@ -164,8 +164,8 @@
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Toolkit.Uwp.Notifications">
-      <HintPath>..\..\Microsoft.Toolkit.Uwp.Notifications\bin\$(Configuration)\native\Microsoft.Toolkit.Uwp.Notifications.winmd</HintPath>
+    <Reference Include="Community.Windows.Notifications">
+      <HintPath>..\..\Community.Windows.Notifications\bin\$(Configuration)\native\Community.Windows.Notifications.winmd</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />

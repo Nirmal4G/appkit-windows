@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.Notifications.Adaptive.Elements;
+using Community.Windows.Notifications.Adaptive.Elements;
 
-namespace Microsoft.Toolkit.Uwp.Notifications
+namespace Community.Windows.Notifications
 {
     internal static class BaseImageHelper
     {

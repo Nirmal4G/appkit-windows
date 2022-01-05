@@ -3,13 +3,13 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.ObjectModel;
-using Microsoft.Toolkit.Uwp.SampleApp.Models;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Animations;
+using Community.Windows.ShowcaseApp.Models;
+using Community.Windows.UI;
+using Community.Windows.UI.Animations;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class ScrollViewerExtensionsPage : IXamlRenderListener
     {

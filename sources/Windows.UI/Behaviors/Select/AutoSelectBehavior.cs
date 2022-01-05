@@ -4,7 +4,7 @@
 
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.UI.Behaviors
+namespace Community.Windows.UI.Behaviors
 {
     /// <summary>
     /// This behavior automatically selects the entire content of the associated <see cref="TextBox"/> when it is loaded.

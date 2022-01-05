@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.ObjectModel;
-using Microsoft.Toolkit.Uwp.SampleApp.Data;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.ShowcaseApp.Data;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class RotatorTilePage : IXamlRenderListener
     {

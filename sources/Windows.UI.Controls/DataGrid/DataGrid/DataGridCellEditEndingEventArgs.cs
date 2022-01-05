@@ -5,7 +5,7 @@
 using System.ComponentModel;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Provides information just before a cell exits editing mode.

@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Microsoft.Toolkit.Parsers.Markdown.Blocks
+namespace Community.Parsers.Markdown.Blocks
 {
     /// <summary>
     /// This specifies the Content of the List element.

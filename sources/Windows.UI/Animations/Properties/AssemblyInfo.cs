@@ -4,5 +4,5 @@
 
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("Microsoft.Toolkit.Uwp.UI.Behaviors")]
-[assembly: InternalsVisibleTo("Microsoft.Toolkit.Uwp.UI.Media")]
+[assembly: InternalsVisibleTo("Community.Windows.UI.Behaviors")]
+[assembly: InternalsVisibleTo("Community.Windows.UI.Media")]

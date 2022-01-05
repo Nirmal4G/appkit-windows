@@ -6,7 +6,7 @@ using System;
 using System.Reflection;
 using Windows.UI.Xaml.Markup;
 
-namespace Microsoft.Toolkit.Uwp.UI.Converters
+namespace Community.Windows.UI.Converters
 {
     /// <summary>
     /// Static class used to provide internal tools

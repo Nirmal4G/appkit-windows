@@ -4,7 +4,7 @@
 
 using Windows.UI.Xaml.Input;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.DataGridInternals
+namespace Community.Windows.UI.Controls.DataGridInternals
 {
     internal class DataGridInteractionInfo
     {

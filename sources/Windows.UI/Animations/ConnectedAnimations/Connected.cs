@@ -9,7 +9,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Animation;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// A helper class that allows Connected Animations to be enabled through XAML

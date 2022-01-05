@@ -7,12 +7,12 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using Windows.Foundation;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     internal class IDrawableConverter : JsonConverter<IDrawable>
     {
-        private const string OldInkDrawableDiscriminator = "Microsoft.Toolkit.Uwp.UI.Controls.InkDrawable, Microsoft.Toolkit.Uwp.UI.Controls";
-        private const string OldTextDrawableDiscriminator = "Microsoft.Toolkit.Uwp.UI.Controls.TextDrawable, Microsoft.Toolkit.Uwp.UI.Controls";
+        private const string OldInkDrawableDiscriminator = "Community.Windows.UI.Controls.InkDrawable, Community.Windows.UI.Controls";
+        private const string OldTextDrawableDiscriminator = "Community.Windows.UI.Controls.TextDrawable, Community.Windows.UI.Controls";
 
         public override bool CanConvert(Type typeToConvert) => typeof(IDrawable).IsAssignableFrom(typeToConvert);
 

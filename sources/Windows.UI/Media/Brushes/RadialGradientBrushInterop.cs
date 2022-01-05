@@ -8,7 +8,7 @@ using Microsoft.Graphics.Canvas.Brushes;
 using Windows.Foundation;
 using Windows.UI.Xaml.Media;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media
+namespace Community.Windows.UI.Media
 {
     /// <summary>
     /// Interop Helpers between WPF and Win2D used by the <see cref="RadialGradientBrush"/>

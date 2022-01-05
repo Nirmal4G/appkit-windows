@@ -5,14 +5,14 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Linq;
-using Microsoft.Toolkit.Uwp.SampleApp.Data;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.ShowcaseApp.Data;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls.Primitives;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class AdaptiveGridViewPage : IXamlRenderListener
     {

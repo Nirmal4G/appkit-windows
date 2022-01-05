@@ -4,4 +4,4 @@
 
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("Microsoft.Toolkit.Uwp.UI.Media")]
+[assembly: InternalsVisibleTo("Community.Windows.UI.Media")]

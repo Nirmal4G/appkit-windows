@@ -14,7 +14,7 @@ using System.Reflection; // ConstructorInfo
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace Microsoft.Toolkit.Uwp.UI.Data.Utilities
+namespace Community.Windows.UI.Data.Utilities
 {
     /// <summary>
     /// A collection view implementation that supports an IList source.

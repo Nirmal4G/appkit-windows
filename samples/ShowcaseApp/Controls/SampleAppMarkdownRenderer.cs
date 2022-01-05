@@ -5,12 +5,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Toolkit.Parsers.Markdown;
-using Microsoft.Toolkit.Parsers.Markdown.Blocks;
-using Microsoft.Toolkit.Parsers.Markdown.Inlines;
-using Microsoft.Toolkit.Parsers.Markdown.Render;
-using Microsoft.Toolkit.Uwp.Helpers;
-using Microsoft.Toolkit.Uwp.UI.Controls.Markdown.Render;
+using Community.Parsers.Markdown;
+using Community.Parsers.Markdown.Blocks;
+using Community.Parsers.Markdown.Inlines;
+using Community.Parsers.Markdown.Render;
+using Community.Windows.Helpers;
+using Community.Windows.UI.Controls.Markdown.Render;
 using Windows.ApplicationModel.DataTransfer;
 using Windows.UI;
 using Windows.UI.Text;
@@ -18,7 +18,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Controls
+namespace Community.Windows.ShowcaseApp.Controls
 {
     /// <summary>
     /// A Rendering Superclass for the Markdown Renderer, allowing custom styling of Elements in Markdown.
@@ -241,7 +241,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.Controls
             SolidColorBrush localBackground = null;
             string symbolGlyph = string.Empty;
 
-            var theme = SampleController.Current.GetActualTheme();
+            var theme = ShowcaseController.Current.GetActualTheme();
 
             // Check the required structure of the Quote is correct. Determine if it is a DocFX Note.
             if (element.Blocks.First() is ParagraphBlock para)

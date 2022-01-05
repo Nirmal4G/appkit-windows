@@ -3,11 +3,11 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.UI.Controls;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class ImageExLazyLoadingControl
     {

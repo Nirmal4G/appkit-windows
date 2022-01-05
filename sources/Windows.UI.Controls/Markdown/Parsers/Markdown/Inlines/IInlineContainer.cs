@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Microsoft.Toolkit.Parsers.Markdown.Inlines
+namespace Community.Parsers.Markdown.Inlines
 {
     /// <summary>
     /// Initializes a new instance of the <see cref="IInlineContainer"/> class.

@@ -5,16 +5,16 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Microsoft.Toolkit.Parsers.Markdown;
-using Microsoft.Toolkit.Parsers.Markdown.Inlines;
-using Microsoft.Toolkit.Parsers.Markdown.Render;
+using Community.Parsers.Markdown;
+using Community.Parsers.Markdown.Inlines;
+using Community.Parsers.Markdown.Render;
 using Windows.UI.Text;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Documents;
 using Windows.UI.Xaml.Media;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.Markdown.Render
+namespace Community.Windows.UI.Controls.Markdown.Render
 {
     /// <summary>
     /// Inline UI Methods for UWP UI Creation.

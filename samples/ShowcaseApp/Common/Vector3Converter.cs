@@ -8,7 +8,7 @@ using System.Numerics;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Common
+namespace Community.Windows.ShowcaseApp.Common
 {
     public class Vector3Converter : IValueConverter
     {

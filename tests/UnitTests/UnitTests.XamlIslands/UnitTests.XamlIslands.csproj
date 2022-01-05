@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Toolkit.Forms.UI.XamlHost" Version="6.1.2" />
+    <PackageReference Include="Community.Toolkit.Desktop.WinForms.UI.XamlHost" Version="6.1.2" />
   </ItemGroup>
 
 </Project>

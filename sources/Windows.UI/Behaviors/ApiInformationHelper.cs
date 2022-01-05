@@ -4,7 +4,7 @@
 
 using Windows.Foundation.Metadata;
 
-namespace Microsoft.Toolkit.Uwp.UI.Behaviors
+namespace Community.Windows.UI.Behaviors
 {
     internal class ApiInformationHelper
     {

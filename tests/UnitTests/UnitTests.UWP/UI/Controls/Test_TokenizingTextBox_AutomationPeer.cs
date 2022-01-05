@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using Windows.UI.Xaml.Automation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Windows.UI.Xaml.Automation.Peers;
-using Microsoft.Toolkit.Uwp;
-using Microsoft.Toolkit.Uwp.UI.Automation.Peers;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows;
+using Community.Windows.UI.Automation.Peers;
+using Community.Windows.UI.Controls;
 
 namespace UnitTests.UWP.UI.Controls
 {
@@ -39,7 +39,7 @@ namespace UnitTests.UWP.UI.Controls
 
                 Assert.IsNotNull(tokenizingTextBoxAutomationPeer, "Verify that the AutomationPeer is TokenizingTextBoxAutomationPeer.");
 
-                // Asserts the automation peer name based on the Automation Property Name value. 
+                // Asserts the automation peer name based on the Automation Property Name value.
                 tokenizingTextBox.SetValue(AutomationProperties.NameProperty, expectedAutomationName);
                 Assert.IsTrue(tokenizingTextBoxAutomationPeer.GetName().Contains(expectedAutomationName), "Verify that the UIA name contains the given AutomationProperties.Name of the TokenizingTextBox.");
 

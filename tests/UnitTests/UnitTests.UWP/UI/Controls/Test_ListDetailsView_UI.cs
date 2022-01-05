@@ -2,9 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using Microsoft.Toolkit.Uwp;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.ObjectModel;
@@ -22,7 +22,7 @@ namespace UnitTests.UWP.UI.Controls
         private const string SampleXaml = @"<controls:ListDetailsView
                                                     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
                                                     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-                                                    xmlns:controls=""using:Microsoft.Toolkit.Uwp.UI.Controls""
+                                                    xmlns:controls=""using:Community.Windows.UI.Controls""
                                                     NoSelectionContent=""No item selected"" >
                                                     <controls:ListDetailsView.ItemTemplate>
                                                         <DataTemplate>
@@ -50,7 +50,7 @@ namespace UnitTests.UWP.UI.Controls
                 };
 
                 listDetailsView.SelectedIndex = 0;
-                
+
                 await SetTestContentAsync(listDetailsView);
 
                 var firsttb = listDetailsView.FindDescendant<TextBox>();

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net472</TargetFramework>
-    <RootNamespace>Microsoft.Toolkit.Uwp.UI.Controls.Design</RootNamespace>
+    <RootNamespace>Community.Windows.UI.Controls.Design</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -11,7 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\Microsoft.Toolkit.Uwp.UI.Controls.Core.Design\Common\*.cs" LinkBase="Common" />
+    <Compile Include="..\Community.Windows.UI.Controls.Core.Design\Common\*.cs" LinkBase="Common" />
   </ItemGroup>
 
   <Import Project="$(BuildToolsDirectory)Windows.Toolkit.VisualStudio.Design.targets" />

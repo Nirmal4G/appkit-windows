@@ -16,7 +16,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
 
-namespace Microsoft.Toolkit.Uwp.DeveloperTools
+namespace Community.Windows.DeveloperTools
 {
     /// <summary>
     /// FocusTracker can be used to display information about the current focused XAML element.

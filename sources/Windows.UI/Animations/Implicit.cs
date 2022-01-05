@@ -8,7 +8,7 @@ using Windows.UI.Xaml.Hosting;
 
 #nullable enable
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// Attached properties to support implicitly triggered animations for <see cref="UIElement"/> instances.

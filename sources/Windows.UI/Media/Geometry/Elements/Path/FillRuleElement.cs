@@ -7,7 +7,7 @@ using System.Numerics;
 using System.Text.RegularExpressions;
 using Microsoft.Graphics.Canvas.Geometry;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Geometry.Elements.Path
+namespace Community.Windows.UI.Media.Geometry.Elements.Path
 {
     /// <summary>
     /// Class representing the Fill Rule Element in a Path Geometry

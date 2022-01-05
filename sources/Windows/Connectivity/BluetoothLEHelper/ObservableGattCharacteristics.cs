@@ -13,7 +13,7 @@ using Windows.Security.Cryptography;
 using Windows.Storage.Streams;
 using Windows.System;
 
-namespace Microsoft.Toolkit.Uwp.Connectivity
+namespace Community.Windows.Connectivity
 {
     /// <summary>
     /// Wrapper around <see cref="GattCharacteristic"/>  to make it easier to use

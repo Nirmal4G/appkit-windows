@@ -15,7 +15,7 @@ using Windows.System.UserProfile;
 using Windows.UI.Core;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.Helpers
+namespace Community.Windows.Helpers
 {
     /// <summary>
     /// This class provides info about the app and the system.

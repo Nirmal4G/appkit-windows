@@ -4,13 +4,13 @@
 
 using System;
 using System.Collections.ObjectModel;
-using Microsoft.Toolkit.Uwp.SampleApp.Common;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.ShowcaseApp.Common;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// A page that shows how to use the MetadataControl
@@ -44,12 +44,12 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
 
         private void Setup()
         {
-            SampleController.Current.RegisterNewCommand("Add label", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Add label", (sender, args) =>
             {
                 _units.Add(new MetadataItem { Label = GetRandomLabel() });
             });
 
-            SampleController.Current.RegisterNewCommand("Add command", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Add command", (sender, args) =>
             {
                 var label = GetRandomLabel();
                 _units.Add(new MetadataItem
@@ -60,7 +60,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 });
             });
 
-            SampleController.Current.RegisterNewCommand("Clear", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Clear", (sender, args) =>
             {
                 _units.Clear();
             });

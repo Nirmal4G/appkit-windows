@@ -11,7 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// A collection of animations that can be grouped together. This type represents a composite animation

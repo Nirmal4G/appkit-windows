@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.Utilities;
+using Community.Windows.Utilities;
 using Windows.UI.Xaml.Data;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.DataGridInternals
+namespace Community.Windows.UI.Controls.DataGridInternals
 {
     internal class DataGridValueConverter : IValueConverter
     {

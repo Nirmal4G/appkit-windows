@@ -5,7 +5,7 @@
 using System;
 using Microsoft.Services.Store.Engagement;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp
+namespace Community.Windows.ShowcaseApp
 {
     public static class TrackingManager
     {

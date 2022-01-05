@@ -7,7 +7,7 @@ using System.Diagnostics.Contracts;
 using Windows.UI.Composition;
 using Windows.UI.Xaml.Media.Animation;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// An interface representing a generic model containing info for an abstract keyframe.

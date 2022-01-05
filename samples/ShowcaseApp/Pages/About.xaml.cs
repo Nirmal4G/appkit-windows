@@ -11,8 +11,8 @@ using System.Runtime.CompilerServices;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Uwp.Helpers;
-using Microsoft.Toolkit.Uwp.UI.Animations;
+using Community.Windows.Helpers;
+using Community.Windows.UI.Animations;
 using Windows.ApplicationModel;
 using Windows.UI.Composition;
 using Windows.UI.Xaml;
@@ -20,7 +20,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Hosting;
 using Windows.UI.Xaml.Navigation;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Pages
+namespace Community.Windows.ShowcaseApp.Pages
 {
     public sealed partial class About : INotifyPropertyChanged
     {

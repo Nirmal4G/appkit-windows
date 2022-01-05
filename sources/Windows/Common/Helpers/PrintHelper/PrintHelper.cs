@@ -12,7 +12,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Printing;
 
-namespace Microsoft.Toolkit.Uwp.Helpers
+namespace Community.Windows.Helpers
 {
     /// <summary>
     /// Helper class used to simplify document printing.

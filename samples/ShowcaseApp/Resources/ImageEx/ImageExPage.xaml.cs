@@ -5,14 +5,14 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Uwp.SampleApp.Data;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.ShowcaseApp.Data;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class ImageExPage : IXamlRenderListener
     {
@@ -38,37 +38,37 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
 
         private async void Load()
         {
-            SampleController.Current.RegisterNewCommand("Image with placeholder", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Image with placeholder", (sender, args) =>
             {
                 AddImage(false, true);
             });
 
-            SampleController.Current.RegisterNewCommand("Image with placeholder (invalid link or offline)", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Image with placeholder (invalid link or offline)", (sender, args) =>
             {
                 AddImage(true, true);
             });
 
-            SampleController.Current.RegisterNewCommand("Image without placeholder", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Image without placeholder", (sender, args) =>
             {
                 AddImage(false, false);
             });
 
-            SampleController.Current.RegisterNewCommand("Round Image with placeholder", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Round Image with placeholder", (sender, args) =>
             {
                 AddImage(false, true, true);
             });
 
-            SampleController.Current.RegisterNewCommand("Round Image with placeholder (invalid link or offline)", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Round Image with placeholder (invalid link or offline)", (sender, args) =>
             {
                 AddImage(true, true, true);
             });
 
-            SampleController.Current.RegisterNewCommand("Round Image without placeholder", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Round Image without placeholder", (sender, args) =>
             {
                 AddImage(false, false, true);
             });
 
-            SampleController.Current.RegisterNewCommand("Lazy loading sample", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Lazy loading sample", (sender, args) =>
             {
                 var imageExLazyLoadingControl = new ImageExLazyLoadingControl();
                 imageExLazyLoadingControl.CloseButtonClick += (s, a) =>
@@ -93,7 +93,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Remove images", (sender, args) => container?.Children?.Clear());
+            ShowcaseController.Current.RegisterNewCommand("Remove images", (sender, args) => container?.Children?.Clear());
 
             await LoadDataAsync();
         }

@@ -5,14 +5,14 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Microsoft.Toolkit.Uwp.UI.Predicates;
+using Community.Windows.UI.Predicates;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Markup;
 
 #nullable enable
 
-namespace Microsoft.Toolkit.Uwp.UI
+namespace Community.Windows.UI
 {
     /// <inheritdoc cref="FrameworkElementExtensions"/>
     public static partial class FrameworkElementExtensions

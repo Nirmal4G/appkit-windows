@@ -7,7 +7,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
 
-namespace Microsoft.Toolkit.Uwp.DeveloperTools
+namespace Community.Windows.DeveloperTools
 {
     /// <summary>
     /// AlignmentGrid is used to display a grid to help aligning controls

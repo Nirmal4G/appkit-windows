@@ -5,7 +5,7 @@
 using Windows.System.Profile;
 using Windows.UI.Xaml.Markup;
 
-namespace Microsoft.Toolkit.Uwp.UI
+namespace Community.Windows.UI
 {
     /// <summary>
     /// The OnDevice markup extension allows you to customize UI appearance on a per-DeviceFamily basis.
@@ -14,7 +14,7 @@ namespace Microsoft.Toolkit.Uwp.UI
     /// The next TextBlock will show the text 'Hello' on desktop computers, 'World' on Xbox and 'Hi' on all other devices
     /// <code>
     ///     <TextBlock Text="{ui:OnDevice Default=Hi, Desktop=Hello, Xbox=World}"
-    ///                xmlns:ui="using:Microsoft.Toolkit.Uwp.UI" />
+    ///                xmlns:ui="using:Community.Windows.UI" />
     /// </code>
     /// </example>
     public class OnDeviceExtension : MarkupExtension

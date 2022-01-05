@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.UI.Controls;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// A page that shows how to use the Eyedropper control.
@@ -25,7 +25,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Global Eyedropper", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Global Eyedropper", async (sender, args) =>
             {
                 var eyedropper = new Eyedropper();
                 var color = await eyedropper.Open();

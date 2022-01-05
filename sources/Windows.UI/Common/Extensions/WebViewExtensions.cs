@@ -5,7 +5,7 @@
 using System;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI
+namespace Community.Windows.UI
 {
     /// <summary>
     /// Provides attached dependency properties for the <see cref="Windows.UI.Xaml.Controls.WebView"/>

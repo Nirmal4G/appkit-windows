@@ -4,7 +4,7 @@
 
 using System;
 using System.ComponentModel;
-using Microsoft.Toolkit.Uwp.UI.Controls.DataGridInternals;
+using Community.Windows.UI.Controls.DataGridInternals;
 using Windows.UI;
 using Windows.UI.Text;
 using Windows.UI.Xaml;
@@ -12,7 +12,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Represents a <see cref="DataGrid"/> column that hosts textual content in its cells.
@@ -165,11 +165,11 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls
         }
 
         /// <summary>
-        /// Gets a <see cref="T:System.Windows.Controls.TextBox"/> control that is bound to the column's <see cref="P:Microsoft.Toolkit.Uwp.UI.Controls.DataGridBoundColumn.Binding"/> property value.
+        /// Gets a <see cref="T:System.Windows.Controls.TextBox"/> control that is bound to the column's <see cref="P:Community.Windows.UI.Controls.DataGridBoundColumn.Binding"/> property value.
         /// </summary>
         /// <param name="cell">The cell that will contain the generated element.</param>
         /// <param name="dataItem">The data item represented by the row that contains the intended cell.</param>
-        /// <returns>A new <see cref="T:System.Windows.Controls.TextBox"/> control that is bound to the column's <see cref="P:Microsoft.Toolkit.Uwp.UI.Controls.DataGridBoundColumn.Binding"/> property value.</returns>
+        /// <returns>A new <see cref="T:System.Windows.Controls.TextBox"/> control that is bound to the column's <see cref="P:Community.Windows.UI.Controls.DataGridBoundColumn.Binding"/> property value.</returns>
         protected override FrameworkElement GenerateEditingElement(DataGridCell cell, object dataItem)
         {
             TextBox textBox = new TextBox();
@@ -207,11 +207,11 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls
         }
 
         /// <summary>
-        /// Gets a read-only <see cref="T:System.Windows.Controls.TextBlock"/> element that is bound to the column's <see cref="P:Microsoft.Toolkit.Uwp.UI.Controls.DataGridBoundColumn.Binding"/> property value.
+        /// Gets a read-only <see cref="T:System.Windows.Controls.TextBlock"/> element that is bound to the column's <see cref="P:Community.Windows.UI.Controls.DataGridBoundColumn.Binding"/> property value.
         /// </summary>
         /// <param name="cell">The cell that will contain the generated element.</param>
         /// <param name="dataItem">The data item represented by the row that contains the intended cell.</param>
-        /// <returns>A new, read-only <see cref="T:System.Windows.Controls.TextBlock"/> element that is bound to the column's <see cref="P:Microsoft.Toolkit.Uwp.UI.Controls.DataGridBoundColumn.Binding"/> property value.</returns>
+        /// <returns>A new, read-only <see cref="T:System.Windows.Controls.TextBlock"/> element that is bound to the column's <see cref="P:Community.Windows.UI.Controls.DataGridBoundColumn.Binding"/> property value.</returns>
         protected override FrameworkElement GenerateElement(DataGridCell cell, object dataItem)
         {
             TextBlock textBlockElement = new TextBlock();

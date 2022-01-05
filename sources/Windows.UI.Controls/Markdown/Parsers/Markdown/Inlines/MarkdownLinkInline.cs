@@ -4,10 +4,10 @@
 
 using System;
 using System.Collections.Generic;
-using Microsoft.Toolkit.Parsers.Core;
-using Microsoft.Toolkit.Parsers.Markdown.Helpers;
+using Community.Parsers.Core;
+using Community.Parsers.Markdown.Helpers;
 
-namespace Microsoft.Toolkit.Parsers.Markdown.Inlines
+namespace Community.Parsers.Markdown.Inlines
 {
     /// <summary>
     /// Represents a type of hyperlink where the text can be different from the target URL.

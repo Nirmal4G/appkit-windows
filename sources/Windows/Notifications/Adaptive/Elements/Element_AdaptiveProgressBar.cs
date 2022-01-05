@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 
-namespace Microsoft.Toolkit.Uwp.Notifications.Adaptive.Elements
+namespace Community.Windows.Notifications.Adaptive.Elements
 {
     internal sealed class Element_AdaptiveProgressBar : IElement_ToastBindingChild, IHaveXmlName, IHaveXmlNamedProperties
     {

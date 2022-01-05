@@ -4,15 +4,15 @@
 
 using System;
 using System.Collections.Generic;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.Storage;
 using Windows.Storage.Pickers;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// InfinteCanvas sample page.
@@ -34,7 +34,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Export & Save", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Export & Save", async (sender, args) =>
             {
                 if (_infiniteCanvas != null)
                 {
@@ -55,7 +55,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Import and Load", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Import and Load", async (sender, args) =>
             {
                 if (_infiniteCanvas != null)
                 {
@@ -83,7 +83,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Export max view as image", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Export max view as image", async (sender, args) =>
             {
                 if (_infiniteCanvas != null)
                 {

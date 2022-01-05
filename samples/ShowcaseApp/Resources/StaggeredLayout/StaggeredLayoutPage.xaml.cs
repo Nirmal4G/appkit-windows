@@ -4,13 +4,13 @@
 
 using System;
 using System.Collections.ObjectModel;
-using Microsoft.Toolkit.Uwp.UI;
+using Community.Windows.UI;
 using Microsoft.UI.Xaml.Controls;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.

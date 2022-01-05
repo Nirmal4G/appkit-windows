@@ -6,7 +6,7 @@ using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Markup;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// <see cref="Case"/> is the value container for the <see cref="SwitchPresenter"/>.

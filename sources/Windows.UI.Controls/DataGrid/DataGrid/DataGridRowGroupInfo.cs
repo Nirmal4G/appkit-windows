@@ -5,7 +5,7 @@
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.DataGridInternals
+namespace Community.Windows.UI.Controls.DataGridInternals
 {
     internal class DataGridRowGroupInfo
     {

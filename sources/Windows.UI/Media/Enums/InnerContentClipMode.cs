@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media
+namespace Community.Windows.UI.Media
 {
     /// <summary>
     /// The method that each instance of <see cref="AttachedCardShadow"/> uses when clipping its inner content.

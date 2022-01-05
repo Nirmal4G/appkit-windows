@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Toolkit.Uwp.Utilities
+namespace Community.Windows.Utilities
 {
     internal static class DoubleUtil
     {

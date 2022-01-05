@@ -3,13 +3,13 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.Helpers;
-using Microsoft.Toolkit.Uwp.SampleApp.Common;
+using Community.Windows.Helpers;
+using Community.Windows.ShowcaseApp.Common;
 using Windows.ApplicationModel.Background;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class BackgroundTaskHelperPage : Page
     {
@@ -41,7 +41,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
             await BackgroundExecutionManager.RequestAccessAsync();
 
             // Registering Multi-Process Background task
-            BackgroundTaskHelper.Register(nameof(TestBackgroundTask), "Microsoft.Toolkit.Uwp.Samples.BackgroundTasks.TestBackgroundTask", new TimeTrigger(15, false), false, true, new SystemCondition(SystemConditionType.InternetAvailable));
+            BackgroundTaskHelper.Register(nameof(TestBackgroundTask), "Community.Windows.Samples.BackgroundTasks.TestBackgroundTask", new TimeTrigger(15, false), false, true, new SystemCondition(SystemConditionType.InternetAvailable));
 
             StatusMessage.Text = "Background Task registered (MPM)";
         }

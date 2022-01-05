@@ -5,14 +5,14 @@
 using System;
 using System.Collections;
 using System.Collections.Specialized;
-using Microsoft.Toolkit.Uwp.Helpers;
+using Community.Windows.Helpers;
 using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// An items control that presents enumerable content similar to the live tiles on the

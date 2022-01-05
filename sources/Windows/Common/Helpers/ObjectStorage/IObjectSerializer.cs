@@ -4,12 +4,12 @@
 
 using System;
 
-namespace Microsoft.Toolkit.Uwp.Helpers
+namespace Community.Windows.Helpers
 {
     /// <summary>
     /// A basic serialization service.
     /// </summary>
-    [Obsolete("IObjectSerializer has been migrated to the Microsoft.Toolkit (CommunityToolkit.Common) package.")]
+    [Obsolete("IObjectSerializer has been migrated to the Community.Common package.")]
     public interface IObjectSerializer
     {
         /// <summary>

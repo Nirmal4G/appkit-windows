@@ -4,7 +4,7 @@
 
 using Windows.UI.Composition;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// An opacity animation working on the composition layer.

@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Uwp;
+using Community.Windows;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Windows.System;
 using Windows.UI;

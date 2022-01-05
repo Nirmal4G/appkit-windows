@@ -3,8 +3,8 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.ApplicationModel;
 using Windows.Storage;
 using Windows.System;
@@ -16,7 +16,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Documents;
 using Windows.UI.Xaml.Media;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class MarkdownTextBlockPage : Page, IXamlRenderListener
     {
@@ -26,7 +26,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
         public MarkdownTextBlockPage()
         {
             InitializeComponent();
-            SampleController.Current.ThemeChanged += Current_ThemeChanged;
+            ShowcaseController.Current.ThemeChanged += Current_ThemeChanged;
         }
 
         public void OnXamlRendered(FrameworkElement control)
@@ -37,7 +37,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
 
             if (markdownText != null)
             {
-                markdownText.RequestedTheme = SampleController.Current.GetCurrentTheme();
+                markdownText.RequestedTheme = ShowcaseController.Current.GetCurrentTheme();
                 markdownText.LinkClicked += MarkdownText_LinkClicked;
                 markdownText.ImageClicked += MarkdownText_ImageClicked;
                 markdownText.CodeBlockResolving += MarkdownText_CodeBlockResolving;
@@ -72,7 +72,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
             // Load the initial demo data from the file.
             try
             {
-                string initalMarkdownText = await FileIO.ReadTextAsync(await Package.Current.InstalledLocation.GetFileAsync("SamplePages\\MarkdownTextBlock\\InitialContent.md"));
+                string initalMarkdownText = await FileIO.ReadTextAsync(await Package.Current.InstalledLocation.GetFileAsync("Resources\\MarkdownTextBlock\\InitialContent.md"));
                 SetInitalText(initalMarkdownText);
             }
             catch (Exception)

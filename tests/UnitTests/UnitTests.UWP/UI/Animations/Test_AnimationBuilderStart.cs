@@ -4,11 +4,11 @@
 
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.Toolkit.Uwp;
+using Community.Windows;
 using Windows.UI.Xaml.Controls;
-using Microsoft.Toolkit.Uwp.UI.Animations;
+using Community.Windows.UI.Animations;
 using System.Numerics;
-using Microsoft.Toolkit.Uwp.UI;
+using Community.Windows.UI;
 using System;
 using Windows.UI.Xaml.Media;
 

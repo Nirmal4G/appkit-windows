@@ -1,6 +1,6 @@
 <GridView x:Name="MyGridView"/>
 
-using Microsoft.Toolkit.Uwp.UI;
+using Community.Windows.UI;
 
 // Scrolling with index
 await MyGridView.SmoothScrollIntoViewWithIndexAsync(index: int, itemPlacement: ScrollItemPlacement, disableAnimation: bool, scrollIfVisibile: bool, additionalHorizontalOffset: int, additionalVerticalOffset: int);

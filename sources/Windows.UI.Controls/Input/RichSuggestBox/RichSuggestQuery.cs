@@ -5,7 +5,7 @@
 using System.Threading;
 using Windows.UI.Text;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// A structure for <see cref="RichSuggestBox"/> to keep track of the current query internally.

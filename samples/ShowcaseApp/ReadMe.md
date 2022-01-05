@@ -10,7 +10,7 @@ This document describes how to add a new sample page for a new control you want 
 
 ### 1. Add Sample page and `.bind` template
 
-First you need to create a XAML page in the folder `/SamplePages/YourControl`.  This will be the logical page used to by the app to navigate to the sample and contains code.
+First you need to create a XAML page in the folder `/Resources/YourControl`.  This will be the logical page used to by the app to navigate to the sample and contains code.
 
 If providing 'live' XAML, a `.bind` file is loaded and dynamically fed to the `XamlReader.Load` method to convert into actual controls.  This changes a few things about how samples need to be written (detailed below), but allows developers to actually change the sample and see the results live.
 
@@ -102,7 +102,7 @@ Therefore, for any new control/extension, you should still have a simplified sni
 
 ### 4. For Events/Resource Templates: Have your sample page implement the **`IXamlRendererListener`** interface
 
-This gets called whenever the template gets parsed (due to loading or user modification).  Here you can use the [`LogicalTree`](https://github.com/CommunityToolkit/WindowsCommunityToolkit/blob/main/Microsoft.Toolkit.Uwp.UI/Extensions/FrameworkElement/FrameworkElementExtensions.LogicalTree.cs) extensions to grab named controls in the template and register their events.  **Check for null first** as the developer may have removed the name from the element.
+This gets called whenever the template gets parsed (due to loading or user modification).  Here you can use the [`LogicalTree`](https://github.com/CommunityToolkit/WindowsCommunityToolkit/blob/main/Community.Windows.UI/Extensions/FrameworkElement/FrameworkElementExtensions.LogicalTree.cs) extensions to grab named controls in the template and register their events.  **Check for null first** as the developer may have removed the name from the element.
 
 ```cs
 var markdownText = control.FindChild("MarkdownText") as MarkdownTextBlock;
@@ -114,7 +114,7 @@ if (markdownText != null)
 
 You'll have to register all events and grab **`control.Resources`** for templates from this method as the regular sample page XAML isn't used, and you can't hook in an event from the dynamic XAML, it must be done via code by finding the element here.
 
-### 5. For Interactive Buttons: Use **`SampleController.Current.RegisterNewCommand`**
+### 5. For Interactive Buttons: Use **`ShowcaseController.Current.RegisterNewCommand`**
 
 Buttons can be added through this command and are accessible in the main panel, so they can be clicked when changing properties or editing XAML.  It's important instead of using buttons in your sample (as events can't be directly used, see above) to register these commands.
 
@@ -123,7 +123,7 @@ protected override async void OnNavigatedTo(NavigationEventArgs e)
 {
     base.OnNavigatedTo(e);
 
-    SampleController.Current.RegisterNewCommand("Image with placeholder", (sender, args) =>
+    ShowcaseController.Current.RegisterNewCommand("Image with placeholder", (sender, args) =>
     {
         AddImage(false, true);
     });
@@ -147,7 +147,7 @@ Now, the sample page content in the app is ignored, but you can override that be
 
 ## Update `Samples.json`
 
-After creating your page and the binding text, you just need to reference it in the `/SamplePages/samples.json` file.
+After creating your page and the binding text, you just need to reference it in the `/Resources/samples.json` file.
 Select the category where you want your page to be listed and add the following information:
 
 ### Basic Structure
@@ -162,7 +162,7 @@ Select the category where you want your page to be listed and add the following 
         "Name": "AdaptiveGridView",
         "Type": "AdaptiveGridViewPage",
         "About": "The AdaptiveGridView control allows to present information within a Grid View perfectly adjusting the total display available space. It reacts to changes in the layout as well as the content so it can adapt to different form factors automatically. The number and the width of items are calculated based on the screen resolution in order to fully leverage the available screen space. The property ItemsHeight define the items fixed height and the property DesiredWidth sets the minimum width for the elements to add a new column.",
-        "CodeUrl": "https://github.com/CommunityToolkit/WindowsCommunityToolkit/tree/main/Microsoft.Toolkit.Uwp.UI.Controls.Core/TextToolbar",
+        "CodeUrl": "https://github.com/CommunityToolkit/WindowsCommunityToolkit/tree/main/Community.Windows.UI.Controls.Core/TextToolbar",
         "XamlCodeFile": "AdaptiveGridViewCode.bind",
         "DocumentationUrl": "https://raw.githubusercontent.com/CommunityToolkit/WindowsCommunityToolkit/main/docs/controls/AdaptiveGridView.md"
       }

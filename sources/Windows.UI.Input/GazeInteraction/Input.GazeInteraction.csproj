@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>uap10.0.17134</TargetFrameworks>
-    <RootNamespace>Microsoft.Toolkit.Uwp.Input</RootNamespace>
+    <RootNamespace>Community.Windows.Input</RootNamespace>
     <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.17134.0</TargetPlatformMinVersion>
   </PropertyGroup>

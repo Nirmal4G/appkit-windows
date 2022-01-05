@@ -19,7 +19,7 @@ using Windows.UI.Xaml.Automation.Peers;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 
-namespace Microsoft.Toolkit.Uwp.Input.GazeInteraction
+namespace Community.Windows.Input.GazeInteraction
 {
     /// <summary>
     /// Class of singleton object coordinating gaze input.

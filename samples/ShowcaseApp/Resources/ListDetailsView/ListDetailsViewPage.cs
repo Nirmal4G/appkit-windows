@@ -4,11 +4,11 @@
 
 using System;
 using System.Collections.Generic;
-using Microsoft.Toolkit.Uwp.SampleApp.Models;
+using Community.Windows.ShowcaseApp.Models;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -38,14 +38,14 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                     From = "OneDrive",
                     Subject = "Check out your event recap",
                     Body = "Your new album.\r\nYou uploaded some photos to your OneDrive and automatically created an album for you.",
-                    Thumbnail = new Uri("ms-appx:///SamplePages/ListDetailsView/OneDriveLogo.png")
+                    Thumbnail = new Uri("ms-appx:///Resources/ListDetailsView/OneDriveLogo.png")
                 },
                 new Email
                 {
                     From = "Twitter",
                     Subject = "Follow randomPerson, APersonYouMightKnow",
                     Body = "Here are some people we think you might like to follow:\r\n.@randomPerson\r\nAPersonYouMightKnow",
-                    Thumbnail = new Uri("ms-appx:///SamplePages/Twitter Service/icon.png")
+                    Thumbnail = new Uri("ms-appx:///Resources/Twitter Service/icon.png")
                 },
             };
 

@@ -7,7 +7,7 @@ using Windows.UI.Xaml.Automation;
 using Windows.UI.Xaml.Automation.Peers;
 using Windows.UI.Xaml.Automation.Provider;
 
-namespace Microsoft.Toolkit.Uwp.Input.GazeInteraction
+namespace Community.Windows.Input.GazeInteraction
 {
     internal class ExpandCollapsePatternGazeTargetItem : GazeTargetItem
     {

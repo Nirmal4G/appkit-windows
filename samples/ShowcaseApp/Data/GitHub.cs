@@ -9,12 +9,12 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Windows.Web.Http;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Data
+namespace Community.Windows.ShowcaseApp.Data
 {
     public static class GitHub
     {
         private const string _root = "https://api.github.com";
-        private const string _repoName = "WindowsCommunityToolkit";
+        private const string _repoName = "appkit-windows";
         private const string _repoOwner = "Microsoft";
 
         private static List<GitHubRelease> _releases;

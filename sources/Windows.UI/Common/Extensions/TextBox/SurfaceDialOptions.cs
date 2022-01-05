@@ -6,7 +6,7 @@ using Windows.UI.Input;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.UI
+namespace Community.Windows.UI
 {
     /// <summary>
     /// A model containing options for configuring the Surface Dial support through <see cref="TextBoxExtensions"/>.

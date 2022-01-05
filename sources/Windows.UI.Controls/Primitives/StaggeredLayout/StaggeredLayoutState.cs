@@ -8,7 +8,7 @@ using System.Linq;
 using Microsoft.UI.Xaml.Controls;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     internal class StaggeredLayoutState
     {

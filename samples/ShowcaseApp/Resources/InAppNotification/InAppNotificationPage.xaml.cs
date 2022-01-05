@@ -5,12 +5,12 @@
 using System;
 using System.Collections.Generic;
 using System.Windows.Input;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class InAppNotificationPage : Page, IXamlRenderListener
     {
@@ -47,14 +47,14 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Show notification with random text", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Show notification with random text", (sender, args) =>
             {
                 _exampleVSCodeInAppNotification.Dismiss(true);
                 _exampleCustomInAppNotification.Dismiss(true);
                 _exampleInAppNotification?.Show(GetRandomText(), NotificationDuration);
             });
 
-            SampleController.Current.RegisterNewCommand("Show notification with object", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Show notification with object", (sender, args) =>
             {
                 _exampleVSCodeInAppNotification.Dismiss(true);
                 _exampleCustomInAppNotification.Dismiss(true);
@@ -63,7 +63,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 _exampleInAppNotification?.Show(new KeyValuePair<int, string>(random.Next(1, 10), GetRandomText()), NotificationDuration);
             });
 
-            SampleController.Current.RegisterNewCommand("Show notification with buttons (without DataTemplate)", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Show notification with buttons (without DataTemplate)", (sender, args) =>
             {
                 _exampleVSCodeInAppNotification.Dismiss(true);
                 _exampleCustomInAppNotification.Dismiss(true);
@@ -120,7 +120,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 _exampleInAppNotification?.Show(grid, NotificationDuration);
             });
 
-            SampleController.Current.RegisterNewCommand("Show notification with buttons (with DataTemplate)", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Show notification with buttons (with DataTemplate)", (sender, args) =>
             {
                 _exampleVSCodeInAppNotification.Dismiss(true);
                 _exampleInAppNotification.Dismiss(true);
@@ -133,14 +133,14 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Show notification with Visual Studio Code template (info notification)", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Show notification with Visual Studio Code template (info notification)", (sender, args) =>
             {
                 _exampleInAppNotification.Dismiss(true);
                 _exampleCustomInAppNotification.Dismiss(true);
                 _exampleVSCodeInAppNotification.Show(NotificationDuration);
             });
 
-            SampleController.Current.RegisterNewCommand("Dismiss", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Dismiss", (sender, args) =>
             {
                 // Dismiss all notifications (should not be replicated in production)
                 _exampleInAppNotification.Dismiss(true);

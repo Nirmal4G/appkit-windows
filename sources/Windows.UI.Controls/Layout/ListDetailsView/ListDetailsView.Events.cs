@@ -5,7 +5,7 @@
 using System;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Panel that allows for a List/Details pattern.

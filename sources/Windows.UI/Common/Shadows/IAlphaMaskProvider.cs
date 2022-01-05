@@ -4,7 +4,7 @@
 
 using Windows.UI.Composition;
 
-namespace Microsoft.Toolkit.Uwp.UI
+namespace Community.Windows.UI
 {
     /// <summary>
     /// Any user control can implement this interface to provide a custom alpha mask to it's parent DropShadowPanel

@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Toolkit.Parsers.Markdown.Helpers
+namespace Community.Parsers.Markdown.Helpers
 {
     [Obsolete(Constants.ParserObsoleteMsg)]
     internal class LineInfo

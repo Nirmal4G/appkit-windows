@@ -5,9 +5,9 @@
 using System.Numerics;
 using System.Text.RegularExpressions;
 using Microsoft.Graphics.Canvas.Geometry;
-using Microsoft.Toolkit.Uwp.UI.Media.Geometry.Core;
+using Community.Windows.UI.Media.Geometry.Core;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Geometry.Elements.Path
+namespace Community.Windows.UI.Media.Geometry.Elements.Path
 {
     /// <summary>
     /// Class representing the Cubic Bezier Element in a Path Geometry

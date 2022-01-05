@@ -4,7 +4,7 @@
 
 using Windows.Foundation.Collections;
 
-namespace Microsoft.Toolkit.Uwp.UI
+namespace Community.Windows.UI
 {
     /// <summary>
     /// Vector changed EventArgs

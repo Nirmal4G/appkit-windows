@@ -4,12 +4,12 @@
 
 using System;
 using System.Reflection;
-using Microsoft.Toolkit.Uwp.Helpers;
+using Community.Windows.Helpers;
 using Windows.UI;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Common
+namespace Community.Windows.ShowcaseApp.Common
 {
     public class SolidColorBrushConverter : IValueConverter
     {

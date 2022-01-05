@@ -12,7 +12,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 using CanvasBlendEffect = Microsoft.Graphics.Canvas.Effects.BlendEffect;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media
+namespace Community.Windows.UI.Media
 {
     /// <summary>
     /// Brush which blends a <see cref="BitmapImage"/> to the Backdrop in a given mode. See http://microsoft.github.io/Win2D/html/T_Microsoft_Graphics_Canvas_Effects_BlendEffect.htm.

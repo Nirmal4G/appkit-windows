@@ -8,11 +8,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Microsoft.Toolkit.Uwp.SampleApp")]
+[assembly: AssemblyTitle("Community.Windows.ShowcaseApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany(".NET Foundation")]
-[assembly: AssemblyProduct("Microsoft.Toolkit.Uwp.SampleApp")]
+[assembly: AssemblyProduct("Community.Windows.ShowcaseApp")]
 [assembly: AssemblyCopyright("Copyright © 2016-2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

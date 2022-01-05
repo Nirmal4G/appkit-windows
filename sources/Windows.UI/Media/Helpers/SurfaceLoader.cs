@@ -7,7 +7,7 @@ using System.Numerics;
 using System.Threading.Tasks;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.UI.Composition;
-using Microsoft.Toolkit.Uwp.UI.Media.Helpers.Cache;
+using Community.Windows.UI.Media.Helpers.Cache;
 using Windows.Foundation;
 using Windows.Graphics.DirectX;
 using Windows.Graphics.Display;
@@ -16,7 +16,7 @@ using Windows.UI;
 using Windows.UI.Composition;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Helpers
+namespace Community.Windows.UI.Media.Helpers
 {
     /// <summary>
     /// A <see langword="class"/> that can load and draw images and other objects to Win2D surfaces and brushes

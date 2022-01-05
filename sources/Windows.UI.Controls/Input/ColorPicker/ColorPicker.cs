@@ -6,18 +6,18 @@ using System;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Globalization;
-using Microsoft.Toolkit.Uwp.Helpers;
-using Microsoft.Toolkit.Uwp.UI.Controls.ColorPickerConverters;
+using Community.Windows.Helpers;
+using Community.Windows.UI.Controls.ColorPickerConverters;
 using Windows.System;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Media;
-using ColorPickerSlider = Microsoft.Toolkit.Uwp.UI.Controls.Primitives.ColorPickerSlider;
+using ColorPickerSlider = Community.Windows.UI.Controls.Primitives.ColorPickerSlider;
 using ColorSpectrum = Microsoft.UI.Xaml.Controls.Primitives.ColorSpectrum;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Presents a color spectrum, a palette of colors, and color channel sliders for user selection of a color.
@@ -123,7 +123,7 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls
         public ColorPicker()
         {
             this.DefaultStyleKey = typeof(ColorPicker);
-            this.DefaultStyleResourceUri = new System.Uri("ms-appx:///Microsoft.Toolkit.Uwp.UI.Controls.Input/Themes/Generic.xaml");
+            this.DefaultStyleResourceUri = new System.Uri("ms-appx:///Community.Windows.UI.Controls.Input/Themes/Generic.xaml");
 
             // Setup collections
             this.SetValue(CustomPaletteColorsProperty, new ObservableCollection<Color>());
@@ -1333,7 +1333,7 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls
                 {
                     case ColorChannel.Channel1:
                         {
-                            newColor = Microsoft.Toolkit.Uwp.Helpers.ColorHelper.FromHsv
+                            newColor = Community.Windows.Helpers.ColorHelper.FromHsv
                             (
                                 360.0,
                                 newHsvColor.S,
@@ -1345,7 +1345,7 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls
 
                     case ColorChannel.Channel2:
                         {
-                            newColor = Microsoft.Toolkit.Uwp.Helpers.ColorHelper.FromHsv
+                            newColor = Community.Windows.Helpers.ColorHelper.FromHsv
                             (
                                 newHsvColor.H,
                                 100.0,
@@ -1357,7 +1357,7 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls
 
                     case ColorChannel.Channel3:
                         {
-                            newColor = Microsoft.Toolkit.Uwp.Helpers.ColorHelper.FromHsv
+                            newColor = Community.Windows.Helpers.ColorHelper.FromHsv
                             (
                                 newHsvColor.H,
                                 newHsvColor.S,

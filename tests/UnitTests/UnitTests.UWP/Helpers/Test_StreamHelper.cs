@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Windows.ApplicationModel;
 using Windows.Storage;
-using Microsoft.Toolkit.Uwp.Helpers;
+using Community.Windows.Helpers;
 
 namespace UnitTests.Helpers
 {

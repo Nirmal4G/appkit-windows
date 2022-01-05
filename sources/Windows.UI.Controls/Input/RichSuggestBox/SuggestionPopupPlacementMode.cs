@@ -4,7 +4,7 @@
 
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Placement modes for the suggestion popup in <see cref="RichSuggestBox"/>.

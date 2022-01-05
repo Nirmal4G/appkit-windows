@@ -7,7 +7,7 @@ using System.Threading;
 using Windows.Graphics.Imaging;
 using Windows.Media;
 
-namespace Microsoft.Toolkit.Uwp.Helpers
+namespace Community.Windows.Helpers
 {
     /// <summary>
     /// Provides data for the <see cref="CameraHelper.FrameArrived"/> event.

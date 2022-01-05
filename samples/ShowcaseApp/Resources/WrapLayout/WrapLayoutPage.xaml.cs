@@ -4,14 +4,14 @@
 
 using System;
 using System.Collections.ObjectModel;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Microsoft.UI.Xaml.Controls;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -27,7 +27,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
         {
             this.InitializeComponent();
 
-            SampleController.Current.RegisterNewCommand("Switch Orientation", SwitchButton_Click);
+            ShowcaseController.Current.RegisterNewCommand("Switch Orientation", SwitchButton_Click);
 
             _random = new Random(DateTime.Now.Millisecond);
             for (int i = 0; i < _random.Next(1000, 5000); i++)

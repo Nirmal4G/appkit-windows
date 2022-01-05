@@ -2,7 +2,7 @@
 
   <ItemGroup>
     <Reference Include="NotificationsExtensions">
-      <HintPath>$(MSBuildThisFileDirectory)..\..\lib\native\Microsoft.Toolkit.Uwp.Notifications.winmd</HintPath>
+      <HintPath>$(MSBuildThisFileDirectory)..\..\lib\native\Community.Windows.Notifications.winmd</HintPath>
       <IsWinMDFile>true</IsWinMDFile>
     </Reference>
   </ItemGroup>

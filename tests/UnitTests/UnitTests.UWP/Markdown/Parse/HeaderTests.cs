@@ -4,9 +4,9 @@
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
-using Microsoft.Toolkit.Parsers.Markdown.Blocks;
-using Microsoft.Toolkit.Parsers.Markdown.Inlines;
-using Microsoft.Toolkit.Parsers.Markdown;
+using Community.Parsers.Markdown.Blocks;
+using Community.Parsers.Markdown.Inlines;
+using Community.Parsers.Markdown;
 
 namespace UnitTests.Markdown.Parse
 {

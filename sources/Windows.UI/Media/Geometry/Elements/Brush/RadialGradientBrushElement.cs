@@ -9,11 +9,11 @@ using System.Numerics;
 using System.Text.RegularExpressions;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Brushes;
-using Microsoft.Toolkit.Uwp.UI.Media.Geometry.Core;
-using Microsoft.Toolkit.Uwp.UI.Media.Geometry.Parsers;
+using Community.Windows.UI.Media.Geometry.Core;
+using Community.Windows.UI.Media.Geometry.Parsers;
 using Windows.UI;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Geometry.Elements.Brush
+namespace Community.Windows.UI.Media.Geometry.Elements.Brush
 {
     /// <summary>
     /// Represents a CanvasRadialGradientBrush with GradientStops

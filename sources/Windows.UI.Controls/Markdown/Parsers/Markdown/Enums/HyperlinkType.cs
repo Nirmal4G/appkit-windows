@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Toolkit.Parsers.Markdown
+namespace Community.Parsers.Markdown
 {
     /// <summary>
     /// Specifies the type of Hyperlink that is used.

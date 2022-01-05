@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class LoadingPage : IXamlRenderListener
     {
@@ -36,7 +36,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Loading control with wait ring", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Loading control with wait ring", async (sender, args) =>
             {
                 if (loadingContentControl != null)
                 {
@@ -45,7 +45,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Loading control with progressbar", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Loading control with progressbar", async (sender, args) =>
             {
                 if (loadingContentControl != null)
                 {
@@ -54,7 +54,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Loading control with logo", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Loading control with logo", async (sender, args) =>
             {
                 if (loadingContentControl != null)
                 {

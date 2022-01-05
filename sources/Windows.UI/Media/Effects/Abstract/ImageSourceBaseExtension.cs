@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.UI.Media.Pipelines;
+using Community.Windows.UI.Media.Pipelines;
 using Windows.UI.Xaml.Markup;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media
+namespace Community.Windows.UI.Media
 {
     /// <summary>
     /// An image based effect that loads an image at the specified location

@@ -4,7 +4,7 @@
 
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// Attached properties to support explicitly triggered animations for <see cref="UIElement"/> instances.

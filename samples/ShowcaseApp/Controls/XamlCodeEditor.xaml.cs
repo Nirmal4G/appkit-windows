@@ -14,7 +14,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Controls
+namespace Community.Windows.ShowcaseApp.Controls
 {
     public sealed partial class XamlCodeEditor : UserControl
     {

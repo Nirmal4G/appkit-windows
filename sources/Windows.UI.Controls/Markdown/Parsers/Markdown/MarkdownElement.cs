@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Toolkit.Parsers.Markdown
+namespace Community.Parsers.Markdown
 {
     /// <summary>
     /// This is a class used as the base class of all markdown elements.

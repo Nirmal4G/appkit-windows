@@ -5,12 +5,12 @@
 using System;
 using Windows.UI.Composition;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations.Expressions
+namespace Community.Windows.UI.Animations.Expressions
 {
     /// <summary>
     /// Class ReferenceNode.
     /// </summary>
-    /// <seealso cref="Microsoft.Toolkit.Uwp.UI.Animations.Expressions.ExpressionNode" />
+    /// <seealso cref="Community.Windows.UI.Animations.Expressions.ExpressionNode" />
     public abstract class ReferenceNode : ExpressionNode
     {
         /// <summary>

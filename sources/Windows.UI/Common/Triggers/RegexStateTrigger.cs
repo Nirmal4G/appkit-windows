@@ -5,7 +5,7 @@
 using System.Text.RegularExpressions;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI.Triggers
+namespace Community.Windows.UI.Triggers
 {
     /// <summary>
     /// Enables a state if the regex expression is true for a given string value

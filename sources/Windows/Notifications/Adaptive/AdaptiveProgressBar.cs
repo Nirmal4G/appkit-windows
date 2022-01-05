@@ -5,18 +5,18 @@
 #pragma warning disable SA1121 // UseBuiltInTypeAlias
 
 using System;
-using Microsoft.Toolkit.Uwp.Notifications.Adaptive.Elements;
+using Community.Windows.Notifications.Adaptive.Elements;
 
 #if WINRT
 using System.Collections.Generic;
-using BindableProgressBarValue = Microsoft.Toolkit.Uwp.Notifications.AdaptiveProgressBarValue;
+using BindableProgressBarValue = Community.Windows.Notifications.AdaptiveProgressBarValue;
 using BindableString = System.String;
 #else
-using BindableProgressBarValue = Microsoft.Toolkit.Uwp.Notifications.BindableProgressBarValue;
-using BindableString = Microsoft.Toolkit.Uwp.Notifications.BindableString;
+using BindableProgressBarValue = Community.Windows.Notifications.BindableProgressBarValue;
+using BindableString = Community.Windows.Notifications.BindableString;
 #endif
 
-namespace Microsoft.Toolkit.Uwp.Notifications
+namespace Community.Windows.Notifications
 {
     /// <summary>
     /// New in Creators Update: A progress bar. Only supported on toasts on Desktop, build 15007 or newer.

@@ -5,12 +5,12 @@
 using System;
 using System.Diagnostics;
 using System.Globalization;
-using Microsoft.Toolkit.Uwp.UI.Automation.Peers;
-using Microsoft.Toolkit.Uwp.UI.Controls.DataGridInternals;
-using Microsoft.Toolkit.Uwp.UI.Controls.Primitives;
-using Microsoft.Toolkit.Uwp.UI.Controls.Utilities;
-using Microsoft.Toolkit.Uwp.UI.Utilities;
-using Microsoft.Toolkit.Uwp.Utilities;
+using Community.Windows.UI.Automation.Peers;
+using Community.Windows.UI.Controls.DataGridInternals;
+using Community.Windows.UI.Controls.Primitives;
+using Community.Windows.UI.Controls.Utilities;
+using Community.Windows.UI.Utilities;
+using Community.Windows.Utilities;
 using Windows.Foundation;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Automation.Peers;
@@ -23,7 +23,7 @@ using Windows.UI.Xaml.Shapes;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Represents the header of a <see cref="DataGrid"/> row group.

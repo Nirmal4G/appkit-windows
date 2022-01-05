@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Toolkit.Uwp.Connectivity
+namespace Community.Windows.Connectivity
 {
     /// <summary>
     /// Helper class used when working with UUIDs

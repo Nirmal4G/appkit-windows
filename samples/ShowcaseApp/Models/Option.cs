@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp
+namespace Community.Windows.ShowcaseApp
 {
     public class Option
     {

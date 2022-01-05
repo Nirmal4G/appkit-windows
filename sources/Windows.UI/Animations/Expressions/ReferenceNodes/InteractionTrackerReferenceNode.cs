@@ -4,12 +4,12 @@
 
 using Windows.UI.Composition.Interactions;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations.Expressions
+namespace Community.Windows.UI.Animations.Expressions
 {
     /// <summary>
     /// Class InteractionTrackerReferenceNode. This class cannot be inherited.
     /// </summary>
-    /// <seealso cref="Microsoft.Toolkit.Uwp.UI.Animations.Expressions.ReferenceNode" />
+    /// <seealso cref="Community.Windows.UI.Animations.Expressions.ReferenceNode" />
     public sealed class InteractionTrackerReferenceNode : ReferenceNode
     {
         /// <summary>

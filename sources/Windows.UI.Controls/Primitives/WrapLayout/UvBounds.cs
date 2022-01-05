@@ -5,7 +5,7 @@
 using Windows.Foundation;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     internal struct UvBounds
     {

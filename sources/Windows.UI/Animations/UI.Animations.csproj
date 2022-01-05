@@ -22,7 +22,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI\Microsoft.Toolkit.Uwp.UI.csproj" />
+    <ProjectReference Include="..\Community.Windows.UI\Community.Windows.UI.csproj" />
   </ItemGroup>
 
 </Project>

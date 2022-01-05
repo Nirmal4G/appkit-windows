@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>uap10.0.17763</TargetFrameworks>
-    <RootNamespace>Microsoft.Toolkit.Uwp.UI.Controls</RootNamespace>
+    <RootNamespace>Community.Windows.UI.Controls</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -30,8 +30,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\Microsoft.Toolkit.Uwp.UI.Controls.Core\ControlHelpers.Composition.cs" Link="ControlHelpers.Composition.cs" />
-    <Compile Include="..\Microsoft.Toolkit.Uwp.UI.Controls.Core\ControlHelpers.XamlHost.cs" Link="ControlHelpers.XamlHost.cs" />
+    <Compile Include="..\Community.Windows.UI.Controls.Core\ControlHelpers.Composition.cs" Link="ControlHelpers.Composition.cs" />
+    <Compile Include="..\Community.Windows.UI.Controls.Core\ControlHelpers.XamlHost.cs" Link="ControlHelpers.XamlHost.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -39,7 +39,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Controls.Primitives\Microsoft.Toolkit.Uwp.UI.Controls.Primitives.csproj" />
+    <ProjectReference Include="..\Community.Windows.UI.Controls.Primitives\Community.Windows.UI.Controls.Primitives.csproj" />
   </ItemGroup>
 
   <Import Project="$(BuildToolsDirectory)Windows.Toolkit.UWP.Controls.targets" />

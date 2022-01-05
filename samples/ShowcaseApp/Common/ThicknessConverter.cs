@@ -7,7 +7,7 @@ using System.Linq;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Common
+namespace Community.Windows.ShowcaseApp.Common
 {
     public class ThicknessConverter : IValueConverter
     {

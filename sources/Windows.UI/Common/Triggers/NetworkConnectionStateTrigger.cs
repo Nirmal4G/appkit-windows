@@ -7,7 +7,7 @@ using Windows.Networking.Connectivity;
 using Windows.System;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI.Triggers
+namespace Community.Windows.UI.Triggers
 {
     /// <summary>
     /// Trigger for switching when the network availability changes

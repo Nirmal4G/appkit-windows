@@ -6,7 +6,7 @@ using System;
 using Windows.ApplicationModel.Resources;
 using Windows.UI.Xaml.Data;
 
-namespace Microsoft.Toolkit.Uwp.UI.Converters
+namespace Community.Windows.UI.Converters
 {
     /// <summary>
     /// Value converter that look up for the source string in the App Resources strings and returns its value, if found.

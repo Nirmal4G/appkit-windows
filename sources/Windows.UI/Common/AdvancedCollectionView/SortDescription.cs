@@ -5,7 +5,7 @@
 using System;
 using System.Collections;
 
-namespace Microsoft.Toolkit.Uwp.UI
+namespace Community.Windows.UI
 {
     /// <summary>
     /// Sort description

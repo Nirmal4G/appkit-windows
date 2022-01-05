@@ -6,7 +6,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media.Animation;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages.ConnectedAnimations.Pages
+namespace Community.Windows.ShowcaseApp.Samples.ConnectedAnimations.Pages
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.

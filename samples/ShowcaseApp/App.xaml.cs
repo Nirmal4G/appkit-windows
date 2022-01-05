@@ -4,10 +4,10 @@
 
 using System;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Uwp.Helpers;
-using Microsoft.Toolkit.Uwp.SampleApp.Common;
-using Microsoft.Toolkit.Uwp.SampleApp.SamplePages;
-using Microsoft.Toolkit.Uwp.SampleApp.Styles;
+using Community.Windows.Helpers;
+using Community.Windows.ShowcaseApp.Common;
+using Community.Windows.ShowcaseApp.Samples;
+using Community.Windows.ShowcaseApp.Styles;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.ApplicationModel.DataTransfer;
@@ -17,7 +17,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp
+namespace Community.Windows.ShowcaseApp
 {
     /// <summary>
     /// Provides application-specific behavior to supplement the default Application class.

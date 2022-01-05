@@ -4,10 +4,10 @@
 
 using System;
 using System.Collections.Generic;
-using Microsoft.Toolkit.Parsers.Markdown.Helpers;
-using Microsoft.Toolkit.Parsers.Markdown.Inlines;
+using Community.Parsers.Markdown.Helpers;
+using Community.Parsers.Markdown.Inlines;
 
-namespace Microsoft.Toolkit.Parsers.Markdown.Blocks
+namespace Community.Parsers.Markdown.Blocks
 {
     /// <summary>
     /// Represents a block of text that is displayed as a single paragraph.

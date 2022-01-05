@@ -5,7 +5,7 @@
 using System.Collections.ObjectModel;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Contains all properties for the <see cref="ColorPicker"/>.

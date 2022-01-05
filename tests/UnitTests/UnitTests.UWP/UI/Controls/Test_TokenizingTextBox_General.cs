@@ -2,10 +2,10 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using Microsoft.Toolkit.Uwp;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
-using Microsoft.Toolkit.Uwp.UI.Helpers;
+using Community.Windows;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
+using Community.Windows.UI.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer;
 using System.Threading.Tasks;
@@ -28,7 +28,7 @@ namespace UnitTests.UWP.UI.Controls
 @"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:Microsoft.Toolkit.Uwp.UI.Controls"">
+    xmlns:controls=""using:Community.Windows.UI.Controls"">
 
     <controls:TokenizingTextBox x:Name=""tokenboxname"">
     </controls:TokenizingTextBox>
@@ -74,7 +74,7 @@ namespace UnitTests.UWP.UI.Controls
 @"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:Microsoft.Toolkit.Uwp.UI.Controls"">
+    xmlns:controls=""using:Community.Windows.UI.Controls"">
 
     <controls:TokenizingTextBox x:Name=""tokenboxname"">
     </controls:TokenizingTextBox>
@@ -121,7 +121,7 @@ namespace UnitTests.UWP.UI.Controls
     $@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:Microsoft.Toolkit.Uwp.UI.Controls"">
+    xmlns:controls=""using:Community.Windows.UI.Controls"">
 
     <controls:TokenizingTextBox x:Name=""tokenboxname"" MaximumTokens=""{maxTokens}"">
     </controls:TokenizingTextBox>
@@ -176,7 +176,7 @@ namespace UnitTests.UWP.UI.Controls
 @"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:Microsoft.Toolkit.Uwp.UI.Controls"">
+    xmlns:controls=""using:Community.Windows.UI.Controls"">
 
     <controls:TokenizingTextBox x:Name=""tokenboxname"" Text=""Some Text""/>
 
@@ -212,7 +212,7 @@ namespace UnitTests.UWP.UI.Controls
 @"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:Microsoft.Toolkit.Uwp.UI.Controls"">
+    xmlns:controls=""using:Community.Windows.UI.Controls"">
 
     <controls:TokenizingTextBox x:Name=""tokenboxname""/>
 
@@ -257,7 +257,7 @@ namespace UnitTests.UWP.UI.Controls
 @"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:Microsoft.Toolkit.Uwp.UI.Controls"">
+    xmlns:controls=""using:Community.Windows.UI.Controls"">
 
     <controls:TokenizingTextBox x:Name=""tokenboxname"" Text=""Some Text""/>
 
@@ -300,7 +300,7 @@ namespace UnitTests.UWP.UI.Controls
 @"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:Microsoft.Toolkit.Uwp.UI.Controls"">
+    xmlns:controls=""using:Community.Windows.UI.Controls"">
 
     <controls:TokenizingTextBox x:Name=""tokenboxname"" TokenDelimiter="","" Text=""Token 1, Token 2, Token 3""/>
 
@@ -339,7 +339,7 @@ namespace UnitTests.UWP.UI.Controls
 @"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:Microsoft.Toolkit.Uwp.UI.Controls"">
+    xmlns:controls=""using:Community.Windows.UI.Controls"">
 
     <controls:TokenizingTextBox x:Name=""tokenboxname"" TokenDelimiter="","" Text=""Token 1, Token 2, Token 3,   ""/>
 

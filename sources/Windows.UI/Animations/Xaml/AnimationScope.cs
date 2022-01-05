@@ -8,7 +8,7 @@ using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Media.Animation;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// A container of <see cref="ITimeline"/> elements that can be used to conceptually group animations

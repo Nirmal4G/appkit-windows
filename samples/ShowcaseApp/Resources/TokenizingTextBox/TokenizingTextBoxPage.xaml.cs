@@ -7,14 +7,14 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class TokenizingTextBoxPage : Page, IXamlRenderListener
     {
@@ -107,9 +107,9 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
             Loaded += (sender, e) => { this.OnXamlRendered(this); };
 
             // Add the buttons
-            SampleController.Current.RegisterNewCommand("Clear Tokens", ClearButtonClick);
-            SampleController.Current.RegisterNewCommand("Show Email Items", ShowEmailSelectedClick);
-            SampleController.Current.RegisterNewCommand("Show Email Selection", ShowSelectedTextClick);
+            ShowcaseController.Current.RegisterNewCommand("Clear Tokens", ClearButtonClick);
+            ShowcaseController.Current.RegisterNewCommand("Show Email Items", ShowEmailSelectedClick);
+            ShowcaseController.Current.RegisterNewCommand("Show Email Selection", ShowSelectedTextClick);
         }
 
         public void OnXamlRendered(FrameworkElement control)

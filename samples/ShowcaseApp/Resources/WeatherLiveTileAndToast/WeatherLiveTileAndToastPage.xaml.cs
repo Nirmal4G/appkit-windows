@@ -3,14 +3,14 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.Notifications;
-using Microsoft.Toolkit.Uwp.SampleApp.Common;
+using Community.Windows.Notifications;
+using Community.Windows.ShowcaseApp.Common;
 using Windows.System.Profile;
 using Windows.UI.Notifications;
 using Windows.UI.StartScreen;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class WeatherLiveTileAndToastPage
     {

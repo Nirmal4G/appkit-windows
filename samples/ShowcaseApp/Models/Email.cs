@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Models
+namespace Community.Windows.ShowcaseApp.Models
 {
     public class Email
     {

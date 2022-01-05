@@ -5,7 +5,7 @@
 using System;
 using System.Text.Json.Serialization;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp
+namespace Community.Windows.ShowcaseApp
 {
     public class GitHubRelease
     {

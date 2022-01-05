@@ -7,7 +7,7 @@ using System.ComponentModel;
 using Microsoft.VisualStudio.DesignTools.Extensibility;
 using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.Design
+namespace Community.Windows.UI.Controls.Design
 {
     internal class WrapPanelMetadata : AttributeTableBuilder
     {

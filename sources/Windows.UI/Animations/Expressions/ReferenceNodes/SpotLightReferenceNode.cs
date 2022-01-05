@@ -4,12 +4,12 @@
 
 using Windows.UI.Composition;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations.Expressions
+namespace Community.Windows.UI.Animations.Expressions
 {
     /// <summary>
     /// Class SpotLightReferenceNode. This class cannot be inherited.
     /// </summary>
-    /// <seealso cref="Microsoft.Toolkit.Uwp.UI.Animations.Expressions.ReferenceNode" />
+    /// <seealso cref="Community.Windows.UI.Animations.Expressions.ReferenceNode" />
     public sealed class SpotLightReferenceNode : ReferenceNode
     {
         /// <summary>

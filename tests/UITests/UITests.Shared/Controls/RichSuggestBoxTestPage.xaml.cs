@@ -3,7 +3,7 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Generic;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.UI.Controls;
 using Windows.UI.Xaml.Controls;
 
 namespace UITests.App.Pages

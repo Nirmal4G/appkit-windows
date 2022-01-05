@@ -5,7 +5,7 @@
 using System;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.Input.GazeInteraction
+namespace Community.Windows.Input.GazeInteraction
 {
     /// <summary>
     /// Surrogate object attached to controls allowing subscription to per-control gaze events.

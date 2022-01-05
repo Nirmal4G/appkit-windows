@@ -17,7 +17,7 @@ using Windows.Devices.Enumeration;
 using Windows.System;
 using Windows.UI.Xaml.Media.Imaging;
 
-namespace Microsoft.Toolkit.Uwp.Connectivity
+namespace Community.Windows.Connectivity
 {
     /// <summary>
     /// Wrapper around <see cref="BluetoothLEDevice" /> to make it bindable.

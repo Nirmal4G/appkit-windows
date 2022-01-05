@@ -7,7 +7,7 @@ using Windows.UI.Composition;
 
 #pragma warning disable CS0419
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// A custom <see cref="Color"/> animation on a <see cref="DropShadow"/>.

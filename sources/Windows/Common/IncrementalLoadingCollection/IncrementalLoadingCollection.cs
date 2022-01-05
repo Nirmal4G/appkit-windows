@@ -9,11 +9,11 @@ using System.ComponentModel;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Collections;
+using Community.Common.Collections;
 using Windows.Foundation;
 using Windows.UI.Xaml.Data;
 
-namespace Microsoft.Toolkit.Uwp
+namespace Community.Windows
 {
     /// <summary>
     /// This class represents an <see cref="ObservableCollection{IType}"/> whose items can be loaded incrementally.
@@ -254,7 +254,7 @@ namespace Microsoft.Toolkit.Uwp
             _cancellationToken = cancellationToken;
 
             // TODO (2021.05.05): Make use common AsyncMutex class.
-            // AsyncMutex is located at Microsoft.Toolkit.Uwp.UI.Media/Extensions/System.Threading.Tasks/AsyncMutex.cs at the time of this note.
+            // AsyncMutex is located at Community.Windows.UI.Media/Extensions/System.Threading.Tasks/AsyncMutex.cs at the time of this note.
             await _mutex.WaitAsync();
             try
             {

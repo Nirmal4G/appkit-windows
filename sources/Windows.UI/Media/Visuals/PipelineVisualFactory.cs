@@ -4,13 +4,13 @@
 
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Uwp.UI.Media.Pipelines;
+using Community.Windows.UI.Media.Pipelines;
 using Windows.UI.Composition;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Markup;
 using Windows.UI.Xaml.Media;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media
+namespace Community.Windows.UI.Media
 {
     /// <summary>
     /// A builder type for <see cref="SpriteVisual"/> instance to apply to UI elements.

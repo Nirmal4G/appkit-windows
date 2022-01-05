@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Windows.System;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class DispatcherQueueHelperPage
     {

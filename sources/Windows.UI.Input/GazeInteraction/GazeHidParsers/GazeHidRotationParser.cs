@@ -5,7 +5,7 @@
 using Windows.Devices.HumanInterfaceDevice;
 using Windows.Devices.Input.Preview;
 
-namespace Microsoft.Toolkit.Uwp.Input.GazeInteraction.GazeHidParsers
+namespace Community.Windows.Input.GazeInteraction.GazeHidParsers
 {
     /// <summary>
     /// Hid Rotation Parser

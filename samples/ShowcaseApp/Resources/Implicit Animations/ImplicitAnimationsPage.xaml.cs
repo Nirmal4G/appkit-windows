@@ -4,13 +4,13 @@
 
 using System;
 using System.Numerics;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Animations;
+using Community.Windows.UI;
+using Community.Windows.UI.Animations;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Hosting;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -37,7 +37,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Toggle Visibility", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Toggle Visibility", (sender, args) =>
             {
                 if (_element != null)
                 {
@@ -45,7 +45,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Move Element", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Move Element", (sender, args) =>
             {
                 if (_element != null)
                 {
@@ -54,7 +54,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Scale Element", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Scale Element", (sender, args) =>
             {
                 if (_element != null)
                 {
@@ -66,7 +66,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Toggle animations", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Toggle animations", (sender, args) =>
             {
                 if (_element != null)
                 {

@@ -2,14 +2,14 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarButtons;
-using Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarFormats;
-using Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarFormats.RichText;
+using Community.Windows.UI.Controls.TextToolbarButtons;
+using Community.Windows.UI.Controls.TextToolbarFormats;
+using Community.Windows.UI.Controls.TextToolbarFormats.RichText;
 using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Toolbar for Editing Text attached to a RichEditBox

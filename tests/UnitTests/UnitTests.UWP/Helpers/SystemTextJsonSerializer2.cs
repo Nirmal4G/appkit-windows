@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Text.Json;
-using Microsoft.Toolkit.Helpers;
+using Community.Common.Helpers;
 
 namespace UnitTests.Helpers
 {
     /// <summary>
-    /// Example class of writing a new <see cref="Microsoft.Toolkit.Helpers.IObjectSerializer"/> that uses System.Text.Json.
+    /// Example class of writing a new <see cref="Community.Common.Helpers.IObjectSerializer"/> that uses System.Text.Json.
     /// Based on <see cref="IObjectSerializer"/>.
     /// </summary>
     internal class SystemTextJsonSerializer2 : IObjectSerializer

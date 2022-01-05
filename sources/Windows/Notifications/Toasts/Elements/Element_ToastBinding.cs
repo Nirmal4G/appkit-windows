@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Microsoft.Toolkit.Uwp.Notifications
+namespace Community.Windows.Notifications
 {
     internal sealed class Element_ToastBinding : IHaveXmlName, IHaveXmlNamedProperties, IHaveXmlChildren
     {

@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using Microsoft.Toolkit.Uwp.UI.Automation.Peers;
+using Community.Windows.UI.Automation.Peers;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.System;
@@ -14,7 +14,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Automation.Peers;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// A container that hosts <see cref="BladeItem"/> controls in a horizontal scrolling list

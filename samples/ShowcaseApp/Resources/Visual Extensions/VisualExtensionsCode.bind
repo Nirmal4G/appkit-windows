@@ -1,18 +1,18 @@
 <Page
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:Microsoft.Toolkit.Uwp.SampleApp.SamplePages"
+    xmlns:local="using:Community.Windows.ShowcaseApp.Samples"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:ui="using:Microsoft.Toolkit.Uwp.UI"
+    xmlns:ui="using:Community.Windows.UI"
     xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
     xmlns:interactions="using:Microsoft.Xaml.Interactions.Core"
-    xmlns:ani="using:Microsoft.Toolkit.Uwp.UI.Animations"
-    xmlns:behaviors="using:Microsoft.Toolkit.Uwp.UI.Behaviors"
+    xmlns:ani="using:Community.Windows.UI.Animations"
+    xmlns:behaviors="using:Community.Windows.UI.Behaviors"
     mc:Ignorable="d">
 
   <StackPanel Spacing="120" VerticalAlignment="Center">
-    
+
     <!--This is a static element, with some Visual properties being modified through
         the VisualExtensions class. You can modify their values to see how the position,
         orientation and alignment of the Border element changes.-->
@@ -26,7 +26,7 @@
             ui:VisualExtensions.Scale="2, 0.5, 1"
             ui:VisualExtensions.NormalizedCenterPoint="0.5"
             ui:VisualExtensions.Translation="20,12,0"/>
-    
+
     <!--This Button demonstrates the VisualExtensions.Translation property in combination with a translation
         animation. The Translation property is set to indicate the starting position of the element (relative
         to its offset), and the animation will modify that to reach the specified translation value. Note how

@@ -6,7 +6,7 @@ using System;
 
 #nullable enable
 
-namespace Microsoft.Toolkit.Uwp.Notifications
+namespace Community.Windows.Notifications
 {
     /// <summary>
     /// A helper class that can be used to format <see cref="Enum"/> values.

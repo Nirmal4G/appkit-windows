@@ -8,7 +8,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.ColorPickerConverters
+namespace Community.Windows.UI.Controls.ColorPickerConverters
 {
     /// <summary>
     /// Gets a color, either black or white, depending on the brightness of the supplied color.

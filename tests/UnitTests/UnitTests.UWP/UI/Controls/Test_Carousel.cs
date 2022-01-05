@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 using Windows.UI.Xaml.Automation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Windows.UI.Xaml.Automation.Peers;
-using Microsoft.Toolkit.Uwp;
-using Microsoft.Toolkit.Uwp.UI.Automation.Peers;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows;
+using Community.Windows.UI.Automation.Peers;
+using Community.Windows.UI.Controls;
 
 namespace UnitTests.UWP.UI.Controls
 {

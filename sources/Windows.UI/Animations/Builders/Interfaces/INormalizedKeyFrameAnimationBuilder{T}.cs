@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using Windows.UI.Xaml.Media.Animation;
-using static Microsoft.Toolkit.Uwp.UI.Animations.AnimationExtensions;
+using static Community.Windows.UI.Animations.AnimationExtensions;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// An interface for an animation builder using normalized keyframes.

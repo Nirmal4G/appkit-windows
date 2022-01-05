@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Data
+namespace Community.Windows.ShowcaseApp.Data
 {
     public class DataGridDataItem : INotifyDataErrorInfo, IComparable
     {

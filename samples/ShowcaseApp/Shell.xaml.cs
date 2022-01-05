@@ -3,15 +3,15 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Uwp.Helpers;
-using Microsoft.Toolkit.Uwp.SampleApp.Pages;
-using Microsoft.Toolkit.Uwp.UI;
+using Community.Windows.Helpers;
+using Community.Windows.ShowcaseApp.Pages;
+using Community.Windows.UI;
 using Windows.System;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp
+namespace Community.Windows.ShowcaseApp
 {
     public sealed partial class Shell
     {
@@ -52,7 +52,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
             }
             else
             {
-                NavigationFrame.Navigate(typeof(SampleController), sample);
+                NavigationFrame.Navigate(typeof(ShowcaseController), sample);
                 TrackingManager.TrackEvent("sample", "navigation", sample.Name);
             }
         }

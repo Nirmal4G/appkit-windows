@@ -4,11 +4,11 @@
 
 using System;
 using System.Diagnostics;
-using Microsoft.Toolkit.Uwp.UI.Automation.Peers;
-using Microsoft.Toolkit.Uwp.UI.Controls.DataGridInternals;
-using Microsoft.Toolkit.Uwp.UI.Controls.Utilities;
-using Microsoft.Toolkit.Uwp.UI.Utilities;
-using Microsoft.Toolkit.Uwp.Utilities;
+using Community.Windows.UI.Automation.Peers;
+using Community.Windows.UI.Controls.DataGridInternals;
+using Community.Windows.UI.Controls.Utilities;
+using Community.Windows.UI.Utilities;
+using Community.Windows.Utilities;
 using Windows.Devices.Input;
 using Windows.Foundation;
 using Windows.UI.Core;
@@ -22,7 +22,7 @@ using Windows.UI.Xaml.Media;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.Primitives
+namespace Community.Windows.UI.Controls.Primitives
 {
     /// <summary>
     /// Represents an individual <see cref="DataGrid"/> column header.
@@ -80,7 +80,7 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls.Primitives
         }
 
         /// <summary>
-        /// Identifies the <see cref="Microsoft.Toolkit.Uwp.UI.Controls.Primitives.DataGridColumnHeader.SeparatorBrush"/> dependency property.
+        /// Identifies the <see cref="Community.Windows.UI.Controls.Primitives.DataGridColumnHeader.SeparatorBrush"/> dependency property.
         /// </summary>
         public static readonly DependencyProperty SeparatorBrushProperty =
             DependencyProperty.Register(
@@ -99,7 +99,7 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls.Primitives
         }
 
         /// <summary>
-        /// Identifies the <see cref="Microsoft.Toolkit.Uwp.UI.Controls.Primitives.DataGridColumnHeader.SeparatorVisibility"/> dependency property.
+        /// Identifies the <see cref="Community.Windows.UI.Controls.Primitives.DataGridColumnHeader.SeparatorVisibility"/> dependency property.
         /// </summary>
         public static readonly DependencyProperty SeparatorVisibilityProperty =
             DependencyProperty.Register(

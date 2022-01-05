@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using Microsoft.Toolkit.Uwp.UI;
+using Community.Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// Textbox Mask sample page
@@ -28,7 +28,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Apply Full Mask", (s, e2) =>
+            ShowcaseController.Current.RegisterNewCommand("Apply Full Mask", (s, e2) =>
             {
                 if (alphaTextBox != null)
                 {
@@ -36,7 +36,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Apply Partial Mask", (s, e2) =>
+            ShowcaseController.Current.RegisterNewCommand("Apply Partial Mask", (s, e2) =>
             {
                 if (alphaTextBox != null)
                 {

@@ -5,10 +5,10 @@
 using System;
 using System.Diagnostics.Contracts;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Uwp.UI.Media.Pipelines;
+using Community.Windows.UI.Media.Pipelines;
 using Windows.System;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media
+namespace Community.Windows.UI.Media
 {
     /// <summary>
     /// A <see langword="delegate"/> that represents a custom effect setter that can be applied to a <see cref="XamlCompositionBrush"/> instance

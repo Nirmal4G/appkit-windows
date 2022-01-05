@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Mvvm.Messaging;
+using Community.Mvvm.Messaging;
 using UITests.App.Pages;
 using Windows.ApplicationModel.Activation;
 using Windows.ApplicationModel.AppService;

@@ -5,11 +5,11 @@
 using System;
 using System.Text.RegularExpressions;
 using Microsoft.Graphics.Canvas;
-using Microsoft.Toolkit.Uwp.UI.Media.Geometry.Core;
-using Microsoft.Toolkit.Uwp.UI.Media.Geometry.Elements.Brush;
-using Microsoft.Toolkit.Uwp.UI.Media.Geometry.Parsers;
+using Community.Windows.UI.Media.Geometry.Core;
+using Community.Windows.UI.Media.Geometry.Elements.Brush;
+using Community.Windows.UI.Media.Geometry.Parsers;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Geometry.Elements.Stroke
+namespace Community.Windows.UI.Media.Geometry.Elements.Stroke
 {
     /// <summary>
     /// Represents a Stroke Element.

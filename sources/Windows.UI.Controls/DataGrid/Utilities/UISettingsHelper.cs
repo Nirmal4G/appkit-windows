@@ -4,7 +4,7 @@
 
 using Windows.UI.ViewManagement;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.Utilities
+namespace Community.Windows.UI.Controls.Utilities
 {
     /// <summary>
     /// Helper class for accessing UISettings properties.

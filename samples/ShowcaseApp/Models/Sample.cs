@@ -18,15 +18,15 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 // TODO Reintroduce graph controls
-// using Microsoft.Toolkit.Graph.Converters;
-// using Microsoft.Toolkit.Graph.Providers;
-using Microsoft.Toolkit.Uwp.Helpers;
-using Microsoft.Toolkit.Uwp.Input.GazeInteraction;
-using Microsoft.Toolkit.Uwp.SampleApp.Models;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Animations;
-using Microsoft.Toolkit.Uwp.UI.Controls;
-using Microsoft.Toolkit.Uwp.UI.Media;
+// using Community.Graph.Converters;
+// using Community.Graph.Providers;
+using Community.Windows.Helpers;
+using Community.Windows.Input.GazeInteraction;
+using Community.Windows.ShowcaseApp.Models;
+using Community.Windows.UI;
+using Community.Windows.UI.Animations;
+using Community.Windows.UI.Controls;
+using Community.Windows.UI.Media;
 using Microsoft.UI.Xaml;
 using Windows.ApplicationModel;
 using Windows.Foundation.Metadata;
@@ -34,11 +34,11 @@ using Windows.Storage;
 using Windows.Storage.Streams;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp
+namespace Community.Windows.ShowcaseApp
 {
     public class Sample
     {
-        private const string _docsOnlineRoot = "https://raw.githubusercontent.com/MicrosoftDocs/WindowsCommunityToolkitDocs/";
+        private const string _docsOnlineRoot = "https://raw.githubusercontent.com/nirin/appkit-windows-docs/";
         private const string _cacheSHAKey = "docs-cache-sha";
 
         private static HttpClient client = new HttpClient();
@@ -100,7 +100,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
         /// <summary>
         /// Gets the Page Type.
         /// </summary>
-        public Type PageType => System.Type.GetType("Microsoft.Toolkit.Uwp.SampleApp.SamplePages." + Type);
+        public Type PageType => System.Type.GetType("Community.Windows.ShowcaseApp.Samples." + Type);
 
         /// <summary>
         /// Gets or sets the Category Name.
@@ -119,7 +119,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
 #if !REMOTE_DOCS
                 _codeUrl = value;
 #else
-                var regex = new Regex("^https://github.com/CommunityToolkit/WindowsCommunityToolkit/(tree|blob)/(?<branch>.+?)/(?<path>.*)");
+                var regex = new Regex("^https://github.com/nirin/appkit-windows/(tree|blob)/(?<branch>.+?)/(?<path>.*)");
                 var docMatch = regex.Match(value);
 
                 var branch = string.Empty;
@@ -137,7 +137,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
                 else
                 {
                     var packageVersion = Package.Current.Id.Version.ToFormattedString(3);
-                    _codeUrl = $"https://github.com/Microsoft/WindowsCommunityToolkit/tree/rel/{packageVersion}/{path}";
+                    _codeUrl = $"https://github.com/nirin/appkit-windows/tree/rel/{packageVersion}/{path}";
                 }
 #endif
             }
@@ -197,7 +197,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
 
         public async Task<string> GetCSharpSourceAsync()
         {
-            using (var codeStream = await StreamHelper.GetPackagedFileStreamAsync(CodeFile.StartsWith('/') ? CodeFile : $"SamplePages/{Name}/{CodeFile}"))
+            using (var codeStream = await StreamHelper.GetPackagedFileStreamAsync(CodeFile.StartsWith('/') ? CodeFile : $"Resources/{Name}/{CodeFile}"))
             {
                 using (var streamReader = new StreamReader(codeStream.AsStream()))
                 {
@@ -480,7 +480,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
             if (_propertyDescriptor == null)
             {
                 // Get Xaml code
-                using (var codeStream = await StreamHelper.GetPackagedFileStreamAsync(XamlCodeFile.StartsWith('/') ? XamlCodeFile : $"SamplePages/{Name}/{XamlCodeFile}"))
+                using (var codeStream = await StreamHelper.GetPackagedFileStreamAsync(XamlCodeFile.StartsWith('/') ? XamlCodeFile : $"Resources/{Name}/{XamlCodeFile}"))
                 {
                     XamlCode = await codeStream.ReadTextAsync(Encoding.UTF8);
 
@@ -690,20 +690,20 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
             var targets = new Type[]
             {
                 VerticalAlignment.Center.GetType(), // Windows
-                StackMode.Replace.GetType(), // Microsoft.Toolkit.Uwp.UI.Controls.Core
+                StackMode.Replace.GetType(), // Community.Windows.UI.Controls.Core
 
               // TODO Reintroduce graph controls
-              // typeof(UserToPersonConverter)) // Search in Microsoft.Toolkit.Graph.Controls
-                ScrollItemPlacement.Default.GetType(), // Search in Microsoft.Toolkit.Uwp.UI
-                EasingType.Default.GetType(), // Microsoft.Toolkit.Uwp.UI.Animations
-                ImageBlendMode.Multiply.GetType(), // Search in Microsoft.Toolkit.Uwp.UI.Media
-                Interaction.Enabled.GetType(), // Microsoft.Toolkit.Uwp.Input.GazeInteraction
-                DataGridGridLinesVisibility.None.GetType(), // Microsoft.Toolkit.Uwp.UI.Controls.DataGrid
-                GridSplitter.GridResizeDirection.Auto.GetType(), // Microsoft.Toolkit.Uwp.UI.Controls.Layout
-                typeof(MarkdownTextBlock), // Microsoft.Toolkit.Uwp.UI.Controls.Markdown
-                BitmapFileFormat.Bmp.GetType(), // Microsoft.Toolkit.Uwp.UI.Controls.Media
-                typeof(AlphaMode), // Microsoft.Toolkit.Uwp.UI.Media
-                StretchChild.Last.GetType() // Microsoft.Toolkit.Uwp.UI.Controls.Primitivs
+              // typeof(UserToPersonConverter)) // Search in Community.Graph.Controls
+                ScrollItemPlacement.Default.GetType(), // Search in Community.Windows.UI
+                EasingType.Default.GetType(), // Community.Windows.UI.Animations
+                ImageBlendMode.Multiply.GetType(), // Search in Community.Windows.UI.Media
+                Interaction.Enabled.GetType(), // Community.Windows.Input.GazeInteraction
+                DataGridGridLinesVisibility.None.GetType(), // Community.Windows.UI.Controls.DataGrid
+                GridSplitter.GridResizeDirection.Auto.GetType(), // Community.Windows.UI.Controls.Layout
+                typeof(MarkdownTextBlock), // Community.Windows.UI.Controls.Markdown
+                BitmapFileFormat.Bmp.GetType(), // Community.Windows.UI.Controls.Media
+                typeof(AlphaMode), // Community.Windows.UI.Media
+                StretchChild.Last.GetType() // Community.Windows.UI.Controls.Primitivs
             };
 
             return targets.SelectMany(t => t.Assembly.ExportedTypes)
@@ -714,7 +714,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
         {
             try
             {
-                var branchEndpoint = "https://api.github.com/repos/microsoftdocs/windowscommunitytoolkitdocs/git/refs/heads/live";
+                var branchEndpoint = "https://api.github.com/repos/nirin/appkit-windows-docs/git/refs/heads/live";
 
                 var request = new HttpRequestMessage(HttpMethod.Get, branchEndpoint);
                 request.Headers.Add("User-Agent", "Windows Community Toolkit Sample App");

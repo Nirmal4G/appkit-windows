@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarButtons;
+using Community.Windows.UI.Controls.TextToolbarButtons;
 using Windows.UI.Text;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarFormats
+namespace Community.Windows.UI.Controls.TextToolbarFormats
 {
     /// <summary>
     /// Manipulates Selected Text into an applied format according to default buttons.

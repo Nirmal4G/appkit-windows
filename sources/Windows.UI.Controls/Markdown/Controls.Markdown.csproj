@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>uap10.0.17763</TargetFrameworks>
-    <RootNamespace>Microsoft.Toolkit.Uwp.UI.Controls</RootNamespace>
+    <RootNamespace>Community.Windows.UI.Controls</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -14,8 +14,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI\Microsoft.Toolkit.Uwp.UI.csproj" />
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Controls.Core\Microsoft.Toolkit.Uwp.UI.Controls.Core.csproj" />
+    <ProjectReference Include="..\Community.Windows.UI\Community.Windows.UI.csproj" />
+    <ProjectReference Include="..\Community.Windows.UI.Controls.Core\Community.Windows.UI.Controls.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,8 +33,8 @@
   <Target Name="_RemoveUnwantedResources" AfterTargets="GetPackagingOutputs">
     <!--<Message Text="Package Files Before: @(PackagingOutputs)" Importance="High" />-->
     <ItemGroup>
-      <PackagingOutputs Remove="@(PackagingOutputs)" Condition="'%(PackagingOutputs.Filename)%(PackagingOutputs.Extension)' == 'Microsoft.Toolkit.Uwp.UI.Controls.Core.pri'" />
-      <PackagingOutputs Remove="@(PackagingOutputs)" Condition="$([System.String]::new('%(PackagingOutputs.TargetPath)').StartsWith('Microsoft.Toolkit.Uwp.UI.Controls.Core\'))" />
+      <PackagingOutputs Remove="@(PackagingOutputs)" Condition="'%(PackagingOutputs.Filename)%(PackagingOutputs.Extension)' == 'Community.Windows.UI.Controls.Core.pri'" />
+      <PackagingOutputs Remove="@(PackagingOutputs)" Condition="$([System.String]::new('%(PackagingOutputs.TargetPath)').StartsWith('Community.Windows.UI.Controls.Core\'))" />
     </ItemGroup>
     <!--<Message Text="Package Files After: @(PackagingOutputs)" Importance="High" />-->
   </Target>

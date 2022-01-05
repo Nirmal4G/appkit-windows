@@ -5,12 +5,12 @@
 using System;
 using System.Diagnostics;
 using System.Reflection;
-using Microsoft.Toolkit.Uwp.UI.Automation.Peers;
-using Microsoft.Toolkit.Uwp.UI.Controls.DataGridInternals;
-using Microsoft.Toolkit.Uwp.UI.Controls.Primitives;
-using Microsoft.Toolkit.Uwp.UI.Controls.Utilities;
-using Microsoft.Toolkit.Uwp.UI.Utilities;
-using Microsoft.Toolkit.Uwp.Utilities;
+using Community.Windows.UI.Automation.Peers;
+using Community.Windows.UI.Controls.DataGridInternals;
+using Community.Windows.UI.Controls.Primitives;
+using Community.Windows.UI.Controls.Utilities;
+using Community.Windows.UI.Utilities;
+using Community.Windows.Utilities;
 using Windows.Devices.Input;
 using Windows.Foundation;
 using Windows.UI.Xaml;
@@ -22,7 +22,7 @@ using Windows.UI.Xaml.Shapes;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Represents a <see cref="DataGrid"/> row.
@@ -331,7 +331,7 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls
         }
 
         /// <summary>
-        /// Identifies the <see cref="Microsoft.Toolkit.Uwp.UI.Controls.DataGridRow.HeaderStyle"/> dependency property.
+        /// Identifies the <see cref="Community.Windows.UI.Controls.DataGridRow.HeaderStyle"/> dependency property.
         /// </summary>
         public static readonly DependencyProperty HeaderStyleProperty =
             DependencyProperty.Register(

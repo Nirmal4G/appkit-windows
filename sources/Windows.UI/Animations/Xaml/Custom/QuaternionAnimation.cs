@@ -4,7 +4,7 @@
 
 using System.Numerics;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// A custom <see cref="Quaternion"/> animation.

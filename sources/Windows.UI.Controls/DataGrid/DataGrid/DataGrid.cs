@@ -12,13 +12,13 @@ using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using System.Security;
 using System.Text;
-using Microsoft.Toolkit.Uwp.UI.Automation.Peers;
-using Microsoft.Toolkit.Uwp.UI.Controls.DataGridInternals;
-using Microsoft.Toolkit.Uwp.UI.Controls.Primitives;
-using Microsoft.Toolkit.Uwp.UI.Controls.Utilities;
-using Microsoft.Toolkit.Uwp.UI.Data.Utilities;
-using Microsoft.Toolkit.Uwp.UI.Utilities;
-using Microsoft.Toolkit.Uwp.Utilities;
+using Community.Windows.UI.Automation.Peers;
+using Community.Windows.UI.Controls.DataGridInternals;
+using Community.Windows.UI.Controls.Primitives;
+using Community.Windows.UI.Controls.Utilities;
+using Community.Windows.UI.Data.Utilities;
+using Community.Windows.UI.Utilities;
+using Community.Windows.Utilities;
 using Windows.ApplicationModel.DataTransfer;
 using Windows.Devices.Input;
 using Windows.Foundation;
@@ -36,7 +36,7 @@ using Windows.UI.Xaml.Media.Animation;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Control to represent data in columns and rows.
@@ -291,7 +291,7 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls
         public event EventHandler<DataGridCellEditEndingEventArgs> CellEditEnding;
 
         /// <summary>
-        /// Occurs when the <see cref="Microsoft.Toolkit.Uwp.UI.Controls.DataGridColumn.DisplayIndex"/>
+        /// Occurs when the <see cref="Community.Windows.UI.Controls.DataGridColumn.DisplayIndex"/>
         /// property of a column changes.
         /// </summary>
         public event EventHandler<DataGridColumnEventArgs> ColumnDisplayIndexChanged;
@@ -379,7 +379,7 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls
         public event SelectionChangedEventHandler SelectionChanged;
 
         /// <summary>
-        /// Occurs when the <see cref="Microsoft.Toolkit.Uwp.UI.Controls.DataGridColumn"/> sorting request is triggered.
+        /// Occurs when the <see cref="Community.Windows.UI.Controls.DataGridColumn"/> sorting request is triggered.
         /// </summary>
         public event EventHandler<DataGridColumnEventArgs> Sorting;
 

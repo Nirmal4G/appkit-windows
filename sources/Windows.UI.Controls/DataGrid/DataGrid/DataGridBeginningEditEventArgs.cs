@@ -5,10 +5,10 @@
 using System.ComponentModel;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
-    /// Provides data for the <see cref="E:Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.BeginningEdit" /> event.
+    /// Provides data for the <see cref="E:Community.Windows.UI.Controls.DataGrid.BeginningEdit" /> event.
     /// </summary>
     public class DataGridBeginningEditEventArgs : CancelEventArgs
     {

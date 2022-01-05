@@ -9,7 +9,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer;
 using System.Linq;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
-using Microsoft.Toolkit.Uwp.Helpers;
+using Community.Windows.Helpers;
 
 namespace UnitTests.Helpers
 {

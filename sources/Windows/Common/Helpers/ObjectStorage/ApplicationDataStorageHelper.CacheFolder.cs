@@ -4,10 +4,10 @@
 
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Helpers;
+using Community.Common.Helpers;
 using Windows.Storage;
 
-namespace Microsoft.Toolkit.Uwp.Helpers
+namespace Community.Windows.Helpers
 {
     /// <summary>
     /// An extension of ApplicationDataStorageHelper with additional features for interop with the LocalCacheFolder.

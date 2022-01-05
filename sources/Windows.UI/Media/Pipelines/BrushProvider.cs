@@ -7,7 +7,7 @@ using System.Diagnostics.Contracts;
 using System.Threading.Tasks;
 using Windows.UI.Composition;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Pipelines
+namespace Community.Windows.UI.Media.Pipelines
 {
     /// <summary>
     /// A simple container <see langword="class"/> used to store info on a custom composition effect to create

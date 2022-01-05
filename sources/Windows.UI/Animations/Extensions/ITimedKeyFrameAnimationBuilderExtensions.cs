@@ -6,9 +6,9 @@
 
 using System;
 using Windows.UI.Xaml.Media.Animation;
-using static Microsoft.Toolkit.Uwp.UI.Animations.AnimationExtensions;
+using static Community.Windows.UI.Animations.AnimationExtensions;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// An extension <see langword="class"/> for the <see cref="ITimedKeyFrameAnimationBuilder{T}"/> type.

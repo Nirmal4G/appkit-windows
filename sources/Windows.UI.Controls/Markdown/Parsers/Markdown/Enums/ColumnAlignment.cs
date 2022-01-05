@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Toolkit.Parsers.Markdown
+namespace Community.Parsers.Markdown
 {
     /// <summary>
     /// The alignment of content in a table column.

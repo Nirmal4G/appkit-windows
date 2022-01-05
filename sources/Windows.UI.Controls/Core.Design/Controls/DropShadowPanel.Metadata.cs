@@ -10,7 +10,7 @@ using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
 using Microsoft.VisualStudio.DesignTools.Extensibility.Model;
 using Microsoft.VisualStudio.DesignTools.Extensibility.PropertyEditing;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.Design
+namespace Community.Windows.UI.Controls.Design
 
 {
     internal class DropShadowPanelDefaults : DefaultInitializer

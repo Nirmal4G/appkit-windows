@@ -5,13 +5,13 @@
 using System;
 using System.Globalization;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// The <see cref="AspectRatio"/> structure is used by the <see cref="ConstrainedBox"/> control to
     /// define a specific ratio to restrict its content.
     /// </summary>
-    [Windows.Foundation.Metadata.CreateFromString(MethodName = "Microsoft.Toolkit.Uwp.UI.Controls.AspectRatio.ConvertToAspectRatio")]
+    [Windows.Foundation.Metadata.CreateFromString(MethodName = "Community.Windows.UI.Controls.AspectRatio.ConvertToAspectRatio")]
     public readonly struct AspectRatio
     {
         /// <summary>

@@ -3,11 +3,11 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.UI.Animations;
+using Community.Windows.UI.Animations;
 using Microsoft.Xaml.Interactivity;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.UI.Behaviors
+namespace Community.Windows.UI.Behaviors
 {
     /// <summary>
     /// An <see cref="IAction"/> implementation that can trigger a target <see cref="AnimationSet"/> instance.

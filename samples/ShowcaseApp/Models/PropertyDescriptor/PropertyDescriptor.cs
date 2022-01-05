@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using System.Dynamic;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Models
+namespace Community.Windows.ShowcaseApp.Models
 {
     public class PropertyDescriptor
     {

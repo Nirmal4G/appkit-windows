@@ -10,10 +10,10 @@ using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Geometry;
-using Microsoft.Toolkit.Uwp.UI.Media.Geometry.Core;
-using Microsoft.Toolkit.Uwp.UI.Media.Geometry.Elements.Path;
+using Community.Windows.UI.Media.Geometry.Core;
+using Community.Windows.UI.Media.Geometry.Elements.Path;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Geometry.Parsers
+namespace Community.Windows.UI.Media.Geometry.Parsers
 {
     /// <summary>
     /// Parser for CanvasGeometry.

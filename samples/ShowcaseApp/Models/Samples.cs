@@ -9,9 +9,9 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Uwp.Helpers;
+using Community.Windows.Helpers;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp
+namespace Community.Windows.ShowcaseApp
 {
     public static class Samples
     {
@@ -55,7 +55,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
             if (_samplesCategories == null)
             {
                 List<SampleCategory> allCategories;
-                using (var jsonStream = await StreamHelper.GetPackagedFileStreamAsync("SamplePages/samples.json"))
+                using (var jsonStream = await StreamHelper.GetPackagedFileStreamAsync("Resources/samples.json"))
                 {
                     allCategories = await JsonSerializer.DeserializeAsync<List<SampleCategory>>(jsonStream.AsStream(), new JsonSerializerOptions
                     {

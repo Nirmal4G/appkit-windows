@@ -10,7 +10,7 @@ using System.Linq;
 using System.Reflection;
 using Windows.UI.Xaml.Data;
 
-namespace Microsoft.Toolkit.Uwp.Utilities
+namespace Community.Windows.Utilities
 {
     internal static class TypeHelper
     {

@@ -7,13 +7,13 @@ using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Numerics;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Uwp.UI.Animations;
+using Community.Windows.UI.Animations;
 using Windows.Graphics.Effects;
 using Windows.UI.Composition;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Hosting;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Pipelines
+namespace Community.Windows.UI.Media.Pipelines
 {
     /// <summary>
     /// A <see langword="delegate"/> that represents a custom effect property setter that can be applied to a <see cref="CompositionBrush"/>

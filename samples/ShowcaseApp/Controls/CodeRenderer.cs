@@ -4,13 +4,13 @@
 
 using System;
 using ColorCode;
-using Microsoft.Toolkit.Uwp.Helpers;
+using Community.Windows.Helpers;
 using Windows.ApplicationModel.DataTransfer;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Controls
+namespace Community.Windows.ShowcaseApp.Controls
 {
     public class CodeRenderer : Control
     {
@@ -30,7 +30,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.Controls
         {
             DefaultStyleKey = typeof(CodeRenderer);
             _theme = SystemTheme();
-            SampleController.Current.ThemeChanged += Current_ThemeChanged;
+            ShowcaseController.Current.ThemeChanged += Current_ThemeChanged;
         }
 
         /// <summary>
@@ -108,7 +108,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.Controls
 
         private async void PrintButton_Click(object sender, RoutedEventArgs e)
         {
-            SampleController.Current.DisplayWaitRing = true;
+            ShowcaseController.Current.DisplayWaitRing = true;
 
             var printBlock = new RichTextBlock
             {
@@ -136,7 +136,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.Controls
 
             _printHelper.Dispose();
 
-            SampleController.Current.DisplayWaitRing = false;
+            ShowcaseController.Current.DisplayWaitRing = false;
         }
 
         private async void PrintHelper_OnPrintSucceeded()
@@ -183,7 +183,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.Controls
         /// <returns>Element Theme</returns>
         private ElementTheme SystemTheme()
         {
-            return SampleController.Current.SystemTheme() == ApplicationTheme.Dark ? ElementTheme.Dark : ElementTheme.Light;
+            return ShowcaseController.Current.SystemTheme() == ApplicationTheme.Dark ? ElementTheme.Dark : ElementTheme.Light;
         }
     }
 }

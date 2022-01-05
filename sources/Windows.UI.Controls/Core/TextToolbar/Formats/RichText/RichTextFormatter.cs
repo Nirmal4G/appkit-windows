@@ -2,13 +2,13 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarButtons;
-using Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarButtons.Common;
+using Community.Windows.UI.Controls.TextToolbarButtons;
+using Community.Windows.UI.Controls.TextToolbarButtons.Common;
 using Windows.System;
 using Windows.UI.Text;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarFormats.RichText
+namespace Community.Windows.UI.Controls.TextToolbarFormats.RichText
 {
     /// <summary>
     /// Rudimentary showcase of RichText and Toggleable Toolbar Buttons.
@@ -119,7 +119,7 @@ namespace Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarFormats.RichText
                 StrikeButton = CommonButtons.Strikethrough;
                 Underline = new ToolbarButton
                 {
-                    ToolTip = "WCT_TextToolbar_UnderlineLabel".GetLocalized("Microsoft.Toolkit.Uwp.UI.Controls.Core/Resources"),
+                    ToolTip = "WCT_TextToolbar_UnderlineLabel".GetLocalized("Community.Windows.UI.Controls.Core/Resources"),
                     Icon = new SymbolIcon { Symbol = Symbol.Underline },
                     ShortcutKey = VirtualKey.U,
                     Activation = ((RichTextButtonActions)ButtonActions).FormatUnderline

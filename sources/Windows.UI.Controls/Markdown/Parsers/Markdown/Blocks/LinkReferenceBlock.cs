@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Parsers.Core;
-using Microsoft.Toolkit.Parsers.Markdown.Inlines;
+using Community.Parsers.Core;
+using Community.Parsers.Markdown.Inlines;
 
-namespace Microsoft.Toolkit.Parsers.Markdown.Blocks
+namespace Community.Parsers.Markdown.Blocks
 {
     /// <summary>
     /// Represents the target of a reference ([ref][]).

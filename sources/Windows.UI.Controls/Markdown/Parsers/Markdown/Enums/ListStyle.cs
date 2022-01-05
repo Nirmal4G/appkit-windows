@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Toolkit.Parsers.Markdown
+namespace Community.Parsers.Markdown
 {
     /// <summary>
     /// This specifies the type of style the List will be.

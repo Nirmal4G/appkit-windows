@@ -11,7 +11,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Shapes;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.Markdown.Render
+namespace Community.Windows.UI.Controls.Markdown.Render
 {
     /// <summary>
     /// A custom panel control that arranges elements similar to how an HTML table would.

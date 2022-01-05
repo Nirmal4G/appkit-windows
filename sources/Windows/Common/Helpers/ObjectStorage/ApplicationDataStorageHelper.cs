@@ -7,13 +7,13 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Helpers;
+using Community.Common.Helpers;
 using Windows.Storage;
 using Windows.System;
 
 #nullable enable
 
-namespace Microsoft.Toolkit.Uwp.Helpers
+namespace Community.Windows.Helpers
 {
     /// <summary>
     /// Storage helper for files and folders living in Windows.Storage.ApplicationData storage endpoints.

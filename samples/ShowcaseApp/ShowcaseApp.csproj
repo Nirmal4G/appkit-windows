@@ -6,8 +6,8 @@
     <ProjectGuid>{719C43C6-8753-4395-ADAA-2FCC70F76BF3}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Microsoft.Toolkit.Uwp.SampleApp</RootNamespace>
-    <AssemblyName>Microsoft.Toolkit.Uwp.SampleApp</AssemblyName>
+    <RootNamespace>Community.Windows.ShowcaseApp</RootNamespace>
+    <AssemblyName>Community.Windows.ShowcaseApp</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
@@ -105,11 +105,11 @@
     <PackageReference Include="Microsoft.Services.Store.Engagement">
       <Version>10.1901.28001</Version>
     </PackageReference>
-    <PackageReference Include="Microsoft.Toolkit">
+    <PackageReference Include="Community.Toolkit.Common">
       <Version>7.1.2</Version>
     </PackageReference>
     <!-- TODO Reintroduce graph controls
-    <PackageReference Include="Microsoft.Toolkit.Graph.Controls">
+    <PackageReference Include="Community.Windows.UI.Controls.Graph">
       <Version>6.1.0-build.6</Version>
     </PackageReference>
     -->
@@ -273,380 +273,380 @@
     <Content Include="Icons\More.png" />
     <Content Include="Icons\Notifications.png" />
     <Content Include="Icons\Services.png" />
-    <Content Include="SamplePages\Animations\Effects\EffectAnimations.png">
+    <Content Include="Resources\Animations\Effects\EffectAnimations.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="SamplePages\Graph\LoginButton.png" />
-    <Content Include="SamplePages\Graph\PeoplePicker.png" />
-    <Content Include="SamplePages\Graph\PersonView.png" />
-    <Content Include="SamplePages\Primitives\ConstrainedBox.png" />
-    <Content Include="SamplePages\Primitives\SwitchPresenter.png" />
-    <Content Include="SamplePages\RichSuggestBox\RichSuggestBox.png" />
-    <Content Include="SamplePages\TabbedCommandBar\TabbedCommandBar.png" />
-    <Content Include="SamplePages\Animations\Effects\FadeBehavior.png" />
-    <Content Include="SamplePages\ColorPicker\ColorPicker.png" />
-    <Content Include="SamplePages\MetadataControl\MetadataControl.png" />
-    <Content Include="SamplePages\TilesBrush\TilesBrush.png" />
-    <Content Include="SamplePages\Eyedropper\Eyedropper.png" />
-    <Content Include="SamplePages\OnDevice\OnDevice.png" />
-    <Content Include="SamplePages\AcrylicBrush\AcrylicBrush.png" />
-    <Content Include="SamplePages\CanvasPathGeometry\CanvasPathGeometry.png" />
-    <Content Include="SamplePages\PipelineBrush\PipelineBrush.png" />
-    <Content Include="SamplePages\RemoteDeviceHelper\RemoteDeviceHelper.png" />
-    <Content Include="SamplePages\ImageCropper\ImageCropper.png" />
-    <Content Include="SamplePages\StaggeredLayout\StaggeredLayout.png" />
+    <Content Include="Resources\Graph\LoginButton.png" />
+    <Content Include="Resources\Graph\PeoplePicker.png" />
+    <Content Include="Resources\Graph\PersonView.png" />
+    <Content Include="Resources\Primitives\ConstrainedBox.png" />
+    <Content Include="Resources\Primitives\SwitchPresenter.png" />
+    <Content Include="Resources\RichSuggestBox\RichSuggestBox.png" />
+    <Content Include="Resources\TabbedCommandBar\TabbedCommandBar.png" />
+    <Content Include="Resources\Animations\Effects\FadeBehavior.png" />
+    <Content Include="Resources\ColorPicker\ColorPicker.png" />
+    <Content Include="Resources\MetadataControl\MetadataControl.png" />
+    <Content Include="Resources\TilesBrush\TilesBrush.png" />
+    <Content Include="Resources\Eyedropper\Eyedropper.png" />
+    <Content Include="Resources\OnDevice\OnDevice.png" />
+    <Content Include="Resources\AcrylicBrush\AcrylicBrush.png" />
+    <Content Include="Resources\CanvasPathGeometry\CanvasPathGeometry.png" />
+    <Content Include="Resources\PipelineBrush\PipelineBrush.png" />
+    <Content Include="Resources\RemoteDeviceHelper\RemoteDeviceHelper.png" />
+    <Content Include="Resources\ImageCropper\ImageCropper.png" />
+    <Content Include="Resources\StaggeredLayout\StaggeredLayout.png" />
     <!-- TODO Reintroduce graph controls
-    <Content Include="SamplePages\PeoplePicker\PeoplePicker.png" />
-    <Content Include="SamplePages\PersonView\PersonView.png" />
+    <Content Include="Resources\PeoplePicker\PeoplePicker.png" />
+    <Content Include="Resources\PersonView\PersonView.png" />
     -->
-    <Content Include="SamplePages\TokenizingTextBox\TokenizingTextBox.png" />
-    <Content Include="SamplePages\UniformGrid\UniformGrid.png" />
-    <Content Include="SamplePages\AdaptiveGridView\AdaptiveGridView.png" />
-    <Content Include="SamplePages\AdvancedCollectionView\AdvancedCollectionView.png" />
-    <Content Include="SamplePages\BackdropGammaTransferBrush\BackdropGammaTransferBrush.png" />
-    <Content Include="SamplePages\BackdropInvertBrush\BackdropInvertBrush.png" />
-    <Content Include="SamplePages\BackdropSaturationBrush\BackdropSaturationBrush.png" />
-    <Content Include="SamplePages\BackdropSepiaBrush\BackdropSepiaBrush.png" />
-    <Content Include="SamplePages\BackgroundTaskHelper\BackgroundTaskHelper.png" />
-    <Content Include="SamplePages\BluetoothLEHelper\BluetoothLEHelper.png" />
-    <Content Include="SamplePages\BackdropBlurBrush\BackdropBlurBrush.png" />
-    <Content Include="SamplePages\CameraPreview\CameraPreview.png" />
-    <Content Include="SamplePages\CameraHelper\CameraHelper.png" />
-    <Content Include="SamplePages\Connected Animations\ConnectedAnimations.png" />
-    <Content Include="SamplePages\DataGrid\DataGrid.png" />
-    <Content Include="SamplePages\DispatcherQueueHelper\DispatchQueueHelper.png" />
-    <Content Include="SamplePages\DockPanel\DockPanel.png" />
+    <Content Include="Resources\TokenizingTextBox\TokenizingTextBox.png" />
+    <Content Include="Resources\UniformGrid\UniformGrid.png" />
+    <Content Include="Resources\AdaptiveGridView\AdaptiveGridView.png" />
+    <Content Include="Resources\AdvancedCollectionView\AdvancedCollectionView.png" />
+    <Content Include="Resources\BackdropGammaTransferBrush\BackdropGammaTransferBrush.png" />
+    <Content Include="Resources\BackdropInvertBrush\BackdropInvertBrush.png" />
+    <Content Include="Resources\BackdropSaturationBrush\BackdropSaturationBrush.png" />
+    <Content Include="Resources\BackdropSepiaBrush\BackdropSepiaBrush.png" />
+    <Content Include="Resources\BackgroundTaskHelper\BackgroundTaskHelper.png" />
+    <Content Include="Resources\BluetoothLEHelper\BluetoothLEHelper.png" />
+    <Content Include="Resources\BackdropBlurBrush\BackdropBlurBrush.png" />
+    <Content Include="Resources\CameraPreview\CameraPreview.png" />
+    <Content Include="Resources\CameraHelper\CameraHelper.png" />
+    <Content Include="Resources\Connected Animations\ConnectedAnimations.png" />
+    <Content Include="Resources\DataGrid\DataGrid.png" />
+    <Content Include="Resources\DispatcherQueueHelper\DispatchQueueHelper.png" />
+    <Content Include="Resources\DockPanel\DockPanel.png" />
     <!-- TODO Reintroduce graph controls
-    <Content Include="SamplePages\LoginButton\LoginButton.png" />
+    <Content Include="Resources\LoginButton\LoginButton.png" />
     -->
-    <Content Include="SamplePages\FadeHeader\FadeHeaderBehavior.png" />
-    <Content Include="SamplePages\FocusTracker\FocusTracker.png" />
-    <Content Include="SamplePages\BladeView\BladeView.png" />
-    <Content Include="SamplePages\Carousel\Carousel.png" />
-    <Content Include="SamplePages\Shadows\DropShadowPanel.png" />
-    <Content Include="SamplePages\Expander\Expander.png" />
-    <Content Include="SamplePages\Shadows\Trex.png" />
-    <Content Include="SamplePages\Shadows\Unicorn.png" />
-    <Content Include="SamplePages\GazeInteraction\GazeInteraction.png" />
-    <Content Include="SamplePages\GazeTracing\GazeTracing.png" />
-    <Content Include="SamplePages\GridSplitter\GridSplitter.png" />
-    <Content Include="SamplePages\AlignmentGrid\AlignmentGrid.png" />
-    <Content Include="SamplePages\HeaderedContentControl\HeaderedContentControl.png" />
-    <Content Include="SamplePages\HeaderedItemsControl\HeaderedItemsControl.png" />
-    <Content Include="SamplePages\ImageBlendBrush\ImageBlendBrush.png" />
-    <Content Include="SamplePages\ImageCache\ImageCache.png" />
-    <Content Include="SamplePages\ImageEx\ImageEx.png" />
-    <Content Include="SamplePages\Implicit Animations\ImplicitAnimations.png" />
-    <Content Include="SamplePages\InAppNotification\InAppNotification.png" />
-    <Content Include="SamplePages\Incremental Loading Collection\icon.png" />
-    <Content Include="SamplePages\LayoutTransformControl\LayoutTransformControl.png" />
-    <Content Include="SamplePages\InfiniteCanvas\InfiniteCanvas.png" />
+    <Content Include="Resources\FadeHeader\FadeHeaderBehavior.png" />
+    <Content Include="Resources\FocusTracker\FocusTracker.png" />
+    <Content Include="Resources\BladeView\BladeView.png" />
+    <Content Include="Resources\Carousel\Carousel.png" />
+    <Content Include="Resources\Shadows\DropShadowPanel.png" />
+    <Content Include="Resources\Expander\Expander.png" />
+    <Content Include="Resources\Shadows\Trex.png" />
+    <Content Include="Resources\Shadows\Unicorn.png" />
+    <Content Include="Resources\GazeInteraction\GazeInteraction.png" />
+    <Content Include="Resources\GazeTracing\GazeTracing.png" />
+    <Content Include="Resources\GridSplitter\GridSplitter.png" />
+    <Content Include="Resources\AlignmentGrid\AlignmentGrid.png" />
+    <Content Include="Resources\HeaderedContentControl\HeaderedContentControl.png" />
+    <Content Include="Resources\HeaderedItemsControl\HeaderedItemsControl.png" />
+    <Content Include="Resources\ImageBlendBrush\ImageBlendBrush.png" />
+    <Content Include="Resources\ImageCache\ImageCache.png" />
+    <Content Include="Resources\ImageEx\ImageEx.png" />
+    <Content Include="Resources\Implicit Animations\ImplicitAnimations.png" />
+    <Content Include="Resources\InAppNotification\InAppNotification.png" />
+    <Content Include="Resources\Incremental Loading Collection\icon.png" />
+    <Content Include="Resources\LayoutTransformControl\LayoutTransformControl.png" />
+    <Content Include="Resources\InfiniteCanvas\InfiniteCanvas.png" />
     <Content Include="Assets\Helpers.png" />
-    <Content Include="SamplePages\LiveTile\LiveTile.png" />
-    <Content Include="SamplePages\MarkdownTextBlock\MarkdownTextBlock.png" />
-    <Content Include="SamplePages\Loading\Loading.png" />
-    <Content Include="SamplePages\ListDetailsView\ListDetailsView.png" />
-    <Content Include="SamplePages\ListDetailsView\OneDriveLogo.png" />
-    <Content Include="SamplePages\Menu\Menu.png" />
-    <Content Include="SamplePages\NetworkHelper\NetworkHelper.png" />
-    <Content Include="SamplePages\Mouse\MouseCursor.png" />
-    <Content Include="SamplePages\RadialGauge\RadialGauge.png" />
-    <Content Include="SamplePages\RadialGradientBrush\RadialGradientBrush.png" />
-    <Content Include="SamplePages\RadialProgressBar\RadialProgressBar.png" />
-    <Content Include="SamplePages\RemoteDevicePicker\RemoteDevicePicker.png" />
-    <Content Include="SamplePages\ItemsReorderAnimation\ItemsReorderAnimation.png" />
-    <Content Include="SamplePages\OrbitView\OrbitView.png" />
-    <Content Include="SamplePages\ScrollViewerExtensions\ScrollViewerExtensionsCode.bind" />
-    <Content Include="SamplePages\StaggeredPanel\StaggeredPanel.png" />
-    <Content Include="SamplePages\SystemInformation\SystemInformation.png" />
-    <Content Include="SamplePages\TextBoxMask\TextBoxMask.png" />
-    <Content Include="SamplePages\TextToolbar\TextToolbar.png" />
-    <Content Include="SamplePages\TileControl\Animations.png" />
-    <Content Include="SamplePages\TileControl\TileControl.png" />
-    <Content Include="SamplePages\PrintHelper\PrintHelper.png" />
-    <Content Include="SamplePages\ScrollHeader\ScrollHeader.png" />
-    <Content Include="SamplePages\RangeSelector\RangeSelector.png" />
-    <Content Include="SamplePages\RotatorTile\RotatorTile.png" />
-    <Content Include="SamplePages\Object Storage\ObjectStorage.png" />
-    <Content Include="SamplePages\SurfaceDialTextbox\SurfaceDialTextbox.png" />
-    <Content Include="SamplePages\TextBoxRegex\TextBoxRegex.png" />
-    <Content Include="SamplePages\Toast\Toast.png" />
-    <Content Include="SamplePages\ViewExtensions\ViewExtensions.png" />
-    <Content Include="SamplePages\ViewportBehavior\ViewportBehavior.png" />
-    <Content Include="SamplePages\Visual Extensions\VisualExtensions.png" />
-    <Content Include="SamplePages\WrapLayout\WrapLayout.png" />
-    <Content Include="SamplePages\WrapPanel\WrapPanel.png" />
+    <Content Include="Resources\LiveTile\LiveTile.png" />
+    <Content Include="Resources\MarkdownTextBlock\MarkdownTextBlock.png" />
+    <Content Include="Resources\Loading\Loading.png" />
+    <Content Include="Resources\ListDetailsView\ListDetailsView.png" />
+    <Content Include="Resources\ListDetailsView\OneDriveLogo.png" />
+    <Content Include="Resources\Menu\Menu.png" />
+    <Content Include="Resources\NetworkHelper\NetworkHelper.png" />
+    <Content Include="Resources\Mouse\MouseCursor.png" />
+    <Content Include="Resources\RadialGauge\RadialGauge.png" />
+    <Content Include="Resources\RadialGradientBrush\RadialGradientBrush.png" />
+    <Content Include="Resources\RadialProgressBar\RadialProgressBar.png" />
+    <Content Include="Resources\RemoteDevicePicker\RemoteDevicePicker.png" />
+    <Content Include="Resources\ItemsReorderAnimation\ItemsReorderAnimation.png" />
+    <Content Include="Resources\OrbitView\OrbitView.png" />
+    <Content Include="Resources\ScrollViewerExtensions\ScrollViewerExtensionsCode.bind" />
+    <Content Include="Resources\StaggeredPanel\StaggeredPanel.png" />
+    <Content Include="Resources\SystemInformation\SystemInformation.png" />
+    <Content Include="Resources\TextBoxMask\TextBoxMask.png" />
+    <Content Include="Resources\TextToolbar\TextToolbar.png" />
+    <Content Include="Resources\TileControl\Animations.png" />
+    <Content Include="Resources\TileControl\TileControl.png" />
+    <Content Include="Resources\PrintHelper\PrintHelper.png" />
+    <Content Include="Resources\ScrollHeader\ScrollHeader.png" />
+    <Content Include="Resources\RangeSelector\RangeSelector.png" />
+    <Content Include="Resources\RotatorTile\RotatorTile.png" />
+    <Content Include="Resources\Object Storage\ObjectStorage.png" />
+    <Content Include="Resources\SurfaceDialTextbox\SurfaceDialTextbox.png" />
+    <Content Include="Resources\TextBoxRegex\TextBoxRegex.png" />
+    <Content Include="Resources\Toast\Toast.png" />
+    <Content Include="Resources\ViewExtensions\ViewExtensions.png" />
+    <Content Include="Resources\ViewportBehavior\ViewportBehavior.png" />
+    <Content Include="Resources\Visual Extensions\VisualExtensions.png" />
+    <Content Include="Resources\WrapLayout\WrapLayout.png" />
+    <Content Include="Resources\WrapPanel\WrapPanel.png" />
     <Content Include="landingPageLinks.json" />
     <Content Include="Assets\mtns.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include=".editorconfig" />
-    <Content Include="SamplePages\WeatherLiveTileAndToast\WeatherLiveTileAndToast.png" />
-    <Content Include="SamplePages\WeatherLiveTileAndToast\WeatherLiveTileAndToastCode.bind" />
-    <Content Include="SamplePages\ImageEx\ImageExCode.bind" />
-    <Content Include="SamplePages\RadialGauge\RadialGaugeCode.bind" />
+    <Content Include="Resources\WeatherLiveTileAndToast\WeatherLiveTileAndToast.png" />
+    <Content Include="Resources\WeatherLiveTileAndToast\WeatherLiveTileAndToastCode.bind" />
+    <Content Include="Resources\ImageEx\ImageExCode.bind" />
+    <Content Include="Resources\RadialGauge\RadialGaugeCode.bind" />
     <Content Include="Assets\Photos\Photos.json" />
     <Content Include="Assets\Photos\OnlinePhotos.json" />
-    <Content Include="SamplePages\RangeSelector\RangeSelectorCode.bind" />
-    <Content Include="SamplePages\AdaptiveGridView\AdaptiveGridViewCode.bind" />
-    <Content Include="SamplePages\samples.json">
+    <Content Include="Resources\RangeSelector\RangeSelectorCode.bind" />
+    <Content Include="Resources\AdaptiveGridView\AdaptiveGridViewCode.bind" />
+    <Content Include="Resources\samples.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="readme.md" />
-    <Content Include="SamplePages\LiveTile\LiveTileCode.bind" />
-    <Content Include="SamplePages\Toast\ToastCode.bind" />
-    <Content Include="SamplePages\RotatorTile\RotatorTileCode.bind" />
-    <Content Include="SamplePages\Expander\ExpanderXaml.bind" />
-    <Content Include="SamplePages\BladeView\BladeCode.bind" />
-    <Content Include="SamplePages\ScrollHeader\ScrollHeaderCode.bind" />
-    <Content Include="SamplePages\GridSplitter\GridSplitter.bind" />
-    <Content Include="SamplePages\FadeHeader\FadeHeaderBehaviorCode.bind" />
-    <Content Include="SamplePages\FadeHeader\FadeHeaderBehaviorXaml.bind" />
-    <Content Include="SamplePages\ImageCache\ImageCacheXaml.bind" />
-    <Content Include="SamplePages\Incremental Loading Collection\IncrementalLoadingCollectionCode.bind" />
-    <Content Include="SamplePages\ImageCache\ImageCacheCode.bind" />
-    <Content Include="SamplePages\Shadows\DropShadowPanelXaml.bind" />
-    <Content Include="SamplePages\Object Storage\ObjectStorageCode.bind" />
-    <Content Include="SamplePages\BackgroundTaskHelper\BackgroundTaskHelperCode.bind" />
-    <Content Include="SamplePages\ListDetailsView\ListDetailsView.bind" />
-    <Content Include="SamplePages\NetworkHelper\NetworkHelperCode.bind" />
-    <Content Include="SamplePages\PrintHelper\PrintHelperCode.bind" />
-    <Content Include="SamplePages\SystemInformation\SystemInformationCode.bind" />
-    <Content Include="SamplePages\Connected Animations\ConnectedAnimationsCode.bind" />
-    <Content Include="SamplePages\Loading\LoadingCode.bind" />
-    <Content Include="SamplePages\ItemsReorderAnimation\ItemsReorderAnimation.bind" />
-    <Content Include="SamplePages\TextBoxMask\TextBoxMask.bind" />
-    <Content Include="SamplePages\TileControl\TileControl.bind">
+    <Content Include="Resources\LiveTile\LiveTileCode.bind" />
+    <Content Include="Resources\Toast\ToastCode.bind" />
+    <Content Include="Resources\RotatorTile\RotatorTileCode.bind" />
+    <Content Include="Resources\Expander\ExpanderXaml.bind" />
+    <Content Include="Resources\BladeView\BladeCode.bind" />
+    <Content Include="Resources\ScrollHeader\ScrollHeaderCode.bind" />
+    <Content Include="Resources\GridSplitter\GridSplitter.bind" />
+    <Content Include="Resources\FadeHeader\FadeHeaderBehaviorCode.bind" />
+    <Content Include="Resources\FadeHeader\FadeHeaderBehaviorXaml.bind" />
+    <Content Include="Resources\ImageCache\ImageCacheXaml.bind" />
+    <Content Include="Resources\Incremental Loading Collection\IncrementalLoadingCollectionCode.bind" />
+    <Content Include="Resources\ImageCache\ImageCacheCode.bind" />
+    <Content Include="Resources\Shadows\DropShadowPanelXaml.bind" />
+    <Content Include="Resources\Object Storage\ObjectStorageCode.bind" />
+    <Content Include="Resources\BackgroundTaskHelper\BackgroundTaskHelperCode.bind" />
+    <Content Include="Resources\ListDetailsView\ListDetailsView.bind" />
+    <Content Include="Resources\NetworkHelper\NetworkHelperCode.bind" />
+    <Content Include="Resources\PrintHelper\PrintHelperCode.bind" />
+    <Content Include="Resources\SystemInformation\SystemInformationCode.bind" />
+    <Content Include="Resources\Connected Animations\ConnectedAnimationsCode.bind" />
+    <Content Include="Resources\Loading\LoadingCode.bind" />
+    <Content Include="Resources\ItemsReorderAnimation\ItemsReorderAnimation.bind" />
+    <Content Include="Resources\TextBoxMask\TextBoxMask.bind" />
+    <Content Include="Resources\TileControl\TileControl.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\SurfaceDialTextbox\SurfaceDialTextboxCode.bind">
+    <Content Include="Resources\SurfaceDialTextbox\SurfaceDialTextboxCode.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\WrapPanel\WrapPanel.bind" />
-    <Content Include="SamplePages\ListDetailsView\ListDetailsViewCode.bind" />
-    <Content Include="SamplePages\MarkdownTextBlock\MarkdownTextBlock.bind" />
-    <Content Include="SamplePages\MarkdownTextBlock\InitialContent.md" />
-    <Content Include="SamplePages\AdvancedCollectionView\AdvancedCollectionView.bind" />
-    <Content Include="SamplePages\TextBoxRegex\TextBoxRegex.bind" />
-    <Content Include="SamplePages\RadialProgressBar\RadialProgressBarCode.bind" />
-    <Content Include="SamplePages\MarkdownTextBlock\MarkdownTextBlockCode.bind" />
-    <Content Include="SamplePages\ViewExtensions\ViewExtensionsCode.bind">
+    <Content Include="Resources\WrapPanel\WrapPanel.bind" />
+    <Content Include="Resources\ListDetailsView\ListDetailsViewCode.bind" />
+    <Content Include="Resources\MarkdownTextBlock\MarkdownTextBlock.bind" />
+    <Content Include="Resources\MarkdownTextBlock\InitialContent.md" />
+    <Content Include="Resources\AdvancedCollectionView\AdvancedCollectionView.bind" />
+    <Content Include="Resources\TextBoxRegex\TextBoxRegex.bind" />
+    <Content Include="Resources\RadialProgressBar\RadialProgressBarCode.bind" />
+    <Content Include="Resources\MarkdownTextBlock\MarkdownTextBlockCode.bind" />
+    <Content Include="Resources\ViewExtensions\ViewExtensionsCode.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\Carousel\CarouselCode.bind" />
-    <Content Include="SamplePages\AlignmentGrid\AlignmentGridXaml.bind" />
-    <Content Include="SamplePages\FocusTracker\FocusTrackerXaml.bind" />
-    <Content Include="SamplePages\Visual Extensions\VisualExtensionsCode.bind" />
-    <Content Include="SamplePages\TextToolbar\TextToolbarCode.bind" />
-    <Content Include="SamplePages\BluetoothLEHelper\BluetoothLEHelperCode.bind" />
-    <Content Include="SamplePages\OrbitView\OrbitViewXaml.bind" />
-    <Content Include="SamplePages\Menu\Menu.bind" />
-    <Content Include="SamplePages\InAppNotification\InAppNotificationCode.bind" />
-    <Content Include="SamplePages\InAppNotification\InAppNotificationXaml.bind" />
-    <Content Include="SamplePages\ListViewExtensions\ListViewExtensionsXaml.bind" />
-    <Content Include="SamplePages\Implicit Animations\ImplicitAnimationsCode.bind" />
-    <Content Include="SamplePages\DispatcherQueueHelper\DispatcherQueueHelperCode.bind" />
-    <Content Include="SamplePages\TextToolbar\TextToolbar.bind" />
-    <Content Include="SamplePages\DockPanel\DockPanel.bind">
+    <Content Include="Resources\Carousel\CarouselCode.bind" />
+    <Content Include="Resources\AlignmentGrid\AlignmentGridXaml.bind" />
+    <Content Include="Resources\FocusTracker\FocusTrackerXaml.bind" />
+    <Content Include="Resources\Visual Extensions\VisualExtensionsCode.bind" />
+    <Content Include="Resources\TextToolbar\TextToolbarCode.bind" />
+    <Content Include="Resources\BluetoothLEHelper\BluetoothLEHelperCode.bind" />
+    <Content Include="Resources\OrbitView\OrbitViewXaml.bind" />
+    <Content Include="Resources\Menu\Menu.bind" />
+    <Content Include="Resources\InAppNotification\InAppNotificationCode.bind" />
+    <Content Include="Resources\InAppNotification\InAppNotificationXaml.bind" />
+    <Content Include="Resources\ListViewExtensions\ListViewExtensionsXaml.bind" />
+    <Content Include="Resources\Implicit Animations\ImplicitAnimationsCode.bind" />
+    <Content Include="Resources\DispatcherQueueHelper\DispatcherQueueHelperCode.bind" />
+    <Content Include="Resources\TextToolbar\TextToolbar.bind" />
+    <Content Include="Resources\DockPanel\DockPanel.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\UniformGrid\UniformGridXaml.bind" />
-    <Content Include="SamplePages\HeaderedItemsControl\HeaderedItemsControlXaml.bind" />
-    <Content Include="SamplePages\HeaderedContentControl\HeaderedContentControlXaml.bind" />
-    <Content Include="SamplePages\Mouse\MouseCursorPage.bind" />
-    <Content Include="SamplePages\FrameworkElementExtensions\FrameworkElementExtensionsCode.bind">
+    <Content Include="Resources\UniformGrid\UniformGridXaml.bind" />
+    <Content Include="Resources\HeaderedItemsControl\HeaderedItemsControlXaml.bind" />
+    <Content Include="Resources\HeaderedContentControl\HeaderedContentControlXaml.bind" />
+    <Content Include="Resources\Mouse\MouseCursorPage.bind" />
+    <Content Include="Resources\FrameworkElementExtensions\FrameworkElementExtensionsCode.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\StaggeredPanel\StaggeredPanel.bind" />
-    <Content Include="SamplePages\BackdropBlurBrush\BackdropBlurBrushXaml.bind" />
-    <Content Include="SamplePages\BackdropInvertBrush\BackdropInvertBrushXaml.bind" />
-    <Content Include="SamplePages\BackdropGammaTransferBrush\BackdropGammaTransferBrushXaml.bind">
+    <Content Include="Resources\StaggeredPanel\StaggeredPanel.bind" />
+    <Content Include="Resources\BackdropBlurBrush\BackdropBlurBrushXaml.bind" />
+    <Content Include="Resources\BackdropInvertBrush\BackdropInvertBrushXaml.bind" />
+    <Content Include="Resources\BackdropGammaTransferBrush\BackdropGammaTransferBrushXaml.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\BackdropSepiaBrush\BackdropSepiaBrushXaml.bind">
+    <Content Include="Resources\BackdropSepiaBrush\BackdropSepiaBrushXaml.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\BackdropSaturationBrush\BackdropSaturationBrushXaml.bind" />
-    <Content Include="SamplePages\ImageBlendBrush\ImageBlendBrushXaml.bind" />
-    <Content Include="SamplePages\RadialGradientBrush\RadialGradientBrushXaml.bind">
+    <Content Include="Resources\BackdropSaturationBrush\BackdropSaturationBrushXaml.bind" />
+    <Content Include="Resources\ImageBlendBrush\ImageBlendBrushXaml.bind" />
+    <Content Include="Resources\RadialGradientBrush\RadialGradientBrushXaml.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\CameraPreview\CameraPreviewCode.bind" />
-    <Content Include="SamplePages\CameraHelper\CameraHelperCode.bind" />
-    <Content Include="SamplePages\LayoutTransformControl\LayoutTransformControlXaml.bind" />
-    <Content Include="SamplePages\GazeTracing\GazeTracingXaml.bind">
+    <Content Include="Resources\CameraPreview\CameraPreviewCode.bind" />
+    <Content Include="Resources\CameraHelper\CameraHelperCode.bind" />
+    <Content Include="Resources\LayoutTransformControl\LayoutTransformControlXaml.bind" />
+    <Content Include="Resources\GazeTracing\GazeTracingXaml.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\PrintHelper\PrintHelperXaml.bind">
+    <Content Include="Resources\PrintHelper\PrintHelperXaml.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\CameraPreview\CameraPreviewXaml.bind" />
+    <Content Include="Resources\CameraPreview\CameraPreviewXaml.bind" />
     <!-- TODO Reintroduce graph controls
-    <Content Include="SamplePages\LoginButton\LoginButtonXaml.bind" />
-    <Content Include="SamplePages\PeoplePicker\PeoplePickerXaml.bind" />
-    <Content Include="SamplePages\PersonView\PersonViewXaml.bind" />
+    <Content Include="Resources\LoginButton\LoginButtonXaml.bind" />
+    <Content Include="Resources\PeoplePicker\PeoplePickerXaml.bind" />
+    <Content Include="Resources\PersonView\PersonViewXaml.bind" />
     -->
-    <Content Include="SamplePages\GazeInteraction\GazeInteractionXaml.bind">
+    <Content Include="Resources\GazeInteraction\GazeInteractionXaml.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\GazeInteraction\GazeInteractionCode.bind" />
-    <Content Include="SamplePages\GazeTracing\GazeTracingCode.bind" />
-    <Content Include="SamplePages\InfiniteCanvas\InfiniteCanvas.bind" />
-    <Content Include="SamplePages\RemoteDevicePicker\RemoteDevicePickerCode.bind" />
-    <Content Include="SamplePages\DataGrid\DataGridCode.bind" />
-    <Content Include="SamplePages\ViewportBehavior\ViewportBehaviorCode.bind" />
+    <Content Include="Resources\GazeInteraction\GazeInteractionCode.bind" />
+    <Content Include="Resources\GazeTracing\GazeTracingCode.bind" />
+    <Content Include="Resources\InfiniteCanvas\InfiniteCanvas.bind" />
+    <Content Include="Resources\RemoteDevicePicker\RemoteDevicePickerCode.bind" />
+    <Content Include="Resources\DataGrid\DataGridCode.bind" />
+    <Content Include="Resources\ViewportBehavior\ViewportBehaviorCode.bind" />
     <Compile Include="Common\TextBlockHyperlinkBehavior.cs" />
     <Compile Include="Common\Vector3Converter.cs" />
-    <Compile Include="SamplePages\AutoFocusBehavior\AutoFocusBehaviorPage.xaml.cs">
+    <Compile Include="Resources\AutoFocusBehavior\AutoFocusBehaviorPage.xaml.cs">
       <DependentUpon>AutoFocusBehaviorPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\CanvasPathGeometry\GeometryStreamReader.cs" />
-    <Compile Include="SamplePages\EnumValuesExtension\Animal.cs" />
-    <Compile Include="SamplePages\EnumValuesExtension\AnimalToColorConverter.xaml.cs" />
-    <Compile Include="SamplePages\EnumValuesExtension\EnumValuesExtensionPage.xaml.cs">
+    <Compile Include="Resources\CanvasPathGeometry\GeometryStreamReader.cs" />
+    <Compile Include="Resources\EnumValuesExtension\Animal.cs" />
+    <Compile Include="Resources\EnumValuesExtension\AnimalToColorConverter.xaml.cs" />
+    <Compile Include="Resources\EnumValuesExtension\EnumValuesExtensionPage.xaml.cs">
       <DependentUpon>EnumValuesExtensionPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\CanvasPathGeometry\CanvasPathGeometryPage.xaml.cs">
+    <Compile Include="Resources\CanvasPathGeometry\CanvasPathGeometryPage.xaml.cs">
       <DependentUpon>CanvasPathGeometryPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\FocusBehavior\FocusBehaviorPage.xaml.cs">
+    <Compile Include="Resources\FocusBehavior\FocusBehaviorPage.xaml.cs">
       <DependentUpon>FocusBehaviorPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\MetadataControl\MetadataControlPage.xaml.cs">
+    <Compile Include="Resources\MetadataControl\MetadataControlPage.xaml.cs">
       <DependentUpon>MetadataControlPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Shadows\AttachedDropShadowPage.xaml.cs">
+    <Compile Include="Resources\Shadows\AttachedDropShadowPage.xaml.cs">
       <DependentUpon>AttachedDropShadowPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\RichSuggestBox\RichSuggestBoxPage.xaml.cs">
+    <Compile Include="Resources\RichSuggestBox\RichSuggestBoxPage.xaml.cs">
       <DependentUpon>RichSuggestBoxPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\RichSuggestBox\SuggestionTemplateSelector.cs" />
-    <Compile Include="SamplePages\TilesBrush\TilesBrushPage.xaml.cs">
+    <Compile Include="Resources\RichSuggestBox\SuggestionTemplateSelector.cs" />
+    <Compile Include="Resources\TilesBrush\TilesBrushPage.xaml.cs">
       <DependentUpon>TilesBrushPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Eyedropper\EyedropperPage.xaml.cs">
+    <Compile Include="Resources\Eyedropper\EyedropperPage.xaml.cs">
       <DependentUpon>EyedropperPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ClipToBounds\ClipToBoundsPage.xaml.cs">
+    <Compile Include="Resources\ClipToBounds\ClipToBoundsPage.xaml.cs">
       <DependentUpon>ClipToBoundsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ImageEx\ImageExLazyLoadingControl.xaml.cs">
+    <Compile Include="Resources\ImageEx\ImageExLazyLoadingControl.xaml.cs">
       <DependentUpon>ImageExLazyLoadingControl.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\IconExtensions\IconExtensionsPage.xaml.cs">
+    <Compile Include="Resources\IconExtensions\IconExtensionsPage.xaml.cs">
       <DependentUpon>IconExtensionsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ObservableGroup\ObservableGroupPage.xaml.cs">
+    <Compile Include="Resources\ObservableGroup\ObservableGroupPage.xaml.cs">
       <DependentUpon>ObservableGroupPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\OnDevice\OnDevicePage.xaml.cs">
+    <Compile Include="Resources\OnDevice\OnDevicePage.xaml.cs">
       <DependentUpon>OnDevicePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\AcrylicBrush\AcrylicBrushPage.xaml.cs">
+    <Compile Include="Resources\AcrylicBrush\AcrylicBrushPage.xaml.cs">
       <DependentUpon>AcrylicBrushPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\PipelineBrush\PipelineBrushPage.xaml.cs">
+    <Compile Include="Resources\PipelineBrush\PipelineBrushPage.xaml.cs">
       <DependentUpon>PipelineBrushPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\RemoteDeviceHelper\RemoteDeviceHelperPage.xaml.cs">
+    <Compile Include="Resources\RemoteDeviceHelper\RemoteDeviceHelperPage.xaml.cs">
       <DependentUpon>RemoteDeviceHelperPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ImageCropper\AspectRatioConfig.cs" />
-    <Compile Include="SamplePages\ImageCropper\ImageCropperPage.xaml.cs">
+    <Compile Include="Resources\ImageCropper\AspectRatioConfig.cs" />
+    <Compile Include="Resources\ImageCropper\ImageCropperPage.xaml.cs">
       <DependentUpon>ImageCropperPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\StaggeredLayout\StaggeredLayoutPage.xaml.cs">
+    <Compile Include="Resources\StaggeredLayout\StaggeredLayoutPage.xaml.cs">
       <DependentUpon>StaggeredLayoutPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\TokenizingTextBox\NameToColorConverter.cs" />
-    <Compile Include="SamplePages\TokenizingTextBox\SampleDataType.cs" />
-    <Compile Include="SamplePages\TokenizingTextBox\SampleEmailDataType.cs" />
-    <Compile Include="SamplePages\TokenizingTextBox\TokenizingTextBoxPage.xaml.cs">
+    <Compile Include="Resources\TokenizingTextBox\NameToColorConverter.cs" />
+    <Compile Include="Resources\TokenizingTextBox\SampleDataType.cs" />
+    <Compile Include="Resources\TokenizingTextBox\SampleEmailDataType.cs" />
+    <Compile Include="Resources\TokenizingTextBox\TokenizingTextBoxPage.xaml.cs">
       <DependentUpon>TokenizingTextBoxPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Triggers\FullScreenModeStateTriggerPage.xaml.cs">
+    <Compile Include="Resources\Triggers\FullScreenModeStateTriggerPage.xaml.cs">
       <DependentUpon>FullScreenModeStateTriggerPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Triggers\IsNullOrEmptyStateTriggerPage.xaml.cs">
+    <Compile Include="Resources\Triggers\IsNullOrEmptyStateTriggerPage.xaml.cs">
       <DependentUpon>IsNullOrEmptyStateTriggerPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\WrapLayout\WrapLayoutPage.xaml.cs">
+    <Compile Include="Resources\WrapLayout\WrapLayoutPage.xaml.cs">
       <DependentUpon>WrapLayoutPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\XamlOnlyPage.xaml.cs">
+    <Compile Include="Resources\XamlOnlyPage.xaml.cs">
       <DependentUpon>XamlOnlyPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Shell.Search.cs" />
     <Compile Include="Shell.SamplePicker.cs" />
-    <Content Include="SamplePages\ViewportBehavior\ViewportBehaviorXaml.bind" />
-    <Content Include="SamplePages\OnDevice\OnDeviceXaml.bind" />
-    <Content Include="SamplePages\RemoteDeviceHelper\RemoteDeviceHelperCode.bind" />
-    <Content Include="SamplePages\ImageCropper\ImageCropperXaml.bind" />
-    <Content Include="SamplePages\ImageCropper\ImageCropperCode.bind" />
-    <Content Include="SamplePages\Eyedropper\EyedropperXaml.bind" />
-    <Content Include="SamplePages\Eyedropper\EyedropperCode.bind" />
-    <Content Include="SamplePages\TokenizingTextBox\TokenizingTextBoxCode.bind" />
-    <Content Include="SamplePages\PipelineBrush\PipelineBrushXaml.bind" />
-    <Content Include="SamplePages\PipelineBrush\PipelineBrushCode.bind" />
-    <Content Include="SamplePages\AcrylicBrush\AcrylicBrushXaml.bind" />
-    <Content Include="SamplePages\TilesBrush\TilesBrushXaml.bind" />
-    <Content Include="SamplePages\IconExtensions\IconExtensionsXaml.bind" />
-    <Content Include="SamplePages\WrapLayout\WrapLayout.bind" />
-    <Content Include="SamplePages\ObservableGroup\ObservableGroup.bind" />
-    <Content Include="SamplePages\ScrollViewerExtensions\ScrollViewerExtensionsXaml.bind" />
-    <Content Include="SamplePages\Triggers\CompareStateTrigger.bind" />
-    <Content Include="SamplePages\Triggers\IsEqualStateTrigger.bind" />
-    <Content Include="SamplePages\Triggers\FullScreenModeStateTrigger.bind" />
-    <Content Include="SamplePages\Triggers\IsNullOrEmptyStateTrigger.bind" />
-    <Content Include="SamplePages\Triggers\NetworkConnectionStateTrigger.bind" />
-    <Content Include="SamplePages\Triggers\IsNotEqualStateTrigger.bind" />
-    <Content Include="SamplePages\Triggers\RegexStateTrigger.bind" />
-    <Content Include="SamplePages\Triggers\UserHandPreferenceStateTrigger.bind" />
-    <Content Include="SamplePages\Triggers\UserInteractionModeStateTrigger.bind" />
-    <Content Include="SamplePages\StaggeredLayout\StaggeredLayout.bind" />
-    <Content Include="SamplePages\EnumValuesExtension\EnumValuesExtensionXaml.bind" />
-    <Content Include="SamplePages\EnumValuesExtension\EnumValuesExtensionCode.bind" />
-    <Content Include="SamplePages\FocusBehavior\FocusBehaviorXaml.bind" />
-    <Content Include="SamplePages\AutoFocusBehavior\AutoFocusBehaviorXaml.bind" />
-    <Content Include="SamplePages\ColorPicker\ColorPickerXaml.bind" />
-    <Content Include="SamplePages\ColorPicker\ColorPickerButtonXaml.bind" />
-    <Content Include="SamplePages\Animations\Effects\FadeBehaviorCode.bind" />
-    <Content Include="SamplePages\Animations\Effects\FadeBehaviorXaml.bind" />
-    <Content Include="SamplePages\Animations\Activities\StartAnimationActivity.bind" />
-    <Content Include="SamplePages\Animations\Activities\InvokeActionsActivity.bind" />
-    <Content Include="SamplePages\Animations\Behaviors\BlurBehavior.png" />
-    <Content Include="SamplePages\Animations\Behaviors\BlurBehaviorCode.bind" />
-    <Content Include="SamplePages\Animations\Behaviors\BlurBehaviorXaml.bind" />
-    <Content Include="SamplePages\Animations\Behaviors\OffsetBehavior.png" />
-    <Content Include="SamplePages\Animations\Behaviors\OffsetBehaviorCode.bind" />
-    <Content Include="SamplePages\Animations\Behaviors\OffsetBehaviorXaml.bind" />
-    <Content Include="SamplePages\Animations\Behaviors\SaturationBehavior.png" />
-    <Content Include="SamplePages\Animations\Behaviors\SaturationBehaviorCode.bind" />
-    <Content Include="SamplePages\Animations\Behaviors\SaturationBehaviorXaml.bind" />
-    <Content Include="SamplePages\Animations\Behaviors\ScaleBehavior.png" />
-    <Content Include="SamplePages\Animations\Behaviors\ScaleBehaviorCode.bind" />
-    <Content Include="SamplePages\Animations\Behaviors\ScaleBehaviorXaml.bind" />
-    <Content Include="SamplePages\Animations\Behaviors\RotateBehavior.png" />
-    <Content Include="SamplePages\Animations\Behaviors\RotateBehaviorCode.bind" />
-    <Content Include="SamplePages\Animations\Behaviors\RotateBehaviorXaml.bind" />
-    <Content Include="SamplePages\Animations\Effects\EffectAnimations.bind" />
-    <Content Include="SamplePages\VisualEffectFactory\VisualEffectFactory.bind" />
-    <Content Include="SamplePages\Animations\Activities\InvokeActionsActivityCode.bind" />
-    <Content Include="SamplePages\Animations\Activities\StartAnimationActivityCode.bind" />
-    <Content Include="SamplePages\AutoSelectBehavior\AutoSelectBehaviorXaml.bind" />
-    <Content Include="SamplePages\Graph\LoginButtonXaml.bind" />
-    <Content Include="SamplePages\Graph\PeoplePickerXaml.bind" />
-    <Content Include="SamplePages\Graph\PersonViewXaml.bind" />
-    <Content Include="SamplePages\ListViewExtensions\ListViewExtensionsCode.bind" />
-    <Content Include="SamplePages\Primitives\ConstrainedBox.bind">
+    <Content Include="Resources\ViewportBehavior\ViewportBehaviorXaml.bind" />
+    <Content Include="Resources\OnDevice\OnDeviceXaml.bind" />
+    <Content Include="Resources\RemoteDeviceHelper\RemoteDeviceHelperCode.bind" />
+    <Content Include="Resources\ImageCropper\ImageCropperXaml.bind" />
+    <Content Include="Resources\ImageCropper\ImageCropperCode.bind" />
+    <Content Include="Resources\Eyedropper\EyedropperXaml.bind" />
+    <Content Include="Resources\Eyedropper\EyedropperCode.bind" />
+    <Content Include="Resources\TokenizingTextBox\TokenizingTextBoxCode.bind" />
+    <Content Include="Resources\PipelineBrush\PipelineBrushXaml.bind" />
+    <Content Include="Resources\PipelineBrush\PipelineBrushCode.bind" />
+    <Content Include="Resources\AcrylicBrush\AcrylicBrushXaml.bind" />
+    <Content Include="Resources\TilesBrush\TilesBrushXaml.bind" />
+    <Content Include="Resources\IconExtensions\IconExtensionsXaml.bind" />
+    <Content Include="Resources\WrapLayout\WrapLayout.bind" />
+    <Content Include="Resources\ObservableGroup\ObservableGroup.bind" />
+    <Content Include="Resources\ScrollViewerExtensions\ScrollViewerExtensionsXaml.bind" />
+    <Content Include="Resources\Triggers\CompareStateTrigger.bind" />
+    <Content Include="Resources\Triggers\IsEqualStateTrigger.bind" />
+    <Content Include="Resources\Triggers\FullScreenModeStateTrigger.bind" />
+    <Content Include="Resources\Triggers\IsNullOrEmptyStateTrigger.bind" />
+    <Content Include="Resources\Triggers\NetworkConnectionStateTrigger.bind" />
+    <Content Include="Resources\Triggers\IsNotEqualStateTrigger.bind" />
+    <Content Include="Resources\Triggers\RegexStateTrigger.bind" />
+    <Content Include="Resources\Triggers\UserHandPreferenceStateTrigger.bind" />
+    <Content Include="Resources\Triggers\UserInteractionModeStateTrigger.bind" />
+    <Content Include="Resources\StaggeredLayout\StaggeredLayout.bind" />
+    <Content Include="Resources\EnumValuesExtension\EnumValuesExtensionXaml.bind" />
+    <Content Include="Resources\EnumValuesExtension\EnumValuesExtensionCode.bind" />
+    <Content Include="Resources\FocusBehavior\FocusBehaviorXaml.bind" />
+    <Content Include="Resources\AutoFocusBehavior\AutoFocusBehaviorXaml.bind" />
+    <Content Include="Resources\ColorPicker\ColorPickerXaml.bind" />
+    <Content Include="Resources\ColorPicker\ColorPickerButtonXaml.bind" />
+    <Content Include="Resources\Animations\Effects\FadeBehaviorCode.bind" />
+    <Content Include="Resources\Animations\Effects\FadeBehaviorXaml.bind" />
+    <Content Include="Resources\Animations\Activities\StartAnimationActivity.bind" />
+    <Content Include="Resources\Animations\Activities\InvokeActionsActivity.bind" />
+    <Content Include="Resources\Animations\Behaviors\BlurBehavior.png" />
+    <Content Include="Resources\Animations\Behaviors\BlurBehaviorCode.bind" />
+    <Content Include="Resources\Animations\Behaviors\BlurBehaviorXaml.bind" />
+    <Content Include="Resources\Animations\Behaviors\OffsetBehavior.png" />
+    <Content Include="Resources\Animations\Behaviors\OffsetBehaviorCode.bind" />
+    <Content Include="Resources\Animations\Behaviors\OffsetBehaviorXaml.bind" />
+    <Content Include="Resources\Animations\Behaviors\SaturationBehavior.png" />
+    <Content Include="Resources\Animations\Behaviors\SaturationBehaviorCode.bind" />
+    <Content Include="Resources\Animations\Behaviors\SaturationBehaviorXaml.bind" />
+    <Content Include="Resources\Animations\Behaviors\ScaleBehavior.png" />
+    <Content Include="Resources\Animations\Behaviors\ScaleBehaviorCode.bind" />
+    <Content Include="Resources\Animations\Behaviors\ScaleBehaviorXaml.bind" />
+    <Content Include="Resources\Animations\Behaviors\RotateBehavior.png" />
+    <Content Include="Resources\Animations\Behaviors\RotateBehaviorCode.bind" />
+    <Content Include="Resources\Animations\Behaviors\RotateBehaviorXaml.bind" />
+    <Content Include="Resources\Animations\Effects\EffectAnimations.bind" />
+    <Content Include="Resources\VisualEffectFactory\VisualEffectFactory.bind" />
+    <Content Include="Resources\Animations\Activities\InvokeActionsActivityCode.bind" />
+    <Content Include="Resources\Animations\Activities\StartAnimationActivityCode.bind" />
+    <Content Include="Resources\AutoSelectBehavior\AutoSelectBehaviorXaml.bind" />
+    <Content Include="Resources\Graph\LoginButtonXaml.bind" />
+    <Content Include="Resources\Graph\PeoplePickerXaml.bind" />
+    <Content Include="Resources\Graph\PersonViewXaml.bind" />
+    <Content Include="Resources\ListViewExtensions\ListViewExtensionsCode.bind" />
+    <Content Include="Resources\Primitives\ConstrainedBox.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\Shadows\AttachedShadowWin2DXaml.bind" />
-    <Content Include="SamplePages\Shadows\AttachedShadowCompositionXaml.bind" />
-    <Content Include="SamplePages\Animations\Shadows\AnimatedCardShadowXaml.bind" />
-    <Content Include="SamplePages\KeyDownTriggerBehavior\KeyDownTriggerBehaviorXaml.bind" />
-    <Content Include="SamplePages\RichSuggestBox\RichSuggestBoxCode.bind" />
+    <Content Include="Resources\Shadows\AttachedShadowWin2DXaml.bind" />
+    <Content Include="Resources\Shadows\AttachedShadowCompositionXaml.bind" />
+    <Content Include="Resources\Animations\Shadows\AnimatedCardShadowXaml.bind" />
+    <Content Include="Resources\KeyDownTriggerBehavior\KeyDownTriggerBehaviorXaml.bind" />
+    <Content Include="Resources\RichSuggestBox\RichSuggestBoxCode.bind" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -680,155 +680,155 @@
     <Compile Include="Models\LandingPageResource.cs" />
     <Compile Include="Models\LandingPageLink.cs" />
     <Compile Include="Models\PaneState.cs" />
-    <Compile Include="SamplePages\UniformGrid\UniformGridPage.xaml.cs">
+    <Compile Include="Resources\UniformGrid\UniformGridPage.xaml.cs">
       <DependentUpon>UniformGridPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\ThemeChangedArgs.cs" />
-    <Compile Include="Pages\SampleController.xaml.cs">
-      <DependentUpon>SampleController.xaml</DependentUpon>
+    <Compile Include="Pages\ShowcaseController.xaml.cs">
+      <DependentUpon>ShowcaseController.xaml</DependentUpon>
     </Compile>
     <!-- TODO Reintroduce graph controls
-    <Compile Include="SamplePages\PeoplePicker\PeoplePickerPage.xaml.cs">
+    <Compile Include="Resources\PeoplePicker\PeoplePickerPage.xaml.cs">
       <DependentUpon>PeoplePickerPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\PersonView\PersonViewPage.xaml.cs">
+    <Compile Include="Resources\PersonView\PersonViewPage.xaml.cs">
       <DependentUpon>PersonViewPage.xaml</DependentUpon>
     </Compile>
     -->
-    <Compile Include="SamplePages\AdvancedCollectionView\AdvancedCollectionViewPage.xaml.cs">
+    <Compile Include="Resources\AdvancedCollectionView\AdvancedCollectionViewPage.xaml.cs">
       <DependentUpon>AdvancedCollectionViewPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\BackdropGammaTransferBrush\BackdropGammaTransferBrushPage.xaml.cs">
+    <Compile Include="Resources\BackdropGammaTransferBrush\BackdropGammaTransferBrushPage.xaml.cs">
       <DependentUpon>BackdropGammaTransferBrushPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\BackdropInvertBrush\BackdropInvertBrushPage.xaml.cs">
+    <Compile Include="Resources\BackdropInvertBrush\BackdropInvertBrushPage.xaml.cs">
       <DependentUpon>BackdropInvertBrushPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\BackdropSaturationBrush\BackdropSaturationBrushPage.xaml.cs">
+    <Compile Include="Resources\BackdropSaturationBrush\BackdropSaturationBrushPage.xaml.cs">
       <DependentUpon>BackdropSaturationBrushPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\BackdropSepiaBrush\BackdropSepiaBrushPage.xaml.cs">
+    <Compile Include="Resources\BackdropSepiaBrush\BackdropSepiaBrushPage.xaml.cs">
       <DependentUpon>BackdropSepiaBrushPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\BluetoothLEHelper\BluetoothLEHelperPage.xaml.cs">
+    <Compile Include="Resources\BluetoothLEHelper\BluetoothLEHelperPage.xaml.cs">
       <DependentUpon>BluetoothLEHelperPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Common\IXamlRenderListener.cs" />
-    <Compile Include="SamplePages\CameraPreview\CameraPreviewPage.xaml.cs">
+    <Compile Include="Resources\CameraPreview\CameraPreviewPage.xaml.cs">
       <DependentUpon>CameraPreviewPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\CameraHelper\CameraHelperPage.xaml.cs">
+    <Compile Include="Resources\CameraHelper\CameraHelperPage.xaml.cs">
       <DependentUpon>CameraHelperPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Connected Animations\ConnectedAnimationsPage.xaml.cs">
+    <Compile Include="Resources\Connected Animations\ConnectedAnimationsPage.xaml.cs">
       <DependentUpon>ConnectedAnimationsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Connected Animations\Pages\FirstPage.xaml.cs">
+    <Compile Include="Resources\Connected Animations\Pages\FirstPage.xaml.cs">
       <DependentUpon>FirstPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Connected Animations\Pages\SecondPage.xaml.cs">
+    <Compile Include="Resources\Connected Animations\Pages\SecondPage.xaml.cs">
       <DependentUpon>SecondPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Connected Animations\Pages\ThirdPage.xaml.cs">
+    <Compile Include="Resources\Connected Animations\Pages\ThirdPage.xaml.cs">
       <DependentUpon>ThirdPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\BackdropBlurBrush\BackdropBlurBrushPage.xaml.cs">
+    <Compile Include="Resources\BackdropBlurBrush\BackdropBlurBrushPage.xaml.cs">
       <DependentUpon>BackdropBlurBrushPage.xaml</DependentUpon>
     </Compile>
     <!-- TODO Reintroduce graph controls
-    <Compile Include="SamplePages\LoginButton\LoginButtonPage.xaml.cs">
+    <Compile Include="Resources\LoginButton\LoginButtonPage.xaml.cs">
       <DependentUpon>LoginButtonPage.xaml</DependentUpon>
     </Compile>
     -->
-    <Compile Include="SamplePages\DataGrid\DataGridPage.xaml.cs">
+    <Compile Include="Resources\DataGrid\DataGridPage.xaml.cs">
       <DependentUpon>DataGridPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\FrameworkElementExtensions\FrameworkElementExtensionsPage.xaml.cs" />
-    <Compile Include="SamplePages\GazeInteraction\GazeInteractionPage.xaml.cs">
+    <Compile Include="Resources\FrameworkElementExtensions\FrameworkElementExtensionsPage.xaml.cs" />
+    <Compile Include="Resources\GazeInteraction\GazeInteractionPage.xaml.cs">
       <DependentUpon>GazeInteractionPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\GazeTracing\GazeTracingPage.xaml.cs">
+    <Compile Include="Resources\GazeTracing\GazeTracingPage.xaml.cs">
       <DependentUpon>GazeTracingPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ImageBlendBrush\ImageBlendBrushPage.xaml.cs">
+    <Compile Include="Resources\ImageBlendBrush\ImageBlendBrushPage.xaml.cs">
       <DependentUpon>ImageBlendBrushPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Implicit Animations\ImplicitAnimationsPage.xaml.cs">
+    <Compile Include="Resources\Implicit Animations\ImplicitAnimationsPage.xaml.cs">
       <DependentUpon>ImplicitAnimationsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\DockPanel\DockPanelPage.xaml.cs">
+    <Compile Include="Resources\DockPanel\DockPanelPage.xaml.cs">
       <DependentUpon>DockPanelPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\HeaderedContentControl\HeaderedContentControlPage.xaml.cs">
+    <Compile Include="Resources\HeaderedContentControl\HeaderedContentControlPage.xaml.cs">
       <DependentUpon>HeaderedContentControlPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\HeaderedItemsControl\HeaderedItemsControlPage.xaml.cs">
+    <Compile Include="Resources\HeaderedItemsControl\HeaderedItemsControlPage.xaml.cs">
       <DependentUpon>HeaderedItemsControlPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\InAppNotification\InAppNotificationPage.xaml.cs">
+    <Compile Include="Resources\InAppNotification\InAppNotificationPage.xaml.cs">
       <DependentUpon>InAppNotificationPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\LayoutTransformControl\LayoutTransformControlPage.xaml.cs">
+    <Compile Include="Resources\LayoutTransformControl\LayoutTransformControlPage.xaml.cs">
       <DependentUpon>LayoutTransformControlPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\InfiniteCanvas\InfiniteCanvasPage.xaml.cs">
+    <Compile Include="Resources\InfiniteCanvas\InfiniteCanvasPage.xaml.cs">
       <DependentUpon>InfiniteCanvasPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ListViewExtensions\ListViewExtensionsPage.xaml.cs">
+    <Compile Include="Resources\ListViewExtensions\ListViewExtensionsPage.xaml.cs">
       <DependentUpon>ListViewExtensionsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Menu\Commands\VsCommands.cs" />
-    <Compile Include="SamplePages\Menu\MenuPage.xaml.cs">
+    <Compile Include="Resources\Menu\Commands\VsCommands.cs" />
+    <Compile Include="Resources\Menu\MenuPage.xaml.cs">
       <DependentUpon>MenuPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Mouse\MouseCursorPage.xaml.cs">
+    <Compile Include="Resources\Mouse\MouseCursorPage.xaml.cs">
       <DependentUpon>MouseCursorPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\NetworkHelper\NetworkHelperPage.xaml.cs">
+    <Compile Include="Resources\NetworkHelper\NetworkHelperPage.xaml.cs">
       <DependentUpon>NetworkHelperPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\FocusTracker\FocusTrackerPage.xaml.cs">
+    <Compile Include="Resources\FocusTracker\FocusTrackerPage.xaml.cs">
       <DependentUpon>FocusTrackerPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\BackgroundTaskHelper\TestBackgroundTask.cs" />
-    <Compile Include="SamplePages\RemoteDevicePicker\RemoteDevicePickerControlPage.xaml.cs">
+    <Compile Include="Resources\BackgroundTaskHelper\TestBackgroundTask.cs" />
+    <Compile Include="Resources\RemoteDevicePicker\RemoteDevicePickerControlPage.xaml.cs">
       <DependentUpon>RemoteDevicePickerControlPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\RadialGradientBrush\RadialGradientBrushPage.xaml.cs">
+    <Compile Include="Resources\RadialGradientBrush\RadialGradientBrushPage.xaml.cs">
       <DependentUpon>RadialGradientBrushPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ScrollViewerExtensions\ScrollViewerExtensionsPage.xaml.cs">
+    <Compile Include="Resources\ScrollViewerExtensions\ScrollViewerExtensionsPage.xaml.cs">
       <DependentUpon>ScrollViewerExtensionsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\StaggeredPanel\StaggeredPanelPage.xaml.cs">
+    <Compile Include="Resources\StaggeredPanel\StaggeredPanelPage.xaml.cs">
       <DependentUpon>StaggeredPanelPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\StringExtensions\StringExtensionsPage.xaml.cs">
+    <Compile Include="Resources\StringExtensions\StringExtensionsPage.xaml.cs">
       <DependentUpon>StringExtensionsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\TextToolbar\SampleFormatter.cs" />
-    <Compile Include="SamplePages\TextToolbar\TextToolbarPage.xaml.cs">
+    <Compile Include="Resources\TextToolbar\SampleFormatter.cs" />
+    <Compile Include="Resources\TextToolbar\TextToolbarPage.xaml.cs">
       <DependentUpon>TextToolbarPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\OrbitView\OrbitViewPage.xaml.cs">
+    <Compile Include="Resources\OrbitView\OrbitViewPage.xaml.cs">
       <DependentUpon>OrbitViewPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ThemeListener\ThemeListenerPage.xaml.cs">
+    <Compile Include="Resources\ThemeListener\ThemeListenerPage.xaml.cs">
       <DependentUpon>ThemeListenerPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ViewExtensions\ViewExtensionsPage.xaml.cs">
+    <Compile Include="Resources\ViewExtensions\ViewExtensionsPage.xaml.cs">
       <DependentUpon>ViewExtensionsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Carousel\CarouselPage.xaml.cs">
+    <Compile Include="Resources\Carousel\CarouselPage.xaml.cs">
       <DependentUpon>CarouselPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\BackgroundTaskHelper\BackgroundTaskHelperPage.xaml.cs">
+    <Compile Include="Resources\BackgroundTaskHelper\BackgroundTaskHelperPage.xaml.cs">
       <DependentUpon>BackgroundTaskHelperPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\DispatcherQueueHelper\DispatcherQueueHelperPage.xaml.cs">
+    <Compile Include="Resources\DispatcherQueueHelper\DispatcherQueueHelperPage.xaml.cs">
       <DependentUpon>DispatcherQueueHelperPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Expander\ExpanderPage.xaml.cs">
+    <Compile Include="Resources\Expander\ExpanderPage.xaml.cs">
       <DependentUpon>ExpanderPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\CodeRenderer.cs" />
@@ -844,87 +844,87 @@
     <Compile Include="Models\PropertyDescriptor\PropertyKind.cs" />
     <Compile Include="Models\PropertyDescriptor\PropertyDescriptor.cs" />
     <Compile Include="Common\BindableBase.cs" />
-    <Compile Include="SamplePages\BladeView\BladePage.xaml.cs">
+    <Compile Include="Resources\BladeView\BladePage.xaml.cs">
       <DependentUpon>BladePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\AlignmentGrid\AlignmentGridPage.xaml.cs">
+    <Compile Include="Resources\AlignmentGrid\AlignmentGridPage.xaml.cs">
       <DependentUpon>AlignmentGridPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\MarkdownTextBlock\MarkdownTextBlockPage.xaml.cs">
+    <Compile Include="Resources\MarkdownTextBlock\MarkdownTextBlockPage.xaml.cs">
       <DependentUpon>MarkdownTextBlockPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\TileControl\TileControlPage.xaml.cs">
+    <Compile Include="Resources\TileControl\TileControlPage.xaml.cs">
       <DependentUpon>TileControlPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\RadialProgressBar\RadialProgressBarPage.xaml.cs">
+    <Compile Include="Resources\RadialProgressBar\RadialProgressBarPage.xaml.cs">
       <DependentUpon>RadialProgressBarPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ScrollHeader\ScrollHeaderPage.xaml.cs">
+    <Compile Include="Resources\ScrollHeader\ScrollHeaderPage.xaml.cs">
       <DependentUpon>ScrollHeaderPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\GridSplitter\GridSplitterPage.xaml.cs">
+    <Compile Include="Resources\GridSplitter\GridSplitterPage.xaml.cs">
       <DependentUpon>GridSplitterPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\FadeHeader\FadeHeaderBehaviorPage.xaml.cs">
+    <Compile Include="Resources\FadeHeader\FadeHeaderBehaviorPage.xaml.cs">
       <DependentUpon>FadeHeaderBehaviorPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Incremental Loading Collection\IncrementalLoadingCollectionPage.xaml.cs">
+    <Compile Include="Resources\Incremental Loading Collection\IncrementalLoadingCollectionPage.xaml.cs">
       <DependentUpon>IncrementalLoadingCollectionPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Incremental Loading Collection\PeopleSource.cs" />
-    <Compile Include="SamplePages\Incremental Loading Collection\Person.cs" />
-    <Compile Include="SamplePages\Loading\LoadingPage.xaml.cs">
+    <Compile Include="Resources\Incremental Loading Collection\PeopleSource.cs" />
+    <Compile Include="Resources\Incremental Loading Collection\Person.cs" />
+    <Compile Include="Resources\Loading\LoadingPage.xaml.cs">
       <DependentUpon>LoadingPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ListDetailsView\ListDetailsViewPage.cs">
+    <Compile Include="Resources\ListDetailsView\ListDetailsViewPage.cs">
       <DependentUpon>ListDetailsViewPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ImageCache\ImageCachePage.xaml.cs">
+    <Compile Include="Resources\ImageCache\ImageCachePage.xaml.cs">
       <DependentUpon>ImageCachePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\PrintHelper\PrintHelperPage.xaml.cs">
+    <Compile Include="Resources\PrintHelper\PrintHelperPage.xaml.cs">
       <DependentUpon>PrintHelperPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ItemsReorderAnimation\ItemsReorderAnimationPage.xaml.cs">
+    <Compile Include="Resources\ItemsReorderAnimation\ItemsReorderAnimationPage.xaml.cs">
       <DependentUpon>ItemsReorderAnimationPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\RotatorTile\RotatorTilePage.xaml.cs">
+    <Compile Include="Resources\RotatorTile\RotatorTilePage.xaml.cs">
       <DependentUpon>RotatorTilePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\LiveTile\LiveTilePage.xaml.cs">
+    <Compile Include="Resources\LiveTile\LiveTilePage.xaml.cs">
       <DependentUpon>LiveTilePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Object Storage\ObjectStoragePage.xaml.cs">
+    <Compile Include="Resources\Object Storage\ObjectStoragePage.xaml.cs">
       <DependentUpon>ObjectStoragePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\SystemInformation\SystemInformationPage.xaml.cs">
+    <Compile Include="Resources\SystemInformation\SystemInformationPage.xaml.cs">
       <DependentUpon>SystemInformationPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\TextBoxMask\TextBoxMaskPage.xaml.cs">
+    <Compile Include="Resources\TextBoxMask\TextBoxMaskPage.xaml.cs">
       <DependentUpon>TextBoxMaskPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\TextBoxRegex\TextBoxRegexPage.xaml.cs">
+    <Compile Include="Resources\TextBoxRegex\TextBoxRegexPage.xaml.cs">
       <DependentUpon>TextBoxRegexPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Toast\ToastPage.xaml.cs">
+    <Compile Include="Resources\Toast\ToastPage.xaml.cs">
       <DependentUpon>ToastPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ImageEx\ImageExPage.xaml.cs">
+    <Compile Include="Resources\ImageEx\ImageExPage.xaml.cs">
       <DependentUpon>ImageExPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\ViewportBehavior\ViewportBehaviorPage.xaml.cs">
+    <Compile Include="Resources\ViewportBehavior\ViewportBehaviorPage.xaml.cs">
       <DependentUpon>ViewportBehaviorPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\Visual Extensions\VisualExtensionsPage.xaml.cs">
+    <Compile Include="Resources\Visual Extensions\VisualExtensionsPage.xaml.cs">
       <DependentUpon>VisualExtensionsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\WeatherLiveTileAndToast\WeatherLiveTileAndToastPage.xaml.cs">
+    <Compile Include="Resources\WeatherLiveTileAndToast\WeatherLiveTileAndToastPage.xaml.cs">
       <DependentUpon>WeatherLiveTileAndToastPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\RadialGauge\RadialGaugePage.xaml.cs">
+    <Compile Include="Resources\RadialGauge\RadialGaugePage.xaml.cs">
       <DependentUpon>RadialGaugePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\WrapPanel\WrapPanelPage.xaml.cs">
+    <Compile Include="Resources\WrapPanel\WrapPanelPage.xaml.cs">
       <DependentUpon>WrapPanelPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Shell.xaml.cs">
@@ -937,7 +937,7 @@
     <Compile Include="Pages\About.xaml.cs">
       <DependentUpon>About.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SamplePages\AdaptiveGridView\AdaptiveGridViewPage.xaml.cs">
+    <Compile Include="Resources\AdaptiveGridView\AdaptiveGridViewPage.xaml.cs">
       <DependentUpon>AdaptiveGridViewPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -969,427 +969,427 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\SampleController.xaml">
+    <Page Include="Pages\ShowcaseController.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\AutoFocusBehavior\AutoFocusBehaviorPage.xaml">
+    <Page Include="Resources\AutoFocusBehavior\AutoFocusBehaviorPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\EnumValuesExtension\EnumValuesExtensionPage.xaml">
+    <Page Include="Resources\EnumValuesExtension\EnumValuesExtensionPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\FocusBehavior\FocusBehaviorPage.xaml">
+    <Page Include="Resources\FocusBehavior\FocusBehaviorPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Content Include="SamplePages\TabbedCommandBar\TabbedCommandBar.bind">
+    <Content Include="Resources\TabbedCommandBar\TabbedCommandBar.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="SamplePages\MetadataControl\MetadataControlCode.bind">
+    <Content Include="Resources\MetadataControl\MetadataControlCode.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Page Include="SamplePages\MetadataControl\MetadataControlPage.xaml">
+    <Page Include="Resources\MetadataControl\MetadataControlPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\CanvasPathGeometry\CanvasPathGeometryPage.xaml">
+    <Page Include="Resources\CanvasPathGeometry\CanvasPathGeometryPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Content Include="SamplePages\Primitives\SwitchPresenter.bind">
+    <Content Include="Resources\Primitives\SwitchPresenter.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Page Include="SamplePages\Shadows\AttachedDropShadowPage.xaml">
+    <Page Include="Resources\Shadows\AttachedDropShadowPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Content Include="SamplePages\RichSuggestBox\RichSuggestBoxXaml.bind">
+    <Content Include="Resources\RichSuggestBox\RichSuggestBoxXaml.bind">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Page Include="SamplePages\RichSuggestBox\RichSuggestBoxPage.xaml">
+    <Page Include="Resources\RichSuggestBox\RichSuggestBoxPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\TilesBrush\TilesBrushPage.xaml">
+    <Page Include="Resources\TilesBrush\TilesBrushPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\Eyedropper\EyedropperPage.xaml">
+    <Page Include="Resources\Eyedropper\EyedropperPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Content Include="SamplePages\ClipToBounds\ClipToBoundsCode.bind">
+    <Content Include="Resources\ClipToBounds\ClipToBoundsCode.bind">
       <SubType>Designer</SubType>
     </Content>
-    <Page Include="SamplePages\ClipToBounds\ClipToBoundsPage.xaml">
+    <Page Include="Resources\ClipToBounds\ClipToBoundsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\ImageEx\ImageExLazyLoadingControl.xaml">
+    <Page Include="Resources\ImageEx\ImageExLazyLoadingControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\IconExtensions\IconExtensionsPage.xaml">
+    <Page Include="Resources\IconExtensions\IconExtensionsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\ObservableGroup\ObservableGroupPage.xaml">
+    <Page Include="Resources\ObservableGroup\ObservableGroupPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\OnDevice\OnDevicePage.xaml">
+    <Page Include="Resources\OnDevice\OnDevicePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\AcrylicBrush\AcrylicBrushPage.xaml">
+    <Page Include="Resources\AcrylicBrush\AcrylicBrushPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\PipelineBrush\PipelineBrushPage.xaml">
+    <Page Include="Resources\PipelineBrush\PipelineBrushPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\RemoteDeviceHelper\RemoteDeviceHelperPage.xaml">
+    <Page Include="Resources\RemoteDeviceHelper\RemoteDeviceHelperPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\ImageCropper\ImageCropperPage.xaml">
+    <Page Include="Resources\ImageCropper\ImageCropperPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\StaggeredLayout\StaggeredLayoutPage.xaml">
+    <Page Include="Resources\StaggeredLayout\StaggeredLayoutPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <!-- TODO Reintroduce graph controls
-    <Page Include="SamplePages\PeoplePicker\PeoplePickerPage.xaml">
+    <Page Include="Resources\PeoplePicker\PeoplePickerPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\PersonView\PersonViewPage.xaml">
+    <Page Include="Resources\PersonView\PersonViewPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     -->
-    <Page Include="SamplePages\BackdropGammaTransferBrush\BackdropGammaTransferBrushPage.xaml">
+    <Page Include="Resources\BackdropGammaTransferBrush\BackdropGammaTransferBrushPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\BackdropInvertBrush\BackdropInvertBrushPage.xaml">
+    <Page Include="Resources\BackdropInvertBrush\BackdropInvertBrushPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\BackdropSaturationBrush\BackdropSaturationBrushPage.xaml">
+    <Page Include="Resources\BackdropSaturationBrush\BackdropSaturationBrushPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\BackdropSepiaBrush\BackdropSepiaBrushPage.xaml">
+    <Page Include="Resources\BackdropSepiaBrush\BackdropSepiaBrushPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\CameraPreview\CameraPreviewPage.xaml">
+    <Page Include="Resources\CameraPreview\CameraPreviewPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\CameraHelper\CameraHelperPage.xaml">
+    <Page Include="Resources\CameraHelper\CameraHelperPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\TokenizingTextBox\TokenizingTextBoxPage.xaml">
+    <Page Include="Resources\TokenizingTextBox\TokenizingTextBoxPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Content Include="SamplePages\TokenizingTextBox\TokenizingTextBoxXaml.bind">
+    <Content Include="Resources\TokenizingTextBox\TokenizingTextBoxXaml.bind">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Content Include="SamplePages\Triggers\ControlSizeTrigger.bind">
+    <Content Include="Resources\Triggers\ControlSizeTrigger.bind">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Content>
-    <Page Include="SamplePages\Triggers\FullScreenModeStateTriggerPage.xaml">
+    <Page Include="Resources\Triggers\FullScreenModeStateTriggerPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\Triggers\IsNullOrEmptyStateTriggerPage.xaml">
+    <Page Include="Resources\Triggers\IsNullOrEmptyStateTriggerPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\UniformGrid\UniformGridPage.xaml">
+    <Page Include="Resources\UniformGrid\UniformGridPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\Carousel\CarouselPage.xaml">
+    <Page Include="Resources\Carousel\CarouselPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\AdvancedCollectionView\AdvancedCollectionViewPage.xaml">
+    <Page Include="Resources\AdvancedCollectionView\AdvancedCollectionViewPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\BluetoothLEHelper\BluetoothLEHelperPage.xaml">
+    <Page Include="Resources\BluetoothLEHelper\BluetoothLEHelperPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\Connected Animations\ConnectedAnimationsPage.xaml">
+    <Page Include="Resources\Connected Animations\ConnectedAnimationsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\Connected Animations\Pages\FirstPage.xaml">
+    <Page Include="Resources\Connected Animations\Pages\FirstPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\Connected Animations\Pages\SecondPage.xaml">
+    <Page Include="Resources\Connected Animations\Pages\SecondPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\Connected Animations\Pages\ThirdPage.xaml">
+    <Page Include="Resources\Connected Animations\Pages\ThirdPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\DataGrid\DataGridPage.xaml">
+    <Page Include="Resources\DataGrid\DataGridPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\DockPanel\DockPanelPage.xaml">
+    <Page Include="Resources\DockPanel\DockPanelPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\BackdropBlurBrush\BackdropBlurBrushPage.xaml">
+    <Page Include="Resources\BackdropBlurBrush\BackdropBlurBrushPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <!-- TODO Reintroduce graph controls
-    <Page Include="SamplePages\LoginButton\LoginButtonPage.xaml">
+    <Page Include="Resources\LoginButton\LoginButtonPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     -->
-    <Page Include="SamplePages\FocusTracker\FocusTrackerPage.xaml">
+    <Page Include="Resources\FocusTracker\FocusTrackerPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\FrameworkElementExtensions\FrameworkElementExtensionsPage.xaml">
+    <Page Include="Resources\FrameworkElementExtensions\FrameworkElementExtensionsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\GazeInteraction\GazeInteractionPage.xaml">
+    <Page Include="Resources\GazeInteraction\GazeInteractionPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\GazeTracing\GazeTracingPage.xaml">
+    <Page Include="Resources\GazeTracing\GazeTracingPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\HeaderedContentControl\HeaderedContentControlPage.xaml">
+    <Page Include="Resources\HeaderedContentControl\HeaderedContentControlPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\HeaderedItemsControl\HeaderedItemsControlPage.xaml">
+    <Page Include="Resources\HeaderedItemsControl\HeaderedItemsControlPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\ImageBlendBrush\ImageBlendBrushPage.xaml">
+    <Page Include="Resources\ImageBlendBrush\ImageBlendBrushPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\Implicit Animations\ImplicitAnimationsPage.xaml">
+    <Page Include="Resources\Implicit Animations\ImplicitAnimationsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\InAppNotification\InAppNotificationPage.xaml">
+    <Page Include="Resources\InAppNotification\InAppNotificationPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\LayoutTransformControl\LayoutTransformControlPage.xaml">
+    <Page Include="Resources\LayoutTransformControl\LayoutTransformControlPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\InfiniteCanvas\InfiniteCanvasPage.xaml">
+    <Page Include="Resources\InfiniteCanvas\InfiniteCanvasPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\Mouse\MouseCursorPage.xaml">
+    <Page Include="Resources\Mouse\MouseCursorPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\RadialGradientBrush\RadialGradientBrushPage.xaml">
+    <Page Include="Resources\RadialGradientBrush\RadialGradientBrushPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\RemoteDevicePicker\RemoteDevicePickerControlPage.xaml">
+    <Page Include="Resources\RemoteDevicePicker\RemoteDevicePickerControlPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\ScrollViewerExtensions\ScrollViewerExtensionsPage.xaml">
+    <Page Include="Resources\ScrollViewerExtensions\ScrollViewerExtensionsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\StaggeredPanel\StaggeredPanelPage.xaml">
+    <Page Include="Resources\StaggeredPanel\StaggeredPanelPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\StringExtensions\StringExtensionsPage.xaml">
+    <Page Include="Resources\StringExtensions\StringExtensionsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\TextToolbar\TextToolbarPage.xaml">
+    <Page Include="Resources\TextToolbar\TextToolbarPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\ListViewExtensions\ListViewExtensionsPage.xaml">
+    <Page Include="Resources\ListViewExtensions\ListViewExtensionsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\Menu\MenuPage.xaml">
+    <Page Include="Resources\Menu\MenuPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\OrbitView\OrbitViewPage.xaml">
+    <Page Include="Resources\OrbitView\OrbitViewPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\ThemeListener\ThemeListenerPage.xaml">
+    <Page Include="Resources\ThemeListener\ThemeListenerPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\ViewExtensions\ViewExtensionsPage.xaml">
+    <Page Include="Resources\ViewExtensions\ViewExtensionsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\NetworkHelper\NetworkHelperPage.xaml">
+    <Page Include="Resources\NetworkHelper\NetworkHelperPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\BackgroundTaskHelper\BackgroundTaskHelperPage.xaml">
+    <Page Include="Resources\BackgroundTaskHelper\BackgroundTaskHelperPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\DispatcherQueueHelper\DispatcherQueueHelperPage.xaml">
+    <Page Include="Resources\DispatcherQueueHelper\DispatcherQueueHelperPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\BladeView\BladePage.xaml">
+    <Page Include="Resources\BladeView\BladePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\AlignmentGrid\AlignmentGridPage.xaml">
+    <Page Include="Resources\AlignmentGrid\AlignmentGridPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\MarkdownTextBlock\MarkdownTextBlockPage.xaml">
+    <Page Include="Resources\MarkdownTextBlock\MarkdownTextBlockPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\Expander\ExpanderPage.xaml">
+    <Page Include="Resources\Expander\ExpanderPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\TileControl\TileControlPage.xaml">
+    <Page Include="Resources\TileControl\TileControlPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\RadialProgressBar\RadialProgressBarPage.xaml">
+    <Page Include="Resources\RadialProgressBar\RadialProgressBarPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\ScrollHeader\ScrollHeaderPage.xaml">
+    <Page Include="Resources\ScrollHeader\ScrollHeaderPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\GridSplitter\GridSplitterPage.xaml">
+    <Page Include="Resources\GridSplitter\GridSplitterPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\FadeHeader\FadeHeaderBehaviorPage.xaml">
+    <Page Include="Resources\FadeHeader\FadeHeaderBehaviorPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\Incremental Loading Collection\IncrementalLoadingCollectionPage.xaml">
+    <Page Include="Resources\Incremental Loading Collection\IncrementalLoadingCollectionPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\Loading\LoadingPage.xaml">
+    <Page Include="Resources\Loading\LoadingPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\ListDetailsView\ListDetailsViewPage.xaml">
+    <Page Include="Resources\ListDetailsView\ListDetailsViewPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\ImageCache\ImageCachePage.xaml">
+    <Page Include="Resources\ImageCache\ImageCachePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\PrintHelper\PrintHelperPage.xaml">
+    <Page Include="Resources\PrintHelper\PrintHelperPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\ItemsReorderAnimation\ItemsReorderAnimationPage.xaml">
+    <Page Include="Resources\ItemsReorderAnimation\ItemsReorderAnimationPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\RotatorTile\RotatorTilePage.xaml">
+    <Page Include="Resources\RotatorTile\RotatorTilePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\LiveTile\LiveTilePage.xaml">
+    <Page Include="Resources\LiveTile\LiveTilePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\Object Storage\ObjectStoragePage.xaml">
+    <Page Include="Resources\Object Storage\ObjectStoragePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\SystemInformation\SystemInformationPage.xaml">
+    <Page Include="Resources\SystemInformation\SystemInformationPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\TextBoxMask\TextBoxMaskPage.xaml">
+    <Page Include="Resources\TextBoxMask\TextBoxMaskPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\TextBoxRegex\TextBoxRegexPage.xaml">
+    <Page Include="Resources\TextBoxRegex\TextBoxRegexPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\Toast\ToastPage.xaml">
+    <Page Include="Resources\Toast\ToastPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\ImageEx\ImageExPage.xaml">
+    <Page Include="Resources\ImageEx\ImageExPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\ViewportBehavior\ViewportBehaviorPage.xaml">
+    <Page Include="Resources\ViewportBehavior\ViewportBehaviorPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\Visual Extensions\VisualExtensionsPage.xaml">
+    <Page Include="Resources\Visual Extensions\VisualExtensionsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\WeatherLiveTileAndToast\WeatherLiveTileAndToastPage.xaml">
+    <Page Include="Resources\WeatherLiveTileAndToast\WeatherLiveTileAndToastPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\RadialGauge\RadialGaugePage.xaml">
+    <Page Include="Resources\RadialGauge\RadialGaugePage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\WrapLayout\WrapLayoutPage.xaml">
+    <Page Include="Resources\WrapLayout\WrapLayoutPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\WrapPanel\WrapPanelPage.xaml">
+    <Page Include="Resources\WrapPanel\WrapPanelPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="SamplePages\XamlOnlyPage.xaml">
+    <Page Include="Resources\XamlOnlyPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1401,7 +1401,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="SamplePages\AdaptiveGridView\AdaptiveGridViewPage.xaml">
+    <Page Include="Resources\AdaptiveGridView\AdaptiveGridViewPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -1423,73 +1423,73 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.Connectivity\Microsoft.Toolkit.Uwp.Connectivity.csproj">
+    <ProjectReference Include="..\Community.Windows.Connectivity\Community.Windows.Connectivity.csproj">
       <Project>{b1e850ff-dde6-44d5-a830-34250e97a687}</Project>
-      <Name>Microsoft.Toolkit.Uwp.Connectivity</Name>
+      <Name>Community.Windows.Connectivity</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.Input.GazeInteraction\Microsoft.Toolkit.Uwp.Input.GazeInteraction.csproj">
+    <ProjectReference Include="..\Community.Windows.Input.GazeInteraction\Community.Windows.Input.GazeInteraction.csproj">
       <Project>{5bf75694-798a-43a0-8150-415de195359c}</Project>
-      <Name>Microsoft.Toolkit.Uwp.Input.GazeInteraction</Name>
+      <Name>Community.Windows.Input.GazeInteraction</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.DeveloperTools\Microsoft.Toolkit.Uwp.DeveloperTools.csproj">
+    <ProjectReference Include="..\Community.Windows.DeveloperTools\Community.Windows.DeveloperTools.csproj">
       <Project>{e7697922-9555-4cfb-aee0-c5f4d657e559}</Project>
-      <Name>Microsoft.Toolkit.Uwp.DeveloperTools</Name>
+      <Name>Community.Windows.DeveloperTools</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.Notifications\Microsoft.Toolkit.Uwp.Notifications.csproj">
+    <ProjectReference Include="..\Community.Windows.Notifications\Community.Windows.Notifications.csproj">
       <Project>{97ee849b-403c-490e-80ed-d19d7cc153fd}</Project>
-      <Name>Microsoft.Toolkit.Uwp.Notifications</Name>
+      <Name>Community.Windows.Notifications</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.Samples.BackgroundTasks\Microsoft.Toolkit.Uwp.Samples.BackgroundTasks.csproj">
+    <ProjectReference Include="..\Community.Windows.Samples.BackgroundTasks\Community.Windows.Samples.BackgroundTasks.csproj">
       <Project>{1ae2cb5c-58a0-4f12-8e6f-2cd4aaadb34c}</Project>
-      <Name>Microsoft.Toolkit.Uwp.Samples.BackgroundTasks</Name>
+      <Name>Community.Windows.Samples.BackgroundTasks</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Behaviors\Microsoft.Toolkit.Uwp.UI.Behaviors.csproj">
+    <ProjectReference Include="..\Community.Windows.UI.Behaviors\Community.Windows.UI.Behaviors.csproj">
       <Project>{d4ff799d-0df2-495a-adc9-3bbc4aef8971}</Project>
-      <Name>Microsoft.Toolkit.Uwp.UI.Behaviors</Name>
+      <Name>Community.Windows.UI.Behaviors</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.csproj">
+    <ProjectReference Include="..\Community.Windows.UI.Controls.DataGrid\Community.Windows.UI.Controls.DataGrid.csproj">
       <Project>{daeb9cec-c817-33b2-74b2-bc379380db72}</Project>
-      <Name>Microsoft.Toolkit.Uwp.UI.Controls.DataGrid</Name>
+      <Name>Community.Windows.UI.Controls.DataGrid</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Controls.Input\Microsoft.Toolkit.Uwp.UI.Controls.Input.csproj">
+    <ProjectReference Include="..\Community.Windows.UI.Controls.Input\Community.Windows.UI.Controls.Input.csproj">
       <Project>{af1be4e9-e2e1-4729-b076-b3725d8e21ee}</Project>
-      <Name>Microsoft.Toolkit.Uwp.UI.Controls.Input</Name>
+      <Name>Community.Windows.UI.Controls.Input</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Controls.Layout\Microsoft.Toolkit.Uwp.UI.Controls.Layout.csproj">
+    <ProjectReference Include="..\Community.Windows.UI.Controls.Layout\Community.Windows.UI.Controls.Layout.csproj">
       <Project>{cb444381-18ba-4a51-bb32-3a498bcc1e99}</Project>
-      <Name>Microsoft.Toolkit.Uwp.UI.Controls.Layout</Name>
+      <Name>Community.Windows.UI.Controls.Layout</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Controls.Markdown\Microsoft.Toolkit.Uwp.UI.Controls.Markdown.csproj">
+    <ProjectReference Include="..\Community.Windows.UI.Controls.Markdown\Community.Windows.UI.Controls.Markdown.csproj">
       <Project>{6fedf199-b052-49dd-8f3e-2a9224998e0f}</Project>
-      <Name>Microsoft.Toolkit.Uwp.UI.Controls.Markdown</Name>
+      <Name>Community.Windows.UI.Controls.Markdown</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Controls.Media\Microsoft.Toolkit.Uwp.UI.Controls.Media.csproj">
+    <ProjectReference Include="..\Community.Windows.UI.Controls.Media\Community.Windows.UI.Controls.Media.csproj">
       <Project>{43bd2a36-9e12-4788-80ae-2377e41e6d05}</Project>
-      <Name>Microsoft.Toolkit.Uwp.UI.Controls.Media</Name>
+      <Name>Community.Windows.UI.Controls.Media</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Controls.Primitives\Microsoft.Toolkit.Uwp.UI.Controls.Primitives.csproj">
+    <ProjectReference Include="..\Community.Windows.UI.Controls.Primitives\Community.Windows.UI.Controls.Primitives.csproj">
       <Project>{84ab7dc5-95c9-4cf8-a370-d077e9e9ef1a}</Project>
-      <Name>Microsoft.Toolkit.Uwp.UI.Controls.Primitives</Name>
+      <Name>Community.Windows.UI.Controls.Primitives</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Controls.Core\Microsoft.Toolkit.Uwp.UI.Controls.Core.csproj">
+    <ProjectReference Include="..\Community.Windows.UI.Controls.Core\Community.Windows.UI.Controls.Core.csproj">
       <Project>{e9faabfb-d726-42c1-83c1-cb46a29fea81}</Project>
-      <Name>Microsoft.Toolkit.Uwp.UI.Controls.Core</Name>
+      <Name>Community.Windows.UI.Controls.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Media\Microsoft.Toolkit.Uwp.UI.Media.csproj">
+    <ProjectReference Include="..\Community.Windows.UI.Media\Community.Windows.UI.Media.csproj">
       <Project>{75f9ee44-3efa-47bc-aedd-351b9834a0af}</Project>
-      <Name>Microsoft.Toolkit.Uwp.UI.Media</Name>
+      <Name>Community.Windows.UI.Media</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Animations\Microsoft.Toolkit.Uwp.UI.Animations.csproj">
+    <ProjectReference Include="..\Community.Windows.UI.Animations\Community.Windows.UI.Animations.csproj">
       <Project>{b24a296c-b3eb-4e06-a64e-74ac2d1acc91}</Project>
-      <Name>Microsoft.Toolkit.Uwp.UI.Animations</Name>
+      <Name>Community.Windows.UI.Animations</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI\Microsoft.Toolkit.Uwp.UI.csproj">
+    <ProjectReference Include="..\Community.Windows.UI\Community.Windows.UI.csproj">
       <Project>{3dd8aa7c-3569-4e51-992f-0c2257e8878e}</Project>
-      <Name>Microsoft.Toolkit.Uwp.UI</Name>
+      <Name>Community.Windows.UI</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp\Microsoft.Toolkit.Uwp.csproj">
+    <ProjectReference Include="..\Community.Windows\Community.Windows.csproj">
       <Project>{805F80DF-75C6-4C2F-8FD9-B47F6D0DF5A3}</Project>
-      <Name>Microsoft.Toolkit.Uwp</Name>
+      <Name>Community.Windows</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

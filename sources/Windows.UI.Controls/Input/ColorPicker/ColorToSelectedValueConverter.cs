@@ -6,7 +6,7 @@ using System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.ColorPickerConverters
+namespace Community.Windows.UI.Controls.ColorPickerConverters
 {
     /// <summary>
     /// Ignores null target values for TwoWay binding.

@@ -11,7 +11,7 @@ using Windows.UI.Xaml.Hosting;
 
 #nullable enable
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// Provides the ability to assign a reorder animation to a <see cref="ListViewBase"/>.

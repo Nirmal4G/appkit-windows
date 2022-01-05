@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 using Windows.UI;
 using Windows.UI.Composition;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations.Expressions
+namespace Community.Windows.UI.Animations.Expressions
 {
     /// <summary>
     /// Class ExpressionNode.

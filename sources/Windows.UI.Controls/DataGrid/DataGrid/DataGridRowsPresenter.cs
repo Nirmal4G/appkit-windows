@@ -4,7 +4,7 @@
 
 using System;
 using System.Diagnostics;
-using Microsoft.Toolkit.Uwp.UI.Automation.Peers;
+using Community.Windows.UI.Automation.Peers;
 using Windows.Foundation;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Automation.Peers;
@@ -14,7 +14,7 @@ using Windows.UI.Xaml.Media;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.Primitives
+namespace Community.Windows.UI.Controls.Primitives
 {
     /// <summary>
     /// Used within the template of a <see cref="DataGrid"/> to specify the

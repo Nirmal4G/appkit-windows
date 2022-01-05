@@ -8,10 +8,10 @@ using System.Text;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Brushes;
 using Microsoft.Graphics.Canvas.Geometry;
-using Microsoft.Toolkit.Uwp.UI.Media.Geometry.Parsers;
+using Community.Windows.UI.Media.Geometry.Parsers;
 using Windows.UI;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Geometry
+namespace Community.Windows.UI.Media.Geometry
 {
     /// <summary>
     /// Helper Class for creating Win2d objects.

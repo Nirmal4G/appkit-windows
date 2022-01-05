@@ -7,7 +7,7 @@
 using Windows.UI.Composition;
 using Windows.UI.Xaml.Media.Animation;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <inheritdoc cref="AnimationBuilder"/>
     public sealed partial class AnimationBuilder

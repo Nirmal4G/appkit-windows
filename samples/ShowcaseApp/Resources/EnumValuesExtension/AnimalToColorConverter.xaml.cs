@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.SampleApp.Enums;
+using Community.Windows.ShowcaseApp.Enums;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Converters
+namespace Community.Windows.ShowcaseApp.Converters
 {
     public sealed class AnimalToColorConverter : IValueConverter
     {

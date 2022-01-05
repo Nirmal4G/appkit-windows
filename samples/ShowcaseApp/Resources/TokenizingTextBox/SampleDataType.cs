@@ -4,10 +4,10 @@
 
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
-    /// Sample of strongly-typed data for <see cref="Microsoft.Toolkit.Uwp.UI.Controls.TokenizingTextBox"/>.
+    /// Sample of strongly-typed data for <see cref="Community.Windows.UI.Controls.TokenizingTextBox"/>.
     /// </summary>
     public class SampleDataType
     {

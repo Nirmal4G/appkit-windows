@@ -10,12 +10,12 @@ using Windows.UI.Xaml.Media.Animation;
 
 #pragma warning disable CS0419
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// A type describing the repeat behavior for a custom animation.
     /// </summary>
-    [CreateFromString(MethodName = "Microsoft.Toolkit.Uwp.UI.Animations.RepeatOption.Parse")]
+    [CreateFromString(MethodName = "Community.Windows.UI.Animations.RepeatOption.Parse")]
     public readonly struct RepeatOption
     {
         /// <summary>

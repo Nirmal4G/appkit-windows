@@ -13,7 +13,7 @@ using Windows.Devices.Bluetooth.Advertisement;
 using Windows.Devices.Enumeration;
 using Windows.System;
 
-namespace Microsoft.Toolkit.Uwp.Connectivity
+namespace Community.Windows.Connectivity
 {
     /// <summary>
     /// Context for the entire app. This is where all app wide variables are stored

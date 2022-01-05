@@ -4,13 +4,13 @@
 
 using System;
 using System.Collections.ObjectModel;
-using Microsoft.Toolkit.Uwp.SampleApp.Data;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.ShowcaseApp.Data;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// WrapPanel sample page
@@ -42,9 +42,9 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
         {
             _wrapPanelCollection = new ObservableCollection<PhotoDataItemWithDimension>();
 
-            SampleController.Current.RegisterNewCommand("Add random sized Image", AddButton_Click);
-            SampleController.Current.RegisterNewCommand("Add fixed sized Image", AddFixedButton_Click);
-            SampleController.Current.RegisterNewCommand("Switch Orientation", SwitchButton_Click);
+            ShowcaseController.Current.RegisterNewCommand("Add random sized Image", AddButton_Click);
+            ShowcaseController.Current.RegisterNewCommand("Add fixed sized Image", AddFixedButton_Click);
+            ShowcaseController.Current.RegisterNewCommand("Switch Orientation", SwitchButton_Click);
         }
 
         private void ItemControl_ItemClick(object sender, ItemClickEventArgs e)

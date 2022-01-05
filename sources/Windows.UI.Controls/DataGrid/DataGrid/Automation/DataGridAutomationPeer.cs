@@ -4,9 +4,9 @@
 
 using System.Collections.Generic;
 using System.Diagnostics;
-using Microsoft.Toolkit.Uwp.UI.Controls;
-using Microsoft.Toolkit.Uwp.UI.Controls.DataGridInternals;
-using Microsoft.Toolkit.Uwp.Utilities;
+using Community.Windows.UI.Controls;
+using Community.Windows.UI.Controls.DataGridInternals;
+using Community.Windows.Utilities;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Automation;
 using Windows.UI.Xaml.Automation.Peers;
@@ -17,7 +17,7 @@ using Windows.UI.Xaml.Data;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace Microsoft.Toolkit.Uwp.UI.Automation.Peers
+namespace Community.Windows.UI.Automation.Peers
 {
     /// <summary>
     /// Exposes <see cref="DataGrid" /> types to UI Automation.

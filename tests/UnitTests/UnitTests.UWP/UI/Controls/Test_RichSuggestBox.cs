@@ -6,8 +6,8 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Windows.UI.Text;
-using Microsoft.Toolkit.Uwp;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows;
+using Community.Windows.UI.Controls;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests.UWP.UI.Controls
@@ -282,7 +282,7 @@ namespace UnitTests.UWP.UI.Controls
         {
             const string rtf = @"{\rtf1\fbidis\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Segoe UI;}{\f1\fnil Segoe UI;}}
 {\colortbl ;\red255\green255\blue255;\red0\green0\blue255;\red41\green150\blue204;}
-{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1
 \pard\tx720\cf1\f0\fs21\lang4105 Hello {{\field{\*\fldinst{HYPERLINK ""c3b58ee9-df54-4686-b295-f203a5d8809a""}}{\fldrslt{\ul\cf2\u8203?\cf3\highlight1 @Michael Hawker\cf1\highlight0\u8203?}}}}\f1\fs21  \f0 from {{\field{\*\fldinst{HYPERLINK ""1c6a71c3-f81f-4a27-8f17-50d64acd5b61""}}{\fldrslt{\ul\cf2\u8203?\cf3\highlight1 @Tung Huynh\cf1\highlight0\u8203?}}}}\f1\fs21\par
 }
 ";

@@ -4,7 +4,7 @@
 
 using System;
 using System.Linq;
-using Microsoft.Toolkit.Uwp.Notifications;
+using Community.Windows.Notifications;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests.Notifications

@@ -4,7 +4,7 @@
 
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.Toolkit.Uwp.Helpers;
+using Community.Windows.Helpers;
 
 namespace UnitTests.Helpers
 {

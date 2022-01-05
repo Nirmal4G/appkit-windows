@@ -5,8 +5,8 @@
 using System;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Microsoft.Toolkit.Uwp.Helpers;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.Helpers;
+using Community.Windows.UI.Controls;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Windows.ApplicationModel.Core;
 using Windows.UI.Core;

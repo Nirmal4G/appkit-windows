@@ -4,7 +4,7 @@
 
 using System;
 
-namespace Microsoft.Toolkit.Parsers.Markdown.Inlines
+namespace Community.Parsers.Markdown.Inlines
 {
     /// <summary>
     /// Implemented by all inline link elements.

@@ -5,7 +5,7 @@
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Markup;
 
-namespace Microsoft.Toolkit.Uwp.UI.Helpers
+namespace Community.Windows.UI.Helpers
 {
     /// <summary>
     /// Holds the value.

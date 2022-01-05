@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Deferred;
+using Community.Common.Deferred;
 using Windows.UI.Text;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Provides data for the <see cref="RichSuggestBox.SuggestionChosen"/> event.

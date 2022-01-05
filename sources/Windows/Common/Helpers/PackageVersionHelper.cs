@@ -5,7 +5,7 @@
 using System;
 using Windows.ApplicationModel;
 
-namespace Microsoft.Toolkit.Uwp.Helpers
+namespace Community.Windows.Helpers
 {
     /// <summary>
     /// This class provides static helper methods for <see cref="PackageVersion"/>.

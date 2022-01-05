@@ -3,13 +3,13 @@
 // See the LICENSE file in the project root for more information.
 
 using System.ComponentModel;
-using Microsoft.Toolkit.Uwp.UI.Controls;
-using Microsoft.Toolkit.Uwp.UI.Controls.DataGridInternals;
-using Microsoft.Toolkit.Uwp.UI.Controls.Primitives;
+using Community.Windows.UI.Controls;
+using Community.Windows.UI.Controls.DataGridInternals;
+using Community.Windows.UI.Controls.Primitives;
 using Windows.UI.Xaml.Automation.Peers;
 using Windows.UI.Xaml.Automation.Provider;
 
-namespace Microsoft.Toolkit.Uwp.UI.Automation.Peers
+namespace Community.Windows.UI.Automation.Peers
 {
     /// <summary>
     /// AutomationPeer for DataGridColumnHeader

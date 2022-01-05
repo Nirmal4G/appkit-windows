@@ -6,10 +6,10 @@ using System;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Deferred;
+using Community.Common.Deferred;
 using Windows.Foundation;
 
-namespace Microsoft.Toolkit.Uwp.Deferred
+namespace Community.Windows.Deferred
 {
     /// <summary>
     /// Extensions to <see cref="TypedEventHandler{TSender, TResult}"/> for Deferred Events.

@@ -4,11 +4,11 @@
 
 using System;
 using System.Linq;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.UI.Controls;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class RemoteDevicePickerControlPage : Page
     {

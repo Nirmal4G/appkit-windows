@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.Notifications\Microsoft.Toolkit.Uwp.Notifications.csproj" />
+    <ProjectReference Include="..\Community.Windows.Notifications\Community.Windows.Notifications.csproj" />
   </ItemGroup>
 
   <ItemGroup>

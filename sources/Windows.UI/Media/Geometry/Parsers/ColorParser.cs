@@ -6,10 +6,10 @@ using System;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
-using Microsoft.Toolkit.Uwp.UI.Media.Geometry.Core;
+using Community.Windows.UI.Media.Geometry.Core;
 using Windows.UI;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Geometry.Parsers
+namespace Community.Windows.UI.Media.Geometry.Parsers
 {
     /// <summary>
     /// Parser for Color

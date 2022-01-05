@@ -3,17 +3,17 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.SampleApp.SamplePages.TextToolbarSamples;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
-using Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarButtons;
-using Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarFormats.MarkDown;
-using Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarFormats.RichText;
+using Community.Windows.ShowcaseApp.Samples.TextToolbarSamples;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
+using Community.Windows.UI.Controls.TextToolbarButtons;
+using Community.Windows.UI.Controls.TextToolbarFormats.MarkDown;
+using Community.Windows.UI.Controls.TextToolbarFormats.RichText;
 using Windows.System;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     public sealed partial class TextToolbarPage : IXamlRenderListener
     {
@@ -44,7 +44,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Add/Remove Bold Button", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Add/Remove Bold Button", (sender, args) =>
             {
                 var button = _toolbar?.GetDefaultButton(ButtonType.Bold);
                 if (button != null)
@@ -53,27 +53,27 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Add Custom Button", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Add Custom Button", (sender, args) =>
             {
                 AddCustomButton();
             });
 
-            SampleController.Current.RegisterNewCommand("Use RichText Formatter", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Use RichText Formatter", (sender, args) =>
             {
                 UseRichTextFormatter();
             });
 
-            SampleController.Current.RegisterNewCommand("Use MarkDown Formatter", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Use MarkDown Formatter", (sender, args) =>
             {
                 UseMarkDownFormatter();
             });
 
-            SampleController.Current.RegisterNewCommand("Use Custom Formatter", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Use Custom Formatter", (sender, args) =>
             {
                 UseCustomFormatter();
             });
 
-            SampleController.Current.RegisterNewCommand("Reset Layout", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Reset Layout", (sender, args) =>
             {
                 ResetLayout();
             });

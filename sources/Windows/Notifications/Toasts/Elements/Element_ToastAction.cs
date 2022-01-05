@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 
-namespace Microsoft.Toolkit.Uwp.Notifications
+namespace Community.Windows.Notifications
 {
     internal sealed class Element_ToastAction : IElement_ToastActionsChild, IElement_ToastActivatable, IHaveXmlName, IHaveXmlNamedProperties
     {

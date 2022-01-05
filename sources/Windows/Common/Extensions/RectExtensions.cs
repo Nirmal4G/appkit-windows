@@ -8,7 +8,7 @@ using Windows.Foundation;
 using Rect = Windows.Foundation.Rect;
 using Size = Windows.Foundation.Size;
 
-namespace Microsoft.Toolkit.Uwp
+namespace Community.Windows
 {
     /// <summary>
     /// Extensions for the <see cref="Rect"/> type.

@@ -1,6 +1,6 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="using:Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarSymbols">
+                    xmlns:local="using:Community.Windows.UI.Controls.TextToolbarSymbols">
 
     <Style x:Key="ListBar"
            TargetType="Grid">

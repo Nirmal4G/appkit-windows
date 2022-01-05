@@ -5,9 +5,9 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Toolkit.Uwp.Helpers;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.Helpers;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.ApplicationModel;
 using Windows.Graphics.Imaging;
 using Windows.Media;
@@ -16,7 +16,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// CameraPreviewPage
@@ -70,7 +70,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
         {
             base.OnNavigatedTo(e);
 
-            SampleController.Current.RegisterNewCommand("Capture Current Frame", CaptureButton_Click);
+            ShowcaseController.Current.RegisterNewCommand("Capture Current Frame", CaptureButton_Click);
             Application.Current.Suspending += Application_Suspending;
             Application.Current.Resuming += Application_Resuming;
         }

@@ -8,12 +8,12 @@ using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using Microsoft.Toolkit.Uwp.SampleApp.Common;
-using Microsoft.Toolkit.Uwp.SampleApp.Controls;
-using Microsoft.Toolkit.Uwp.SampleApp.Models;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
-using Microsoft.Toolkit.Uwp.UI.Helpers;
+using Community.Windows.ShowcaseApp.Common;
+using Community.Windows.ShowcaseApp.Controls;
+using Community.Windows.ShowcaseApp.Models;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
+using Community.Windows.UI.Helpers;
 using Windows.System;
 using Windows.System.Profile;
 using Windows.UI.Core;
@@ -22,16 +22,16 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp
+namespace Community.Windows.ShowcaseApp
 {
     /// <summary>
     /// A wrapper for the Sample Page.
     /// </summary>
-    public sealed partial class SampleController : Page, INotifyPropertyChanged
+    public sealed partial class ShowcaseController : Page, INotifyPropertyChanged
     {
-        public static SampleController Current { get; private set; }
+        public static ShowcaseController Current { get; private set; }
 
-        public SampleController()
+        public ShowcaseController()
         {
             _themeListener = new ThemeListener();
 
@@ -195,8 +195,8 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
                 {
                     try
                     {
-                        SamplePage = Activator.CreateInstance(CurrentSample.PageType) as Page;
-                        SampleContent.Content = SamplePage;
+                        ShowcasePage = Activator.CreateInstance(CurrentSample.PageType) as Page;
+                        SampleContent.Content = ShowcasePage;
 
                         // Some samples use the OnNavigatedTo and OnNavigatedFrom
                         // Can't use Frame here because some samples depend on the current Frame
@@ -206,7 +206,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
 
                         if (method != null)
                         {
-                            method.Invoke(SamplePage, new object[] { e });
+                            method.Invoke(ShowcasePage, new object[] { e });
                         }
                     }
                     catch (Exception ex)
@@ -214,9 +214,9 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
                         ExceptionNotification.Show("Sample Page failed to load: " + ex.Message);
                     }
 
-                    if (SamplePage != null)
+                    if (ShowcasePage != null)
                     {
-                        SamplePage.Loaded += SamplePage_Loaded;
+                        ShowcasePage.Loaded += ShowcasePage_Loaded;
                     }
                 }
                 else if (!CurrentSample.HasXAMLCode)
@@ -324,7 +324,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
         {
             base.OnNavigatedFrom(e);
 
-            if (SamplePage != null && CurrentSample.HasType)
+            if (ShowcasePage != null && CurrentSample.HasType)
             {
                 MethodInfo method = CurrentSample.PageType.GetMethod(
                     "OnNavigatedFrom",
@@ -332,10 +332,10 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
 
                 if (method != null)
                 {
-                    method.Invoke(SamplePage, new object[] { e });
+                    method.Invoke(ShowcasePage, new object[] { e });
                 }
 
-                SamplePage = null;
+                ShowcasePage = null;
             }
 
             XamlCodeEditor = null;
@@ -345,9 +345,9 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
             GC.Collect();
         }
 
-        private void SamplePage_Loaded(object sender, RoutedEventArgs e)
+        private void ShowcasePage_Loaded(object sender, RoutedEventArgs e)
         {
-            SamplePage.Loaded -= SamplePage_Loaded;
+            ShowcasePage.Loaded -= ShowcasePage_Loaded;
 
             if (CurrentSample != null && CurrentSample.HasXAMLCode)
             {
@@ -431,12 +431,12 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
             if (link.EndsWith(".md"))
             {
                 // Link to one of our other documents, so we'll construct the proper link here
-                link = string.Format("https://docs.microsoft.com/windows/communitytoolkit/{0}/{1}", CurrentSample.RemoteDocumentationPath, link.Replace(".md", string.Empty));
+                link = string.Format("https://docs.nirin.dev/appkit-windows/{0}/{1}", CurrentSample.RemoteDocumentationPath, link.Replace(".md", string.Empty));
             }
             else if (link.StartsWith("/"))
             {
-                // We don't root our links to other docs.microsoft.com pages anymore, so we'll add it here.
-                link = string.Format("https://docs.microsoft.com{0}", link);
+                // We don't root our links to other docs.nirin.dev pages anymore, so we'll add it here.
+                link = string.Format("https://link.nirin.dev/docs-ms{0}", link);
             }
 
             if (Uri.TryCreate(link, UriKind.Absolute, out Uri result))
@@ -528,7 +528,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
 
                 if (CurrentSample.HasType)
                 {
-                    root = SamplePage?.FindDescendant("XamlRoot");
+                    root = ShowcasePage?.FindDescendant("XamlRoot");
 
                     if (root is Panel)
                     {
@@ -540,7 +540,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
                     {
                         // if we didn't find a XamlRoot host, then we replace the entire content of
                         // the provided sample page with the XAML.
-                        SamplePage.Content = element;
+                        ShowcasePage.Content = element;
                     }
                 }
                 else
@@ -571,7 +571,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
 
                 await Dispatcher.RunAsync(CoreDispatcherPriority.Low, () =>
                 {
-                    (SamplePage as IXamlRenderListener)?.OnXamlRendered(fe);
+                    (ShowcasePage as IXamlRenderListener)?.OnXamlRendered(fe);
                 });
             }
         }
@@ -695,7 +695,7 @@ namespace Microsoft.Toolkit.Uwp.SampleApp
         }
 
         // The Loaded Instance of the backing .xaml.cs Page (if any)
-        private Page SamplePage { get; set; }
+        private Page ShowcasePage { get; set; }
 
         private bool CanChangePaneState => !_onlyDocumentation;
 

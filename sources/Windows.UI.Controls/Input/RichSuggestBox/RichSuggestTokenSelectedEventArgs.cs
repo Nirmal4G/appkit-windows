@@ -5,7 +5,7 @@
 using System;
 using Windows.UI.Text;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// Provides data for <see cref="RichSuggestBox.TokenSelected"/> event.

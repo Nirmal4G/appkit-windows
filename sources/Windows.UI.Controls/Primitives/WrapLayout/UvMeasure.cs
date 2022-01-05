@@ -4,7 +4,7 @@
 
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     [System.Diagnostics.DebuggerDisplay("U = {U} V = {V}")]
     internal struct UvMeasure

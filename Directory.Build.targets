@@ -4,13 +4,13 @@
 
   <PropertyGroup>
     <!-- Exclude Notifications project from this since it sets different min versions than what we want for notifications -->
-    <UseUWP Condition="($(TargetFramework.StartsWith('uap10.0')) or '$(TargetFramework)' == 'net461') and '$(MSBuildProjectName)' != 'Microsoft.Toolkit.Uwp.Notifications'">true</UseUWP>
+    <UseUWP Condition="($(TargetFramework.StartsWith('uap10.0')) or '$(TargetFramework)' == 'net461') and '$(MSBuildProjectName)' != 'Community.Windows.Notifications'">true</UseUWP>
     <UseUWP Condition="'$(UseUWP)' == ''">false</UseUWP>
   </PropertyGroup>
 
   <Choose>
     <!-- We'll include signing the Notifications library since we need the DLL signature to match for interop from class libraries to main projects -->
-    <When Condition="!($(TargetFramework.StartsWith('uap10.0')) or '$(TargetFramework)' == 'native' or $(IsSampleProject)) or '$(MSBuildProjectName)' == 'Microsoft.Toolkit.Uwp.Notifications'">
+    <When Condition="!($(TargetFramework.StartsWith('uap10.0')) or '$(TargetFramework)' == 'native' or $(IsSampleProject)) or '$(MSBuildProjectName)' == 'Community.Windows.Notifications'">
       <PropertyGroup>
         <SignAssembly>true</SignAssembly>
         <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)toolkit.snk</AssemblyOriginatorKeyFile>

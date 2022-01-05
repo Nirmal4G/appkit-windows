@@ -1,23 +1,23 @@
 <FileList>
-  <File Reference="Microsoft.Toolkit.Uwp.UI.Controls.Core.dll">
+  <File Reference="Community.Windows.UI.Controls.Core.dll">
     <ToolboxItems UIFramework="UAP"
         VSCategory="Windows Community Toolkit"
         BlendCategory="Windows Community Toolkit">
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.CameraPreview" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.DropShadowPanel" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.ImageEx" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.ImageExBase" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.InAppNotification" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.Loading" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.Menu" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.MenuItem" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.RadialProgressBar" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.RotatorTile" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.ScrollHeader" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.TabbedCommandBar" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.TabbedCommandBarItem" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.TextToolbar" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.TileControl" />
+      <Item Type="Community.Windows.UI.Controls.CameraPreview" />
+      <Item Type="Community.Windows.UI.Controls.DropShadowPanel" />
+      <Item Type="Community.Windows.UI.Controls.ImageEx" />
+      <Item Type="Community.Windows.UI.Controls.ImageExBase" />
+      <Item Type="Community.Windows.UI.Controls.InAppNotification" />
+      <Item Type="Community.Windows.UI.Controls.Loading" />
+      <Item Type="Community.Windows.UI.Controls.Menu" />
+      <Item Type="Community.Windows.UI.Controls.MenuItem" />
+      <Item Type="Community.Windows.UI.Controls.RadialProgressBar" />
+      <Item Type="Community.Windows.UI.Controls.RotatorTile" />
+      <Item Type="Community.Windows.UI.Controls.ScrollHeader" />
+      <Item Type="Community.Windows.UI.Controls.TabbedCommandBar" />
+      <Item Type="Community.Windows.UI.Controls.TabbedCommandBarItem" />
+      <Item Type="Community.Windows.UI.Controls.TextToolbar" />
+      <Item Type="Community.Windows.UI.Controls.TileControl" />
     </ToolboxItems>
   </File>
 </FileList>

@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     internal class InfiniteCanvasRemoveTextBoxCommand : IInfiniteCanvasCommand
     {

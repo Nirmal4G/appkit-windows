@@ -9,7 +9,7 @@ using Windows.UI.Text;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls
+namespace Community.Windows.UI.Controls
 {
     /// <summary>
     /// This is the infiniteCanvas custom textbox that is used to write to the canvas. This control is used as part of the <see cref="InfiniteCanvas"/>

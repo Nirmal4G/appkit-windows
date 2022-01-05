@@ -1,16 +1,16 @@
 <FileList>
-  <File Reference="Microsoft.Toolkit.Uwp.UI.Controls.Input.dll">
+  <File Reference="Community.Windows.UI.Controls.Input.dll">
     <ToolboxItems UIFramework="UAP"
         VSCategory="Windows Community Toolkit"
         BlendCategory="Windows Community Toolkit">
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.ColorPicker" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.ColorPickerButton" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.ColorPickerSlider" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.RadialGauge" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.RangeSelector" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.RemoteDevicePicker" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.TokenizingTextBox" />
-      <Item Type="Microsoft.Toolkit.Uwp.UI.Controls.TokenizingTextBoxItem" />
+      <Item Type="Community.Windows.UI.Controls.ColorPicker" />
+      <Item Type="Community.Windows.UI.Controls.ColorPickerButton" />
+      <Item Type="Community.Windows.UI.Controls.ColorPickerSlider" />
+      <Item Type="Community.Windows.UI.Controls.RadialGauge" />
+      <Item Type="Community.Windows.UI.Controls.RangeSelector" />
+      <Item Type="Community.Windows.UI.Controls.RemoteDevicePicker" />
+      <Item Type="Community.Windows.UI.Controls.TokenizingTextBox" />
+      <Item Type="Community.Windows.UI.Controls.TokenizingTextBoxItem" />
     </ToolboxItems>
   </File>
 </FileList>

@@ -3,14 +3,14 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using Microsoft.Toolkit.Uwp.UI;
-using Microsoft.Toolkit.Uwp.UI.Controls;
+using Community.Windows.UI;
+using Community.Windows.UI.Controls;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Media;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
+namespace Community.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// DockPanel sample page
@@ -33,12 +33,12 @@ namespace Microsoft.Toolkit.Uwp.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Add Top Child", AddTopDock);
-            SampleController.Current.RegisterNewCommand("Add Left Child", AddLeftDock);
-            SampleController.Current.RegisterNewCommand("Add Bottom Child", AddBottomDock);
-            SampleController.Current.RegisterNewCommand("Add Right Child", AddRightDock);
-            SampleController.Current.RegisterNewCommand("Add Stretch Child", AddStretchDock);
-            SampleController.Current.RegisterNewCommand("Clear All", ClearAllDock);
+            ShowcaseController.Current.RegisterNewCommand("Add Top Child", AddTopDock);
+            ShowcaseController.Current.RegisterNewCommand("Add Left Child", AddLeftDock);
+            ShowcaseController.Current.RegisterNewCommand("Add Bottom Child", AddBottomDock);
+            ShowcaseController.Current.RegisterNewCommand("Add Right Child", AddRightDock);
+            ShowcaseController.Current.RegisterNewCommand("Add Stretch Child", AddStretchDock);
+            ShowcaseController.Current.RegisterNewCommand("Clear All", ClearAllDock);
         }
 
         private void ClearAllDock(object sender, RoutedEventArgs e)

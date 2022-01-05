@@ -8,7 +8,7 @@ using System.Reflection;
 using Windows.UI;
 using Color = Windows.UI.Color;
 
-namespace Microsoft.Toolkit.Uwp.Helpers
+namespace Community.Windows.Helpers
 {
     /// <summary>
     /// This class provides static helper methods for colors.

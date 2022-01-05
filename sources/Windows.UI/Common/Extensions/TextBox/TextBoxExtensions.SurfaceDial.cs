@@ -10,7 +10,7 @@ using Windows.UI.Xaml.Input;
 
 #nullable enable
 
-namespace Microsoft.Toolkit.Uwp.UI
+namespace Community.Windows.UI
 {
     /// <inheritdoc cref="TextBoxExtensions"/>
     public static partial class TextBoxExtensions

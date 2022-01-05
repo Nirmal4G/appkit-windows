@@ -3,8 +3,8 @@
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
   xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
   xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-  xmlns:ui="using:Microsoft.Toolkit.Uwp.UI"
-  xmlns:media="using:Microsoft.Toolkit.Uwp.UI.Media"
+  xmlns:ui="using:Community.Windows.UI"
+  xmlns:media="using:Community.Windows.UI.Media"
   mc:Ignorable="d">
 
   <Page.Resources>
@@ -66,7 +66,7 @@
                  Width="200" Height="100"/>
       <!-- Compared to the old DropShadowPanel where the shadow bleeds through and
        the Shadow opacity is tied to the Rectangle itself -->
-      <controls:DropShadowPanel xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+      <controls:DropShadowPanel xmlns:controls="using:Community.Windows.UI.Controls"
                                 OffsetX="4" OffsetY="4"
                                 BlurRadius="12"
                                 HorizontalAlignment="Center">

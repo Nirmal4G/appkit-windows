@@ -4,7 +4,7 @@
 
 using System.Collections.ObjectModel;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarButtons
+namespace Community.Windows.UI.Controls.TextToolbarButtons
 {
     /// <summary>
     /// ObservableCollection of <see cref="DefaultButton"/>

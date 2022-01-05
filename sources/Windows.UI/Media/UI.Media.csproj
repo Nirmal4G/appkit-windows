@@ -41,7 +41,7 @@
       - RadialGradientBrush: This GradientBrush defines its Gradient as an interpolation within an Ellipse.
       - TilesBrush: A Brush that displays a tiled image, wrapping at the edges and endlessly repeating.
 
-      PipelineBuilder: A class that allows to build custom effects pipelines and create CompositionBrush instances from them.      
+      PipelineBuilder: A class that allows to build custom effects pipelines and create CompositionBrush instances from them.
     </Description>
     <PackageTags>UI;XAML;Acrylic;Brushes;Blur;Effects;Canvas;Geometry;Shadow;Shadows;Animation</PackageTags>
   </PropertyGroup>
@@ -52,7 +52,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Toolkit.Uwp.UI.Animations\Microsoft.Toolkit.Uwp.UI.Animations.csproj" />
+    <ProjectReference Include="..\Community.Windows.UI.Animations\Community.Windows.UI.Animations.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,7 +5,7 @@
 using System;
 using Windows.UI.Xaml;
 
-namespace Microsoft.Toolkit.Uwp.SampleApp.Models
+namespace Community.Windows.ShowcaseApp.Models
 {
     public class ThemeChangedArgs : EventArgs
     {

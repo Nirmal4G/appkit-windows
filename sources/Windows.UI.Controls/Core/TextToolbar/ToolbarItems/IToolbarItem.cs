@@ -4,7 +4,7 @@
 
 using Windows.UI.Xaml.Controls;
 
-namespace Microsoft.Toolkit.Uwp.UI.Controls.TextToolbarButtons
+namespace Community.Windows.UI.Controls.TextToolbarButtons
 {
     /// <summary>
     /// Interface that defines the position of an item in a <see cref="TextToolbar"/>

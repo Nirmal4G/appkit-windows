@@ -8,13 +8,13 @@ using System.Diagnostics.Contracts;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Graphics.Canvas.Effects;
-using Microsoft.Toolkit.Uwp.UI.Animations;
+using Community.Windows.UI.Animations;
 using Windows.Graphics.Effects;
 using Windows.UI.Composition;
 using CanvasBlendEffect = Microsoft.Graphics.Canvas.Effects.BlendEffect;
 using CanvasCrossFadeEffect = Microsoft.Graphics.Canvas.Effects.CrossFadeEffect;
 
-namespace Microsoft.Toolkit.Uwp.UI.Media.Pipelines
+namespace Community.Windows.UI.Media.Pipelines
 {
     /// <summary>
     /// A <see langword="class"/> that allows to build custom effects pipelines and create <see cref="CompositionBrush"/> instances from them

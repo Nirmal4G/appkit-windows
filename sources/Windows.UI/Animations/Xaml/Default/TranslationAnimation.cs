@@ -4,7 +4,7 @@
 
 using System.Numerics;
 
-namespace Microsoft.Toolkit.Uwp.UI.Animations
+namespace Community.Windows.UI.Animations
 {
     /// <summary>
     /// A translation animation working on the composition or layer.

@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using Windows.UI.Xaml.Controls.Primitives;
 
-namespace Microsoft.Toolkit.Uwp.Input.GazeInteraction
+namespace Community.Windows.Input.GazeInteraction
 {
     internal class GazeFeedbackPopupFactory
     {
