@@ -8,16 +8,16 @@ using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
-using CommunityToolkit.WinUI.UI.Controls.DataGridInternals;
-using CommunityToolkit.WinUI.UI.Utilities;
-using CommunityToolkit.WinUI.Utilities;
+using CommunityToolkit.Windows.UI.Controls.DataGridInternals;
+using CommunityToolkit.Windows.UI.Utilities;
+using CommunityToolkit.Windows.Utilities;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls.Primitives;
 using Microsoft.UI.Xaml.Data;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Control to represent data in columns and rows.

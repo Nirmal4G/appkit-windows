@@ -9,7 +9,7 @@ using Point = Windows.Foundation.Point;
 using Rect = Windows.Foundation.Rect;
 using Size = Windows.Foundation.Size;
 
-namespace CommunityToolkit.WinUI
+namespace CommunityToolkit.Windows
 {
     /// <summary>
     /// Extensions for the <see cref="Point"/> type.

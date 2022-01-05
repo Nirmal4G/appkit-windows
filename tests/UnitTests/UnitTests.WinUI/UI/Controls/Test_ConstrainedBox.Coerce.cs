@@ -4,9 +4,9 @@
 
 using System.Linq;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Markup;
@@ -30,7 +30,7 @@ namespace UnitTests.WinUI.UI.Controls
                 var treeRoot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:CommunityToolkit.WinUI.UI.Controls"">
+    xmlns:controls=""using:CommunityToolkit.Windows.UI.Controls"">
       <controls:ConstrainedBox x:Name=""ConstrainedBox"" ScaleX=""0.5"" ScaleY=""0.5""/>
 </Page>") as FrameworkElement;
 
@@ -79,7 +79,7 @@ namespace UnitTests.WinUI.UI.Controls
                 var treeRoot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:CommunityToolkit.WinUI.UI.Controls"">
+    xmlns:controls=""using:CommunityToolkit.Windows.UI.Controls"">
       <controls:ConstrainedBox x:Name=""ConstrainedBox"" MultipleX=""32"" MultipleY=""32""/>
 </Page>") as FrameworkElement;
 
@@ -114,7 +114,7 @@ namespace UnitTests.WinUI.UI.Controls
                 var treeRoot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:CommunityToolkit.WinUI.UI.Controls"">
+    xmlns:controls=""using:CommunityToolkit.Windows.UI.Controls"">
       <controls:ConstrainedBox x:Name=""ConstrainedBox"" AspectRatio=""1.25:3.5""/>
 </Page>") as FrameworkElement;
 

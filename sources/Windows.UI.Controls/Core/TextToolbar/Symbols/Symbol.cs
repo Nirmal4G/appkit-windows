@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI.Helpers;
+using CommunityToolkit.Windows.UI.Helpers;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.UI.Controls.TextToolbarSymbols
+namespace CommunityToolkit.Windows.UI.Controls.TextToolbarSymbols
 {
     /// <summary>
     /// Common implementation for a symbol icon

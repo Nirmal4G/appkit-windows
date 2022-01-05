@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Specify audio to be played when the Toast notification is received.

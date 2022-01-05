@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using Windows.UI.Notifications;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Helper for .NET Framework applications to display toast notifications and respond to toast events

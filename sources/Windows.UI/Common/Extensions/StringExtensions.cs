@@ -7,7 +7,7 @@ using System.Diagnostics.Contracts;
 using System.Globalization;
 using System.Numerics;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Extension methods for the <see cref="string"/> type.

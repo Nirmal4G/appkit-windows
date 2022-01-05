@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI.Media.Geometry.Core;
+using CommunityToolkit.Windows.UI.Media.Geometry.Core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests.WinUI.Geometry

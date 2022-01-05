@@ -6,7 +6,7 @@ using System;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Data;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Allows raise an event when the value of a dependency property changes when a view model is otherwise not necessary.

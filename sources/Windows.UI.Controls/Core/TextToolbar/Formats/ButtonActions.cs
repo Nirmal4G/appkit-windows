@@ -2,9 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI.Controls.TextToolbarButtons;
+using CommunityToolkit.Windows.UI.Controls.TextToolbarButtons;
 
-namespace CommunityToolkit.WinUI.UI.Controls.TextToolbarFormats
+namespace CommunityToolkit.Windows.UI.Controls.TextToolbarFormats
 {
     /// <summary>
     /// The Actions taken when a button is pressed. Required for Common Button actions (Unless you override both Activation and ShiftActivation)

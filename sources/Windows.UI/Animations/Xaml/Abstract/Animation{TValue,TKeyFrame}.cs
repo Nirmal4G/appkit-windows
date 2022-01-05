@@ -9,9 +9,9 @@ using System.Collections.Generic;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Markup;
 using Microsoft.UI.Xaml.Media.Animation;
-using static CommunityToolkit.WinUI.UI.Animations.AnimationExtensions;
+using static CommunityToolkit.Windows.UI.Animations.AnimationExtensions;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A base model representing a typed animation that can be used in XAML.

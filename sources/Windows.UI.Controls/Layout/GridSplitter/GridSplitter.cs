@@ -8,7 +8,7 @@ using Microsoft.UI.Xaml.Automation;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Input;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Represents the control that redistributes space between columns or rows of a Grid control.
@@ -164,7 +164,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
         {
             DefaultStyleKey = typeof(GridSplitter);
             Loaded += GridSplitter_Loaded;
-            string automationName = "WCT_GridSplitter_AutomationName".GetLocalized("CommunityToolkit.WinUI.UI.Controls.Layout/Resources");
+            string automationName = "WCT_GridSplitter_AutomationName".GetLocalized("CommunityToolkit.Windows.UI.Controls.Layout/Resources");
             AutomationProperties.SetName(this, automationName);
         }
 

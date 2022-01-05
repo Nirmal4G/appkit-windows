@@ -5,7 +5,7 @@
 using System;
 using System.Diagnostics;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     internal class DataGridCellEventArgs : EventArgs
     {

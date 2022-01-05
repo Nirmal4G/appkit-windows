@@ -8,7 +8,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     internal class NativeMethods
     {

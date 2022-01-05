@@ -8,7 +8,7 @@ using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 using Rect = Windows.Foundation.Rect;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Provides a set of extensions to the <see cref="Rect"/> struct.

@@ -5,9 +5,9 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.Helpers;
-using CommunityToolkit.WinUI.SampleApp.Common;
-using CommunityToolkit.WinUI.SampleApp.Styles;
+using CommunityToolkit.Windows.Helpers;
+using CommunityToolkit.Windows.ShowcaseApp.Common;
+using CommunityToolkit.Windows.ShowcaseApp.Styles;
 using Microsoft.UI.Xaml;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
@@ -15,7 +15,7 @@ using Windows.ApplicationModel.DataTransfer;
 using Windows.System.Profile;
 using Windows.UI.ViewManagement;
 
-namespace CommunityToolkit.WinUI.SampleApp
+namespace CommunityToolkit.Windows.ShowcaseApp
 {
     public sealed partial class App : Application
     {

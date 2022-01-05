@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net5.0-windows10.0.18362.0</TargetFrameworks>
-    <RootNamespace>CommunityToolkit.WinUI.UI.Controls</RootNamespace>
+    <RootNamespace>CommunityToolkit.Windows.UI.Controls</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>

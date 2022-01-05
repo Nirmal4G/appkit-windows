@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CommunityToolkit.WinUI.Input.GazeInteraction\CommunityToolkit.WinUI.Input.GazeInteraction.csproj" />
+    <ProjectReference Include="..\CommunityToolkit.Windows.Input.GazeInteraction\CommunityToolkit.Windows.Input.GazeInteraction.csproj" />
   </ItemGroup>
   <!-- No-op to avoid build error when packing solution from commandline -->
   <Target Name="Pack" />

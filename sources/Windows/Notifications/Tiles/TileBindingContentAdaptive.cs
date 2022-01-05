@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Generic;
-using CommunityToolkit.WinUI.Notifications.Adaptive;
+using CommunityToolkit.Windows.Notifications.Adaptive;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Supported on all sizes. This is the recommended way of specifying your Tile content. Adaptive Tile templates are the de-facto choice for Windows 10, and you can create a wide variety of custom Tiles through adaptive.

@@ -4,7 +4,7 @@
 
 using Microsoft.UI.Xaml;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Helper class for attaching <see cref="AttachedShadowBase"/> shadows to <see cref="FrameworkElement"/>s.

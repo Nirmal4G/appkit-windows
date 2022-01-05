@@ -5,7 +5,7 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Data;
 
-namespace CommunityToolkit.WinUI.UI.Converters
+namespace CommunityToolkit.Windows.UI.Converters
 {
     /// <summary>
     /// This class converts a double value into a Visibility enumeration.

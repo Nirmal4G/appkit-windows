@@ -6,7 +6,7 @@ using System;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Loading control allows to show an loading animation with some xaml in it.
@@ -23,7 +23,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
         public Loading()
         {
             DefaultStyleKey = typeof(Loading);
-            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Core/Themes/Generic.xaml");
+            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Core/Themes/Generic.xaml");
         }
 
         /// <inheritdoc/>

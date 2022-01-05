@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Defines the visual aspects of a Toast notification.

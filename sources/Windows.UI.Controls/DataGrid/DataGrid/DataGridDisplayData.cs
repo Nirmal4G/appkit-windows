@@ -9,7 +9,7 @@ using Microsoft.UI.Xaml.Media;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace CommunityToolkit.WinUI.UI.Controls.DataGridInternals
+namespace CommunityToolkit.Windows.UI.Controls.DataGridInternals
 {
     internal class DataGridDisplayData
     {

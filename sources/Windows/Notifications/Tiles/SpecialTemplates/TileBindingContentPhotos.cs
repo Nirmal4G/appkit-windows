@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Animates through a slide show of photos. Supported on all sizes.

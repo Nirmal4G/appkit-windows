@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI;
+using CommunityToolkit.Windows.UI;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer;
 using UnitTests.Extensions.Helpers;
@@ -22,7 +22,7 @@ namespace UnitTests.Extensions
             var treeroot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:ui=""using:CommunityToolkit.WinUI.UI"">
+    xmlns:ui=""using:CommunityToolkit.Windows.UI"">
         <CheckBox x:Name=""Check"" IsChecked=""{ui:NullableBool Value=True}""/>
 </Page>") as FrameworkElement;
 
@@ -40,7 +40,7 @@ namespace UnitTests.Extensions
             var treeroot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:ui=""using:CommunityToolkit.WinUI.UI"">
+    xmlns:ui=""using:CommunityToolkit.Windows.UI"">
         <CheckBox x:Name=""Check"" IsChecked=""{ui:NullableBool Value=False}""/>
 </Page>") as FrameworkElement;
 
@@ -58,7 +58,7 @@ namespace UnitTests.Extensions
             var treeroot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:ui=""using:CommunityToolkit.WinUI.UI"">
+    xmlns:ui=""using:CommunityToolkit.Windows.UI"">
         <CheckBox x:Name=""Check"" IsChecked=""{ui:NullableBool IsNull=True}""/>
 </Page>") as FrameworkElement;
 
@@ -76,7 +76,7 @@ namespace UnitTests.Extensions
             var treeroot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:ui=""using:CommunityToolkit.WinUI.UI"">
+    xmlns:ui=""using:CommunityToolkit.Windows.UI"">
         <CheckBox x:Name=""Check"" IsChecked=""{ui:NullableBool IsNull=True, Value=True}""/>
 </Page>") as FrameworkElement;
 
@@ -95,7 +95,7 @@ namespace UnitTests.Extensions
             var treeroot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:ui=""using:CommunityToolkit.WinUI.UI"">
+    xmlns:ui=""using:CommunityToolkit.Windows.UI"">
         <CheckBox x:Name=""Check"" IsChecked=""{ui:NullableBool IsNull=True, Value=False}""/>
 </Page>") as FrameworkElement;
 
@@ -205,7 +205,7 @@ namespace UnitTests.Extensions
             var treeroot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:ui=""using:CommunityToolkit.WinUI.UI""
+    xmlns:ui=""using:CommunityToolkit.Windows.UI""
     xmlns:helpers=""using:UnitTests.Extensions.Helpers"">
     <Page.Resources>
         <helpers:ObjectWithNullableBoolProperty x:Key=""OurObject"" NullableBool=""{ui:NullableBool Value=True}""/>

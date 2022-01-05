@@ -2,10 +2,10 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI.Media;
+using CommunityToolkit.Windows.UI.Media;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// An effect animation that targets <see cref="TintEffect.Color"/>.

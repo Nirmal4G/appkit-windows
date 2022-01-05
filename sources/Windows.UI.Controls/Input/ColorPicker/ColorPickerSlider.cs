@@ -3,15 +3,15 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI.Helpers;
-using CommunityToolkit.WinUI.UI.Controls.ColorPickerConverters;
+using CommunityToolkit.Windows.Helpers;
+using CommunityToolkit.Windows.UI.Controls.ColorPickerConverters;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Primitives
+namespace CommunityToolkit.Windows.UI.Controls.Primitives
 {
     /// <summary>
     /// A slider that represents a single color channel for use in the <see cref="ColorPicker"/>.

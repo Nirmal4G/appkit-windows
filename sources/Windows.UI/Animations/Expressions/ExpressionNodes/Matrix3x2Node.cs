@@ -4,7 +4,7 @@
 
 using System.Numerics;
 
-namespace CommunityToolkit.WinUI.UI.Animations.Expressions
+namespace CommunityToolkit.Windows.UI.Animations.Expressions
 {
     // Ignore warning: 'Matrix3x2Node' defines operator == or operator != but does not override Object.Equals(object o) && Object.GetHashCode()
 #pragma warning disable CS0660, CS0661
@@ -12,7 +12,7 @@ namespace CommunityToolkit.WinUI.UI.Animations.Expressions
     /// <summary>
     /// Class Matrix3x2Node. This class cannot be inherited.
     /// </summary>
-    /// <seealso cref="CommunityToolkit.WinUI.UI.Animations.Expressions.ExpressionNode" />
+    /// <seealso cref="CommunityToolkit.Windows.UI.Animations.Expressions.ExpressionNode" />
     public sealed class Matrix3x2Node : ExpressionNode
     {
         /// <summary>

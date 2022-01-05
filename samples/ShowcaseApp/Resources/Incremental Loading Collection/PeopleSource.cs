@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// A sample implementation of the <see cref="Net.Collections.IIncrementalSource{TSource}"/> interface.

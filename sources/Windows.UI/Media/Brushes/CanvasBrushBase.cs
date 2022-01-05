@@ -9,7 +9,7 @@ using Microsoft.Graphics.DirectX;
 using Microsoft.UI.Composition;
 using Microsoft.UI.Xaml.Media;
 
-namespace CommunityToolkit.WinUI.UI.Media
+namespace CommunityToolkit.Windows.UI.Media
 {
     /// <summary>
     /// Helper Brush class to interop with Win2D Canvas calls.

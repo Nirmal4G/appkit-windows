@@ -9,8 +9,8 @@ using CommunityToolkit.Common.Parsers.Markdown;
 using CommunityToolkit.Common.Parsers.Markdown.Blocks;
 using CommunityToolkit.Common.Parsers.Markdown.Inlines;
 using CommunityToolkit.Common.Parsers.Markdown.Render;
-using CommunityToolkit.WinUI.Helpers;
-using CommunityToolkit.WinUI.UI.Controls.Markdown.Render;
+using CommunityToolkit.Windows.Helpers;
+using CommunityToolkit.Windows.UI.Controls.Markdown.Render;
 using Microsoft.UI;
 using Microsoft.UI.Text;
 using Microsoft.UI.Xaml;
@@ -18,7 +18,7 @@ using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
 using Windows.ApplicationModel.DataTransfer;
 
-namespace CommunityToolkit.WinUI.SampleApp.Controls
+namespace CommunityToolkit.Windows.ShowcaseApp.Controls
 {
     /// <summary>
     /// A Rendering Superclass for the Markdown Renderer, allowing custom styling of Elements in Markdown.
@@ -241,7 +241,7 @@ namespace CommunityToolkit.WinUI.SampleApp.Controls
             SolidColorBrush localBackground = null;
             string symbolGlyph = string.Empty;
 
-            var theme = SampleController.Current.GetActualTheme();
+            var theme = ShowcaseController.Current.GetActualTheme();
 
             // Check the required structure of the Quote is correct. Determine if it is a DocFX Note.
             if (element.Blocks.First() is ParagraphBlock para)

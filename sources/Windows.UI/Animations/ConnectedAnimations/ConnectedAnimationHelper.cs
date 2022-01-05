@@ -9,7 +9,7 @@ using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media.Animation;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// Connected Animation Helper used with the <see cref="Connected"/> class

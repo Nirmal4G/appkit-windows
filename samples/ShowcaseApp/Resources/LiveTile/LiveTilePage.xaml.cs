@@ -3,14 +3,14 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI.Notifications;
-using CommunityToolkit.WinUI.SampleApp.Common;
+using CommunityToolkit.Windows.Notifications;
+using CommunityToolkit.Windows.ShowcaseApp.Common;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Windows.UI.Notifications;
 using Windows.UI.StartScreen;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     public sealed partial class LiveTilePage : Page
     {

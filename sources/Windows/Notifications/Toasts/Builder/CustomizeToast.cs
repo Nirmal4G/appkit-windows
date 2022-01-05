@@ -7,7 +7,7 @@
 using Windows.Foundation;
 using Windows.UI.Notifications;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Allows you to set additional properties on the <see cref="ToastNotification"/> object before the toast is displayed.

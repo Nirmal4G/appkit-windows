@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Xml;
-using CommunityToolkit.WinUI.Notifications;
+using CommunityToolkit.Windows.Notifications;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace UnitTests.Notifications

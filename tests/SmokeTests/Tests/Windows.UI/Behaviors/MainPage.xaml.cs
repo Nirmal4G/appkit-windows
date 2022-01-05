@@ -5,7 +5,7 @@
 using System;
 using System.Diagnostics;
 using System.Linq;
-using CommunityToolkit.WinUI.UI.Behaviors;
+using CommunityToolkit.Windows.UI.Behaviors;
 using Microsoft.Xaml.Interactivity;
 using Windows.UI.Xaml.Media.Imaging;
 

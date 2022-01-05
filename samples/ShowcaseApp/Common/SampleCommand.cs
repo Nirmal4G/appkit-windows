@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.SampleApp.Common
+namespace CommunityToolkit.Windows.ShowcaseApp.Common
 {
     /// <summary>
     /// Command with a name for Sample Shell Commands.

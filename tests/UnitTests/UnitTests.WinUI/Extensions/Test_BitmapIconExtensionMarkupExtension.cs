@@ -4,7 +4,7 @@
 
 using System;
 using System.Linq;
-using CommunityToolkit.WinUI.UI;
+using CommunityToolkit.Windows.UI;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer;
 using Microsoft.UI.Xaml;
@@ -23,7 +23,7 @@ namespace UnitTests.Extensions
             var treeroot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:ui=""using:CommunityToolkit.WinUI.UI"">
+    xmlns:ui=""using:CommunityToolkit.Windows.UI"">
         <Button x:Name=""RootButton"">
             <Button.Flyout>
                 <MenuFlyout>
@@ -56,7 +56,7 @@ namespace UnitTests.Extensions
             var treeroot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:ui=""using:CommunityToolkit.WinUI.UI"">
+    xmlns:ui=""using:CommunityToolkit.Windows.UI"">
         <Button x:Name=""RootButton"">
             <Button.Flyout>
                 <MenuFlyout>

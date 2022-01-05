@@ -3,13 +3,13 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI.UI.Media.Pipelines;
+using CommunityToolkit.Windows.UI.Media.Pipelines;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Markup;
 using Microsoft.UI.Xaml.Media;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Media
+namespace CommunityToolkit.Windows.UI.Media
 {
     /// <summary>
     /// A custom acrylic effect that can be inserted into a pipeline

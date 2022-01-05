@@ -4,7 +4,7 @@
 
 using Windows.Devices.Bluetooth.GenericAttributeProfile;
 
-namespace CommunityToolkit.WinUI.Connectivity
+namespace CommunityToolkit.Windows.Connectivity
 {
     /// <summary>
     /// Helper function when working with <see cref="GattProtocolError" />

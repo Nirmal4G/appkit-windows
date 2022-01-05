@@ -5,7 +5,7 @@
 using System;
 using Microsoft.UI.Xaml.Media;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Provides a set of extensions to the <see cref="o:Microsoft.UI.Xaml.Media.Matrix"/> struct.

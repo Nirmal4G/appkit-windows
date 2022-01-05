@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     [NotificationXmlElement("binding")]
     internal sealed class Element_TileBinding : IElementWithDescendants

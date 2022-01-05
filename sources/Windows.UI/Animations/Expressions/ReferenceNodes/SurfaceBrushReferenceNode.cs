@@ -4,12 +4,12 @@
 
 using Microsoft.UI.Composition;
 
-namespace CommunityToolkit.WinUI.UI.Animations.Expressions
+namespace CommunityToolkit.Windows.UI.Animations.Expressions
 {
     /// <summary>
     /// Class SurfaceBrushReferenceNode. This class cannot be inherited.
     /// </summary>
-    /// <seealso cref="CommunityToolkit.WinUI.UI.Animations.Expressions.ReferenceNode" />
+    /// <seealso cref="CommunityToolkit.Windows.UI.Animations.Expressions.ReferenceNode" />
     public sealed class SurfaceBrushReferenceNode : ReferenceNode
     {
         /// <summary>

@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
-using CommunityToolkit.WinUI.UI.Controls.TextToolbarButtons.Common;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
+using CommunityToolkit.Windows.UI.Controls.TextToolbarButtons.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Windows.Globalization;
 using Microsoft.UI.Xaml;
@@ -42,7 +42,7 @@ namespace UnitTests.XamlIslands.UWPApp
         [TestMethod]
         public void StringExtensions_GetLocalizedWithResourcePath()
         {
-            var str = "WCT_TextToolbar_OkLabel".GetLocalized("CommunityToolkit.WinUI.UI.Controls.Core/Resources");
+            var str = "WCT_TextToolbar_OkLabel".GetLocalized("CommunityToolkit.Windows.UI.Controls.Core/Resources");
             Assert.AreEqual("Ok", str);
         }
 
@@ -59,7 +59,7 @@ namespace UnitTests.XamlIslands.UWPApp
 @"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:CommunityToolkit.WinUI.UI.Controls"">
+    xmlns:controls=""using:CommunityToolkit.Windows.UI.Controls"">
 
     <controls:TextToolbar x:Name=""TextToolbarControl"">
     </controls:TextToolbar>

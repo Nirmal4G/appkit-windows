@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.Input.GazeInteraction
+namespace CommunityToolkit.Windows.Input.GazeInteraction
 {
     internal struct GazeHistoryItem
     {

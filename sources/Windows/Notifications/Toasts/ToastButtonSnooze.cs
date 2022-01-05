@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// A system-handled snooze button that automatically handles snoozing of a Toast notification.

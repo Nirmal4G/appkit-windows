@@ -5,9 +5,9 @@
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI.Automation.Peers;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI.Automation.Peers;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml.Automation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.UI.Xaml.Automation.Peers;

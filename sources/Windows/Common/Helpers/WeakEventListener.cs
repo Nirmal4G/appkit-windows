@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.Helpers
+namespace CommunityToolkit.Windows.Helpers
 {
     /// <summary>
     /// Implements a weak event listener that allows the owner to be garbage

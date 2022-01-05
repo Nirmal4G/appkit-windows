@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.Notifications.Adaptive.Elements
+namespace CommunityToolkit.Windows.Notifications.Adaptive.Elements
 {
     [NotificationXmlElement("text")]
     internal sealed class Element_AdaptiveText : IElement_TileBindingChild, IElement_AdaptiveSubgroupChild, IElement_ToastBindingChild

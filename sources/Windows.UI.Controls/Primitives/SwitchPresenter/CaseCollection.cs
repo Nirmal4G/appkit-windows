@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Microsoft.UI.Xaml;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// An collection of <see cref="Case"/> to help with XAML interop.

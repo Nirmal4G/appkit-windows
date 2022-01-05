@@ -4,12 +4,12 @@
 
 using Microsoft.UI.Composition;
 
-namespace CommunityToolkit.WinUI.UI.Animations.Expressions
+namespace CommunityToolkit.Windows.UI.Animations.Expressions
 {
     /// <summary>
     /// Class ManipulationPropertySetReferenceNode. This class cannot be inherited.
     /// </summary>
-    /// <seealso cref="CommunityToolkit.WinUI.UI.Animations.Expressions.PropertySetReferenceNode" />
+    /// <seealso cref="CommunityToolkit.Windows.UI.Animations.Expressions.PropertySetReferenceNode" />
     public sealed class ManipulationPropertySetReferenceNode : PropertySetReferenceNode
     {
         /// <summary>

@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.ObjectModel;
-using CommunityToolkit.WinUI.UI;
+using CommunityToolkit.Windows.UI;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.

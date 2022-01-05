@@ -2,9 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.SampleApp.Common;
+using CommunityToolkit.Windows.ShowcaseApp.Common;
 
-namespace CommunityToolkit.WinUI.SampleApp.Models
+namespace CommunityToolkit.Windows.ShowcaseApp.Models
 {
     public class Item : BindableBase
     {

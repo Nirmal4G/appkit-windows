@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.SampleApp.Models
+namespace CommunityToolkit.Windows.ShowcaseApp.Models
 {
     public class Email
     {

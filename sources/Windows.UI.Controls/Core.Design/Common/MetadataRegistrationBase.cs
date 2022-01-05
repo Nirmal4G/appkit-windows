@@ -11,12 +11,12 @@ using System.Linq;
 using System.Reflection;
 using System.Xml.Linq;
 
-using CommunityToolkit.WinUI.Design.Types;
+using CommunityToolkit.Windows.Design.Types;
 
 using Microsoft.VisualStudio.DesignTools.Extensibility;
 using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
 
-namespace CommunityToolkit.WinUI.Design.Common
+namespace CommunityToolkit.Windows.Design.Common
 {
     public abstract class MetadataRegistrationBase : IProvideAttributeTable
     {

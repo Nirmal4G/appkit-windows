@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.UI.Dispatching;
-using CommunityToolkit.WinUI;
+using CommunityToolkit.Windows;
 using Microsoft.UI.Xaml.Controls;
 
 namespace UnitTests.Extensions

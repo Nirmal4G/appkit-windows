@@ -11,7 +11,7 @@ using Windows.ApplicationModel;
 
 #nullable enable
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// Provides the ability to assign a reorder animation to a <see cref="ListViewBase"/>.

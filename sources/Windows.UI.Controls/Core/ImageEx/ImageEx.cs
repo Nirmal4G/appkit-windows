@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// The ImageEx control extends the default Image platform control improving the performance and responsiveness of your Apps.
@@ -18,7 +18,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
             : base()
         {
             DefaultStyleKey = typeof(ImageEx);
-            DefaultStyleResourceUri = new System.Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Core/Themes/Generic.xaml");
+            DefaultStyleResourceUri = new System.Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Core/Themes/Generic.xaml");
         }
     }
 }

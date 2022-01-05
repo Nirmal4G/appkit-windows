@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Arguments for the OnMarkdownRendered event which indicates when the markdown has been

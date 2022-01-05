@@ -8,7 +8,7 @@ using Microsoft.Graphics.Canvas.Brushes;
 using Microsoft.Graphics.Canvas.Geometry;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry
+namespace CommunityToolkit.Windows.UI.Media.Geometry
 {
     /// <summary>
     /// Class to represent the Stroke which can be used to render an outline on a <see cref="CanvasGeometry"/>

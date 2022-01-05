@@ -8,7 +8,7 @@ using Microsoft.UI.Input;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Input;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <inheritdoc cref="FrameworkElementExtensions"/>
     public static partial class FrameworkElementExtensions

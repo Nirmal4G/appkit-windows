@@ -9,13 +9,13 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
-using CommunityToolkit.WinUI.Utilities;
+using CommunityToolkit.Windows.Utilities;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.UI.Utilities
+namespace CommunityToolkit.Windows.UI.Utilities
 {
     internal static class Extensions
     {

@@ -6,7 +6,7 @@ using System;
 using Microsoft.UI.Xaml;
 using Microsoft.Xaml.Interactivity;
 
-namespace CommunityToolkit.WinUI.UI.Behaviors
+namespace CommunityToolkit.Windows.UI.Behaviors
 {
     /// <summary>
     /// A class for listening to an element enter or exit the ScrollViewer viewport

@@ -9,7 +9,7 @@ using Windows.Data.Xml.Dom;
 using Windows.UI.Notifications;
 #endif
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Base Toast element, which contains at least a visual element.

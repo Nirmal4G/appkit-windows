@@ -3,13 +3,13 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI.UI.Automation.Peers;
+using CommunityToolkit.Windows.UI.Automation.Peers;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Automation;
 using Microsoft.UI.Xaml.Automation.Peers;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// The Blade is used as a child in the BladeView
@@ -69,7 +69,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
             {
                 Width = _normalModeWidth;
                 VisualStateManager.GoToState(this, "Expanded", true);
-                var name = "WCT_BladeView_ExpandButton_Collapsed".GetLocalized("CommunityToolkit.WinUI.UI.Controls.Layout/Resources");
+                var name = "WCT_BladeView_ExpandButton_Collapsed".GetLocalized("CommunityToolkit.Windows.UI.Controls.Layout/Resources");
                 if (_enlargeButton != null)
                 {
                     AutomationProperties.SetName(_enlargeButton, name);
@@ -85,7 +85,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
             {
                 Width = double.NaN;
                 VisualStateManager.GoToState(this, "Collapsed", true);
-                var name = "WCT_BladeView_ExpandButton_Expanded".GetLocalized("CommunityToolkit.WinUI.UI.Controls.Layout/Resources");
+                var name = "WCT_BladeView_ExpandButton_Expanded".GetLocalized("CommunityToolkit.Windows.UI.Controls.Layout/Resources");
                 if (_enlargeButton != null)
                 {
                     AutomationProperties.SetName(_enlargeButton, name);

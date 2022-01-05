@@ -2,10 +2,10 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI.Controls.DataGridInternals;
+using CommunityToolkit.Windows.UI.Controls.DataGridInternals;
 using Microsoft.UI.Xaml;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Represents a <see cref="DataGrid"/> column that hosts template-specified
@@ -86,13 +86,13 @@ namespace CommunityToolkit.WinUI.UI.Controls
         }
 
         /// <summary>
-        /// Gets an element defined by the <see cref="P:CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn.CellEditingTemplate"/> that is bound to the column's <see cref="P:CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn.Binding"/> property value.
+        /// Gets an element defined by the <see cref="P:CommunityToolkit.Windows.UI.Controls.DataGridTemplateColumn.CellEditingTemplate"/> that is bound to the column's <see cref="P:CommunityToolkit.Windows.UI.Controls.DataGridBoundColumn.Binding"/> property value.
         /// </summary>
-        /// <returns>A new editing element that is bound to the column's <see cref="P:CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn.Binding"/> property value.</returns>
+        /// <returns>A new editing element that is bound to the column's <see cref="P:CommunityToolkit.Windows.UI.Controls.DataGridBoundColumn.Binding"/> property value.</returns>
         /// <param name="cell">The cell that will contain the generated element.</param>
         /// <param name="dataItem">The data item represented by the row that contains the intended cell.</param>
         /// <exception cref="T:System.TypeInitializationException">
-        /// The <see cref="P:CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn.CellEditingTemplate"/> is null.
+        /// The <see cref="P:CommunityToolkit.Windows.UI.Controls.DataGridTemplateColumn.CellEditingTemplate"/> is null.
         /// </exception>
         protected override FrameworkElement GenerateEditingElement(DataGridCell cell, object dataItem)
         {
@@ -117,13 +117,13 @@ namespace CommunityToolkit.WinUI.UI.Controls
         }
 
         /// <summary>
-        /// Gets an element defined by the <see cref="P:CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn.CellTemplate"/> that is bound to the column's <see cref="P:CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn.Binding"/> property value.
+        /// Gets an element defined by the <see cref="P:CommunityToolkit.Windows.UI.Controls.DataGridTemplateColumn.CellTemplate"/> that is bound to the column's <see cref="P:CommunityToolkit.Windows.UI.Controls.DataGridBoundColumn.Binding"/> property value.
         /// </summary>
-        /// <returns>A new, read-only element that is bound to the column's <see cref="P:CommunityToolkit.WinUI.UI.Controls.DataGridBoundColumn.Binding"/> property value.</returns>
+        /// <returns>A new, read-only element that is bound to the column's <see cref="P:CommunityToolkit.Windows.UI.Controls.DataGridBoundColumn.Binding"/> property value.</returns>
         /// <param name="cell">The cell that will contain the generated element.</param>
         /// <param name="dataItem">The data item represented by the row that contains the intended cell.</param>
         /// <exception cref="T:System.TypeInitializationException">
-        /// The <see cref="P:CommunityToolkit.WinUI.UI.Controls.DataGridTemplateColumn.CellTemplate"/> is null.
+        /// The <see cref="P:CommunityToolkit.Windows.UI.Controls.DataGridTemplateColumn.CellTemplate"/> is null.
         /// </exception>
         protected override FrameworkElement GenerateElement(DataGridCell cell, object dataItem)
         {

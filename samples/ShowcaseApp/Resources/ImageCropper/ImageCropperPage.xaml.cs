@@ -6,8 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Windows.ApplicationModel;
@@ -15,7 +15,7 @@ using Windows.Storage;
 using Windows.Storage.Pickers;
 using WinRT;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// A page that shows how to use the ImageCropper control.
@@ -44,15 +44,15 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Pick Image", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Pick Image", async (sender, args) =>
             {
                 await PickImage();
             });
-            SampleController.Current.RegisterNewCommand("Save", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Save", async (sender, args) =>
             {
                 await SaveCroppedImage();
             });
-            SampleController.Current.RegisterNewCommand("Reset", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Reset", (sender, args) =>
             {
                 _imageCropper?.Reset();
             });

@@ -2,7 +2,7 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI.Animations.Expressions;
+using CommunityToolkit.Windows.UI.Animations.Expressions;
 using Microsoft.UI.Composition;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
@@ -10,7 +10,7 @@ using Microsoft.UI.Xaml.Hosting;
 using Microsoft.UI.Xaml.Input;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.UI.Behaviors
+namespace CommunityToolkit.Windows.UI.Behaviors
 {
     /// <summary>
     /// Performs an animation on a ListView or GridView Header to make it quick return using composition.

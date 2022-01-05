@@ -4,7 +4,7 @@
 
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// A page that shows how to use the pipeline brushes.

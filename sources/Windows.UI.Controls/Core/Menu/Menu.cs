@@ -8,7 +8,7 @@ using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Menu Control defines a menu of choices for users to invoke.
@@ -24,7 +24,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
         public Menu()
         {
             DefaultStyleKey = typeof(Menu);
-            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Core/Themes/Generic.xaml");
+            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Core/Themes/Generic.xaml");
         }
 
         // even if we have multiple menus in the same page we need only one cache because only one menu item will have certain short cut.

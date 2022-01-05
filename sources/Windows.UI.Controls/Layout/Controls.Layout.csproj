@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net5.0-windows10.0.18362.0</TargetFrameworks>
-    <RootNamespace>CommunityToolkit.WinUI.UI.Controls</RootNamespace>
+    <RootNamespace>CommunityToolkit.Windows.UI.Controls</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -40,7 +40,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CommunityToolkit.WinUI.UI\CommunityToolkit.WinUI.UI.csproj" />
+    <ProjectReference Include="..\CommunityToolkit.Windows.UI\CommunityToolkit.Windows.UI.csproj" />
   </ItemGroup>
 
   <Import Project="$(BuildToolsDirectory)Windows.Toolkit.WinUI.Controls.targets" />

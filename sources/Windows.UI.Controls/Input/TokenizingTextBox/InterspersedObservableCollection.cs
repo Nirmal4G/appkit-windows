@@ -7,9 +7,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     //// We need to implement the IList interface here for ListViewBase to listen to changes - https://github.com/microsoft/microsoft-ui-xaml/issues/1809
 

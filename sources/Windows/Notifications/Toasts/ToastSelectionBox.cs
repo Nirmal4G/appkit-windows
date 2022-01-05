@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// A selection box control, which lets users pick from a dropdown list of options.

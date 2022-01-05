@@ -6,13 +6,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using CommunityToolkit.WinUI.UI.Controls.DataGridInternals;
-using CommunityToolkit.WinUI.Utilities;
+using CommunityToolkit.Windows.UI.Controls.DataGridInternals;
+using CommunityToolkit.Windows.Utilities;
 using Microsoft.UI.Xaml.Controls;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     internal class DataGridSelectedItemsCollection : IList
     {

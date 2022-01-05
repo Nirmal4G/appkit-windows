@@ -5,16 +5,16 @@
 #pragma warning disable SA1121 // UseBuiltInTypeAlias
 
 using System;
-using CommunityToolkit.WinUI.Notifications.Adaptive.Elements;
+using CommunityToolkit.Windows.Notifications.Adaptive.Elements;
 
 #if WINRT
 using System.Collections.Generic;
 using BindableString = System.String;
 #else
-using BindableString = CommunityToolkit.WinUI.Notifications.BindableString;
+using BindableString = CommunityToolkit.Windows.Notifications.BindableString;
 #endif
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// An adaptive text element.

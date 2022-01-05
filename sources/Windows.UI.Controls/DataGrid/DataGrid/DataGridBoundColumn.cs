@@ -3,13 +3,13 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Generic;
-using CommunityToolkit.WinUI.UI.Controls.DataGridInternals;
-using CommunityToolkit.WinUI.UI.Data.Utilities;
-using CommunityToolkit.WinUI.Utilities;
+using CommunityToolkit.Windows.UI.Controls.DataGridInternals;
+using CommunityToolkit.Windows.UI.Data.Utilities;
+using CommunityToolkit.Windows.Utilities;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Data;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Represents a <see cref="DataGrid"/> column that can

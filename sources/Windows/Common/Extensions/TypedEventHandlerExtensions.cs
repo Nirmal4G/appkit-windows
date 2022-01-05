@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using CommunityToolkit.Common.Deferred;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.Deferred
+namespace CommunityToolkit.Windows.Deferred
 {
     /// <summary>
     /// Extensions to <see cref="TypedEventHandler{TSender, TResult}"/> for Deferred Events.

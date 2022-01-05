@@ -7,7 +7,7 @@ using Microsoft.UI;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Media;
 
-namespace CommunityToolkit.WinUI.SampleApp.Styles
+namespace CommunityToolkit.Windows.ShowcaseApp.Styles
 {
     public static class ThemeInjector
     {

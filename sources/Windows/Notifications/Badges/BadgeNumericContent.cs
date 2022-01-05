@@ -6,7 +6,7 @@
 using Windows.Data.Xml.Dom;
 #endif
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Notification content object to display a number on a Tile's badge.

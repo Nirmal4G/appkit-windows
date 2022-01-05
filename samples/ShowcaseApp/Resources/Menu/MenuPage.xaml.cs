@@ -2,12 +2,12 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     public sealed partial class MenuPage : IXamlRenderListener
     {
@@ -28,7 +28,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Append Item to file menu", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Append Item to file menu", (sender, args) =>
             {
                 if (fileMenu != null)
                 {
@@ -46,7 +46,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Prepend Item to file menu", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Prepend Item to file menu", (sender, args) =>
             {
                 if (fileMenu != null)
                 {

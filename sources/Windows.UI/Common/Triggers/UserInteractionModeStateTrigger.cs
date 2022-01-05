@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 using Microsoft.UI.Xaml;
 using Windows.UI.ViewManagement;
 
-namespace CommunityToolkit.WinUI.UI.Triggers
+namespace CommunityToolkit.Windows.UI.Triggers
 {
     /// <summary>
     /// Trigger for switching when the User interaction mode changes (tablet mode)

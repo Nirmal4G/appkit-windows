@@ -1,11 +1,11 @@
 <Page
-    x:Class="CommunityToolkit.WinUI.SampleApp.SamplePages.ImplicitAnimationsPage"
+    x:Class="CommunityToolkit.Windows.ShowcaseApp.Samples.ImplicitAnimationsPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:ui="using:CommunityToolkit.WinUI.UI"
-    xmlns:animations="using:CommunityToolkit.WinUI.UI.Animations"
+    xmlns:ui="using:CommunityToolkit.Windows.UI"
+    xmlns:animations="using:CommunityToolkit.Windows.UI.Animations"
     mc:Ignorable="d">
     <Page.Resources>
         <animations:ImplicitAnimationSet x:Name="TestAnimations">

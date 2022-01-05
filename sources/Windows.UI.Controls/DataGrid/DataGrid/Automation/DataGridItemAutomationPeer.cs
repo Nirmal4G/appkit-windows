@@ -4,14 +4,14 @@
 
 using System;
 using System.Collections.Generic;
-using CommunityToolkit.WinUI.UI.Controls;
-using CommunityToolkit.WinUI.UI.Controls.DataGridInternals;
+using CommunityToolkit.Windows.UI.Controls;
+using CommunityToolkit.Windows.UI.Controls.DataGridInternals;
 using Microsoft.UI.Xaml.Automation;
 using Microsoft.UI.Xaml.Automation.Peers;
 using Microsoft.UI.Xaml.Automation.Provider;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.UI.Automation.Peers
+namespace CommunityToolkit.Windows.UI.Automation.Peers
 {
     /// <summary>
     /// AutomationPeer for an item in a DataGrid

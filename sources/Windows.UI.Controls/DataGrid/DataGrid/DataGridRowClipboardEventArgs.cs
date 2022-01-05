@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// This class encapsulates a selected row's information necessary for the CopyingRowClipboardContent event.

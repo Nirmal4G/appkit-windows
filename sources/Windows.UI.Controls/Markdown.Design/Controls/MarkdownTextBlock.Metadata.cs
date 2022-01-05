@@ -7,7 +7,7 @@ using System.ComponentModel;
 using Microsoft.VisualStudio.DesignTools.Extensibility;
 using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Design
+namespace CommunityToolkit.Windows.UI.Controls.Design
 {
     internal class MarkdownTextBlockMetadata : AttributeTableBuilder
     {

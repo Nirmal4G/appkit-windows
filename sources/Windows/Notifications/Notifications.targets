@@ -2,7 +2,7 @@
 
   <ItemGroup>
     <Reference Include="NotificationsExtensions">
-      <HintPath>$(MSBuildThisFileDirectory)..\..\lib\native\CommunityToolkit.WinUI.Notifications.winmd</HintPath>
+      <HintPath>$(MSBuildThisFileDirectory)..\..\lib\native\CommunityToolkit.Windows.Notifications.winmd</HintPath>
       <IsWinMDFile>true</IsWinMDFile>
     </Reference>
   </ItemGroup>

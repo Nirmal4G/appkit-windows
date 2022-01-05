@@ -5,7 +5,7 @@
 using System.Numerics;
 using Microsoft.UI;
 
-namespace CommunityToolkit.WinUI.UI.Animations.Expressions
+namespace CommunityToolkit.Windows.UI.Animations.Expressions
 {
     // ExpressionValues is a static class instead of a namespace to improve intellisense discoverablity and consistency with the other helper classes.
 

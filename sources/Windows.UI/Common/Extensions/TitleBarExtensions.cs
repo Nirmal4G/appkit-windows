@@ -8,7 +8,7 @@ using Windows.UI;
 using Windows.UI.Core;
 using Windows.UI.ViewManagement;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Provides attached dependency properties for interacting with the <see cref="ApplicationViewTitleBar"/> on a window (app view).

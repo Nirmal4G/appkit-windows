@@ -3,13 +3,13 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Media;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Controls.ColorPickerConverters
+namespace CommunityToolkit.Windows.UI.Controls.ColorPickerConverters
 {
     /// <summary>
     /// Converts a color to a hex string and vice versa.

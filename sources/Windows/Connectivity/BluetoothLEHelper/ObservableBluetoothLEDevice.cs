@@ -17,7 +17,7 @@ using Windows.Devices.Bluetooth;
 using Windows.Devices.Bluetooth.GenericAttributeProfile;
 using Windows.Devices.Enumeration;
 
-namespace CommunityToolkit.WinUI.Connectivity
+namespace CommunityToolkit.Windows.Connectivity
 {
     /// <summary>
     /// Wrapper around <see cref="BluetoothLEDevice" /> to make it bindable.

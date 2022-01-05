@@ -2,12 +2,12 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI.Animations.Expressions;
+using CommunityToolkit.Windows.UI.Animations.Expressions;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Hosting;
 
-namespace CommunityToolkit.WinUI.UI.Behaviors
+namespace CommunityToolkit.Windows.UI.Behaviors
 {
     /// <summary>
     /// Performs an fade animation on a ListView or GridView Header using composition.

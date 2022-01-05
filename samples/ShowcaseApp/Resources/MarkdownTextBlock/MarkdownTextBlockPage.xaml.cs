@@ -4,8 +4,8 @@
 
 using System;
 using System.IO;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI;
 using Microsoft.UI.Text;
 using Microsoft.UI.Xaml;
@@ -14,7 +14,7 @@ using Microsoft.UI.Xaml.Documents;
 using Microsoft.UI.Xaml.Media;
 using Windows.System;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     public sealed partial class MarkdownTextBlockPage : Page, IXamlRenderListener
     {
@@ -24,7 +24,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
         public MarkdownTextBlockPage()
         {
             InitializeComponent();
-            SampleController.Current.ThemeChanged += Current_ThemeChanged;
+            ShowcaseController.Current.ThemeChanged += Current_ThemeChanged;
         }
 
         public void OnXamlRendered(FrameworkElement control)
@@ -35,7 +35,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
             if (markdownText != null)
             {
-                markdownText.RequestedTheme = SampleController.Current.GetCurrentTheme();
+                markdownText.RequestedTheme = ShowcaseController.Current.GetCurrentTheme();
                 markdownText.LinkClicked -= MarkdownText_LinkClicked;
                 markdownText.LinkClicked += MarkdownText_LinkClicked;
                 markdownText.ImageClicked -= MarkdownText_ImageClicked;
@@ -79,7 +79,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
             // Load the initial demo data from the file.
             try
             {
-                using (var jsonStream = await Samples.LoadLocalFile("SamplePages/MarkdownTextBlock/InitialContent.md"))
+                using (var jsonStream = await Samples.LoadLocalFile("Resources/MarkdownTextBlock/InitialContent.md"))
                 {
                     using (var streamreader = new StreamReader(jsonStream))
                     {

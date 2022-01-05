@@ -2,7 +2,7 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-      xmlns:converters="using:CommunityToolkit.WinUI.UI.Converters"
+      xmlns:converters="using:CommunityToolkit.Windows.UI.Converters"
       xmlns:Interactivity="using:Microsoft.Xaml.Interactivity"
       xmlns:wgt="using:CommunityToolkit.Common.Graph.Controls"
       xmlns:providers="using:CommunityToolkit.Common.Graph.Providers"

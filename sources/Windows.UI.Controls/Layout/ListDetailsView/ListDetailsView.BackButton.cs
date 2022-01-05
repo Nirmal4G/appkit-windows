@@ -9,7 +9,7 @@ using Microsoft.UI.Xaml.Navigation;
 using Windows.ApplicationModel;
 using Windows.UI.Core;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Panel that allows for a List/Details pattern.

@@ -6,7 +6,7 @@ using System;
 using System.Globalization;
 using Microsoft.UI.Xaml;
 
-namespace CommunityToolkit.WinUI.UI.Triggers
+namespace CommunityToolkit.Windows.UI.Triggers
 {
     /// <summary>
     /// Enables a state if the value is equal to another value

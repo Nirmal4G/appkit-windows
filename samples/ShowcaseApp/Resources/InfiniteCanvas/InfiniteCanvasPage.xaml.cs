@@ -4,15 +4,15 @@
 
 using System;
 using System.Collections.Generic;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Windows.Storage;
 using Windows.Storage.Pickers;
 using WinRT;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// InfinteCanvas sample page.
@@ -34,7 +34,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Export & Save", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Export & Save", async (sender, args) =>
             {
                 if (_infiniteCanvas != null)
                 {
@@ -57,7 +57,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Import and Load", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Import and Load", async (sender, args) =>
             {
                 if (_infiniteCanvas != null)
                 {
@@ -93,7 +93,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Export max view as image", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Export max view as image", async (sender, args) =>
             {
                 if (_infiniteCanvas != null)
                 {

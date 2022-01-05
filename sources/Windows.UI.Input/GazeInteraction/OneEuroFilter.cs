@@ -11,7 +11,7 @@ using System;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
-namespace CommunityToolkit.WinUI.Input.GazeInteraction
+namespace CommunityToolkit.Windows.Input.GazeInteraction
 {
     internal class OneEuroFilter : IGazeFilter
     {

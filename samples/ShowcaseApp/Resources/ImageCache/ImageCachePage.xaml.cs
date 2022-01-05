@@ -5,12 +5,12 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.SampleApp.Data;
-using CommunityToolkit.WinUI.UI;
+using CommunityToolkit.Windows.ShowcaseApp.Data;
+using CommunityToolkit.Windows.UI;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// Page shows how ImageCache is used
@@ -33,13 +33,13 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
         private async void Load()
         {
-            SampleController.Current.RegisterNewCommand("PreCache photos", PreCache_Tapped);
+            ShowcaseController.Current.RegisterNewCommand("PreCache photos", PreCache_Tapped);
 
-            SampleController.Current.RegisterNewCommand("PreCache photos in memory", PreCacheInMemory_Tapped);
+            ShowcaseController.Current.RegisterNewCommand("PreCache photos in memory", PreCacheInMemory_Tapped);
 
-            SampleController.Current.RegisterNewCommand("Load photos", LoadImages_Tapped);
+            ShowcaseController.Current.RegisterNewCommand("Load photos", LoadImages_Tapped);
 
-            SampleController.Current.RegisterNewCommand("Clear cache", ClearCache_Tapped);
+            ShowcaseController.Current.RegisterNewCommand("Clear cache", ClearCache_Tapped);
 
             await LoadDataAsync();
         }

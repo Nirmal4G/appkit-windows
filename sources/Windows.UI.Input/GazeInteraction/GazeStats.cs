@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.Input.GazeInteraction
+namespace CommunityToolkit.Windows.Input.GazeInteraction
 {
     /// <summary>
     /// Provides basic stats for eye gaze

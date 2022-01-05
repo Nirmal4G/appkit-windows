@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <inheritdoc cref="TextBoxExtensions"/>
     public static partial class TextBoxExtensions

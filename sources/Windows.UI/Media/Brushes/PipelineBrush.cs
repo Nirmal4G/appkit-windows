@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Generic;
-using CommunityToolkit.WinUI.UI.Media.Pipelines;
+using CommunityToolkit.Windows.UI.Media.Pipelines;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Markup;
 using Microsoft.UI.Xaml.Media;
 
-namespace CommunityToolkit.WinUI.UI.Media
+namespace CommunityToolkit.Windows.UI.Media
 {
     /// <summary>
     /// A <see cref="Brush"/> that renders a customizable Composition/Win2D effects pipeline

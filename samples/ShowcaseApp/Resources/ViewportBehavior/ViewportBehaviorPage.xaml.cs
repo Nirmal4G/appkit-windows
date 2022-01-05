@@ -6,14 +6,14 @@ using System;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Behaviors;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Behaviors;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media.Imaging;
 using Microsoft.Xaml.Interactivity;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// A page that shows how to use the viewport behavior.

@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// A generic class that can be used to retrieve keyed resources of the specified type.

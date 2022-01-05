@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 
-namespace CommunityToolkit.WinUI.SampleApp.Data
+namespace CommunityToolkit.Windows.ShowcaseApp.Data
 {
     public class DataGridDataItem : INotifyDataErrorInfo, IComparable
     {

@@ -4,13 +4,13 @@
 
 using System;
 using System.Text.RegularExpressions;
-using CommunityToolkit.WinUI.UI.Behaviors;
+using CommunityToolkit.Windows.UI.Behaviors;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Documents;
 using Microsoft.UI.Xaml.Media;
 
-namespace CommunityToolkit.WinUI.SampleApp.Common
+namespace CommunityToolkit.Windows.ShowcaseApp.Common
 {
     public class TextBlockHyperlinkBehavior : BehaviorBase<TextBlock>
     {

@@ -11,7 +11,7 @@ using System.Text;
 using Windows.UI.Notifications;
 #endif
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Builder class used to create <see cref="ToastContent"/>

@@ -4,12 +4,12 @@
 
 using System;
 using System.Runtime.CompilerServices;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Core;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Elements.Brush;
+using CommunityToolkit.Windows.UI.Media.Geometry.Core;
+using CommunityToolkit.Windows.UI.Media.Geometry.Elements.Brush;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Brushes;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry.Parsers
+namespace CommunityToolkit.Windows.UI.Media.Geometry.Parsers
 {
     /// <summary>
     /// Parser for ICanvasBrush.

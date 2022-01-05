@@ -3,7 +3,7 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 using Windows.Graphics.Imaging;
 using Windows.Media;
 using Windows.System;

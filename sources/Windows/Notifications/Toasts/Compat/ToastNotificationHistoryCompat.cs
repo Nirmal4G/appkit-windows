@@ -7,7 +7,7 @@
 using System.Collections.Generic;
 using Windows.UI.Notifications;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Manages the toast notifications for an app including the ability the clear all toast history and removing individual toasts.

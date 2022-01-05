@@ -5,14 +5,14 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Linq;
-using CommunityToolkit.WinUI.SampleApp.Data;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.ShowcaseApp.Data;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     public sealed partial class AdaptiveGridViewPage : IXamlRenderListener
     {

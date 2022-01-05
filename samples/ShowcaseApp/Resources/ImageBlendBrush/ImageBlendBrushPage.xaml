@@ -1,8 +1,8 @@
-<Page x:Class="CommunityToolkit.WinUI.SampleApp.SamplePages.ImageBlendBrushPage"
+<Page x:Class="CommunityToolkit.Windows.ShowcaseApp.Samples.ImageBlendBrushPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-      xmlns:media="using:CommunityToolkit.WinUI.UI.Media"
+      xmlns:media="using:CommunityToolkit.Windows.UI.Media"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       mc:Ignorable="d">
 

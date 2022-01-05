@@ -4,7 +4,7 @@
 
 using Microsoft.Windows.ApplicationModel.Resources;
 
-namespace CommunityToolkit.WinUI
+namespace CommunityToolkit.Windows
 {
     /// <summary>
     /// UWP specific helpers for working with strings.

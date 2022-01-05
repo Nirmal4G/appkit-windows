@@ -12,7 +12,7 @@ using Windows.Foundation;
 using Windows.UI;
 using Windows.UI.Text;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     internal class TextDrawable : IDrawable
     {

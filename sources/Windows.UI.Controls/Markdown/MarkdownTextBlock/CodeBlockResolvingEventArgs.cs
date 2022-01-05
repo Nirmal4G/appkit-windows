@@ -5,7 +5,7 @@
 using System;
 using Microsoft.UI.Xaml.Documents;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Arguments for the <see cref="MarkdownTextBlock.CodeBlockResolving"/> event when a Code Block is being rendered.

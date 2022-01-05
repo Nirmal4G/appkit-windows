@@ -5,7 +5,7 @@
 using Microsoft.UI.Xaml;
 using Windows.Graphics.Display;
 
-namespace CommunityToolkit.WinUI.UI.Media.Helpers
+namespace CommunityToolkit.Windows.UI.Media.Helpers
 {
     internal static class DpiHelpers
     {

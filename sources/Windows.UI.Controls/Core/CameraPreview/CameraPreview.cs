@@ -6,14 +6,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Windows.Media.Capture.Frames;
 using Windows.Media.Core;
 using Windows.Media.Playback;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Camera Control to preview video. Can subscribe to video frames, software bitmap when they arrive.
@@ -77,7 +77,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
         public CameraPreview()
         {
             this.DefaultStyleKey = typeof(CameraPreview);
-            this.DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Core/Themes/Generic.xaml");
+            this.DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Core/Themes/Generic.xaml");
         }
 
         /// <inheritdoc/>

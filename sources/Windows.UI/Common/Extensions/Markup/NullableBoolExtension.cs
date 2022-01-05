@@ -4,7 +4,7 @@
 
 using Microsoft.UI.Xaml.Markup;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Custom <see cref="MarkupExtension"/> which can provide nullable bool values.

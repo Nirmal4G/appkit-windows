@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Provides information just after a row has exited edit mode.

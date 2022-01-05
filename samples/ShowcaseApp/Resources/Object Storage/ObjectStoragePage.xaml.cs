@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using CommunityToolkit.Common.Helpers;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 using Microsoft.UI.Xaml;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     public sealed partial class ObjectStoragePage
     {

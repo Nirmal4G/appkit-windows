@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using Windows.ApplicationModel.Activation;
 
-namespace CommunityToolkit.WinUI.Helpers
+namespace CommunityToolkit.Windows.Helpers
 {
     /// <summary>
     /// Provides assistance with parsing <see cref="ILaunchActivatedEventArgs"/> and its .Arguments property in to a key-value set and target path

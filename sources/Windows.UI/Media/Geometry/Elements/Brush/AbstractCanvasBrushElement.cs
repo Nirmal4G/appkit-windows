@@ -3,11 +3,11 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Text.RegularExpressions;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Core;
+using CommunityToolkit.Windows.UI.Media.Geometry.Core;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Brushes;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry.Elements.Brush
+namespace CommunityToolkit.Windows.UI.Media.Geometry.Elements.Brush
 {
     /// <summary>
     /// Abstract base class for all Brush Elements

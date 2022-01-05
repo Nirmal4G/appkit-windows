@@ -5,7 +5,7 @@
 using System;
 using Microsoft.UI.Xaml.Data;
 
-namespace CommunityToolkit.WinUI.UI.Converters
+namespace CommunityToolkit.Windows.UI.Converters
 {
     /// <summary>
     /// This class provides a binding converter to display formatted strings

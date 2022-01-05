@@ -6,8 +6,8 @@ using System;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Globalization;
-using CommunityToolkit.WinUI.Helpers;
-using CommunityToolkit.WinUI.UI.Controls.ColorPickerConverters;
+using CommunityToolkit.Windows.Helpers;
+using CommunityToolkit.Windows.UI.Controls.ColorPickerConverters;
 using Microsoft.UI;
 using Microsoft.UI.Dispatching;
 using Microsoft.UI.Xaml;
@@ -15,10 +15,10 @@ using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Controls.Primitives;
 using Microsoft.UI.Xaml.Media;
 using Windows.UI;
-using ColorPickerSlider = CommunityToolkit.WinUI.UI.Controls.Primitives.ColorPickerSlider;
+using ColorPickerSlider = CommunityToolkit.Windows.UI.Controls.Primitives.ColorPickerSlider;
 using ColorSpectrum = Microsoft.UI.Xaml.Controls.Primitives.ColorSpectrum;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Presents a color spectrum, a palette of colors, and color channel sliders for user selection of a color.
@@ -126,7 +126,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
             this.DefaultStyleKey = typeof(ColorPicker);
 
             // WinUI3 workaround for https://github.com/microsoft/microsoft-ui-xaml/issues/3502
-            this.DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Input/Themes/Generic.xaml");
+            this.DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Input/Themes/Generic.xaml");
 
             // Setup collections
             this.SetValue(CustomPaletteColorsProperty, new ObservableCollection<Color>());
@@ -1336,7 +1336,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
                 {
                     case ColorChannel.Channel1:
                         {
-                            newColor = CommunityToolkit.WinUI.Helpers.ColorHelper.FromHsv
+                            newColor = CommunityToolkit.Windows.Helpers.ColorHelper.FromHsv
                             (
                                 360.0,
                                 newHsvColor.S,
@@ -1348,7 +1348,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
 
                     case ColorChannel.Channel2:
                         {
-                            newColor = CommunityToolkit.WinUI.Helpers.ColorHelper.FromHsv
+                            newColor = CommunityToolkit.Windows.Helpers.ColorHelper.FromHsv
                             (
                                 newHsvColor.H,
                                 100.0,
@@ -1360,7 +1360,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
 
                     case ColorChannel.Channel3:
                         {
-                            newColor = CommunityToolkit.WinUI.Helpers.ColorHelper.FromHsv
+                            newColor = CommunityToolkit.Windows.Helpers.ColorHelper.FromHsv
                             (
                                 newHsvColor.H,
                                 newHsvColor.S,

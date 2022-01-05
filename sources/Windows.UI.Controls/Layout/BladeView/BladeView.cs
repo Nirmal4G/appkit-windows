@@ -5,14 +5,14 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using CommunityToolkit.WinUI.UI.Automation.Peers;
+using CommunityToolkit.Windows.UI.Automation.Peers;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Automation.Peers;
 using Microsoft.UI.Xaml.Controls;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// A container that hosts <see cref="BladeItem"/> controls in a horizontal scrolling list

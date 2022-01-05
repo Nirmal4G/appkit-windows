@@ -11,7 +11,7 @@ using Microsoft.UI.Xaml.Automation.Peers;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Documents;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Display <see cref="MetadataItem"/>s separated by bullets.
@@ -65,7 +65,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
         public MetadataControl()
         {
             DefaultStyleKey = typeof(MetadataControl);
-            DefaultStyleResourceUri = new System.Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Core/Themes/Generic.xaml");
+            DefaultStyleResourceUri = new System.Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Core/Themes/Generic.xaml");
             ActualThemeChanged += OnActualThemeChanged;
         }
 

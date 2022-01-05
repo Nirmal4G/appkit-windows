@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:triggers="using:CommunityToolkit.WinUI.UI.Triggers"
+    xmlns:triggers="using:CommunityToolkit.Windows.UI.Triggers"
     mc:Ignorable="d">
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
@@ -11,9 +11,9 @@
             <VisualStateGroup>
                 <VisualState>
                     <VisualState.StateTriggers>
-                        <triggers:ControlSizeTrigger 
-                            TargetElement="{Binding ElementName=ParentGrid}" 
-                            MinWidth="400" 
+                        <triggers:ControlSizeTrigger
+                            TargetElement="{Binding ElementName=ParentGrid}"
+                            MinWidth="400"
                             MaxWidth="500"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
@@ -24,19 +24,19 @@
         </VisualStateManager.VisualStateGroups>
 
         <StackPanel VerticalAlignment="Center" Width="500">
-            <Grid 
+            <Grid
                 x:Name="ParentGrid"
                 Width="{Binding Value, ElementName=Slider, Mode=OneWay}"
                 Height="50"
                 Background="Blue"/>
-            <TextBlock 
-                x:Name="ResizingText" 
-                FontSize="12" 
-                Text="Windows Community Toolkit" 
+            <TextBlock
+                x:Name="ResizingText"
+                FontSize="12"
+                Text="Windows Community Toolkit"
                 HorizontalAlignment="Center"/>
-            <Slider 
-                x:Name="Slider" 
-                Minimum="0" 
+            <Slider
+                x:Name="Slider"
+                Minimum="0"
                 Maximum="500" />
         </StackPanel>
     </Grid>

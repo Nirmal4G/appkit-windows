@@ -3,13 +3,13 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Generic;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml.Automation;
 using Microsoft.UI.Xaml.Automation.Peers;
 using Microsoft.UI.Xaml.Automation.Provider;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.UI.Automation.Peers
+namespace CommunityToolkit.Windows.UI.Automation.Peers
 {
     /// <summary>
     /// Defines a framework element automation peer for the <see cref="Carousel"/> control.

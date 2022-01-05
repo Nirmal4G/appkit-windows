@@ -12,7 +12,7 @@ using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Documents;
 using Microsoft.UI.Xaml.Media;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Markdown.Render
+namespace CommunityToolkit.Windows.UI.Controls.Markdown.Render
 {
     /// <summary>
     /// Generates Framework Elements for the UWP Markdown Textblock.

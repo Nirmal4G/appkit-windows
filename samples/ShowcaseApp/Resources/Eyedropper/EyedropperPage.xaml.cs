@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// A page that shows how to use the Eyedropper control.
@@ -25,7 +25,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Global Eyedropper", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Global Eyedropper", async (sender, args) =>
             {
                 var eyedropper = new Eyedropper();
                 var color = await eyedropper.Open();

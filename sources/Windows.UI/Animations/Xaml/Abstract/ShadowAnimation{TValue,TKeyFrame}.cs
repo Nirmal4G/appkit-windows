@@ -6,11 +6,11 @@ using System;
 using Microsoft.UI.Composition;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Media.Animation;
-using static CommunityToolkit.WinUI.UI.Animations.AnimationExtensions;
+using static CommunityToolkit.Windows.UI.Animations.AnimationExtensions;
 
 #nullable enable
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A custom animation targeting a property on an <see cref="IAttachedShadow"/> instance.

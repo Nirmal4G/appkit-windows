@@ -4,12 +4,12 @@
 
 using System;
 using System.Collections.ObjectModel;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     public sealed partial class OrbitViewPage : Page, IXamlRenderListener
     {
@@ -45,7 +45,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Add Device", AddDeviceClick);
+            ShowcaseController.Current.RegisterNewCommand("Add Device", AddDeviceClick);
         }
 
         private void AddDeviceClick(object sender, RoutedEventArgs e)

@@ -4,9 +4,9 @@
 
 using System.Numerics;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Animations;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Animations;
 using Microsoft.UI.Composition;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.VisualStudio.TestTools.UnitTesting;

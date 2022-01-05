@@ -13,7 +13,7 @@ using Windows.Foundation;
 using Windows.System;
 using Windows.UI.Core;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Menu Control defines a menu of choices for users to invoke.

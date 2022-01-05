@@ -6,7 +6,7 @@ using System;
 using System.Globalization;
 using Microsoft.UI.Xaml.Data;
 
-namespace CommunityToolkit.WinUI.UI.Controls.DataGridInternals
+namespace CommunityToolkit.Windows.UI.Controls.DataGridInternals
 {
     internal static class DataGridError
     {

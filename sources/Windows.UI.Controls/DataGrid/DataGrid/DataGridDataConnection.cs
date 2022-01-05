@@ -11,16 +11,16 @@ using System.ComponentModel.DataAnnotations;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
-using CommunityToolkit.WinUI.UI.Data.Utilities;
-using CommunityToolkit.WinUI.UI.Utilities;
-using CommunityToolkit.WinUI.Utilities;
+using CommunityToolkit.Windows.UI.Data.Utilities;
+using CommunityToolkit.Windows.UI.Utilities;
+using CommunityToolkit.Windows.Utilities;
 using Microsoft.UI.Xaml.Data;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace CommunityToolkit.WinUI.UI.Controls.DataGridInternals
+namespace CommunityToolkit.Windows.UI.Controls.DataGridInternals
 {
     internal class DataGridDataConnection
     {

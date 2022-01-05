@@ -4,9 +4,9 @@
 
 using System.Globalization;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
@@ -26,7 +26,7 @@ namespace UnitTests.WinUI.UI.Controls
                 var treeRoot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:CommunityToolkit.WinUI.UI.Controls"">
+    xmlns:controls=""using:CommunityToolkit.Windows.UI.Controls"">
       <controls:ConstrainedBox x:Name=""ConstrainedBox"" AspectRatio=""2:1"" Width=""200"">
         <Border HorizontalAlignment=""Stretch"" VerticalAlignment=""Stretch"" Background=""Red""/>
       </controls:ConstrainedBox>
@@ -63,7 +63,7 @@ namespace UnitTests.WinUI.UI.Controls
                 var treeRoot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:CommunityToolkit.WinUI.UI.Controls"">
+    xmlns:controls=""using:CommunityToolkit.Windows.UI.Controls"">
       <controls:ConstrainedBox x:Name=""ConstrainedBox"" AspectRatio=""1:2"" Height=""200"">
         <Border HorizontalAlignment=""Stretch"" VerticalAlignment=""Stretch"" Background=""Red""/>
       </controls:ConstrainedBox>
@@ -100,7 +100,7 @@ namespace UnitTests.WinUI.UI.Controls
                 var treeRoot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:CommunityToolkit.WinUI.UI.Controls"">
+    xmlns:controls=""using:CommunityToolkit.Windows.UI.Controls"">
       <controls:ConstrainedBox x:Name=""ConstrainedBox"" AspectRatio=""2"" Height=""100"">
         <Border HorizontalAlignment=""Stretch"" VerticalAlignment=""Stretch"" Background=""Red""/>
       </controls:ConstrainedBox>

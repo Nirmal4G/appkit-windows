@@ -4,13 +4,13 @@
 
 using System;
 using System.Collections.Generic;
-using CommunityToolkit.WinUI.Helpers;
-using CommunityToolkit.WinUI.UI;
+using CommunityToolkit.Windows.Helpers;
+using CommunityToolkit.Windows.UI;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Windows.Graphics.Printing;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     public sealed partial class PrintHelperPage : IXamlRenderListener
     {
@@ -31,9 +31,9 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
             };
             DefaultOrientationComboBox.SelectedIndex = 0;
 
-            SampleController.Current.RegisterNewCommand("Print", Print_Click);
-            SampleController.Current.RegisterNewCommand("Direct Print", DirectPrint_Click);
-            SampleController.Current.RegisterNewCommand("Custom Print", CustomPrint_Click);
+            ShowcaseController.Current.RegisterNewCommand("Print", Print_Click);
+            ShowcaseController.Current.RegisterNewCommand("Direct Print", DirectPrint_Click);
+            ShowcaseController.Current.RegisterNewCommand("Custom Print", CustomPrint_Click);
         }
 
         public void OnXamlRendered(FrameworkElement control)
@@ -81,7 +81,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
         private async void Print_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
         {
-            SampleController.Current.DisplayWaitRing = true;
+            ShowcaseController.Current.DisplayWaitRing = true;
 
             DirectPrintContainer.Children.Remove(PrintableContent);
 
@@ -105,7 +105,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
         private async void DirectPrint_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
         {
-            SampleController.Current.DisplayWaitRing = true;
+            ShowcaseController.Current.DisplayWaitRing = true;
 
             _printHelper = new PrintHelper(DirectPrintContainer);
 
@@ -139,7 +139,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
                 return;
             }
 
-            SampleController.Current.DisplayWaitRing = true;
+            ShowcaseController.Current.DisplayWaitRing = true;
 
             // Provide an invisible container
             _printHelper = new PrintHelper(CustomPrintContainer);
@@ -198,7 +198,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
                 DirectPrintContainer.Children.Add(PrintableContent);
             }
 
-            SampleController.Current.DisplayWaitRing = false;
+            ShowcaseController.Current.DisplayWaitRing = false;
         }
 
         private async void PrintHelper_OnPrintSucceeded()

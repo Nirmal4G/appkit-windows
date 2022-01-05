@@ -8,7 +8,7 @@ using Microsoft.UI.Xaml;
 
 #nullable enable
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// An interface representing a XAML model for a custom implicit composition animation.

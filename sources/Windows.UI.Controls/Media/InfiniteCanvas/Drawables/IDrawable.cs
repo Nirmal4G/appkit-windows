@@ -6,7 +6,7 @@ using System.Text.Json;
 using Microsoft.Graphics.Canvas;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     internal interface IDrawable
     {

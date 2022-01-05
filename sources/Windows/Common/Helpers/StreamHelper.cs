@@ -12,7 +12,7 @@ using Windows.ApplicationModel;
 using Windows.Storage;
 using Windows.Storage.Streams;
 
-namespace CommunityToolkit.WinUI.Helpers
+namespace CommunityToolkit.Windows.Helpers
 {
     /// <summary>
     /// This class provides static helper methods for streams.

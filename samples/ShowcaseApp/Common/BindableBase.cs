@@ -5,7 +5,7 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace CommunityToolkit.WinUI.SampleApp.Common
+namespace CommunityToolkit.Windows.ShowcaseApp.Common
 {
     public abstract class BindableBase : INotifyPropertyChanged
     {

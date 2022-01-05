@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Linq;
 
-namespace CommunityToolkit.WinUI.UI.Media
+namespace CommunityToolkit.Windows.UI.Media
 {
     /// <summary>
     /// An extension <see langword="class"/> for the <see cref="global::System.Collections.Generic"/> <see langword="namespace"/>

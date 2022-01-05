@@ -5,7 +5,7 @@
 using System;
 using System.Numerics;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry.Core
+namespace CommunityToolkit.Windows.UI.Media.Geometry.Core
 {
     /// <summary>
     /// Structure which encapsulates the details of each of the core points  of the path of the rounded rectangle which is calculated based on

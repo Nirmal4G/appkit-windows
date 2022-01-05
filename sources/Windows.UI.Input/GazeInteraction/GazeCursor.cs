@@ -10,7 +10,7 @@ using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
-namespace CommunityToolkit.WinUI.Input.GazeInteraction
+namespace CommunityToolkit.Windows.Input.GazeInteraction
 {
     internal class GazeCursor
     {

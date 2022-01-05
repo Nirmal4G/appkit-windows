@@ -5,9 +5,9 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.Helpers;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.Helpers;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media.Imaging;
@@ -16,7 +16,7 @@ using Windows.ApplicationModel;
 using Windows.Graphics.Imaging;
 using Windows.Media;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// CameraPreviewPage
@@ -70,7 +70,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
         {
             base.OnNavigatedTo(e);
 
-            SampleController.Current.RegisterNewCommand("Capture Current Frame", CaptureButton_Click);
+            ShowcaseController.Current.RegisterNewCommand("Capture Current Frame", CaptureButton_Click);
             /*
             Application.Current.Suspending += Application_Suspending;
             Application.Current.Resuming += Application_Resuming;

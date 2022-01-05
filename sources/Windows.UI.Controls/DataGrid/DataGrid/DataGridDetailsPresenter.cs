@@ -3,14 +3,14 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI.UI.Automation.Peers;
+using CommunityToolkit.Windows.UI.Automation.Peers;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Automation.Peers;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Primitives
+namespace CommunityToolkit.Windows.UI.Controls.Primitives
 {
     /// <summary>
     /// Used within the template of a <see cref="DataGrid"/> to specify the location in the control's visual tree

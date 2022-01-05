@@ -5,9 +5,9 @@
 using System;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Media.Animation;
-using static CommunityToolkit.WinUI.UI.Animations.AnimationExtensions;
+using static CommunityToolkit.Windows.UI.Animations.AnimationExtensions;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A clip animation working on the composition layer.

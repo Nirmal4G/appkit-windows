@@ -11,7 +11,7 @@ using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 using Windows.System;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// InfiniteCanvas is a canvas that supports Ink, Text, Format Text, Zoom in/out, Redo, Undo, Export canvas data, Import canvas data.

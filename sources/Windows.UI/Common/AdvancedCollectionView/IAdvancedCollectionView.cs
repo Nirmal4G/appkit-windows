@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Microsoft.UI.Xaml.Data;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Extended ICollectionView with filtering and sorting

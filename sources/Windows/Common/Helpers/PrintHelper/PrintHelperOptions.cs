@@ -8,7 +8,7 @@ using System.Linq;
 using System.Reflection;
 using Windows.Graphics.Printing;
 
-namespace CommunityToolkit.WinUI.Helpers
+namespace CommunityToolkit.Windows.Helpers
 {
     /// <summary>
     /// Represents options used in a print task.

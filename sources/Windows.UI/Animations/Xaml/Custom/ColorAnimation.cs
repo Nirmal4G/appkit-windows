@@ -6,7 +6,7 @@ using Windows.UI;
 
 #pragma warning disable CS0419
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A custom <see cref="Color"/> animation.

@@ -13,7 +13,7 @@ using Windows.Foundation;
 using Windows.Foundation.Metadata;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// The base class for attached shadows.

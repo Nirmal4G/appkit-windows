@@ -4,13 +4,13 @@
 
 using System;
 using System.Numerics;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Animations;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Animations;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Hosting;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -37,7 +37,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Toggle Visibility", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Toggle Visibility", (sender, args) =>
             {
                 if (_element != null)
                 {
@@ -45,7 +45,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Move Element", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Move Element", (sender, args) =>
             {
                 if (_element != null)
                 {
@@ -54,7 +54,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Scale Element", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Scale Element", (sender, args) =>
             {
                 if (_element != null)
                 {
@@ -66,7 +66,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
                 }
             });
 
-            SampleController.Current.RegisterNewCommand("Toggle animations", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Toggle animations", (sender, args) =>
             {
                 if (_element != null)
                 {

@@ -3,14 +3,14 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Generic;
-using CommunityToolkit.WinUI.UI.Media.Pipelines;
+using CommunityToolkit.Windows.UI.Media.Pipelines;
 using Microsoft.Graphics.Canvas.Effects;
 using Microsoft.UI.Composition;
 using Microsoft.UI.Xaml.Markup;
 
 #nullable enable
 
-namespace CommunityToolkit.WinUI.UI.Media
+namespace CommunityToolkit.Windows.UI.Media
 {
     /// <summary>
     /// A blend effect that merges the current builder with an input one

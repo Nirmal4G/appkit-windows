@@ -6,7 +6,7 @@ using System;
 using Windows.System.Profile;
 using Windows.UI.ViewManagement;
 
-namespace CommunityToolkit.WinUI.SampleApp.Common
+namespace CommunityToolkit.Windows.ShowcaseApp.Common
 {
     /// <summary>
     /// Extension to provide DeviceForm lookup from <see cref="AnalyticsVersionInfo.DeviceFamily"/>.

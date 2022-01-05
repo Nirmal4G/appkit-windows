@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using Microsoft.UI.Xaml;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     internal class ConnectedAnimationProperties
     {

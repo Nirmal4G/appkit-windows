@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Markup;
 
-namespace CommunityToolkit.WinUI.SampleApp.Controls
+namespace CommunityToolkit.Windows.ShowcaseApp.Controls
 {
     /// <summary>
     /// Class to assist in parsing a Xaml string and returning an UIElement.

@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:media="using:CommunityToolkit.WinUI.UI.Media"
+    xmlns:media="using:CommunityToolkit.Windows.UI.Media"
     mc:Ignorable="d">
 
   <Grid>
@@ -18,7 +18,7 @@
       <Border Grid.Column="0">
         <Border.Background>
           <media:ImageBlendBrush
-            Source="/SamplePages/Shadows/Unicorn.png"
+            Source="/Resources/Shadows/Unicorn.png"
             Stretch="@[Unicorn Stretch:Enum:Stretch.None]"
             Mode="@[Unicorn Blend Mode:Enum:ImageBlendMode.ColorBurn]"
           />
@@ -27,7 +27,7 @@
       <Border Grid.Column="1">
         <Border.Background>
           <media:ImageBlendBrush
-            Source="/SamplePages/Shadows/Trex.png"
+            Source="/Resources/Shadows/Trex.png"
             Stretch="@[Trex Stretch:Enum:Stretch.None]"
             Mode="@[Trex Blend Mode:Enum:ImageBlendMode.Subtract]"
           />

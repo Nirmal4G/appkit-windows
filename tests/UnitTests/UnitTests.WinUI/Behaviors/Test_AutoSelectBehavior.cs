@@ -3,8 +3,8 @@
 // See the LICENSE file in the project root for more information.
 
 using FluentAssertions;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
 using Microsoft.UI.Xaml.Controls;
@@ -24,7 +24,7 @@ namespace UnitTests.Behaviors
                 var treeRoot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:behaviors=""using:CommunityToolkit.WinUI.UI.Behaviors""
+    xmlns:behaviors=""using:CommunityToolkit.Windows.UI.Behaviors""
     xmlns:interactivity=""using:Microsoft.Xaml.Interactivity"">
     <Grid>
         <TextBox x:Name=""TargetElement"" Text=""ThisShouldBeSelectedWhenLoaded"">

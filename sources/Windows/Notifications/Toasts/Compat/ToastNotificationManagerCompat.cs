@@ -17,7 +17,7 @@ using Windows.ApplicationModel;
 using Windows.Foundation.Collections;
 using Windows.UI.Notifications;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Provides access to sending and managing toast notifications. Works for all types of apps, even Win32 non-MSIX/sparse apps.

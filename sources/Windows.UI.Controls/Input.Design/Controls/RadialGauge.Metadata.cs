@@ -9,7 +9,7 @@ using Microsoft.VisualStudio.DesignTools.Extensibility.Features;
 using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
 using Microsoft.VisualStudio.DesignTools.Extensibility.Model;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Design
+namespace CommunityToolkit.Windows.UI.Controls.Design
 {
     internal class RadialGaugeDefaults : DefaultInitializer
     {

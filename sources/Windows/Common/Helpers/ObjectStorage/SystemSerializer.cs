@@ -6,7 +6,7 @@ using System;
 using System.Reflection;
 using Windows.Storage;
 
-namespace CommunityToolkit.WinUI.Helpers
+namespace CommunityToolkit.Windows.Helpers
 {
     /// <summary>
     /// A bare-bones serializer which knows how to deal with primitive types and strings only. It will store them directly based on the <see cref="ApplicationDataContainer"/> API.

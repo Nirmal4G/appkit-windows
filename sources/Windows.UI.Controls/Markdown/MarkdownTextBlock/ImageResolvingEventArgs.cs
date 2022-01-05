@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Arguments for the <see cref="MarkdownTextBlock.ImageResolving"/> event which is called when a url needs to be resolved to a <see cref="ImageSource"/>.

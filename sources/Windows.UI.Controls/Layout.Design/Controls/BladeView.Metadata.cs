@@ -8,7 +8,7 @@ using Microsoft.VisualStudio.DesignTools.Extensibility;
 using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
 using Microsoft.VisualStudio.DesignTools.Extensibility.PropertyEditing;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Design
+namespace CommunityToolkit.Windows.UI.Controls.Design
 {
 
     internal class BladeViewMetadata : AttributeTableBuilder

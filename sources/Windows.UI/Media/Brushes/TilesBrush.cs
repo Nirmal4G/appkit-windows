@@ -3,11 +3,11 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI.UI.Media.Helpers;
-using CommunityToolkit.WinUI.UI.Media.Pipelines;
+using CommunityToolkit.Windows.UI.Media.Helpers;
+using CommunityToolkit.Windows.UI.Media.Pipelines;
 using Microsoft.UI.Xaml;
 
-namespace CommunityToolkit.WinUI.UI.Media
+namespace CommunityToolkit.Windows.UI.Media
 {
     /// <summary>
     /// A <see cref="XamlCompositionBrush"/> that displays a tiled image

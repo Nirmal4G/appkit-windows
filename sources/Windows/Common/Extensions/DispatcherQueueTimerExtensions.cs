@@ -6,7 +6,7 @@ using System;
 using System.Collections.Concurrent;
 using Microsoft.UI.Dispatching;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Set of extension methods for using <see cref="DispatcherQueueTimer"/>.

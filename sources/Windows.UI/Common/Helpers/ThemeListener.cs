@@ -12,7 +12,7 @@ using Windows.UI.ViewManagement;
 
 // TODO: Fix tests for WinUI3
 // [assembly: InternalsVisibleTo("UnitTests.XamlIslands.UWPApp")]
-namespace CommunityToolkit.WinUI.UI.Helpers
+namespace CommunityToolkit.Windows.UI.Helpers
 {
     /// <summary>
     /// The Delegate for a ThemeChanged Event.

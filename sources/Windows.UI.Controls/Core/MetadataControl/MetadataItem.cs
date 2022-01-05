@@ -4,7 +4,7 @@
 
 using System.Windows.Input;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// An item to display in <see cref="MetadataControl"/>.

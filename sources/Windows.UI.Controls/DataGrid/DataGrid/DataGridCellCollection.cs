@@ -6,9 +6,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using CommunityToolkit.WinUI.UI.Controls.DataGridInternals;
+using CommunityToolkit.Windows.UI.Controls.DataGridInternals;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     internal class DataGridCellCollection
     {

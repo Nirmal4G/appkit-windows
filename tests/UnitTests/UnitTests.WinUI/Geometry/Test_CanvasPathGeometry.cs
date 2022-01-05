@@ -4,7 +4,7 @@
 
 using System;
 using System.Numerics;
-using CommunityToolkit.WinUI.UI.Media.Geometry;
+using CommunityToolkit.Windows.UI.Media.Geometry;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Geometry;
 using Microsoft.VisualStudio.TestTools.UnitTesting;

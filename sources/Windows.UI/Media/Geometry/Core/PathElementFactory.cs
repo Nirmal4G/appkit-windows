@@ -4,9 +4,9 @@
 
 using System;
 using System.Text.RegularExpressions;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Elements.Path;
+using CommunityToolkit.Windows.UI.Media.Geometry.Elements.Path;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry.Core
+namespace CommunityToolkit.Windows.UI.Media.Geometry.Core
 {
     /// <summary>
     /// Factory class to instantiate various PathElements.

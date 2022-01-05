@@ -1,9 +1,9 @@
-<Page x:Class="CommunityToolkit.WinUI.SampleApp.SamplePages.OrbitViewPage"
+<Page x:Class="CommunityToolkit.Windows.ShowcaseApp.Samples.OrbitViewPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:controls="using:CommunityToolkit.WinUI.UI.Controls"
+      xmlns:controls="using:CommunityToolkit.Windows.UI.Controls"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-      xmlns:local="using:CommunityToolkit.WinUI.SampleApp.SamplePages"
+      xmlns:local="using:CommunityToolkit.Windows.ShowcaseApp.Samples"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       mc:Ignorable="d">
 

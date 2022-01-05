@@ -4,14 +4,14 @@
 
 using System;
 using System.Reflection;
-using CommunityToolkit.WinUI.Design.Common;
-using CommunityToolkit.WinUI.UI.Controls.Design;
+using CommunityToolkit.Windows.Design.Common;
+using CommunityToolkit.Windows.UI.Controls.Design;
 
 using Microsoft.VisualStudio.DesignTools.Extensibility.Metadata;
 
 [assembly: ProvideMetadata(typeof(MetadataRegistration))]
 
-namespace CommunityToolkit.WinUI.UI.Controls.Design
+namespace CommunityToolkit.Windows.UI.Controls.Design
 {
     public class MetadataRegistration : MetadataRegistrationBase
     {
@@ -23,7 +23,7 @@ namespace CommunityToolkit.WinUI.UI.Controls.Design
             // The convention here is that the root namespace plus the Controls category.
             // Example:
             //           <RootNamespace>           + "." + <ControlsCategory> + ".xml"
-            // "CommunityToolkit.WinUI.UI.Controls" + "." +    "Primitives"    + ".xml"
+            // "CommunityToolkit.Windows.UI.Controls" + "." +    "Primitives"    + ".xml"
 
             Type thisType = this.GetType();
             AssemblyName designLib = thisType.Assembly.GetName();

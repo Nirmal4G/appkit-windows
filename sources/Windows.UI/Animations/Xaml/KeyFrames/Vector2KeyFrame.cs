@@ -6,7 +6,7 @@ using System.Numerics;
 
 #nullable enable
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A <see cref="KeyFrame{TValue,TKeyFrame}"/> type for <see cref="Vector2"/> animations.

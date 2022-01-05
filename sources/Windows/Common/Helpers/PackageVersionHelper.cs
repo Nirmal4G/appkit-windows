@@ -5,7 +5,7 @@
 using System;
 using Windows.ApplicationModel;
 
-namespace CommunityToolkit.WinUI.Helpers
+namespace CommunityToolkit.Windows.Helpers
 {
     /// <summary>
     /// This class provides static helper methods for <see cref="PackageVersion"/>.

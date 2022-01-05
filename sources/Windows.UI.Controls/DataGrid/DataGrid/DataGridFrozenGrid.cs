@@ -6,7 +6,7 @@ using System;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Primitives
+namespace CommunityToolkit.Windows.UI.Controls.Primitives
 {
     /// <summary>
     /// Represents a non-scrollable grid that contains <see cref="DataGrid"/> row headers.

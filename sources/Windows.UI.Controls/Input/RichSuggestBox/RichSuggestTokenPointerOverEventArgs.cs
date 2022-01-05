@@ -6,7 +6,7 @@ using System;
 using Microsoft.UI.Input;
 using Microsoft.UI.Text;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Provides data for <see cref="RichSuggestBox.TokenPointerOver"/> event.

@@ -8,7 +8,7 @@ using Windows.Foundation;
 using Windows.UI;
 using Windows.UI.Input.Inking;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// The virtual Drawing surface renderer used to render the ink and text. This control is used as part of the <see cref="InfiniteCanvas"/>

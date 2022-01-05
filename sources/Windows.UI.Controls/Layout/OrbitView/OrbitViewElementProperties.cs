@@ -5,7 +5,7 @@
 using Microsoft.UI.Xaml;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Class used by the <see cref="OrbitViewPanel"/> to store XY and distance values

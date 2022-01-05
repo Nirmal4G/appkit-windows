@@ -6,7 +6,7 @@ using System;
 using System.Runtime.CompilerServices;
 using Microsoft.UI.Xaml;
 
-namespace CommunityToolkit.WinUI.UI.Predicates
+namespace CommunityToolkit.Windows.UI.Predicates
 {
     /// <summary>
     /// An <see cref="IPredicate{T}"/> type matching <see cref="FrameworkElement"/> instances by name.

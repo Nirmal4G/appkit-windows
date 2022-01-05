@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI.UI.Controls.TextToolbarButtons;
+using CommunityToolkit.Windows.UI.Controls.TextToolbarButtons;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Input;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Toolbar for Editing Text attached to a RichEditBox
@@ -30,7 +30,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
         public TextToolbar()
         {
             DefaultStyleKey = typeof(TextToolbar);
-            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Core/Themes/Generic.xaml");
+            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Core/Themes/Generic.xaml");
 
             CustomButtons = new ButtonMap();
             ButtonModifications = new DefaultButtonModificationList();

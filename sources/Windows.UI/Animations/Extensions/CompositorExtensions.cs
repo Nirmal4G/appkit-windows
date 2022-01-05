@@ -10,9 +10,9 @@ using System.Numerics;
 using Microsoft.UI.Composition;
 using Microsoft.UI.Xaml.Media.Animation;
 using Windows.UI;
-using static CommunityToolkit.WinUI.UI.Animations.AnimationExtensions;
+using static CommunityToolkit.Windows.UI.Animations.AnimationExtensions;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// An extension <see langword="class"/> for the <see cref="Compositor"/> type.

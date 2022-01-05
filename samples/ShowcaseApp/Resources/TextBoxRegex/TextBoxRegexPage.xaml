@@ -1,8 +1,8 @@
-<Page x:Class="CommunityToolkit.WinUI.SampleApp.SamplePages.TextBoxRegexPage"
+<Page x:Class="CommunityToolkit.Windows.ShowcaseApp.Samples.TextBoxRegexPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:common="using:CommunityToolkit.WinUI.SampleApp.Common"
-      xmlns:ui="using:CommunityToolkit.WinUI.UI"
+      xmlns:common="using:CommunityToolkit.Windows.ShowcaseApp.Common"
+      xmlns:ui="using:CommunityToolkit.Windows.UI"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       mc:Ignorable="d">

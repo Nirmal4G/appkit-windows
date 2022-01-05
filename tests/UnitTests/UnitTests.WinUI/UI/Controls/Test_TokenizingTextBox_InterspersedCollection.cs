@@ -3,7 +3,7 @@
 // See the LICENSE file in the project root for more information.
 
 using CommunityToolkit.Common;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;

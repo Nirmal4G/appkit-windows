@@ -6,7 +6,7 @@ using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Media;
 using Windows.UI.Text;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Markdown.Render
+namespace CommunityToolkit.Windows.UI.Controls.Markdown.Render
 {
     /// <summary>
     /// Measurement Properties for elements in the Markdown.

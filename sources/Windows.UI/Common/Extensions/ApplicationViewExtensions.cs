@@ -7,7 +7,7 @@ using Microsoft.UI.Xaml.Controls;
 using Windows.ApplicationModel.Core;
 using Windows.UI.Core;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Provides attached properties for interacting with the <see cref="Windows.UI.ViewManagement.ApplicationView"/> on a window (app view).

@@ -8,7 +8,7 @@ using Microsoft.UI.Xaml.Markup;
 using Microsoft.UI.Xaml.Media;
 using Windows.UI.Text;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// An abstract <see cref="MarkupExtension"/> which to produce text-based icons.

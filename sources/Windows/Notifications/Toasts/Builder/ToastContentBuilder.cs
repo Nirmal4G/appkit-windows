@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Builder class used to create <see cref="ToastContent"/>

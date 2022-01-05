@@ -3,13 +3,13 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI.Helpers;
-using CommunityToolkit.WinUI.SampleApp.Common;
+using CommunityToolkit.Windows.Helpers;
+using CommunityToolkit.Windows.ShowcaseApp.Common;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Windows.ApplicationModel.Background;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     public sealed partial class BackgroundTaskHelperPage : Page
     {
@@ -41,7 +41,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
             await BackgroundExecutionManager.RequestAccessAsync();
 
             // Registering Multi-Process Background task
-            BackgroundTaskHelper.Register(nameof(TestBackgroundTask), "CommunityToolkit.WinUI.Samples.BackgroundTasks.TestBackgroundTask", new TimeTrigger(15, false), false, true, new SystemCondition(SystemConditionType.InternetAvailable));
+            BackgroundTaskHelper.Register(nameof(TestBackgroundTask), "CommunityToolkit.Windows.Samples.BackgroundTasks.TestBackgroundTask", new TimeTrigger(15, false), false, true, new SystemCondition(SystemConditionType.InternetAvailable));
 
             StatusMessage.Text = "Background Task registered (MPM)";
         }

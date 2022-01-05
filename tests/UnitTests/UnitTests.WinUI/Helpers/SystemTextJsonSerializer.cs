@@ -4,13 +4,13 @@
 
 using System;
 using System.Text.Json;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 
 namespace UnitTests.Helpers
 {
     /// <summary>
     /// Example class of writing a new <see cref="IObjectSerializer"/> that uses System.Text.Json.
-    /// Based on <see cref="CommunityToolkit.WinUI.Helpers.IObjectSerializer"/>.
+    /// Based on <see cref="CommunityToolkit.Windows.Helpers.IObjectSerializer"/>.
     /// </summary>
     [Obsolete]
     internal class SystemTextJsonSerializer : IObjectSerializer

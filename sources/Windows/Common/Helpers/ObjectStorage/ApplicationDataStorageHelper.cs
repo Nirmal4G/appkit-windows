@@ -13,7 +13,7 @@ using Windows.System;
 
 #nullable enable
 
-namespace CommunityToolkit.WinUI.Helpers
+namespace CommunityToolkit.Windows.Helpers
 {
     /// <summary>
     /// Storage helper for files and folders living in Windows.Storage.ApplicationData storage endpoints.

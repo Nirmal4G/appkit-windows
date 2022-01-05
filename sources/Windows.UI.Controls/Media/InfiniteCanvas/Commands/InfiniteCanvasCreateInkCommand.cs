@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using Windows.UI.Input.Inking;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     internal class InfiniteCanvasCreateInkCommand : IInfiniteCanvasCommand
     {

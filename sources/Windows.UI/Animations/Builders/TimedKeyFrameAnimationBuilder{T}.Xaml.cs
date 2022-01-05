@@ -8,7 +8,7 @@ using Microsoft.UI.Xaml.Media.Animation;
 using Windows.Foundation;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <inheritdoc cref="TimedKeyFrameAnimationBuilder{T}"/>
     internal abstract partial class TimedKeyFrameAnimationBuilder<T>

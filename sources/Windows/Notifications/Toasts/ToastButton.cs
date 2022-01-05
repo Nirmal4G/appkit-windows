@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// A button that the user can click on a Toast notification.

@@ -4,9 +4,9 @@
 
 using System;
 using System.Linq;
-using CommunityToolkit.WinUI.Notifications.Adaptive.Elements;
+using CommunityToolkit.Windows.Notifications.Adaptive.Elements;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Contains multiple binding child elements, each of which defines a Tile.

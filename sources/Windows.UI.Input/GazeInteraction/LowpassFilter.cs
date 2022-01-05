@@ -9,7 +9,7 @@
 
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.Input.GazeInteraction
+namespace CommunityToolkit.Windows.Input.GazeInteraction
 {
     internal class LowpassFilter
     {

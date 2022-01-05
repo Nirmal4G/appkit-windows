@@ -10,7 +10,7 @@ using Windows.UI;
 
 #nullable enable
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <inheritdoc cref="NormalizedKeyFrameAnimationBuilder{T}"/>
     internal abstract partial class NormalizedKeyFrameAnimationBuilder<T>

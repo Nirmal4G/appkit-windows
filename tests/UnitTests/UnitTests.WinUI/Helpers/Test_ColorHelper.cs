@@ -2,8 +2,8 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.Helpers;
 using Microsoft.UI;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
@@ -161,14 +161,14 @@ namespace UnitTests.Helpers
         [TestMethod]
         public void Test_ColorHelper_FromHsl()
         {
-            Assert.AreEqual(CommunityToolkit.WinUI.Helpers.ColorHelper.FromHsl(0.0, 1.0, 0.5), Colors.Red);
+            Assert.AreEqual(CommunityToolkit.Windows.Helpers.ColorHelper.FromHsl(0.0, 1.0, 0.5), Colors.Red);
         }
 
         [TestCategory("Helpers")]
         [TestMethod]
         public void Test_ColorHelper_FromHsv()
         {
-            Assert.AreEqual(CommunityToolkit.WinUI.Helpers.ColorHelper.FromHsv(0.0, 1.0, 1.0), Colors.Red);
+            Assert.AreEqual(CommunityToolkit.Windows.Helpers.ColorHelper.FromHsv(0.0, 1.0, 1.0), Colors.Red);
         }
     }
 }

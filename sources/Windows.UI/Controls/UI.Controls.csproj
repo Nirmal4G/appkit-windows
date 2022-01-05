@@ -19,12 +19,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CommunityToolkit.WinUI.UI.Controls.Primitives\CommunityToolkit.WinUI.UI.Controls.Primitives.csproj" />
-    <ProjectReference Include="..\CommunityToolkit.WinUI.UI.Controls.Core\CommunityToolkit.WinUI.UI.Controls.Core.csproj" />
-    <ProjectReference Include="..\CommunityToolkit.WinUI.UI.Controls.Media\CommunityToolkit.WinUI.UI.Controls.Media.csproj" />
-    <ProjectReference Include="..\CommunityToolkit.WinUI.UI.Controls.DataGrid\CommunityToolkit.WinUI.UI.Controls.DataGrid.csproj" />
-    <ProjectReference Include="..\CommunityToolkit.WinUI.UI.Controls.Markdown\CommunityToolkit.WinUI.UI.Controls.Markdown.csproj" />
-    <ProjectReference Include="..\CommunityToolkit.WinUI.UI.Controls.Layout\CommunityToolkit.WinUI.UI.Controls.Layout.csproj" />
-    <ProjectReference Include="..\CommunityToolkit.WinUI.UI.Controls.Input\CommunityToolkit.WinUI.UI.Controls.Input.csproj" />
+    <ProjectReference Include="..\CommunityToolkit.Windows.UI.Controls.Primitives\CommunityToolkit.Windows.UI.Controls.Primitives.csproj" />
+    <ProjectReference Include="..\CommunityToolkit.Windows.UI.Controls.Core\CommunityToolkit.Windows.UI.Controls.Core.csproj" />
+    <ProjectReference Include="..\CommunityToolkit.Windows.UI.Controls.Media\CommunityToolkit.Windows.UI.Controls.Media.csproj" />
+    <ProjectReference Include="..\CommunityToolkit.Windows.UI.Controls.DataGrid\CommunityToolkit.Windows.UI.Controls.DataGrid.csproj" />
+    <ProjectReference Include="..\CommunityToolkit.Windows.UI.Controls.Markdown\CommunityToolkit.Windows.UI.Controls.Markdown.csproj" />
+    <ProjectReference Include="..\CommunityToolkit.Windows.UI.Controls.Layout\CommunityToolkit.Windows.UI.Controls.Layout.csproj" />
+    <ProjectReference Include="..\CommunityToolkit.Windows.UI.Controls.Input\CommunityToolkit.Windows.UI.Controls.Input.csproj" />
   </ItemGroup>
 </Project>

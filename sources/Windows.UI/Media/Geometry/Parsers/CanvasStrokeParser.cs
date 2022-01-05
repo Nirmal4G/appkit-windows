@@ -4,11 +4,11 @@
 
 using System;
 using System.Runtime.CompilerServices;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Core;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Elements.Stroke;
+using CommunityToolkit.Windows.UI.Media.Geometry.Core;
+using CommunityToolkit.Windows.UI.Media.Geometry.Elements.Stroke;
 using Microsoft.Graphics.Canvas;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry.Parsers
+namespace CommunityToolkit.Windows.UI.Media.Geometry.Parsers
 {
     /// <summary>
     /// Parser for CanvasStroke

@@ -5,10 +5,10 @@
 using System.ComponentModel;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
-    /// Provides data for the <see cref="E:CommunityToolkit.WinUI.UI.Controls.DataGrid.ColumnReordering" /> event.
+    /// Provides data for the <see cref="E:CommunityToolkit.Windows.UI.Controls.DataGrid.ColumnReordering" /> event.
     /// </summary>
     public class DataGridColumnReorderingEventArgs : CancelEventArgs
     {

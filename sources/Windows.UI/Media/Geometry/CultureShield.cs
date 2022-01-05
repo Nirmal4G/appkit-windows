@@ -5,7 +5,7 @@
 using System;
 using System.Globalization;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry
+namespace CommunityToolkit.Windows.UI.Media.Geometry
 {
     /// <summary>
     /// Class which can be used to encapsulate code statement(s) so that they are executed in a specific culture.

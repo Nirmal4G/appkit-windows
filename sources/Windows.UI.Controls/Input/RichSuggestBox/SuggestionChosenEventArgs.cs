@@ -6,7 +6,7 @@ using System;
 using CommunityToolkit.Common.Deferred;
 using Microsoft.UI.Text;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Provides data for the <see cref="RichSuggestBox.SuggestionChosen"/> event.

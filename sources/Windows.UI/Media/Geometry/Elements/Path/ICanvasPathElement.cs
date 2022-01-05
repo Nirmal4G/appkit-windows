@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using Microsoft.Graphics.Canvas.Geometry;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry.Elements.Path
+namespace CommunityToolkit.Windows.UI.Media.Geometry.Elements.Path
 {
     /// <summary>
     /// Interface for a Path Element which serves

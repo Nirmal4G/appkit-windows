@@ -5,7 +5,7 @@
 using System.Text.RegularExpressions;
 using Microsoft.Graphics.Canvas.Geometry;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry.Elements.Stroke
+namespace CommunityToolkit.Windows.UI.Media.Geometry.Elements.Stroke
 {
     /// <summary>
     /// Interface for the CanvasStrokeStyle Element

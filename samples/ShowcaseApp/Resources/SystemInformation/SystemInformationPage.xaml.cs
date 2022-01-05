@@ -3,12 +3,12 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Globalization;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Windows.System;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -98,7 +98,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
             RefreshProperties();
 
-            SampleController.Current.RegisterNewCommand("Reset launch count", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Reset launch count", (sender, args) =>
             {
                 SystemInformation.Instance.ResetLaunchCount();
                 RefreshProperties();

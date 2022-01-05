@@ -6,7 +6,7 @@ using System;
 using System.Windows.Input;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.SampleApp.Menu.Commands
+namespace CommunityToolkit.Windows.ShowcaseApp.Menu.Commands
 {
 #pragma warning disable SA1649 // File name must match first type name
     internal class NewProjectCommand : ICommand

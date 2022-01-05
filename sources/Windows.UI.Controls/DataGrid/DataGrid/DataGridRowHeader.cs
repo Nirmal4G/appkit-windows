@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Diagnostics;
-using CommunityToolkit.WinUI.UI.Automation.Peers;
-using CommunityToolkit.WinUI.UI.Controls.Utilities;
-using CommunityToolkit.WinUI.UI.Utilities;
+using CommunityToolkit.Windows.UI.Automation.Peers;
+using CommunityToolkit.Windows.UI.Controls.Utilities;
+using CommunityToolkit.Windows.UI.Utilities;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Automation.Peers;
 using Microsoft.UI.Xaml.Controls;
@@ -15,7 +15,7 @@ using Windows.Foundation;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Primitives
+namespace CommunityToolkit.Windows.UI.Controls.Primitives
 {
     /// <summary>
     /// Represents an individual <see cref="DataGrid"/> row header.
@@ -183,7 +183,7 @@ namespace CommunityToolkit.WinUI.UI.Controls.Primitives
         }
 
         /// <summary>
-        /// Identifies the <see cref="CommunityToolkit.WinUI.UI.Controls.Primitives.DataGridRowHeader.SeparatorBrush"/> dependency property.
+        /// Identifies the <see cref="CommunityToolkit.Windows.UI.Controls.Primitives.DataGridRowHeader.SeparatorBrush"/> dependency property.
         /// </summary>
         public static readonly DependencyProperty SeparatorBrushProperty =
             DependencyProperty.Register(
@@ -202,7 +202,7 @@ namespace CommunityToolkit.WinUI.UI.Controls.Primitives
         }
 
         /// <summary>
-        /// Identifies the <see cref="CommunityToolkit.WinUI.UI.Controls.Primitives.DataGridRowHeader.SeparatorVisibility"/> dependency property.
+        /// Identifies the <see cref="CommunityToolkit.Windows.UI.Controls.Primitives.DataGridRowHeader.SeparatorVisibility"/> dependency property.
         /// </summary>
         public static readonly DependencyProperty SeparatorVisibilityProperty =
             DependencyProperty.Register(

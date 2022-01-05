@@ -8,7 +8,7 @@ using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// An alternative implementation of a progress bar.
@@ -119,7 +119,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
         public RadialProgressBar()
         {
             DefaultStyleKey = typeof(RadialProgressBar);
-            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Core/Themes/Generic.xaml");
+            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Core/Themes/Generic.xaml");
             SizeChanged += SizeChangedHandler;
         }
 

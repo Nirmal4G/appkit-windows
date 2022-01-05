@@ -4,7 +4,7 @@
 
 using System.Globalization;
 
-namespace CommunityToolkit.WinUI.UI.Controls.DataGridInternals
+namespace CommunityToolkit.Windows.UI.Controls.DataGridInternals
 {
     internal class DataGridCellCoordinates
     {

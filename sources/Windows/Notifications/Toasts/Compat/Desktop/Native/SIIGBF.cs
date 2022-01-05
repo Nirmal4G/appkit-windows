@@ -6,7 +6,7 @@
 
 using System;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     [Flags]
     internal enum SIIGBF

@@ -4,7 +4,7 @@
 
 using System.Runtime.CompilerServices;
 
-namespace CommunityToolkit.WinUI.UI.Predicates
+namespace CommunityToolkit.Windows.UI.Predicates
 {
     /// <summary>
     /// An <see cref="IPredicate{T}"/> type matching all instances of a given type.

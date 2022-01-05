@@ -4,13 +4,13 @@
 
 using System;
 using System.Collections.ObjectModel;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -26,7 +26,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
         {
             this.InitializeComponent();
 
-            SampleController.Current.RegisterNewCommand("Switch Orientation", SwitchButton_Click);
+            ShowcaseController.Current.RegisterNewCommand("Switch Orientation", SwitchButton_Click);
 
             _random = new Random(DateTime.Now.Millisecond);
             for (int i = 0; i < _random.Next(1000, 5000); i++)

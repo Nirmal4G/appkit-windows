@@ -6,9 +6,9 @@
 
 using System;
 using Microsoft.UI.Xaml.Media.Animation;
-using static CommunityToolkit.WinUI.UI.Animations.AnimationExtensions;
+using static CommunityToolkit.Windows.UI.Animations.AnimationExtensions;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A custom animation types, that can target both the composition and the XAML layer, and that

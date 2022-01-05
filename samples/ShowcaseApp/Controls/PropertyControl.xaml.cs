@@ -6,8 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using CommunityToolkit.WinUI.SampleApp.Common;
-using CommunityToolkit.WinUI.SampleApp.Models;
+using CommunityToolkit.Windows.ShowcaseApp.Common;
+using CommunityToolkit.Windows.ShowcaseApp.Models;
 using Microsoft.UI;
 using Microsoft.UI.Text;
 using Microsoft.UI.Xaml;
@@ -16,7 +16,7 @@ using Microsoft.UI.Xaml.Controls.Primitives;
 using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Media;
 
-namespace CommunityToolkit.WinUI.SampleApp.Controls
+namespace CommunityToolkit.Windows.ShowcaseApp.Controls
 {
     public sealed partial class PropertyControl
     {

@@ -4,7 +4,7 @@
 
 using System.Text.Json.Serialization;
 
-namespace CommunityToolkit.WinUI.SampleApp
+namespace CommunityToolkit.Windows.ShowcaseApp
 {
     public class LandingPageResource
     {

@@ -12,7 +12,7 @@ using Microsoft.UI.Xaml;
 using Windows.Foundation;
 using Windows.UI.Input.Inking;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     internal class InkDrawable : IDrawable
     {

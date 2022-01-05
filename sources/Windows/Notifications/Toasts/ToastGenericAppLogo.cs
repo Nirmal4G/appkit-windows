@@ -2,9 +2,9 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.Notifications.Adaptive.Elements;
+using CommunityToolkit.Windows.Notifications.Adaptive.Elements;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// The logo that is displayed on your Toast notification.

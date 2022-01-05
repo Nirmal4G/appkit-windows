@@ -4,10 +4,10 @@
 
 using System.Linq;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
-using CommunityToolkit.WinUI.UI.Helpers;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
+using CommunityToolkit.Windows.UI.Helpers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer;
 using Windows.Foundation;
@@ -32,7 +32,7 @@ namespace UnitTests.WinUI.UI.Controls
                 var treeRoot = XamlReader.Load(@"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:CommunityToolkit.WinUI.UI.Controls"">
+    xmlns:controls=""using:CommunityToolkit.Windows.UI.Controls"">
     <Grid x:Name=""ParentGrid"" Width=""100"" Height=""100"">
       <controls:ConstrainedBox x:Name=""ConstrainedBox"" ScaleX=""0.9"" ScaleY=""0.9""
                                MultipleX=""32"" MultipleY=""32""

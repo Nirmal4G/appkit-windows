@@ -7,7 +7,7 @@ using Microsoft.UI.Xaml.Input;
 using Microsoft.Xaml.Interactivity;
 using Windows.System;
 
-namespace CommunityToolkit.WinUI.UI.Behaviors
+namespace CommunityToolkit.Windows.UI.Behaviors
 {
     /// <summary>
     /// This behavior listens to a key down event on the associated <see cref="UIElement"/> when it is loaded and executes an action.

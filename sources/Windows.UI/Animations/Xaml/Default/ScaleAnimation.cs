@@ -5,7 +5,7 @@
 using System.Numerics;
 using Microsoft.UI.Composition;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A scale animation working on the composition or layer.

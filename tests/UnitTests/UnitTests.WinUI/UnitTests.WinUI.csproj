@@ -10,7 +10,7 @@
     <Platforms>x86;x64;arm64</Platforms>
     <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
     <EnablePreviewMsixTooling>true</EnablePreviewMsixTooling>
-    
+
     <ProjectReunionCopyXamlToolingLibs>false</ProjectReunionCopyXamlToolingLibs>
 
     <ApplicationManifest>app.manifest</ApplicationManifest>
@@ -93,18 +93,18 @@
     <EmbeddedResource Include="Assets\StoreLogo.embeded.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.Connectivity\CommunityToolkit.WinUI.Connectivity.csproj" />
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.UI.Animations\CommunityToolkit.WinUI.UI.Animations.csproj" />
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.UI.Behaviors\CommunityToolkit.WinUI.UI.Behaviors.csproj" />
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.UI.Controls.Layout\CommunityToolkit.WinUI.UI.Controls.Layout.csproj" />
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.UI.Controls.Input\CommunityToolkit.WinUI.UI.Controls.Input.csproj" />
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.UI.Controls.Markdown\CommunityToolkit.WinUI.UI.Controls.Markdown.csproj" />
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.UI.Controls.Media\CommunityToolkit.WinUI.UI.Controls.Media.csproj" />
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.UI.Controls.Primitives\CommunityToolkit.WinUI.UI.Controls.Primitives.csproj" />
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.UI.Controls.Core\CommunityToolkit.WinUI.UI.Controls.Core.csproj" />
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.UI.Media\CommunityToolkit.WinUI.UI.Media.csproj" />
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.UI\CommunityToolkit.WinUI.UI.csproj" />
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI\CommunityToolkit.WinUI.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.Connectivity\CommunityToolkit.Windows.Connectivity.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.UI.Animations\CommunityToolkit.Windows.UI.Animations.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.UI.Behaviors\CommunityToolkit.Windows.UI.Behaviors.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.UI.Controls.Layout\CommunityToolkit.Windows.UI.Controls.Layout.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.UI.Controls.Input\CommunityToolkit.Windows.UI.Controls.Input.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.UI.Controls.Markdown\CommunityToolkit.Windows.UI.Controls.Markdown.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.UI.Controls.Media\CommunityToolkit.Windows.UI.Controls.Media.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.UI.Controls.Primitives\CommunityToolkit.Windows.UI.Controls.Primitives.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.UI.Controls.Core\CommunityToolkit.Windows.UI.Controls.Core.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.UI.Media\CommunityToolkit.Windows.UI.Media.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.UI\CommunityToolkit.Windows.UI.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows\CommunityToolkit.Windows.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">

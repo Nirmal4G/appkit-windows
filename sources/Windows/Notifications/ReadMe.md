@@ -4,13 +4,13 @@ Welcome to the Notifications section of the toolkit! This contains the Notificat
 
 ## Where should I add new code?
 
-Any code for generating notifications should be written in the `CommunityToolkit.WinUI.Notifications` project.
+Any code for generating notifications should be written in the `CommunityToolkit.Windows.Notifications` project.
 
 If there's UWP-specific code, use the appropriate `#ifdef`, `WINDOWS_UWP` or `WINRT`.
 
 ## What are all the projects for?
 
-All the code is contained on the `CommunityToolkit.WinUI.Notifications` project.
+All the code is contained on the `CommunityToolkit.Windows.Notifications` project.
 
 It outputs `netstandard1.4`, `uap10.0`, `native` for WinRT, and `netcoreapp3.1` for .NET Core projects. The UWP library is only for C#, while the WinRT library is a Windows Runtime Component for C++.
 

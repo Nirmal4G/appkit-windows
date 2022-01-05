@@ -10,12 +10,12 @@ using Windows.Foundation.Metadata;
 
 #pragma warning disable CS0419
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A type describing the repeat behavior for a custom animation.
     /// </summary>
-    [CreateFromString(MethodName = "CommunityToolkit.WinUI.UI.Animations.RepeatOption.Parse")]
+    [CreateFromString(MethodName = "CommunityToolkit.Windows.UI.Animations.RepeatOption.Parse")]
     public readonly struct RepeatOption
     {
         /// <summary>

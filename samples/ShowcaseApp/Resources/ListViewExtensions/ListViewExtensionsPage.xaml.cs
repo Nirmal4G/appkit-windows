@@ -5,13 +5,13 @@
 using System;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
-using CommunityToolkit.WinUI.UI;
+using CommunityToolkit.Windows.UI;
 using Microsoft.UI;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     public sealed partial class ListViewExtensionsPage : Page, IXamlRenderListener
     {
@@ -38,7 +38,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
         private void Load()
         {
-            SampleController.Current.RegisterNewCommand("Start Smooth Scroll", async (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Start Smooth Scroll", async (sender, args) =>
             {
                 var index = int.TryParse(IndexInput.Text, out var i) ? i : 0;
                 var itemPlacement = ItemPlacementInput.SelectedItem switch

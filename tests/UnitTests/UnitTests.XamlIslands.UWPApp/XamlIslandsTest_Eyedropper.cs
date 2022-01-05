@@ -3,8 +3,8 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Windows.Devices.Input;

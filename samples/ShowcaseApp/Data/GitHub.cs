@@ -9,7 +9,7 @@ using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace CommunityToolkit.WinUI.SampleApp.Data
+namespace CommunityToolkit.Windows.ShowcaseApp.Data
 {
     public static class GitHub
     {

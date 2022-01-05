@@ -1,4 +1,4 @@
-<Page x:Class="CommunityToolkit.WinUI.SampleApp.SamplePages.CanvasPathGeometryPage"
+<Page x:Class="CommunityToolkit.Windows.ShowcaseApp.Samples.CanvasPathGeometryPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -125,7 +125,7 @@
                 </TabViewItem>
             </TabView.TabItems>
         </TabView>
-        
+
         <StackPanel Grid.Row="4"
                     HorizontalAlignment="Right"
                     VerticalAlignment="Top"

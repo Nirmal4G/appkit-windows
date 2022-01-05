@@ -1,8 +1,8 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:animations="using:CommunityToolkit.WinUI.UI.Animations"
-                    xmlns:toolkitControls="using:CommunityToolkit.WinUI.UI.Controls"
-                    xmlns:ui="using:CommunityToolkit.WinUI.UI"
+                    xmlns:animations="using:CommunityToolkit.Windows.UI.Animations"
+                    xmlns:toolkitControls="using:CommunityToolkit.Windows.UI.Controls"
+                    xmlns:ui="using:CommunityToolkit.Windows.UI"
                     xmlns:winui="using:Microsoft.UI.Xaml.Controls">
 
     <ResourceDictionary.MergedDictionaries>
@@ -856,14 +856,14 @@
                                 Background="{ThemeResource Background-NavigationBar}"
                                 Grid.Row="0"
                                 HorizontalAlignment="Stretch"
-                                VerticalAlignment="Top"                                
+                                VerticalAlignment="Top"
                                 Canvas.ZIndex="1">
 
                                 <Grid x:Name="TopNavTopPadding"
                                       Height="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=TemplateSettings.TopPadding}"
                                       Visibility="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=TemplateSettings.TopPaneVisibility}"/>
 
-                                <Grid x:Name="TopNavGrid" 
+                                <Grid x:Name="TopNavGrid"
                                       Height="48"
                                       Visibility="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=TemplateSettings.TopPaneVisibility}">
                                     <Grid.ColumnDefinitions>
@@ -878,8 +878,8 @@
                                         <ColumnDefinition Width="Auto" />
                                     </Grid.ColumnDefinitions>
 
-                                    <Grid 
-                                        x:Name="TopNavLeftPadding" 
+                                    <Grid
+                                        x:Name="TopNavLeftPadding"
                                         Grid.Column="1"
                                         Width="0"/>
 
@@ -903,7 +903,7 @@
                                             HorizontalScrollBarVisibility="Hidden"
                                             VerticalScrollMode="Disabled"
                                             VerticalScrollBarVisibility="Hidden">
-                                            <winui:ItemsRepeater 
+                                            <winui:ItemsRepeater
                                                 x:Name="TopNavMenuItemsHost"
                                                 ItemTemplate="{TemplateBinding MenuItemTemplateSelector}"
                                                 AutomationProperties.LandmarkType="Navigation"
@@ -916,7 +916,7 @@
                                         </ScrollViewer>
                                     </winui:ItemsRepeaterScrollHost>
 
-                                    <Button 
+                                    <Button
                                         x:Name="TopNavOverflowButton"
                                         Grid.Column="4"
                                         Content="More"
@@ -1000,11 +1000,11 @@
                                 IsTabStop="False"
                                 OpenPaneLength="{TemplateBinding OpenPaneLength}"
                                 PaneBackground="{ThemeResource NavigationViewDefaultPaneBackground}"
-                            
+
                                 Grid.Row="1">
 
                                 <SplitView.Pane>
-                                    <Grid 
+                                    <Grid
                                         x:Name="PaneContentGrid"
                                         Visibility="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=TemplateSettings.LeftPaneVisibility}">
                                         <Grid.RowDefinitions>
@@ -1032,7 +1032,7 @@
                                             </Grid.ColumnDefinitions>
 
                                             <TextBlock
-                                                x:Name="PaneTitleTextBlock" 
+                                                x:Name="PaneTitleTextBlock"
                                                 Grid.Column="0"
                                                 Text="{TemplateBinding PaneTitle}"
                                                 HorizontalAlignment="Left"

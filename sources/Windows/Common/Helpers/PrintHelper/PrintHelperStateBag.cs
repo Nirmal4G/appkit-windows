@@ -5,7 +5,7 @@
 using Microsoft.UI.Dispatching;
 using Microsoft.UI.Xaml;
 
-namespace CommunityToolkit.WinUI.Helpers
+namespace CommunityToolkit.Windows.Helpers
 {
     /// <summary>
     /// Internal class used to store values updated by <see cref="PrintHelper"/>.

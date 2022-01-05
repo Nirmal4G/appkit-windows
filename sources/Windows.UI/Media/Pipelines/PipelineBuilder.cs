@@ -7,14 +7,14 @@ using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Numerics;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.UI.Animations;
+using CommunityToolkit.Windows.UI.Animations;
 using Microsoft.UI.Composition;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Hosting;
 using Microsoft.UI.Xaml.Media;
 using Windows.Graphics.Effects;
 
-namespace CommunityToolkit.WinUI.UI.Media.Pipelines
+namespace CommunityToolkit.Windows.UI.Media.Pipelines
 {
     /// <summary>
     /// A <see langword="delegate"/> that represents a custom effect property setter that can be applied to a <see cref="CompositionBrush"/>

@@ -5,7 +5,7 @@
 using System;
 using Microsoft.UI.Xaml.Data;
 
-namespace CommunityToolkit.WinUI.UI.Converters
+namespace CommunityToolkit.Windows.UI.Converters
 {
     /// <summary>
     /// Value converter that converts an <see cref="IFormattable"/> to a formatted <see cref="string"/>.

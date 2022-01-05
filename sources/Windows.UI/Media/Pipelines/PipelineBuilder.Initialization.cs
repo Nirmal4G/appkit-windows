@@ -7,9 +7,9 @@ using System.Collections.Generic;
 using System.Diagnostics.Contracts;
 using System.Numerics;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.UI.Animations;
-using CommunityToolkit.WinUI.UI.Media.Helpers;
-using CommunityToolkit.WinUI.UI.Media.Helpers.Cache;
+using CommunityToolkit.Windows.UI.Animations;
+using CommunityToolkit.Windows.UI.Media.Helpers;
+using CommunityToolkit.Windows.UI.Media.Helpers.Cache;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Effects;
 using Microsoft.UI.Composition;
@@ -19,7 +19,7 @@ using Microsoft.UI.Xaml.Media;
 using Windows.Graphics.Effects;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Media.Pipelines
+namespace CommunityToolkit.Windows.UI.Media.Pipelines
 {
     /// <summary>
     /// A <see langword="class"/> that allows to build custom effects pipelines and create <see cref="CompositionBrush"/> instances from them

@@ -4,7 +4,7 @@
 
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.Input.GazeInteraction
+namespace CommunityToolkit.Windows.Input.GazeInteraction
 {
     internal class NonInvokeGazeTargetItem : GazeTargetItem
     {

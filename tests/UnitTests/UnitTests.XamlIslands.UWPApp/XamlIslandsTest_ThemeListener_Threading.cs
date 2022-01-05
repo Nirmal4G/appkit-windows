@@ -3,8 +3,8 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI.Helpers;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI.Helpers;
 using Microsoft.UI.Xaml;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 

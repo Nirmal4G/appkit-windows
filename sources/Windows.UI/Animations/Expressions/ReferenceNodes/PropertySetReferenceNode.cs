@@ -4,12 +4,12 @@
 
 using Microsoft.UI.Composition;
 
-namespace CommunityToolkit.WinUI.UI.Animations.Expressions
+namespace CommunityToolkit.Windows.UI.Animations.Expressions
 {
     /// <summary>
     /// Class PropertySetReferenceNode.
     /// </summary>
-    /// <seealso cref="CommunityToolkit.WinUI.UI.Animations.Expressions.ReferenceNode" />
+    /// <seealso cref="CommunityToolkit.Windows.UI.Animations.Expressions.ReferenceNode" />
     public class PropertySetReferenceNode : ReferenceNode
     {
         /// <summary>

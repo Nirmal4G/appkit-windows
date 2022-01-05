@@ -1,6 +1,6 @@
 // Defines a brush like the one shown in the XAML code, but via C# code.
-using CommunityToolkit.WinUI.UI.Media;
-using CommunityToolkit.WinUI.UI.Media.Effects;
+using CommunityToolkit.Windows.UI.Media;
+using CommunityToolkit.Windows.UI.Media.Effects;
 using Microsoft.UI.Xaml.Media;
 
 Brush brush =

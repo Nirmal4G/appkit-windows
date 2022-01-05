@@ -5,7 +5,7 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.UI.Converters;
+using CommunityToolkit.Windows.UI.Converters;
 using Microsoft.UI.Xaml;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer;

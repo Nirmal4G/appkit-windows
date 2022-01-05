@@ -6,7 +6,7 @@ using System;
 using System.ComponentModel;
 using Microsoft.UI.Text;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// RichSuggestToken describes a suggestion token in the document.

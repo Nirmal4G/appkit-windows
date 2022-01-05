@@ -9,7 +9,7 @@ using Microsoft.Graphics.Canvas.Geometry;
 using Windows.Foundation;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry
+namespace CommunityToolkit.Windows.UI.Media.Geometry
 {
     /// <summary>
     /// Extension methods for CanvasDrawingSession.

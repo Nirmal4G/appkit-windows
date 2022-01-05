@@ -7,7 +7,7 @@ using Microsoft.UI.Xaml.Controls;
 using Windows.UI.Core;
 using Windows.UI.ViewManagement;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -20,7 +20,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
         public FullScreenModeStateTriggerPage()
         {
             InitializeComponent();
-            SampleController.Current.RegisterNewCommand("Toggle Full Screen", ToggleFullScreenMode);
+            ShowcaseController.Current.RegisterNewCommand("Toggle Full Screen", ToggleFullScreenMode);
         }
 
         private void ToggleFullScreenMode(object sender, RoutedEventArgs e)

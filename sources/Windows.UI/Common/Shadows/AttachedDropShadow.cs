@@ -13,7 +13,7 @@ using Microsoft.UI.Xaml.Hosting;
 using Microsoft.UI.Xaml.Shapes;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// A helper to add a composition based drop shadow to a <see cref="FrameworkElement"/>.

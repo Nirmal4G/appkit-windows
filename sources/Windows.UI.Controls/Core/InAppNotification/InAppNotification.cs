@@ -10,7 +10,7 @@ using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Automation;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// In App Notification defines a control to show local notification in the app.
@@ -35,7 +35,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
         public InAppNotification()
         {
             DefaultStyleKey = typeof(InAppNotification);
-            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Core/Themes/Generic.xaml");
+            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Core/Themes/Generic.xaml");
 
             _dispatcherQueue = DispatcherQueue.GetForCurrentThread();
             _dismissTimer = _dispatcherQueue.CreateTimer();
@@ -68,7 +68,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
             {
                 _dismissButton.Visibility = ShowDismissButton ? Visibility.Visible : Visibility.Collapsed;
                 _dismissButton.Click += DismissButton_Click;
-                AutomationProperties.SetName(_dismissButton, "WCT_InAppNotification_DismissButton_AutomationName".GetLocalized("CommunityToolkit.WinUI.UI.Controls.Core/Resources"));
+                AutomationProperties.SetName(_dismissButton, "WCT_InAppNotification_DismissButton_AutomationName".GetLocalized("CommunityToolkit.Windows.UI.Controls.Core/Resources"));
             }
 
             if (_visualStateGroup != null)

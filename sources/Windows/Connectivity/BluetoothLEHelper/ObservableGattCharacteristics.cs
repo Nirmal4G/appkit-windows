@@ -13,7 +13,7 @@ using Windows.Devices.Bluetooth.GenericAttributeProfile;
 using Windows.Security.Cryptography;
 using Windows.Storage.Streams;
 
-namespace CommunityToolkit.WinUI.Connectivity
+namespace CommunityToolkit.Windows.Connectivity
 {
     /// <summary>
     /// Wrapper around <see cref="GattCharacteristic"/>  to make it easier to use

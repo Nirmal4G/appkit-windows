@@ -7,7 +7,7 @@ using System.Numerics;
 using Microsoft.UI.Xaml;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Interface representing the common properties found within an attached shadow, <see cref="AttachedShadowBase"/> for implementation.

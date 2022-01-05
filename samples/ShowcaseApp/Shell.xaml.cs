@@ -3,16 +3,16 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.Helpers;
-using CommunityToolkit.WinUI.SampleApp.Pages;
-using CommunityToolkit.WinUI.UI;
+using CommunityToolkit.Windows.Helpers;
+using CommunityToolkit.Windows.ShowcaseApp.Pages;
+using CommunityToolkit.Windows.UI;
 using Microsoft.UI.Dispatching;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media.Animation;
 using Microsoft.UI.Xaml.Navigation;
 
-namespace CommunityToolkit.WinUI.SampleApp
+namespace CommunityToolkit.Windows.ShowcaseApp
 {
     public sealed partial class Shell
     {
@@ -53,7 +53,7 @@ namespace CommunityToolkit.WinUI.SampleApp
             }
             else
             {
-                NavigationFrame.Navigate(typeof(SampleController), sample);
+                NavigationFrame.Navigate(typeof(ShowcaseController), sample);
                 TrackingManager.TrackEvent("sample", "navigation", sample.Name);
             }
         }

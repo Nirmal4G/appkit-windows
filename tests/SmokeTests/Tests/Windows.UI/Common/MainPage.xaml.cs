@@ -5,7 +5,7 @@
 using System;
 using System.Diagnostics;
 using System.Linq;
-using CommunityToolkit.WinUI.UI;
+using CommunityToolkit.Windows.UI;
 using Windows.UI.Xaml.Controls;
 
 namespace SmokeTest

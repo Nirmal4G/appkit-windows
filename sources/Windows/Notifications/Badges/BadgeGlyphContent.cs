@@ -7,7 +7,7 @@ using System;
 using Windows.Data.Xml.Dom;
 #endif
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Notification content object to display a glyph on a Tile's badge.

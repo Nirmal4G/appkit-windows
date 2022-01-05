@@ -4,10 +4,10 @@
 
 using System;
 using System.Globalization;
-using CommunityToolkit.WinUI.UI.Controls.DataGridInternals;
-using CommunityToolkit.WinUI.Utilities;
+using CommunityToolkit.Windows.UI.Controls.DataGridInternals;
+using CommunityToolkit.Windows.Utilities;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// DataGridLengthUnitType
@@ -46,7 +46,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
     /// <summary>
     /// Represents the lengths of elements within the <see cref="DataGrid"/> control.
     /// </summary>
-    [Windows.Foundation.Metadata.CreateFromString(MethodName = "CommunityToolkit.WinUI.UI.Controls.DataGridLength.ConvertFromString")]
+    [Windows.Foundation.Metadata.CreateFromString(MethodName = "CommunityToolkit.Windows.UI.Controls.DataGridLength.ConvertFromString")]
     public struct DataGridLength : IEquatable<DataGridLength>
     {
         // static instances of value invariant DataGridLengths

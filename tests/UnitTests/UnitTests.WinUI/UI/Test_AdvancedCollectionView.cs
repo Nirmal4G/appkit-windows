@@ -7,8 +7,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer;
 

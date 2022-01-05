@@ -4,13 +4,13 @@
 
 using System;
 using System.Collections.ObjectModel;
-using CommunityToolkit.WinUI.SampleApp.Common;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.ShowcaseApp.Common;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// A page that shows how to use the MetadataControl
@@ -44,12 +44,12 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
 
         private void Setup()
         {
-            SampleController.Current.RegisterNewCommand("Add label", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Add label", (sender, args) =>
             {
                 _units.Add(new MetadataItem { Label = GetRandomLabel() });
             });
 
-            SampleController.Current.RegisterNewCommand("Add command", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Add command", (sender, args) =>
             {
                 var label = GetRandomLabel();
                 _units.Add(new MetadataItem
@@ -60,7 +60,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
                 });
             });
 
-            SampleController.Current.RegisterNewCommand("Clear", (sender, args) =>
+            ShowcaseController.Current.RegisterNewCommand("Clear", (sender, args) =>
             {
                 _units.Clear();
             });

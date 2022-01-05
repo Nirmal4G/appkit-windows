@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using CommunityToolkit.Common.Helpers;
 using Windows.Storage;
 
-namespace CommunityToolkit.WinUI.Helpers
+namespace CommunityToolkit.Windows.Helpers
 {
     /// <summary>
     /// An extension of ApplicationDataStorageHelper with additional features for interop with the LocalCacheFolder.

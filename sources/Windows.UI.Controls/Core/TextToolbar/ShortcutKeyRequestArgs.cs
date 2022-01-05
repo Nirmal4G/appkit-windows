@@ -5,7 +5,7 @@
 using Microsoft.UI.Xaml.Input;
 using Windows.System;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Arguments relating to a CTRL Key Shortcut being activated.

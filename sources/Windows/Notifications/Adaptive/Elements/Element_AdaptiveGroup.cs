@@ -4,7 +4,7 @@
 
 using System.Collections.Generic;
 
-namespace CommunityToolkit.WinUI.Notifications.Adaptive.Elements
+namespace CommunityToolkit.Windows.Notifications.Adaptive.Elements
 {
     [NotificationXmlElement("group")]
     internal sealed class Element_AdaptiveGroup : IElement_TileBindingChild, IElement_ToastBindingChild, IElementWithDescendants

@@ -4,7 +4,7 @@
 
 using System.Numerics;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A custom <see cref="Vector4"/> animation.

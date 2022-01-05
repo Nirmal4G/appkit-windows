@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Networking.Connectivity;
 
-namespace CommunityToolkit.WinUI.Connectivity
+namespace CommunityToolkit.Windows.Connectivity
 {
     /// <summary>
     /// This class exposes information about the network connectivity.

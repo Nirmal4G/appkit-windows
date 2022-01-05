@@ -8,12 +8,12 @@ using System.Linq;
 using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Core;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Elements.Path;
+using CommunityToolkit.Windows.UI.Media.Geometry.Core;
+using CommunityToolkit.Windows.UI.Media.Geometry.Elements.Path;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Geometry;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry.Parsers
+namespace CommunityToolkit.Windows.UI.Media.Geometry.Parsers
 {
     /// <summary>
     /// Parser for CanvasGeometry.

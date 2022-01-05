@@ -7,12 +7,12 @@ using System.Diagnostics.CodeAnalysis;
 
 [assembly: SuppressMessage("General", "SWC1001:XmlDocumentationCommentShouldBeSpelledCorrectly", MessageId = "Theming", Justification = "Correct spelling")]
 
-namespace CommunityToolkit.WinUI.UI.Controls.Design
+namespace CommunityToolkit.Windows.UI.Controls.Design
 {
     internal static partial class ControlTypes
     {
         // HACK: Don't forget to update, if the namespace changes.
-        public const string RootNamespace = "CommunityToolkit.WinUI.UI.Controls";
+        public const string RootNamespace = "CommunityToolkit.Windows.UI.Controls";
     }
 
     /// <summary>

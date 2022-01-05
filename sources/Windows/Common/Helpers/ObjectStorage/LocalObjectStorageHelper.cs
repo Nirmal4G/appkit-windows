@@ -5,7 +5,7 @@
 using System;
 using Windows.Storage;
 
-namespace CommunityToolkit.WinUI.Helpers
+namespace CommunityToolkit.Windows.Helpers
 {
     /// <summary>
     /// Store data in the Local environment (only on the current device).

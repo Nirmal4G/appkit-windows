@@ -5,7 +5,7 @@
 using Microsoft.UI.Xaml.Data;
 using Windows.Foundation.Collections;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// A collection view implementation that supports filtering, grouping, sorting and incremental loading

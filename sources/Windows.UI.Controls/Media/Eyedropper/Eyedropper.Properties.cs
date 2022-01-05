@@ -7,7 +7,7 @@ using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// The <see cref="Eyedropper"/> control can pick up a color from anywhere in your application.

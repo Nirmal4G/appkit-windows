@@ -5,7 +5,7 @@
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Data;
 
-namespace CommunityToolkit.WinUI.UI.Helpers
+namespace CommunityToolkit.Windows.UI.Helpers
 {
     /// <summary>
     /// Used to Track Changes of a Dependency Property

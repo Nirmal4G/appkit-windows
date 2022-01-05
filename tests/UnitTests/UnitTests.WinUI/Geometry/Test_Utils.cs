@@ -4,7 +4,7 @@
 
 using System;
 using System.Numerics;
-using CommunityToolkit.WinUI.UI.Media.Geometry;
+using CommunityToolkit.Windows.UI.Media.Geometry;
 using Microsoft.UI;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Media;

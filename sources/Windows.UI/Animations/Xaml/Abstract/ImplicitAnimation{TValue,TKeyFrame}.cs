@@ -7,9 +7,9 @@
 using System;
 using Microsoft.UI.Composition;
 using Microsoft.UI.Xaml;
-using static CommunityToolkit.WinUI.UI.Animations.AnimationExtensions;
+using static CommunityToolkit.Windows.UI.Animations.AnimationExtensions;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A base model representing a typed animation that can be used as an implicit composition animation.

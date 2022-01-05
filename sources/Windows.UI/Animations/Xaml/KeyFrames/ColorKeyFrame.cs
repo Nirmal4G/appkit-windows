@@ -4,7 +4,7 @@
 
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A <see cref="KeyFrame{TValue,TKeyFrame}"/> type for color animations.

@@ -30,7 +30,7 @@
   </ItemGroup>
   <PropertyGroup>
     <WapProjPath Condition="'$(WapProjPath)'==''">$(MSBuildExtensionsPath)\Microsoft\DesktopBridge\</WapProjPath>
-    <PathToXAMLWinRTImplementations>CommunityToolkit.WinUI.SampleApp\</PathToXAMLWinRTImplementations>
+    <PathToXAMLWinRTImplementations>CommunityToolkit.Windows.ShowcaseApp\</PathToXAMLWinRTImplementations>
   </PropertyGroup>
   <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.props" />
   <PropertyGroup>
@@ -40,7 +40,7 @@
     <AssetTargetFallback>net5.0-windows$(TargetPlatformVersion);$(AssetTargetFallback)</AssetTargetFallback>
     <DefaultLanguage>en-US</DefaultLanguage>
     <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
-    <EntryPointProjectUniqueName>..\CommunityToolkit.WinUI.SampleApp\CommunityToolkit.WinUI.SampleApp.csproj</EntryPointProjectUniqueName>
+    <EntryPointProjectUniqueName>..\CommunityToolkit.Windows.ShowcaseApp\CommunityToolkit.Windows.ShowcaseApp.csproj</EntryPointProjectUniqueName>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -48,7 +48,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CommunityToolkit.WinUI.SampleApp\CommunityToolkit.WinUI.SampleApp.csproj">
+    <ProjectReference Include="..\CommunityToolkit.Windows.ShowcaseApp\CommunityToolkit.Windows.ShowcaseApp.csproj">
       <SkipGetTargetFrameworkProperties>True</SkipGetTargetFrameworkProperties>
       <PublishProfile>Properties\PublishProfiles\win10-$(Platform).pubxml</PublishProfile>
     </ProjectReference>

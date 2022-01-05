@@ -4,7 +4,7 @@
 
 using System;
 using System.Diagnostics;
-using CommunityToolkit.WinUI.Utilities;
+using CommunityToolkit.Windows.Utilities;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
@@ -12,7 +12,7 @@ using Windows.Foundation;
 
 using DiagnosticsDebug = System.Diagnostics.Debug;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Primitives
+namespace CommunityToolkit.Windows.UI.Controls.Primitives
 {
     /// <summary>
     /// Used within the template of a <see cref="DataGrid"/>

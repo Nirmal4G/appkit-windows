@@ -6,7 +6,7 @@ using System;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     internal class SerializableStrokeConverter : JsonConverter<SerializableStroke>
     {

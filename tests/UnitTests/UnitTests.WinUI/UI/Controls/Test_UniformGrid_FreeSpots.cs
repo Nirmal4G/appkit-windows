@@ -4,7 +4,7 @@
 
 using System.Linq;
 using CommunityToolkit.Common;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer;
 

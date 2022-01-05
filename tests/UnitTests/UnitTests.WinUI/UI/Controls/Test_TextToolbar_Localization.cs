@@ -2,10 +2,10 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
-using CommunityToolkit.WinUI.UI.Controls.TextToolbarButtons.Common;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
+using CommunityToolkit.Windows.UI.Controls.TextToolbarButtons.Common;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting.AppContainer;
 using System.Linq;
@@ -30,7 +30,7 @@ namespace UnitTests.WinUI.UI.Controls
 @"<Page
     xmlns=""http://schemas.microsoft.com/winfx/2006/xaml/presentation""
     xmlns:x=""http://schemas.microsoft.com/winfx/2006/xaml""
-    xmlns:controls=""using:CommunityToolkit.WinUI.UI.Controls"">
+    xmlns:controls=""using:CommunityToolkit.Windows.UI.Controls"">
 
     <controls:TextToolbar x:Name=""TextToolbarControl"">
     </controls:TextToolbar>

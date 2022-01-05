@@ -3,9 +3,9 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Windows;
-using CommunityToolkit.WinUI.Notifications;
+using CommunityToolkit.Windows.Notifications;
 
-namespace CommunityToolkit.Win32.WpfCore.SampleApp
+namespace CommunityToolkit.Desktop.ShowcaseApp.WPF
 {
     /// <summary>
     /// Interaction logic for App.xaml

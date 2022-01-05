@@ -6,7 +6,7 @@ using System.Windows.Input;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Documents;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Provides attached dependency properties for the <see cref="Microsoft.UI.Xaml.Documents.Hyperlink"/> content element that allows

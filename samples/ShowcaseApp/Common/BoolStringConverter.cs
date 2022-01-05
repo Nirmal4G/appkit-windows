@@ -5,7 +5,7 @@
 using System;
 using Microsoft.UI.Xaml.Data;
 
-namespace CommunityToolkit.WinUI.SampleApp.Common
+namespace CommunityToolkit.Windows.ShowcaseApp.Common
 {
     internal class BoolStringConverter : IValueConverter
     {

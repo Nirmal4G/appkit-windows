@@ -5,13 +5,13 @@
 using System.Numerics;
 using System.Runtime.CompilerServices;
 using System.Text;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Parsers;
+using CommunityToolkit.Windows.UI.Media.Geometry.Parsers;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Brushes;
 using Microsoft.Graphics.Canvas.Geometry;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry
+namespace CommunityToolkit.Windows.UI.Media.Geometry
 {
     /// <summary>
     /// Helper Class for creating Win2d objects.

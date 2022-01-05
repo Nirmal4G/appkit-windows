@@ -7,7 +7,7 @@ using Windows.Foundation;
 using Windows.UI;
 using Windows.UI.Input.Inking;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     internal class CustomInkDrawingAttribute
     {

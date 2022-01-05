@@ -4,9 +4,9 @@
 
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Markup;
@@ -71,7 +71,7 @@ namespace UnitTests.XamlIslands.UWPApp
 
                 var xamlTokenizingTextBox = @"<controls:TokenizingTextBox xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'
                                                  xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
-                                                 xmlns:controls='using:CommunityToolkit.WinUI.UI.Controls'
+                                                 xmlns:controls='using:CommunityToolkit.Windows.UI.Controls'
                           PlaceholderText='Add Actions'
                           MaxHeight='104'
                           HorizontalAlignment='Center'

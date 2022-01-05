@@ -4,7 +4,7 @@
 
 using System;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media.Imaging;
@@ -14,7 +14,7 @@ using Windows.Graphics.Imaging;
 using Windows.Media;
 using Windows.Media.Capture.Frames;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// Sample page for Camera Helper

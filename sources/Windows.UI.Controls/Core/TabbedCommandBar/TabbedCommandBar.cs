@@ -11,7 +11,7 @@ using Microsoft.UI.Xaml.Media.Animation;
 using NavigationView = Microsoft.UI.Xaml.Controls.NavigationView;
 using NavigationViewSelectionChangedEventArgs = Microsoft.UI.Xaml.Controls.NavigationViewSelectionChangedEventArgs;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// A basic TabbedCommandBar control that houses <see cref="TabbedCommandBarItem"/>s
@@ -38,7 +38,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
         public TabbedCommandBar()
         {
             DefaultStyleKey = typeof(TabbedCommandBar);
-            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Core/Themes/Generic.xaml");
+            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Core/Themes/Generic.xaml");
 
             SelectionChanged += SelectedItemChanged;
             Loaded += TabbedCommandBar_Loaded;

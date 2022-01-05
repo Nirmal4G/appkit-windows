@@ -3,13 +3,13 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Generic;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml.Automation;
 using Microsoft.UI.Xaml.Automation.Peers;
 using Microsoft.UI.Xaml.Automation.Provider;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.UI.Automation.Peers
+namespace CommunityToolkit.Windows.UI.Automation.Peers
 {
     /// <summary>
     /// Defines a framework element automation peer for the <see cref="TokenizingTextBox"/> control.
@@ -20,7 +20,7 @@ namespace CommunityToolkit.WinUI.UI.Automation.Peers
         /// Initializes a new instance of the <see cref="TokenizingTextBoxAutomationPeer"/> class.
         /// </summary>
         /// <param name="owner">
-        /// The <see cref="TokenizingTextBox" /> that is associated with this <see cref="T:CommunityToolkit.WinUI.UI.Automation.Peers.TokenizingTextBoxAutomationPeer" />.
+        /// The <see cref="TokenizingTextBox" /> that is associated with this <see cref="T:CommunityToolkit.Windows.UI.Automation.Peers.TokenizingTextBoxAutomationPeer" />.
         /// </param>
         public TokenizingTextBoxAutomationPeer(TokenizingTextBox owner)
             : base(owner)

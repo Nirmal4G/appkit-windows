@@ -13,7 +13,7 @@ using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Documents;
 using Microsoft.UI.Xaml.Shapes;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Markdown.Render
+namespace CommunityToolkit.Windows.UI.Controls.Markdown.Render
 {
     /// <summary>
     /// Block UI Methods for UWP UI Creation.

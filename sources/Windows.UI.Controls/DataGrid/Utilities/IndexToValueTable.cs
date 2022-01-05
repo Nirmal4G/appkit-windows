@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace CommunityToolkit.WinUI.Utilities
+namespace CommunityToolkit.Windows.Utilities
 {
     internal class IndexToValueTable<T> : IEnumerable<Range<T>>
     {

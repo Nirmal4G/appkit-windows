@@ -11,7 +11,7 @@ using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 using Windows.System;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// A control that manages as the item logic for the <see cref="TokenizingTextBox"/> control.

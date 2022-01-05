@@ -6,7 +6,7 @@ using System;
 using System.Reflection;
 using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.Messaging;
-using CommunityToolkit.WinUI;
+using CommunityToolkit.Windows;
 using Microsoft.UI.Dispatching;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;

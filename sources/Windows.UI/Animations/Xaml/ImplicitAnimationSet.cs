@@ -11,7 +11,7 @@ using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Hosting;
 using Windows.Foundation.Collections;
 
-namespace CommunityToolkit.WinUI.UI.Animations
+namespace CommunityToolkit.Windows.UI.Animations
 {
     /// <summary>
     /// A collection of implicit animations that can be assigned to a <see cref="UIElement"/> and configured to be run automatically

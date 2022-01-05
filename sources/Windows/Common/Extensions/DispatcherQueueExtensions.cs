@@ -9,7 +9,7 @@ using Microsoft.UI.Dispatching;
 
 #nullable enable
 
-namespace CommunityToolkit.WinUI
+namespace CommunityToolkit.Windows
 {
     /// <summary>
     /// Helpers for executing code in a <see cref="DispatcherQueue"/>.

@@ -11,10 +11,10 @@ using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using CommunityToolkit.Common.Helpers;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 using Windows.ApplicationModel;
 
-namespace CommunityToolkit.WinUI.SampleApp
+namespace CommunityToolkit.Windows.ShowcaseApp
 {
     public static class Samples
     {
@@ -87,7 +87,7 @@ namespace CommunityToolkit.WinUI.SampleApp
             if (_samplesCategories == null)
             {
                 List<SampleCategory> allCategories;
-                using (var jsonStream = await LoadLocalFile("SamplePages/samples.json"))
+                using (var jsonStream = await LoadLocalFile("Resources/gallery.json"))
                 {
                     allCategories = await JsonSerializer.DeserializeAsync<List<SampleCategory>>(jsonStream, new JsonSerializerOptions
                     {

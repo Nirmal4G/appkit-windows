@@ -6,7 +6,7 @@ using System.Diagnostics;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Utilities
+namespace CommunityToolkit.Windows.UI.Controls.Utilities
 {
     /// <summary>
     /// Names and helpers for visual states in the control.

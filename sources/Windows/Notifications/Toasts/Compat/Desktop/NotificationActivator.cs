@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using Windows.UI.Notifications;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Apps must implement this activator to handle notification activation.

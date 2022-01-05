@@ -11,7 +11,7 @@
     Version="7.0.0.0" />
 
   <Properties>
-    <DisplayName>CommunityToolkit.WinUI.SampleApp.Package</DisplayName>
+    <DisplayName>CommunityToolkit.Windows.ShowcaseApp.Package</DisplayName>
     <PublisherDisplayName>Microsoft</PublisherDisplayName>
     <Logo>Images\UWPCommunityToolkitSampleAppStoreLogo.png</Logo>
   </Properties>
@@ -51,7 +51,7 @@
             <uap:DisplayName>Windows Community Toolkit</uap:DisplayName>
           </uap:Protocol>
         </uap:Extension>
-        <Extension Category="windows.backgroundTasks" EntryPoint="CommunityToolkit.WinUI.Samples.BackgroundTasks.TestBackgroundTask">
+        <Extension Category="windows.backgroundTasks" EntryPoint="CommunityToolkit.Windows.Samples.BackgroundTasks.TestBackgroundTask">
           <BackgroundTasks>
             <Task Type="timer" />
           </BackgroundTasks>
@@ -63,8 +63,8 @@
   <Extensions>
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
-        <Path>CommunityToolkit.WinUI.SampleApp\WinRT.Host.dll</Path>
-        <ActivatableClass ActivatableClassId="CommunityToolkit.WinUI.Samples.BackgroundTasks.TestBackgroundTask" ThreadingModel="both" />
+        <Path>CommunityToolkit.Windows.ShowcaseApp\WinRT.Host.dll</Path>
+        <ActivatableClass ActivatableClassId="CommunityToolkit.Windows.Samples.BackgroundTasks.TestBackgroundTask" ThreadingModel="both" />
       </InProcessServer>
     </Extension>
   </Extensions>

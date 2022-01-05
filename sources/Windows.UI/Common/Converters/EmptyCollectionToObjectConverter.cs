@@ -5,7 +5,7 @@
 using System;
 using System.Collections;
 
-namespace CommunityToolkit.WinUI.UI.Converters
+namespace CommunityToolkit.Windows.UI.Converters
 {
     /// <summary>
     /// This class converts a collection size into an other object.

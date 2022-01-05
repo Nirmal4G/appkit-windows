@@ -2,11 +2,11 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI.Helpers;
+using CommunityToolkit.Windows.UI.Helpers;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -19,7 +19,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
             Listener = new ThemeListener();
             this.Loaded += ThemeListenerPage_Loaded;
             Listener.ThemeChanged += Listener_ThemeChanged;
-            SampleController.Current.ThemeChanged += Current_ThemeChanged;
+            ShowcaseController.Current.ThemeChanged += Current_ThemeChanged;
         }
 
         private void Current_ThemeChanged(object sender, Models.ThemeChangedArgs e)
@@ -40,7 +40,7 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
         private void UpdateThemeState()
         {
             SystemTheme.Text = Listener.CurrentThemeName;
-            CurrentTheme.Text = SampleController.Current.GetCurrentTheme().ToString();
+            CurrentTheme.Text = ShowcaseController.Current.GetCurrentTheme().ToString();
         }
 
         public ThemeListener Listener { get; }

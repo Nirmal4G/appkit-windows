@@ -3,8 +3,8 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:brushes="using:CommunityToolkit.WinUI.UI.Media"
-    xmlns:effects="using:CommunityToolkit.WinUI.UI.Media.Effects"
+    xmlns:brushes="using:CommunityToolkit.Windows.UI.Media"
+    xmlns:effects="using:CommunityToolkit.Windows.UI.Media.Effects"
     mc:Ignorable="d">
 
   <Grid>
@@ -20,7 +20,7 @@
               Grid.Column="2"
               Height="400">
         <Border.Background>
-          <brushes:AcrylicBrush 
+          <brushes:AcrylicBrush
                                 TintColor="@[Tint:Brush:DarkCyan]"
                                 TintOpacity="@[TintMix:DoubleSlider:0.2:0.0-1.0]"
                                 BlurAmount="@[BlurAmount:DoubleSlider:12:0.0-32.0]"

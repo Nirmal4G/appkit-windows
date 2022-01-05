@@ -5,7 +5,7 @@
 using System.Collections.Generic;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     internal class InfiniteCanvasCreateTextBoxCommand : IInfiniteCanvasCommand
     {

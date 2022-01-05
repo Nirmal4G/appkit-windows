@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard1.4;uap10.0.16299;net461;netcoreapp3.1;net5.0;net5.0-windows10.0.18362;native</TargetFrameworks>
-    <NuspecFile>CommunityToolkit.WinUI.Notifications.nuspec</NuspecFile>
+    <NuspecFile>CommunityToolkit.Windows.Notifications.nuspec</NuspecFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="$(TargetFramework.StartsWith('uap10.0')) or '$(TargetFramework)' == 'native'">
@@ -38,12 +38,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="CommunityToolkit.WinUI.Notifications.targets" Pack="true" PackagePath="build\native" />
+    <None Include="CommunityToolkit.Windows.Notifications.targets" Pack="true" PackagePath="build\native" />
   </ItemGroup>
 
   <!-- In order to support .NET Native, we need to include an appropriate '.rd.xml' for UWP (remove from everything else) -->
   <ItemGroup Condition="!($(TargetFramework.StartsWith('uap10.0')) or '$(TargetFramework)' == 'native')">
-    <EmbeddedResource Remove="Properties\CommunityToolkit.WinUI.Notifications.rd.xml" />
+    <EmbeddedResource Remove="Properties\CommunityToolkit.Windows.Notifications.rd.xml" />
   </ItemGroup>
 
   <!-- For Desktop Win32 apps' WinRT APIs support -->

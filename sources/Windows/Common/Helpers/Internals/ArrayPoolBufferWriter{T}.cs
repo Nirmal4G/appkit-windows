@@ -7,7 +7,7 @@ using System.Buffers;
 using System.Diagnostics.Contracts;
 using System.Runtime.CompilerServices;
 
-namespace CommunityToolkit.WinUI.UI.Helpers.Internals
+namespace CommunityToolkit.Windows.UI.Helpers.Internals
 {
     /// <summary>
     /// A simple buffer writer implementation using pooled arrays.

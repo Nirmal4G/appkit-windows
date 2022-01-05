@@ -6,7 +6,7 @@ using System;
 using Microsoft.UI.Xaml.Controls;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// A text input control that auto-suggests and displays token items.

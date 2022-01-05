@@ -11,7 +11,7 @@ using Microsoft.UI.Xaml.Hosting;
 using Microsoft.UI.Xaml.Shapes;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// The <see cref="DropShadowPanel"/> control allows the creation of a DropShadow for any Xaml FrameworkElement in markup
@@ -33,7 +33,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
         public DropShadowPanel()
         {
             this.DefaultStyleKey = typeof(DropShadowPanel);
-            this.DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Core/Themes/Generic.xaml");
+            this.DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Core/Themes/Generic.xaml");
 
             if (!DesignTimeHelpers.IsRunningInLegacyDesignerMode)
             {

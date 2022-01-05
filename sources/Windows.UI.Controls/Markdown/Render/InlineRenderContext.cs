@@ -5,7 +5,7 @@
 using CommunityToolkit.Common.Parsers.Markdown.Render;
 using Microsoft.UI.Xaml.Documents;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Markdown.Render
+namespace CommunityToolkit.Windows.UI.Controls.Markdown.Render
 {
     /// <summary>
     /// The Context of the Current Document Rendering.

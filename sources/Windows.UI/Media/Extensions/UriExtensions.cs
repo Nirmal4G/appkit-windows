@@ -5,7 +5,7 @@
 using System;
 using System.Diagnostics.Contracts;
 
-namespace CommunityToolkit.WinUI.UI.Media
+namespace CommunityToolkit.Windows.UI.Media
 {
     /// <summary>
     /// An extension <see langword="class"/> for the <see cref="Uri"/> type

@@ -5,11 +5,11 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 using Microsoft.UI.Xaml.Controls;
 using Windows.System.RemoteSystems;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     public sealed partial class RemoteDeviceHelperPage : Page
     {

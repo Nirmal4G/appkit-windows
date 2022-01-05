@@ -4,7 +4,7 @@
 
 using Windows.Foundation.Collections;
 
-namespace CommunityToolkit.WinUI.Input.GazeInteraction
+namespace CommunityToolkit.Windows.Input.GazeInteraction
 {
     // Basic filter which performs no input filtering -- easy to
     // use as a default filter.

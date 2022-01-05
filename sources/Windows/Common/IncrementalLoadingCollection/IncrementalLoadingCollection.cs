@@ -13,7 +13,7 @@ using CommunityToolkit.Common.Collections;
 using Microsoft.UI.Xaml.Data;
 using Windows.Foundation;
 
-namespace CommunityToolkit.WinUI
+namespace CommunityToolkit.Windows
 {
     /// <summary>
     /// This class represents an <see cref="ObservableCollection{IType}"/> whose items can be loaded incrementally.
@@ -254,7 +254,7 @@ namespace CommunityToolkit.WinUI
             _cancellationToken = cancellationToken;
 
             // TODO (2021.05.05): Make use common AsyncMutex class.
-            // AsyncMutex is located at CommunityToolkit.WinUI.UI.Media/Extensions/System.Threading.Tasks/AsyncMutex.cs at the time of this note.
+            // AsyncMutex is located at CommunityToolkit.Windows.UI.Media/Extensions/System.Threading.Tasks/AsyncMutex.cs at the time of this note.
             await _mutex.WaitAsync();
             try
             {

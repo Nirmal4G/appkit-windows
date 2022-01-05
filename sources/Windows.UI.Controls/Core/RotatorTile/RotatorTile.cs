@@ -5,14 +5,14 @@
 using System;
 using System.Collections;
 using System.Collections.Specialized;
-using CommunityToolkit.WinUI.Helpers;
+using CommunityToolkit.Windows.Helpers;
 using Microsoft.UI.Dispatching;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Media.Animation;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// An items control that presents enumerable content similar to the live tiles on the
@@ -84,7 +84,7 @@ namespace CommunityToolkit.WinUI.UI.Controls
         public RotatorTile()
         {
             DefaultStyleKey = typeof(RotatorTile);
-            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.WinUI.UI.Controls.Core/Themes/Generic.xaml");
+            DefaultStyleResourceUri = new Uri("ms-appx:///CommunityToolkit.Windows.UI.Controls.Core/Themes/Generic.xaml");
 
             Unloaded += RotatorTile_Unloaded;
             Loaded += RotatorTile_Loaded;

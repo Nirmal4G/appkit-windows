@@ -5,7 +5,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     [NotificationXmlElement("toast")]
     internal sealed class Element_Toast : BaseElement, IElement_ToastActivatable, IElement_AdditionalProperties

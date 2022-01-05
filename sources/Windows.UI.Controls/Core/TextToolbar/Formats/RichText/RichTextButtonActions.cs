@@ -2,10 +2,10 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
 
-using CommunityToolkit.WinUI.UI.Controls.TextToolbarButtons;
+using CommunityToolkit.Windows.UI.Controls.TextToolbarButtons;
 using Microsoft.UI.Text;
 
-namespace CommunityToolkit.WinUI.UI.Controls.TextToolbarFormats.RichText
+namespace CommunityToolkit.Windows.UI.Controls.TextToolbarFormats.RichText
 {
     /// <summary>
     /// Class defining the RichText formatter actions

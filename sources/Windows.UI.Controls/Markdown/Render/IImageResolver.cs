@@ -5,7 +5,7 @@
 using System.Threading.Tasks;
 using Microsoft.UI.Xaml.Media;
 
-namespace CommunityToolkit.WinUI.UI.Controls.Markdown.Render
+namespace CommunityToolkit.Windows.UI.Controls.Markdown.Render
 {
     /// <summary>
     /// An interface used to resolve images in the markdown.

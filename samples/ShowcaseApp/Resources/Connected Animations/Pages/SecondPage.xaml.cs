@@ -4,13 +4,13 @@
 
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using CommunityToolkit.WinUI.SampleApp.Data;
-using CommunityToolkit.WinUI.SampleApp.Models;
+using CommunityToolkit.Windows.ShowcaseApp.Data;
+using CommunityToolkit.Windows.ShowcaseApp.Models;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media.Animation;
 using Microsoft.UI.Xaml.Navigation;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages.ConnectedAnimations.Pages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples.ConnectedAnimations.Pages
 {
     public sealed partial class SecondPage : Page
     {

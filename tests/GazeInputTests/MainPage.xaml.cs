@@ -3,7 +3,7 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI.Input.GazeInteraction;
+using CommunityToolkit.Windows.Input.GazeInteraction;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 

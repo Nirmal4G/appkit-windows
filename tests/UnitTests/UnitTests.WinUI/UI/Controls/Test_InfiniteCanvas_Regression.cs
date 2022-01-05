@@ -5,10 +5,10 @@
 using System;
 using System.Threading.Tasks;
 using FluentAssertions;
-using CommunityToolkit.WinUI.Helpers;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.Helpers;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using CommunityToolkit.WinUI;
+using CommunityToolkit.Windows;
 using Microsoft.UI.Dispatching;
 
 namespace UnitTests.WinUI.UI.Controls
@@ -25,7 +25,7 @@ namespace UnitTests.WinUI.UI.Controls
         {
             var taskSource = new TaskCompletionSource<object>();
             await App.DispatcherQueue.EnqueueAsync(
-                async () => 
+                async () =>
                 {
                     try
                     {

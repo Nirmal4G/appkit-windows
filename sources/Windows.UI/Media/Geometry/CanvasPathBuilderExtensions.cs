@@ -6,10 +6,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Core;
+using CommunityToolkit.Windows.UI.Media.Geometry.Core;
 using Microsoft.Graphics.Canvas.Geometry;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry
+namespace CommunityToolkit.Windows.UI.Media.Geometry
 {
     /// <summary>
     /// Defines extension methods for CanvasPathBuilder.

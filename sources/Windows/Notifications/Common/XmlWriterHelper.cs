@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     internal static class XmlWriterHelper
     {

@@ -21,20 +21,20 @@ using System.Threading.Tasks;
 // using CommunityToolkit.Graph.Converters;
 // using CommunityToolkit.Graph.Providers;
 using CommunityToolkit.Common.Helpers;
-using CommunityToolkit.WinUI.Helpers;
-using CommunityToolkit.WinUI.Input.GazeInteraction;
-using CommunityToolkit.WinUI.SampleApp.Models;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Animations;
-using CommunityToolkit.WinUI.UI.Controls;
-using CommunityToolkit.WinUI.UI.Media;
+using CommunityToolkit.Windows.Helpers;
+using CommunityToolkit.Windows.Input.GazeInteraction;
+using CommunityToolkit.Windows.ShowcaseApp.Models;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Animations;
+using CommunityToolkit.Windows.UI.Controls;
+using CommunityToolkit.Windows.UI.Media;
 using Microsoft.UI.Xaml;
 using Windows.ApplicationModel;
 using Windows.Foundation.Metadata;
 using Windows.Storage;
 using Windows.Storage.Streams;
 
-namespace CommunityToolkit.WinUI.SampleApp
+namespace CommunityToolkit.Windows.ShowcaseApp
 {
     public class Sample
     {
@@ -103,7 +103,7 @@ namespace CommunityToolkit.WinUI.SampleApp
         /// <summary>
         /// Gets the Page Type.
         /// </summary>
-        public Type PageType => global::System.Type.GetType("CommunityToolkit.WinUI.SampleApp.SamplePages." + Type);
+        public Type PageType => global::System.Type.GetType("CommunityToolkit.Windows.ShowcaseApp.Samples." + Type);
 
         /// <summary>
         /// Gets or sets the Category Name.
@@ -155,7 +155,7 @@ namespace CommunityToolkit.WinUI.SampleApp
         public string XamlCode { get; private set; }
 
         /// <summary>
-        /// Gets or sets the path set in the samples.json pointing to the doc for the sample.
+        /// Gets or sets the path set in the gallery.json pointing to the doc for the sample.
         /// </summary>
         public string DocumentationUrl { get; set; }
 
@@ -200,7 +200,7 @@ namespace CommunityToolkit.WinUI.SampleApp
 
         public async Task<string> GetCSharpSourceAsync()
         {
-            using (var codeStream = await Samples.LoadLocalFile(CodeFile.StartsWith('/') ? CodeFile : $"SamplePages/{Name}/{CodeFile}"))
+            using (var codeStream = await Samples.LoadLocalFile(CodeFile.StartsWith('/') ? CodeFile : $"Resources/{Name}/{CodeFile}"))
             {
                 using (var streamReader = new StreamReader(codeStream))
                 {
@@ -487,7 +487,7 @@ namespace CommunityToolkit.WinUI.SampleApp
             if (_propertyDescriptor == null)
             {
                 // Get Xaml code
-                using (var codeStream = await Samples.LoadLocalFile(XamlCodeFile.StartsWith('/') ? XamlCodeFile : $"SamplePages/{Name}/{XamlCodeFile}"))
+                using (var codeStream = await Samples.LoadLocalFile(XamlCodeFile.StartsWith('/') ? XamlCodeFile : $"Resources/{Name}/{XamlCodeFile}"))
                 {
                     using (var streamreader = new StreamReader(codeStream))
                     {
@@ -701,20 +701,20 @@ namespace CommunityToolkit.WinUI.SampleApp
             {
                 VerticalAlignment.Center.GetType(), // MUX
                 Windows.UI.Input.RadialControllerMenuKnownIcon.InkColor.GetType(), // Windows
-                StackMode.Replace.GetType(), // CommunityToolkit.WinUI.UI.Controls.Core
+                StackMode.Replace.GetType(), // CommunityToolkit.Windows.UI.Controls.Core
 
               // TODO Reintroduce graph controls
               // typeof(UserToPersonConverter)) // Search in CommunityToolkit.Graph.Controls
-                ScrollItemPlacement.Default.GetType(), // Search in CommunityToolkit.WinUI.UI
-                EasingType.Default.GetType(), // CommunityToolkit.WinUI.UI.Animations
-                ImageBlendMode.Multiply.GetType(), // Search in CommunityToolkit.WinUI.UI.Media
-                Interaction.Enabled.GetType(), // CommunityToolkit.WinUI.Input.GazeInteraction
-                DataGridGridLinesVisibility.None.GetType(), // CommunityToolkit.WinUI.UI.Controls.DataGrid
-                GridSplitter.GridResizeDirection.Auto.GetType(), // CommunityToolkit.WinUI.UI.Controls.Layout
-                typeof(MarkdownTextBlock), // CommunityToolkit.WinUI.UI.Controls.Markdown
-                BitmapFileFormat.Bmp.GetType(), // CommunityToolkit.WinUI.UI.Controls.Media
-                typeof(AlphaMode), // CommunityToolkit.WinUI.UI.Media
-                StretchChild.Last.GetType() // CommunityToolkit.WinUI.UI.Controls.Primitivs
+                ScrollItemPlacement.Default.GetType(), // Search in CommunityToolkit.Windows.UI
+                EasingType.Default.GetType(), // CommunityToolkit.Windows.UI.Animations
+                ImageBlendMode.Multiply.GetType(), // Search in CommunityToolkit.Windows.UI.Media
+                Interaction.Enabled.GetType(), // CommunityToolkit.Windows.Input.GazeInteraction
+                DataGridGridLinesVisibility.None.GetType(), // CommunityToolkit.Windows.UI.Controls.DataGrid
+                GridSplitter.GridResizeDirection.Auto.GetType(), // CommunityToolkit.Windows.UI.Controls.Layout
+                typeof(MarkdownTextBlock), // CommunityToolkit.Windows.UI.Controls.Markdown
+                BitmapFileFormat.Bmp.GetType(), // CommunityToolkit.Windows.UI.Controls.Media
+                typeof(AlphaMode), // CommunityToolkit.Windows.UI.Media
+                StretchChild.Last.GetType() // CommunityToolkit.Windows.UI.Controls.Primitivs
             };
 
             return targets.SelectMany(t => t.Assembly.ExportedTypes)

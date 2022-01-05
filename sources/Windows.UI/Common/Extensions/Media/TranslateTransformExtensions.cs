@@ -4,7 +4,7 @@
 
 using Microsoft.UI.Xaml.Media;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Extension methods for <see cref="TranslateTransform"/>.

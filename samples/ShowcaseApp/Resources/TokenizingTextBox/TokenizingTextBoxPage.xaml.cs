@@ -7,13 +7,13 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Input;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     public sealed partial class TokenizingTextBoxPage : Page, IXamlRenderListener
     {
@@ -106,9 +106,9 @@ namespace CommunityToolkit.WinUI.SampleApp.SamplePages
             Loaded += (sender, e) => { this.OnXamlRendered(this); };
 
             // Add the buttons
-            SampleController.Current.RegisterNewCommand("Clear Tokens", ClearButtonClick);
-            SampleController.Current.RegisterNewCommand("Show Email Items", ShowEmailSelectedClick);
-            SampleController.Current.RegisterNewCommand("Show Email Selection", ShowSelectedTextClick);
+            ShowcaseController.Current.RegisterNewCommand("Clear Tokens", ClearButtonClick);
+            ShowcaseController.Current.RegisterNewCommand("Show Email Items", ShowEmailSelectedClick);
+            ShowcaseController.Current.RegisterNewCommand("Show Email Selection", ShowSelectedTextClick);
         }
 
         public void OnXamlRendered(FrameworkElement control)

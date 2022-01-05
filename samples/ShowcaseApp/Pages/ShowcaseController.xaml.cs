@@ -8,12 +8,12 @@ using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
-using CommunityToolkit.WinUI.SampleApp.Common;
-using CommunityToolkit.WinUI.SampleApp.Controls;
-using CommunityToolkit.WinUI.SampleApp.Models;
-using CommunityToolkit.WinUI.UI;
-using CommunityToolkit.WinUI.UI.Controls;
-using CommunityToolkit.WinUI.UI.Helpers;
+using CommunityToolkit.Windows.ShowcaseApp.Common;
+using CommunityToolkit.Windows.ShowcaseApp.Controls;
+using CommunityToolkit.Windows.ShowcaseApp.Models;
+using CommunityToolkit.Windows.UI;
+using CommunityToolkit.Windows.UI.Controls;
+using CommunityToolkit.Windows.UI.Helpers;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media.Imaging;
@@ -21,16 +21,16 @@ using Microsoft.UI.Xaml.Navigation;
 using Windows.System;
 using Windows.System.Profile;
 
-namespace CommunityToolkit.WinUI.SampleApp
+namespace CommunityToolkit.Windows.ShowcaseApp
 {
     /// <summary>
     /// A wrapper for the Sample Page.
     /// </summary>
-    public sealed partial class SampleController : Page, INotifyPropertyChanged
+    public sealed partial class ShowcaseController : Page, INotifyPropertyChanged
     {
-        public static SampleController Current { get; private set; }
+        public static ShowcaseController Current { get; private set; }
 
-        public SampleController()
+        public ShowcaseController()
         {
             _themeListener = new ThemeListener();
 
@@ -50,12 +50,12 @@ namespace CommunityToolkit.WinUI.SampleApp
             ProcessSampleEditorTime();
             XamlCodeEditor.UpdateRequested += XamlCodeEditor_UpdateRequested;
 
-            Loaded += SampleController_Loaded;
+            Loaded += ShowcaseController_Loaded;
         }
 
-        private void SampleController_Loaded(object sender, RoutedEventArgs e)
+        private void ShowcaseController_Loaded(object sender, RoutedEventArgs e)
         {
-            Loaded -= SampleController_Loaded;
+            Loaded -= ShowcaseController_Loaded;
 
             // Prevent Pop in on wider screens.
             if (((FrameworkElement)SampleContent.XamlRoot.Content).ActualWidth > 700)
@@ -201,8 +201,8 @@ namespace CommunityToolkit.WinUI.SampleApp
                 {
                     try
                     {
-                        SamplePage = Activator.CreateInstance(CurrentSample.PageType) as Page;
-                        SampleContent.Content = SamplePage;
+                        ShowcasePage = Activator.CreateInstance(CurrentSample.PageType) as Page;
+                        SampleContent.Content = ShowcasePage;
 
                         // Some samples use the OnNavigatedTo and OnNavigatedFrom
                         // Can't use Frame here because some samples depend on the current Frame
@@ -212,7 +212,7 @@ namespace CommunityToolkit.WinUI.SampleApp
 
                         if (method != null)
                         {
-                            method.Invoke(SamplePage, new object[] { e });
+                            method.Invoke(ShowcasePage, new object[] { e });
                         }
                     }
                     catch (Exception ex)
@@ -220,9 +220,9 @@ namespace CommunityToolkit.WinUI.SampleApp
                         ExceptionNotification.Show("Sample Page failed to load: " + ex.Message);
                     }
 
-                    if (SamplePage != null)
+                    if (ShowcasePage != null)
                     {
-                        SamplePage.Loaded += SamplePage_Loaded;
+                        ShowcasePage.Loaded += ShowcasePage_Loaded;
                     }
                 }
                 else if (!CurrentSample.HasXAMLCode)
@@ -330,7 +330,7 @@ namespace CommunityToolkit.WinUI.SampleApp
         {
             base.OnNavigatedFrom(e);
 
-            if (SamplePage != null && CurrentSample.HasType)
+            if (ShowcasePage != null && CurrentSample.HasType)
             {
                 MethodInfo method = CurrentSample.PageType.GetMethod(
                     "OnNavigatedFrom",
@@ -338,10 +338,10 @@ namespace CommunityToolkit.WinUI.SampleApp
 
                 if (method != null)
                 {
-                    method.Invoke(SamplePage, new object[] { e });
+                    method.Invoke(ShowcasePage, new object[] { e });
                 }
 
-                SamplePage = null;
+                ShowcasePage = null;
             }
 
             XamlCodeEditor = null;
@@ -351,9 +351,9 @@ namespace CommunityToolkit.WinUI.SampleApp
             GC.Collect();
         }
 
-        private void SamplePage_Loaded(object sender, RoutedEventArgs e)
+        private void ShowcasePage_Loaded(object sender, RoutedEventArgs e)
         {
-            SamplePage.Loaded -= SamplePage_Loaded;
+            ShowcasePage.Loaded -= ShowcasePage_Loaded;
 
             if (CurrentSample != null && CurrentSample.HasXAMLCode)
             {
@@ -534,7 +534,7 @@ namespace CommunityToolkit.WinUI.SampleApp
 
                 if (CurrentSample.HasType)
                 {
-                    root = SamplePage?.FindDescendant("XamlRoot");
+                    root = ShowcasePage?.FindDescendant("XamlRoot");
 
                     if (root is Panel)
                     {
@@ -546,7 +546,7 @@ namespace CommunityToolkit.WinUI.SampleApp
                     {
                         // if we didn't find a XamlRoot host, then we replace the entire content of
                         // the provided sample page with the XAML.
-                        SamplePage.Content = element;
+                        ShowcasePage.Content = element;
                     }
                 }
                 else
@@ -577,7 +577,7 @@ namespace CommunityToolkit.WinUI.SampleApp
 
                 DispatcherQueue.TryEnqueue(Microsoft.UI.Dispatching.DispatcherQueuePriority.Low, () =>
                 {
-                    (SamplePage as IXamlRenderListener)?.OnXamlRendered(fe);
+                    (ShowcasePage as IXamlRenderListener)?.OnXamlRendered(fe);
                 });
             }
         }
@@ -701,7 +701,7 @@ namespace CommunityToolkit.WinUI.SampleApp
         }
 
         // The Loaded Instance of the backing .xaml.cs Page (if any)
-        private Page SamplePage { get; set; }
+        private Page ShowcasePage { get; set; }
 
         private bool CanChangePaneState => !_onlyDocumentation;
 

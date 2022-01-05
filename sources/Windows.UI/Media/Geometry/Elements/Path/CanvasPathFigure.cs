@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using System.Text.RegularExpressions;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Core;
+using CommunityToolkit.Windows.UI.Media.Geometry.Core;
 using Microsoft.Graphics.Canvas.Geometry;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry.Elements.Path
+namespace CommunityToolkit.Windows.UI.Media.Geometry.Elements.Path
 {
     /// <summary>
     /// Class which contains a collection of ICanvasPathElements

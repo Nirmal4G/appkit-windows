@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CommunityToolkit.WinUI.Notifications\CommunityToolkit.WinUI.Notifications.csproj" />
+    <ProjectReference Include="..\..\CommunityToolkit.Windows.Notifications\CommunityToolkit.Windows.Notifications.csproj" />
   </ItemGroup>
 
   <ItemGroup>

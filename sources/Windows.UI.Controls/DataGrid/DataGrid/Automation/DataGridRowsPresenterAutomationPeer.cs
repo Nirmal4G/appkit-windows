@@ -3,10 +3,10 @@
 // See the LICENSE file in the project root for more information.
 
 using System.Collections.Generic;
-using CommunityToolkit.WinUI.UI.Controls.Primitives;
+using CommunityToolkit.Windows.UI.Controls.Primitives;
 using Microsoft.UI.Xaml.Automation.Peers;
 
-namespace CommunityToolkit.WinUI.UI.Automation.Peers
+namespace CommunityToolkit.Windows.UI.Automation.Peers
 {
     /// <summary>
     /// AutomationPeer for the <see cref="DataGridRowsPresenter"/> class.

@@ -6,7 +6,7 @@ using System.Numerics;
 using System.Text;
 using Microsoft.Graphics.Canvas.Geometry;
 
-namespace CommunityToolkit.WinUI.SampleApp.SamplePages
+namespace CommunityToolkit.Windows.ShowcaseApp.Samples
 {
     /// <summary>
     /// Class to read the <see cref="CanvasGeometry"/> path data.

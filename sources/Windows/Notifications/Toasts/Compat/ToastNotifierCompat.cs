@@ -7,7 +7,7 @@
 using System.Collections.Generic;
 using Windows.UI.Notifications;
 
-namespace CommunityToolkit.WinUI.Notifications
+namespace CommunityToolkit.Windows.Notifications
 {
     /// <summary>
     /// Allows you to show and schedule toast notifications.

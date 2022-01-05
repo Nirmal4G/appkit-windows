@@ -7,11 +7,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using System.Text.RegularExpressions;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Core;
+using CommunityToolkit.Windows.UI.Media.Geometry.Core;
 using Microsoft.Graphics.Canvas;
 using Microsoft.Graphics.Canvas.Brushes;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry.Elements.Brush
+namespace CommunityToolkit.Windows.UI.Media.Geometry.Elements.Brush
 {
     /// <summary>
     /// Represents a CanvasRadialGradientBrush with GradientStopHdrs

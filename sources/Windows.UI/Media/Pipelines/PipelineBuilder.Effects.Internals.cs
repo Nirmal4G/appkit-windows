@@ -5,7 +5,7 @@
 using System;
 using System.Diagnostics.Contracts;
 using System.Threading.Tasks;
-using CommunityToolkit.WinUI.UI.Animations;
+using CommunityToolkit.Windows.UI.Animations;
 using Microsoft.Graphics.Canvas.Effects;
 using Microsoft.UI.Composition;
 using Windows.Graphics.Effects;
@@ -18,7 +18,7 @@ using CanvasSaturationEffect = Microsoft.Graphics.Canvas.Effects.SaturationEffec
 using CanvasSepiaEffect = Microsoft.Graphics.Canvas.Effects.SepiaEffect;
 using CanvasTintEffect = Microsoft.Graphics.Canvas.Effects.TintEffect;
 
-namespace CommunityToolkit.WinUI.UI.Media.Pipelines
+namespace CommunityToolkit.Windows.UI.Media.Pipelines
 {
     /// <summary>
     /// A <see langword="class"/> that allows to build custom effects pipelines and create <see cref="CompositionBrush"/> instances from them

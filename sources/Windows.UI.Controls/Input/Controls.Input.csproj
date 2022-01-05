@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>net5.0-windows10.0.18362.0</TargetFrameworks>
-    <RootNamespace>CommunityToolkit.WinUI.UI.Controls</RootNamespace>
+    <RootNamespace>CommunityToolkit.Windows.UI.Controls</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -30,7 +30,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="..\CommunityToolkit.WinUI.UI.Controls.Core\ControlHelpers.Composition.cs" Link="ControlHelpers.Composition.cs" />
+    <Compile Include="..\CommunityToolkit.Windows.UI.Controls.Core\ControlHelpers.Composition.cs" Link="ControlHelpers.Composition.cs" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,7 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CommunityToolkit.WinUI.UI.Controls.Primitives\CommunityToolkit.WinUI.UI.Controls.Primitives.csproj" />
+    <ProjectReference Include="..\CommunityToolkit.Windows.UI.Controls.Primitives\CommunityToolkit.Windows.UI.Controls.Primitives.csproj" />
   </ItemGroup>
 
   <Import Project="$(BuildToolsDirectory)Windows.Toolkit.WinUI.Controls.targets" />

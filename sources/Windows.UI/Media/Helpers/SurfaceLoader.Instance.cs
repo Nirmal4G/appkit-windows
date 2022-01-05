@@ -15,7 +15,7 @@ using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 using Windows.UI;
 
-namespace CommunityToolkit.WinUI.UI.Media.Helpers
+namespace CommunityToolkit.Windows.UI.Media.Helpers
 {
     /// <summary>
     /// A delegate for load time effects.

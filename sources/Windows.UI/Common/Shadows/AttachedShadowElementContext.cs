@@ -9,7 +9,7 @@ using Microsoft.UI.Composition;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Hosting;
 
-namespace CommunityToolkit.WinUI.UI
+namespace CommunityToolkit.Windows.UI
 {
     /// <summary>
     /// Class which maintains the context of a <see cref="DropShadow"/> for a particular <see cref="UIElement"/> linked to the definition of that shadow provided by the <see cref="AttachedShadowBase"/> implementation being used.

@@ -4,10 +4,10 @@
 
 //// Example brush from https://blogs.windows.com/buildingapps/2017/07/18/working-brushes-content-xaml-visual-layer-interop-part-one/#z70vPv1QMAvZsceo.97
 
-using CommunityToolkit.WinUI.UI.Media.Pipelines;
+using CommunityToolkit.Windows.UI.Media.Pipelines;
 using Microsoft.UI.Xaml.Media;
 
-namespace CommunityToolkit.WinUI.UI.Media
+namespace CommunityToolkit.Windows.UI.Media
 {
     /// <summary>
     /// The <see cref="BackdropInvertBrush"/> is a <see cref="Brush"/> which inverts whatever is behind it in the application.

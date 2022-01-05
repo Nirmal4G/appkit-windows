@@ -3,8 +3,8 @@
 // See the LICENSE file in the project root for more information.
 
 using System;
-using CommunityToolkit.WinUI;
-using CommunityToolkit.WinUI.UI.Triggers;
+using CommunityToolkit.Windows;
+using CommunityToolkit.Windows.UI.Triggers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
 using Microsoft.UI.Xaml.Controls;

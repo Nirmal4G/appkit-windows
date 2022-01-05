@@ -4,7 +4,7 @@
 
 using CommunityToolkit.Common.Deferred;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// Provide data for <see cref="RichSuggestBox.SuggestionRequested"/> event.

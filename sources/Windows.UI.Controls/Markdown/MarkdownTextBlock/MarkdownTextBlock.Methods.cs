@@ -9,14 +9,14 @@ using System.Linq;
 using System.Threading.Tasks;
 using ColorCode;
 using CommunityToolkit.Common.Parsers.Markdown;
-using CommunityToolkit.WinUI.UI.Controls.Markdown.Render;
+using CommunityToolkit.Windows.UI.Controls.Markdown.Render;
 using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Documents;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Media.Imaging;
 
-namespace CommunityToolkit.WinUI.UI.Controls
+namespace CommunityToolkit.Windows.UI.Controls
 {
     /// <summary>
     /// An efficient and extensible control that can parse and render markdown.

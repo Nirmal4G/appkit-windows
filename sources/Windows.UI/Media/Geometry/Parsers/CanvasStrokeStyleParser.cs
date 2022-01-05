@@ -5,11 +5,11 @@
 using System;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Core;
-using CommunityToolkit.WinUI.UI.Media.Geometry.Elements.Stroke;
+using CommunityToolkit.Windows.UI.Media.Geometry.Core;
+using CommunityToolkit.Windows.UI.Media.Geometry.Elements.Stroke;
 using Microsoft.Graphics.Canvas.Geometry;
 
-namespace CommunityToolkit.WinUI.UI.Media.Geometry.Parsers
+namespace CommunityToolkit.Windows.UI.Media.Geometry.Parsers
 {
     /// <summary>
     /// Parser for the CanvasStrokeStyle
