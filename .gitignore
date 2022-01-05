@@ -170,7 +170,7 @@ ClientBin/
 *~
 *.dbmdl
 *.dbproj.schemaview
-*.pfx
+!*.pfx
 *.publishsettings
 node_modules/
 orleans.codegen.cs
@@ -212,8 +212,6 @@ GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
 BundleArtifacts
-!/build
-/build/tools/GitVersion.CommandLine
 AppPackages
 
 # NuGet V3 artifacts
