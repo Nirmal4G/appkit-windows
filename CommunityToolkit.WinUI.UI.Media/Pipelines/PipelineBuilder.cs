@@ -5,6 +5,7 @@
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.Contracts;
+using System.Numerics;
 using System.Threading.Tasks;
 using CommunityToolkit.WinUI.UI.Animations;
 using Microsoft.UI.Composition;
@@ -189,7 +190,7 @@ namespace CommunityToolkit.WinUI.UI.Media.Pipelines
         /// <returns>A <see cref="Task{T}"/> that returns the final <see cref="SpriteVisual"/> instance to use</returns>
         public async Task<SpriteVisual> AttachAsync(UIElement target, UIElement reference = null)
         {
-            var visual = CompositionTarget.GetCompositorForCurrentThread().CreateSpriteVisual();
+            SpriteVisual visual = CompositionTarget.GetCompositorForCurrentThread().CreateSpriteVisual();
 
             visual.Brush = await BuildAsync();
 
@@ -197,7 +198,14 @@ namespace CommunityToolkit.WinUI.UI.Media.Pipelines
 
             if (reference != null)
             {
-                visual.BindSize(reference);
+                if (reference == target)
+                {
+                    visual.RelativeSizeAdjustment = Vector2.One;
+                }
+                else
+                {
+                    visual.BindSize(reference);
+                }
             }
 
             return visual;
