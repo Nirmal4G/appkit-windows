@@ -20,11 +20,11 @@
 
   <PropertyGroup>
     <!-- Paths of UITests.App project -->
-    <ParentProjectDirectory>$([MSBuild]::NormalizeDirectory('$(MSBuildThisFileDirectory)', '..', 'UITests.App'))</ParentProjectDirectory>
-    <ParentAppxPackageDir>$([MSBuild]::NormalizeDirectory('$(ParentProjectDirectory)', 'AppPackages'))</ParentAppxPackageDir>
+    <ParentProjectDirectory>$([MSBuild]::NormalizeDirectory($(MSBuildThisFileDirectory), '..', 'UITests.App'))</ParentProjectDirectory>
+    <ParentAppxPackageDir>$([MSBuild]::NormalizeDirectory($(ParentProjectDirectory), 'AppPackages'))</ParentAppxPackageDir>
     <!-- Paths of TAEF Support packages -->
-    <MuxToolsDirectory>$([MSBuild]::NormalizeDirectory('$(PkgMUXCustomBuildTasks)', 'tools', '$(PlatformTarget)'))</MuxToolsDirectory>
-    <TaefRootDirectory>$([MSBuild]::NormalizeDirectory('$(PkgTAEF_Redist_Wlk)', 'build', 'Binaries', '$(PlatformTarget)', 'CoreClr'))</TaefRootDirectory>
+    <MuxToolsDirectory>$([MSBuild]::NormalizeDirectory($(PkgMUXCustomBuildTasks), 'tools', $(PlatformTarget)))</MuxToolsDirectory>
+    <TaefRootDirectory>$([MSBuild]::NormalizeDirectory($(PkgTAEF_Redist_Wlk), 'build', 'Binaries', $(PlatformTarget), 'CoreClr'))</TaefRootDirectory>
   </PropertyGroup>
 
   <ItemGroup>

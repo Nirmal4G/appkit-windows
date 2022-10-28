@@ -9,135 +9,193 @@ pr:
 - rel/*
 
 pool:
-  vmImage: windows-2019
+  vmImage: windows-latest
 
 variables:
-  BuildConfiguration: Release
+  Build.Configuration: Release
+  Build.Directory: ~build\
+  Packages.Directory: ~packages\
 
 jobs:
-### BUILD ###
+
+### Build and Test Solution ###
 - job: BuildBits
+  displayName: Build and Test Solution
   timeoutInMinutes: 60
+  variables:
+    Build.Solution: CommunityToolkit.Windows.sln
 
   steps:
-  - task: BatchScript@1
-    inputs:
-      filename: "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Enterprise\\Common7\\Tools\\VsDevCmd.bat"
-      arguments: -no_logo
-      modifyEnvironment: true
-    displayName: Setup Environment Variables
-
-  - task: NuGetToolInstaller@0
-    displayName: Use NuGet 5.11.x
-    inputs:
-      versionSpec: 5.11.x
-
-  - task: DotNetCoreCLI@2
-    inputs:
-      command: custom
-      custom: tool
-      arguments: install --tool-path . nbgv
-    displayName: Install NBGV tool
-
+  # Set Build Version
   - script: nbgv cloud
-    displayName: Set Version
+    displayName: Set Build version
 
-  #- powershell: .\build\Install-WindowsSdkISO.ps1 19041
-  #  displayName: Insider SDK
+  # Verify headers
+  - pwsh: build\Update-Headers.ps1 -Verify
+    displayName: Verify headers
 
-  - powershell: .\build\build.ps1 -Target Build
-    displayName: Build
-
-  ### Unit Tests ###
-
-  - powershell: .\build\build.ps1 -Target Test
-    displayName: Test
-
-  - task: PublishTestResults@2
+  # Restore solution
+  - task: VSBuild@1
+    displayName: Restore solution
     inputs:
-      testResultsFormat: 'VSTest'
-      testResultsFiles: '**/VsTestResults*.trx'
-    displayName: Publish Test Results
+      solution: $(Build.Solution)
+      configuration: $(Build.Configuration)
+      maximumCpuCount: true
+      msbuildArchitecture: x64
+      msbuildArgs: "-t:Restore"
+
+  # Build solution
+  - task: VSBuild@1
+    displayName: Build solution
+    inputs:
+      solution: $(Build.Solution)
+      configuration: $(Build.Configuration)
+      maximumCpuCount: true
+      msbuildArchitecture: x64
+      msbuildArgs: "-t:Build"
+
+  ### Test solution ###
+
+  # Run .NET Core Unit tests
+  - task: VSTest@2
+    displayName: Run .NET Core Unit tests
+    inputs:
+      configuration: $(Build.Configuration)
+      maximumCpuCount: true
+      runSettingsFile: .runsettings
+      searchFolder: $(Build.Directory)
+      testAssemblyVer2: '**\bin\**\UnitTests*NetCore.dll'
+      otherConsoleOptions: '/Logger:trx;LogFileName=VSTestResults.NetCore.trx'
+
+  # Run UWP Unit tests
+  - task: VSTest@2
+    displayName: Run UWP Unit tests
+    inputs:
+      configuration: $(Build.Configuration)
+      maximumCpuCount: true
+      runSettingsFile: .runsettings
+      searchFolder: $(Build.Directory)
+      testAssemblyVer2: '**\bin\**\UnitTests*UWP.build.appxrecipie'
+      otherConsoleOptions: '/Logger:trx;LogFileName=VSTestResults.UWP.trx'
+
+  # Run MSTest UI tests
+  - task: VSTest@2
+    displayName: Run MSTest UI tests
+    inputs:
+      configuration: $(Build.Configuration)
+      maximumCpuCount: true
+      runSettingsFile: .runsettings
+      searchFolder: $(Build.Directory)
+      testAssemblyVer2: '**\bin\**\UITests*MSTest.dll'
+      otherConsoleOptions: '/Logger:trx;LogFileName=VSTestResults.UWP.UI.trx'
+      uiTests: true
+
+  # Run TAEF UI tests
+  - script: build\Run-UITests.ps1
+    displayName: Run TAEF UI tests
+    enabled: no
+
+  # Run TAEF UI tests
+  - task: VSBuild@1
+    displayName: Run TAEF UI tests
+    inputs:
+      solution: $(Build.Solution)
+      configuration: $(Build.Configuration)
+      maximumCpuCount: true
+      msbuildArchitecture: x64
+      msbuildArgs: "-t:RunUITests"
+
+  # Publish TAEF test results
+  - publish: $(Build.Directory)UITests*\**\*.wtl
+    displayName: Publish TAEF test results
+    artifact: WexUITestResults
     condition: always()
 
-  ### UI Integration Tests ###
-
-  - powershell: .\build\build.ps1 -Target UITest
-    displayName: UI Integration Tests
-
-  - task: PublishPipelineArtifact@1
-    displayName: Publish UI Test Results
-    inputs:
-      targetPath: .\build\UITestResults.wtl
-      artifactName: WexUITestLogFileOutput
-    condition: always()
-
-  - task: PublishPipelineArtifact@1
-    displayName: Publish Test WexLogFileOutput
-    inputs:
-      targetPath: .\build\WexLogFileOutput
-      artifactName: WexUnitTestErrorLogFileOutput
+  # Publish TAEF test logs
+  - publish: $(Build.Directory)UITests*\**\WexLogFileOutput
+    displayName: Publish TAEF test logs
+    artifact: WexLogFileOutput
     condition: failed()
 
-  ### Package ###
-
-  - powershell: .\build\build.ps1 -Target Package
-    displayName: Package
-
-  - task: PowerShell@2
-    displayName: Authenticode Sign Packages
+  # Pack solution
+  - task: VSBuild@1
+    displayName: Pack solution
     inputs:
-      filePath: build/Sign-Package.ps1
+      solution: $(Build.Solution)
+      configuration: $(Build.Configuration)
+      maximumCpuCount: true
+      msbuildArchitecture: x64
+      msbuildArgs: "-t:Pack"
+
+  # Sign packages
+  - pwsh: build\Sign-Package.ps1
+    displayName: Sign packages
     env:
       SignClientUser: $(SignClientUser)
       SignClientSecret: $(SignClientSecret)
-      ArtifactDirectory: bin\nupkg
-    condition: and(succeeded(), not(eq(variables['build.reason'], 'PullRequest')), not(eq(variables['SignClientSecret'], '')), not(eq(variables['SignClientUser'], '')))
+      ArtifactDirectory: $(Packages.Directory)bin
+    condition: and(succeeded(), ne(variables['Build.Reason'], 'PullRequest'), ne(variables['SignClientUser'], ''), ne(variables['SignClientSecret'], ''))
 
-  - task: PublishPipelineArtifact@1
-    displayName: Publish Package Artifacts
-    inputs:
-      targetPath: .\bin\nupkg
-      artifactName: Packages
+  # Publish build artifacts
+  - publish: $(Packages.Directory)bin
+    artifact: Packages
+    displayName: Publish package artifacts
 
-### Smoke Tests ###
-
+### Run Smoke Tests on Generated Packages ###
 - job: SmokeTests
+  displayName: Run Smoke Tests on Generated Packages
   dependsOn: BuildBits
   timeoutInMinutes: 60
+  variables:
+    Build.Solution: SmokeTests\SmokeTest.sln
+    Build.Project: SmokeTests\SmokeTests.proj
 
   steps:
+  # Set Build Version
+  - script: nbgv cloud
+    displayName: Set Build version
+
+  # Download Published packages
   - task: DownloadPipelineArtifact@2
-    displayName: Download NuGet Packages Artifact
+    displayName: Download NuGet Packages
     inputs:
       artifact: Packages
-      path: .\bin\nupkg
+      path: $(Packages.Directory)bin
 
-  - task: DotNetCoreCLI@2
+  # Restore solution
+  - task: VSBuild@1
+    displayName: Restore solution
     inputs:
-      command: custom
-      custom: tool
-      arguments: install --tool-path . nbgv
-    displayName: Install NBGV tool
+      solution: $(Build.Solution)
+      configuration: $(Build.Configuration)
+      maximumCpuCount: true
+      msbuildArchitecture: x64
+      msbuildArgs: "-t:Restore"
 
-  - script: nbgv cloud
-    displayName: Set Version
+  # Run Smoke tests
+  - task: VSBuild@1
+    displayName: Run Smoke tests
+    inputs:
+      solution: $(Build.Project)
+      configuration: $(Build.Configuration)
+      maximumCpuCount: true
+      msbuildArchitecture: x64
+      msbuildArgs: "-t:RunSmokeTests"
 
-  - powershell: .\build\build.ps1 -Target SmokeTest
-    displayName: SmokeTest
+  # Analyze Package size
+  - pwsh: SmokeTests\SmokeTest_AnalyzePackages.ps1
+    displayName: Analyze Package Size
 
+  # Copy files to Artifacts directory
   - task: CopyFiles@2
     inputs:
-      sourceFolder: .\SmokeTests\AppPackages
+      sourceFolder: SmokeTests\AppPackages
       contents: '**\*.msixbundle'
-      targetFolder: $(build.artifactstagingdirectory)\SmokeTestBundles
+      targetFolder: $(Build.StagingDirectory)\SmokeTestBundles
+      cleanTargetFolder: yes
+      preserveTimestamp: yes
 
-  - task: PublishBuildArtifacts@1
-    displayName: Publish Smoke Test Artifacts
-    inputs:
-      pathToPublish: $(build.artifactstagingdirectory)\SmokeTestBundles
-      artifactType: container
-      artifactName: SmokeTestBundles
-
-  - powershell: .\SmokeTests\SmokeTest_AnalyzePackages.ps1
-    displayName: Analyze Package Sizes
+  # Publish smoke test artifacts
+  - publish: $(Build.StagingDirectory)\SmokeTestBundles
+    artifact: SmokeTestBundles
+    displayName: Publish smoke test artifacts
