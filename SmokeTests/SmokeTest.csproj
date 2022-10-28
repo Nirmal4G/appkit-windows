@@ -19,7 +19,7 @@
     <AssemblyName>SmokeTest.$(CurrentProject)</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.$(TargetPlatformRevision).0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.$(TargetPlatformRevision).0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.$(TargetPlatformMinRevision).0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>15</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
